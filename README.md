@@ -7,6 +7,7 @@
 - 시연 영상: https://youtu.be/jWMInxaSkUs (Windows 노트북 웹캠으로 실제 연주)
 - 기간: 2026.10.28~
 - 사용 기술: Unity 6 URP, C#, VContainer / Python, MediaPipe Hand Landmarker
+- 만든 방법: 구현은 AI 코딩 도구(Claude Code)로 했고, 무엇을 만들지와 연주 규칙은 제가 정했습니다.
 
 ![전시용 배치: 왼쪽은 손으로 연주하는 들판, 오른쪽은 꽃 악보와 곡 이름이 적힌 오늘의 카드가 쌓이는 기록 화면](measurements/songs/song-end-and-card.jpg)
 
@@ -54,14 +55,6 @@
 |---|---|---|
 | 약한 노트북 손 추적 | 초당 6장(중앙값) | i7-10610U 내장 그래픽, 다른 프로그램이 CPU를 나눠 쓸 때. [원본](docs/conducting-play.md) |
 | 밤샘 구동(앱 혼자) | 6시간 57분 오류 없음, 그 뒤 그래픽 드라이버 재시작으로 멈춤 | 같은 노트북, 녹화한 손 움직임으로 연주, 화면 평균 29.9장/초, 늦은 음 0, 메모리 증가 거의 없음. [원본](docs/windows-soak-2026-11-02.md) |
-
-## 어떻게 만들었나요
-
-구현은 AI 코딩 도구(Claude Code)로 했습니다. 저는 무엇을 만들지와 연주 규칙, 받아들일 기준을 정하고, 테스트와 Windows 노트북 직접 연주를 통과한 것만 받아들였습니다. 제가 정한 것의 예:
-
-- 캐릭터 단원 대신 **자연이 주인공**인 들판, **꽃 종류로 악기를 나누는** 배치 ([설계](docs/superpowers/specs/2026-10-29-meadow-orchestra-design.md))
-- **지휘 연주 규칙**: 윗줄/아랫줄 6칸, 움직임 크기 = 소리 크기, 두 주먹으로 끝내기 ([설계](docs/superpowers/specs/2026-10-31-conduct-six-cells-design.md))
-- **곡 모드**: 윗줄은 가락, 아랫줄은 화음, 자유 연주는 Tab 스위치로 남기기 ([설계](docs/superpowers/specs/2026-11-01-song-mode-design.md))
 
 ## 실행
 
