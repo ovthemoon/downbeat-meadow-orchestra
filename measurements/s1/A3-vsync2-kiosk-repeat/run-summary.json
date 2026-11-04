@@ -1,0 +1,254 @@
+{
+  "run": "A3-vsync2-kiosk-repeat",
+  "chromeVersion": "Chrome/156.0.8078.49",
+  "chromeArgs": [
+    "--use-fake-ui-for-media-stream",
+    "--autoplay-policy=no-user-gesture-required",
+    "--window-position=40,40",
+    "--window-size=1100,760",
+    "--disable-background-timer-throttling",
+    "--disable-renderer-backgrounding",
+    "--disable-backgrounding-occluded-windows"
+  ],
+  "vsync": 2,
+  "runInBackground": true,
+  "paths": [
+    "unity-scheduled",
+    "unity-play",
+    "webaudio"
+  ],
+  "scenarios": [
+    {
+      "name": "calm",
+      "block": null,
+      "disturbance": null
+    },
+    {
+      "name": "stress",
+      "block": {
+        "ms": 50,
+        "everyMs": 2000
+      },
+      "disturbance": null
+    }
+  ],
+  "durationSec": 60,
+  "results": [
+    {
+      "path": "unity-scheduled",
+      "scenario": "calm",
+      "label": "unity-scheduled__calm",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A3-vsync2-kiosk-repeat/raw-audio/unity-scheduled__calm.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8885,
+        "mean": 6.945334833989871,
+        "p50": 6.900000000001455,
+        "p95": 7.600000000000364,
+        "p99": 7.799999999999272,
+        "max": 15.100000000002183,
+        "min": 4.899999999997817
+      },
+      "loadAvgAtEnd": [
+        6.369140625,
+        9.59228515625,
+        26.82666015625
+      ],
+      "cpuCount": 14
+    },
+    {
+      "path": "unity-play",
+      "scenario": "calm",
+      "label": "unity-play__calm",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A3-vsync2-kiosk-repeat/raw-audio/unity-play__calm.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8886,
+        "mean": 6.944474454197615,
+        "p50": 6.900000000008731,
+        "p95": 7.69999999999709,
+        "p99": 7.80000000000291,
+        "max": 7.900000000008731,
+        "min": 6
+      },
+      "loadAvgAtEnd": [
+        6.44482421875,
+        8.9306640625,
+        25.30517578125
+      ],
+      "cpuCount": 14
+    },
+    {
+      "path": "webaudio",
+      "scenario": "calm",
+      "label": "webaudio__calm",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0,
+          "rawFile": null
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0.5797837376594543,
+          "rawFile": "s1/A3-vsync2-kiosk-repeat/raw-audio/webaudio__calm.ctx1-webaudio.f32"
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8884,
+        "mean": 6.944552003601982,
+        "p50": 6.900000000023283,
+        "p95": 7.600000000005821,
+        "p99": 7.7999999999883585,
+        "max": 7.900000000023283,
+        "min": 6
+      },
+      "loadAvgAtEnd": [
+        5.31982421875,
+        8.17529296875,
+        23.90771484375
+      ],
+      "cpuCount": 14
+    },
+    {
+      "path": "unity-scheduled",
+      "scenario": "stress",
+      "label": "unity-scheduled__stress",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A3-vsync2-kiosk-repeat/raw-audio/unity-scheduled__stress.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8716,
+        "mean": 7.079199173932995,
+        "p50": 6.900000000023283,
+        "p95": 7.699999999982538,
+        "p99": 7.800000000017462,
+        "max": 166.69999999998254,
+        "min": 6
+      },
+      "loadAvgAtEnd": [
+        5.71533203125,
+        7.81689453125,
+        22.61865234375
+      ],
+      "cpuCount": 14
+    },
+    {
+      "path": "unity-play",
+      "scenario": "stress",
+      "label": "unity-play__stress",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A3-vsync2-kiosk-repeat/raw-audio/unity-play__stress.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8701,
+        "mean": 7.092207792207791,
+        "p50": 6.900000000023283,
+        "p95": 7.699999999953434,
+        "p99": 7.7999999999883585,
+        "max": 49.29999999998836,
+        "min": 5.099999999976717
+      },
+      "loadAvgAtEnd": [
+        5.884765625,
+        7.40771484375,
+        21.37109375
+      ],
+      "cpuCount": 14
+    },
+    {
+      "path": "webaudio",
+      "scenario": "stress",
+      "label": "webaudio__stress",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0,
+          "rawFile": null
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0.5797837376594543,
+          "rawFile": "s1/A3-vsync2-kiosk-repeat/raw-audio/webaudio__stress.ctx1-webaudio.f32"
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8709,
+        "mean": 7.0841083936158,
+        "p50": 6.900000000023283,
+        "p95": 7.7000000000116415,
+        "p99": 7.7999999999883585,
+        "max": 49.29999999998836,
+        "min": 6
+      },
+      "loadAvgAtEnd": [
+        7.27197265625,
+        7.49755859375,
+        20.37451171875
+      ],
+      "cpuCount": 14
+    }
+  ]
+}

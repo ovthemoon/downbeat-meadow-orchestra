@@ -1,0 +1,31 @@
+{
+  "mac": {
+    "buildSeconds": 10.770131,
+    "colorSpace": "Linear",
+    "contentFolderBytes": 5169906,
+    "contentFolderFiles": 31,
+    "note": "bytes are the sum of file sizes on disk (not compressed); buildSeconds is Unity's build time and is much shorter when its caches are warm (clean first builds took about 44 s Mac and 46 s Windows)",
+    "player": "Downbeat.app",
+    "playerBytes": 121308323,
+    "playerFiles": 207,
+    "scriptingBackend": "Mono2x",
+    "totalBytes": 126478229,
+    "totalFiles": 238,
+    "unity": "6000.3.9f1"
+  },
+  "windows": {
+    "buildSeconds": 8.068241,
+    "colorSpace": "Linear",
+    "contentFolderBytes": 5169906,
+    "contentFolderFiles": 31,
+    "dataFolderBytes": 51768381,
+    "note": "bytes are the sum of file sizes on disk (not compressed); buildSeconds is Unity's build time and is much shorter when its caches are warm (clean first builds took about 44 s Mac and 46 s Windows)",
+    "player": "Downbeat.exe",
+    "playerBytes": 667648,
+    "playerFiles": 1,
+    "scriptingBackend": "Mono2x",
+    "totalBytes": 109053501,
+    "totalFiles": 236,
+    "unity": "6000.3.9f1"
+  }
+}

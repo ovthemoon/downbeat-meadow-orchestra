@@ -1,0 +1,414 @@
+{
+  "run": "A-vsync2-kiosk",
+  "chromeVersion": "Chrome/156.0.8078.49",
+  "chromeArgs": [
+    "--use-fake-ui-for-media-stream",
+    "--autoplay-policy=no-user-gesture-required",
+    "--window-position=40,40",
+    "--window-size=1100,760",
+    "--disable-background-timer-throttling",
+    "--disable-renderer-backgrounding",
+    "--disable-backgrounding-occluded-windows"
+  ],
+  "vsync": 2,
+  "runInBackground": true,
+  "paths": [
+    "unity-scheduled",
+    "unity-play",
+    "webaudio"
+  ],
+  "scenarios": [
+    {
+      "name": "calm",
+      "block": null,
+      "disturbance": null
+    },
+    {
+      "name": "stress",
+      "block": {
+        "ms": 50,
+        "everyMs": 2000
+      },
+      "disturbance": null
+    },
+    {
+      "name": "hidden",
+      "block": {
+        "ms": 50,
+        "everyMs": 2000
+      },
+      "disturbance": "hidden"
+    },
+    {
+      "name": "blur",
+      "block": {
+        "ms": 50,
+        "everyMs": 2000
+      },
+      "disturbance": "blur"
+    }
+  ],
+  "durationSec": 60,
+  "results": [
+    {
+      "path": "unity-scheduled",
+      "scenario": "calm",
+      "label": "unity-scheduled__calm",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/unity-scheduled__calm.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8332,
+        "mean": 7.406253000480077,
+        "p50": 7,
+        "p95": 8.599999999998545,
+        "p99": 9.300000000000182,
+        "max": 19.700000000000728,
+        "min": 2
+      }
+    },
+    {
+      "path": "unity-play",
+      "scenario": "calm",
+      "label": "unity-play__calm",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/unity-play__calm.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8884,
+        "mean": 6.944540747411076,
+        "p50": 6.900000000008731,
+        "p95": 7.600000000005821,
+        "p99": 7.80000000000291,
+        "max": 10.599999999991269,
+        "min": 4.900000000008731
+      }
+    },
+    {
+      "path": "webaudio",
+      "scenario": "calm",
+      "label": "webaudio__calm",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0,
+          "rawFile": null
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0.5797837376594543,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/webaudio__calm.ctx1-webaudio.f32"
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8884,
+        "mean": 6.944608284556507,
+        "p50": 6.900000000023283,
+        "p95": 7.599999999976717,
+        "p99": 7.7999999999883585,
+        "max": 9.699999999982538,
+        "min": 5.600000000005821
+      }
+    },
+    {
+      "path": "unity-scheduled",
+      "scenario": "stress",
+      "label": "unity-scheduled__stress",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/unity-scheduled__stress.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8735,
+        "mean": 7.063846594161421,
+        "p50": 6.900000000023283,
+        "p95": 7.600000000005821,
+        "p99": 7.800000000017462,
+        "max": 42.5,
+        "min": 6
+      }
+    },
+    {
+      "path": "unity-play",
+      "scenario": "stress",
+      "label": "unity-play__stress",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/unity-play__stress.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8727,
+        "mean": 7.071112638936634,
+        "p50": 6.900000000023283,
+        "p95": 7.699999999953434,
+        "p99": 7.7999999999883585,
+        "max": 49.39999999999418,
+        "min": 6
+      }
+    },
+    {
+      "path": "webaudio",
+      "scenario": "stress",
+      "label": "webaudio__stress",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0,
+          "rawFile": null
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0.5797837376594543,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/webaudio__stress.ctx1-webaudio.f32"
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8729,
+        "mean": 7.067865734906629,
+        "p50": 6.900000000023283,
+        "p95": 7.7000000000116415,
+        "p99": 7.800000000046566,
+        "max": 48.70000000001164,
+        "min": 6
+      }
+    },
+    {
+      "path": "unity-scheduled",
+      "scenario": "hidden",
+      "label": "unity-scheduled__hidden",
+      "issued": 320,
+      "skippedLate": 64,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/unity-scheduled__hidden.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 7322,
+        "mean": 8.426918874624423,
+        "p50": 6.900000000023283,
+        "p95": 7.7000000000116415,
+        "p99": 7.7999999999883585,
+        "max": 9993.299999999988,
+        "min": 6
+      }
+    },
+    {
+      "path": "unity-play",
+      "scenario": "hidden",
+      "label": "unity-play__hidden",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/unity-play__hidden.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 7313,
+        "mean": 8.436305209900171,
+        "p50": 6.900000000023283,
+        "p95": 7.7000000000116415,
+        "p99": 7.800000000046566,
+        "max": 9999.799999999988,
+        "min": 4.2999999999883585
+      }
+    },
+    {
+      "path": "webaudio",
+      "scenario": "hidden",
+      "label": "webaudio__hidden",
+      "issued": 321,
+      "skippedLate": 63,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0,
+          "rawFile": null
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0.5797837376594543,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/webaudio__hidden.ctx1-webaudio.f32"
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 7272,
+        "mean": 8.483979647964796,
+        "p50": 6.900000000023283,
+        "p95": 7.700000000069849,
+        "p99": 7.800000000046566,
+        "max": 10034.800000000047,
+        "min": 4.099999999976717
+      }
+    },
+    {
+      "path": "unity-scheduled",
+      "scenario": "blur",
+      "label": "unity-scheduled__blur",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/unity-scheduled__blur.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8735,
+        "mean": 7.064590726960498,
+        "p50": 6.900000000023283,
+        "p95": 7.600000000093132,
+        "p99": 7.800000000046566,
+        "max": 48.300000000046566,
+        "min": 6
+      }
+    },
+    {
+      "path": "unity-play",
+      "scenario": "blur",
+      "label": "unity-play__blur",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0.5800184011459351,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/unity-play__blur.ctx0-unity.f32"
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0,
+          "rawFile": null
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8734,
+        "mean": 7.063842454774442,
+        "p50": 6.900000000023283,
+        "p95": 7.699999999953434,
+        "p99": 7.800000000046566,
+        "max": 42.40000000002328,
+        "min": 6
+      }
+    },
+    {
+      "path": "webaudio",
+      "scenario": "blur",
+      "label": "webaudio__blur",
+      "issued": 384,
+      "skippedLate": 0,
+      "contexts": [
+        {
+          "id": 0,
+          "tag": "unity",
+          "peak": 0,
+          "rawFile": null
+        },
+        {
+          "id": 1,
+          "tag": "webaudio",
+          "peak": 0.5797837376594543,
+          "rawFile": "s1/A-vsync2-kiosk/raw-audio/webaudio__blur.ctx1-webaudio.f32"
+        }
+      ],
+      "rafIntervalsMs": {
+        "count": 8705,
+        "mean": 7.087306145893165,
+        "p50": 6.900000000023283,
+        "p95": 7.699999999953434,
+        "p99": 7.800000000046566,
+        "max": 49.300000000046566,
+        "min": 6
+      }
+    }
+  ]
+}

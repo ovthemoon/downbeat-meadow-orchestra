@@ -1,0 +1,55 @@
+{
+  "what": "Frame time at Low before and after the idle motes (item 11) with the record screen drawn every frame",
+  "window": "1920x1080",
+  "seconds": 12,
+  "reps_per_round": 3,
+  "rounds": 4,
+  "tier": "Low",
+  "method": "tools/measure_render_cost.py, baseline variant, Low, recorded demo hands, uncapped, but with --record-offscreen instead of --no-record (the record screen is drawn into its own 1920x1080 picture every frame, which is what a second display costs); the two players alternate every round, as in render-cost-partd-final.json",
+  "players": {
+    "mac-before": {
+      "fps_runs": [
+        951.2,
+        936.0,
+        879.0,
+        907.6,
+        872.6,
+        877.5,
+        942.2,
+        882.8,
+        893.0,
+        940.3,
+        901.1,
+        916.9
+      ],
+      "mean_frame_ms": 1.1009
+    },
+    "mac-after": {
+      "fps_runs": [
+        890.2,
+        851.5,
+        876.2,
+        932.1,
+        943.7,
+        915.7,
+        946.1,
+        886.4,
+        890.8,
+        965.4,
+        883.7,
+        874.8
+      ],
+      "mean_frame_ms": 1.1053
+    }
+  },
+  "delta_ms": 0.0044,
+  "delta_percent": 0.4,
+  "noise": "the standard error of each mean is about 1 % (8 to 10 fps of 905), so the difference is not distinguishable from zero; the paired per-round differences were +0.062, -0.054, -0.002 and +0.014 ms",
+  "cpu_per_frame_us": {
+    "with_24_motes": 10.9,
+    "without": 5.9,
+    "motes": 5.0,
+    "note": "RecordPainter.Paint plus the upload of the motes mesh for an empty screen, 5 x 4000 frames in the Unity editor (Mono); the rest of the record screen is not included"
+  },
+  "machine_note": "measured on the Apple M4 Pro Mac while another Unity editor was open on a different project (load average 7.5): both players saw the same load, but absolute numbers are noisy"
+}

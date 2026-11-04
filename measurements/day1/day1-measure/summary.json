@@ -1,0 +1,98 @@
+{
+  "run": "day1-measure",
+  "chrome": "Chrome/156.0.8078.49",
+  "startState": {
+    "ready": true,
+    "status": "loading sounds"
+  },
+  "sample": "marimba_C5_med",
+  "rate": 0.9975193046258581,
+  "onsetOffsetSec": 0.007017408051692299,
+  "matchedFilter": {
+    "templateSec": 0.025,
+    "halfWindowFrames": 40
+  },
+  "results": {
+    "dense": {
+      "clicksSent": 150,
+      "tapGaps": 0,
+      "notes": 150,
+      "scheduledOffGridMaxMs": 2.220446049250313e-12,
+      "slotGapHistogram": {
+        "1": 18,
+        "2": 25,
+        "3": 35,
+        "4": 31,
+        "5": 27,
+        "6": 13
+      },
+      "audioStartVsScheduled": {
+        "located": 150,
+        "atWindowEdge": 0,
+        "count": 150,
+        "meanMs": 0.05257398501106092,
+        "stdMs": 0.08599520401956183,
+        "p95AbsMs": 0.2825312732450351,
+        "maxAbsMs": 0.4407134024181368,
+        "minCorrelation": 0.7952856415825067,
+        "medianCorrelation": 0.987580326487983
+      },
+      "visualVsAudio": {
+        "count": 150,
+        "medianMs": -3.084750471522568,
+        "p05Ms": -6.602437498671065,
+        "p95Ms": 1.6212768347259043,
+        "minMs": -6.946428476055644,
+        "maxMs": 4.888832199547721
+      }
+    },
+    "audioContext": {
+      "sampleRate": 44100,
+      "baseLatency": 0.005804988662131519,
+      "outputLatencyEstimate": 0.20800000000000002,
+      "playerStats": {
+        "scheduled": 200,
+        "late": 0,
+        "stolen": 0,
+        "missingSample": 0,
+        "maxLateMs": 0
+      }
+    },
+    "isolated": {
+      "clicksSent": 50,
+      "tapGaps": 0,
+      "notes": 50,
+      "scheduledOffGridMaxMs": 1.7763568394002505e-11,
+      "slotGapHistogram": {
+        "9": 1,
+        "10": 9,
+        "11": 9,
+        "12": 7,
+        "13": 8,
+        "14": 5,
+        "15": 9,
+        "16": 1
+      },
+      "audioStartVsScheduled": {
+        "located": 50,
+        "atWindowEdge": 0,
+        "count": 50,
+        "meanMs": 0.0376160432808134,
+        "stdMs": 0.00001669950890599292,
+        "p95AbsMs": 0.03763658828746164,
+        "maxAbsMs": 0.03763658828746164,
+        "minCorrelation": 0.9971304063717745,
+        "medianCorrelation": 0.9975562852251098
+      },
+      "visualVsAudio": {
+        "count": 50,
+        "medianMs": -2.986791478605255,
+        "p05Ms": -6.767517054484529,
+        "p95Ms": 0.6308956916001307,
+        "minMs": -6.960147249230886,
+        "maxMs": 1.4196711064471401
+      }
+    }
+  },
+  "consoleMessages": []
+}

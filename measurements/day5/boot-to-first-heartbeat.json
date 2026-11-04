@@ -1,0 +1,64 @@
+{
+  "what": "Seconds from just before the Mac player process is started to: the first heartbeat.txt (the app is alive), the moment that file says audio=ok, and the player log line '[Downbeat] ready'.",
+  "how": "script: tools/measure_boot_time.py 5; 5 runs; every run copies builds/mac (Downbeat.app and the content folder next to it) to a new folder and starts the player there with --input replay --mute --no-record --health-dir <that folder>/logs --quit-after 20 in a 960x540 window. The operating system's file cache was not dropped (that needs administrator rights), so this is a freshly copied app and content, not a cold disk.",
+  "machine": "Apple M4 Pro (the Mac used for all Day 5 measurements), macOS 15.7.3",
+  "build": "measurements/build/review6.json (Mac player, label review6)",
+  "runs": [
+    {
+      "run": 1,
+      "first_beat_sec": 1.23,
+      "first_beat_audio_line": "audio=starting",
+      "audio_ok_sec": 1.32,
+      "ready_sec": 1.88
+    },
+    {
+      "run": 2,
+      "first_beat_sec": 1.23,
+      "first_beat_audio_line": "audio=starting",
+      "audio_ok_sec": 1.33,
+      "ready_sec": 1.82
+    },
+    {
+      "run": 3,
+      "first_beat_sec": 1.2,
+      "first_beat_audio_line": "audio=starting",
+      "audio_ok_sec": 1.3,
+      "ready_sec": 1.78
+    },
+    {
+      "run": 4,
+      "first_beat_sec": 1.2,
+      "first_beat_audio_line": "audio=starting",
+      "audio_ok_sec": 1.29,
+      "ready_sec": 1.79
+    },
+    {
+      "run": 5,
+      "first_beat_sec": 1.2,
+      "first_beat_audio_line": "audio=starting",
+      "audio_ok_sec": 1.28,
+      "ready_sec": 1.8
+    }
+  ],
+  "summary_sec": {
+    "first_beat_sec": {
+      "min": 1.2,
+      "median": 1.2,
+      "max": 1.23,
+      "n": 5
+    },
+    "audio_ok_sec": {
+      "min": 1.28,
+      "median": 1.3,
+      "max": 1.33,
+      "n": 5
+    },
+    "ready_sec": {
+      "min": 1.78,
+      "median": 1.8,
+      "max": 1.88,
+      "n": 5
+    }
+  },
+  "reading": "The heartbeat is written from the first frame (first_beat_sec) and says audio=starting until the audio clock moves; it is rewritten at once when the state changes, so audio_ok_sec is the moment the sound came up. The game is ready (loaded content, samples) a little later. The Windows laptop has not been measured: its boot time is not known."
+}

@@ -1,0 +1,174 @@
+{
+  "run": "probe-no-hand",
+  "chromeVersion": "Chrome/156.0.8078.49",
+  "chromeArgs": [
+    "--use-fake-ui-for-media-stream",
+    "--use-fake-device-for-media-stream",
+    "--autoplay-policy=no-user-gesture-required",
+    "--disable-background-timer-throttling",
+    "--disable-renderer-backgrounding",
+    "--disable-backgrounding-occluded-windows",
+    "--window-position=40,40",
+    "--window-size=1100,760"
+  ],
+  "video": null,
+  "init": {
+    "bootMs": 318.7000000476837,
+    "vsync": 2,
+    "cameraSettings": {
+      "aspectRatio": 1.3333333333333333,
+      "deviceId": "899b162f82c88975b877afba661aa887cc1d66de523b6ecfa0197a087a93b135",
+      "exposureMode": "manual",
+      "exposureTime": 50,
+      "focusDistance": 50,
+      "focusMode": "manual",
+      "frameRate": 20,
+      "groupId": "72a0307c740a7b67014141343d6b0e10bc7cbfd89af06741d9e9129349c48ea9",
+      "height": 480,
+      "resizeMode": "none",
+      "width": 640
+    },
+    "videoWidth": 640,
+    "videoHeight": 480
+  },
+  "probes": {
+    "GPU": {
+      "loadInfo": {
+        "delegate": "GPU",
+        "filesetMs": 0.2999999523162842,
+        "createMs": 89.5
+      },
+      "probe": {
+        "withoutTimestamp": "accepted",
+        "resultKeys": [
+          "landmarks",
+          "worldLandmarks",
+          "handednesses",
+          "handedness"
+        ]
+      },
+      "tracking": {
+        "frames": 120,
+        "inferMs": {
+          "count": 120,
+          "mean": 8.51833333571752,
+          "p50": 8.25000011920929,
+          "p95": 11.40499986410141,
+          "p99": 11.780999970436097,
+          "max": 11.899999856948853,
+          "min": 4.599999904632568
+        },
+        "frameIntervalMs": {
+          "count": 119,
+          "mean": 50.00672268907563,
+          "p50": 48.600000000000364,
+          "p95": 55.600000000000364,
+          "p99": 56.26400000000005,
+          "max": 56.30000000000018,
+          "min": 47.79999999999973
+        },
+        "framesWithHand": 0,
+        "handFrameRatio": 0,
+        "maxHands": 0,
+        "handednessScore": {
+          "count": 0
+        },
+        "captureTimeFrames": 120,
+        "captureAgeMs": {
+          "count": 120,
+          "mean": 3.288333333333325,
+          "p50": 3.450000000000273,
+          "p95": 6.300000000000182,
+          "p99": 6.680999999999922,
+          "max": 7.5,
+          "min": -0.3000000000001819
+        },
+        "firstLandmarks": null
+      }
+    },
+    "CPU": {
+      "loadInfo": {
+        "delegate": "CPU",
+        "filesetMs": 0,
+        "createMs": 59.700000047683716
+      },
+      "probe": {
+        "withoutTimestamp": "accepted",
+        "resultKeys": [
+          "landmarks",
+          "worldLandmarks",
+          "handednesses",
+          "handedness"
+        ]
+      },
+      "tracking": {
+        "frames": 120,
+        "inferMs": {
+          "count": 120,
+          "mean": 17.505000007152557,
+          "p50": 17.5,
+          "p95": 18.5,
+          "p99": 18.800000190734863,
+          "max": 19.09999990463257,
+          "min": 16.299999952316284
+        },
+        "frameIntervalMs": {
+          "count": 119,
+          "mean": 50.005882352941185,
+          "p50": 48.600000000000364,
+          "p95": 55.600000000000364,
+          "p99": 56.028000000000425,
+          "max": 56.20000000000073,
+          "min": 47.79999999999927
+        },
+        "framesWithHand": 0,
+        "handFrameRatio": 0,
+        "maxHands": 0,
+        "handednessScore": {
+          "count": 0
+        },
+        "captureTimeFrames": 120,
+        "captureAgeMs": {
+          "count": 120,
+          "mean": 3.358333333333371,
+          "p50": 3.5,
+          "p95": 6.400000000001455,
+          "p99": 6.780999999999204,
+          "max": 7.299999999999272,
+          "min": 0
+        },
+        "firstLandmarks": null
+      }
+    }
+  },
+  "consoleMessages": [
+    {
+      "type": "warning",
+      "text": "W1029 02:56:40.016999 2136208 gl_context.cc:1118] OpenGL error checking is disabled"
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:56:40.208000 2136208 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX."
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:56:46.273999 2136208 gl_context.cc:1118] OpenGL error checking is disabled"
+    },
+    {
+      "type": "error",
+      "text": "INFO: Created TensorFlow Lite XNNPACK delegate for CPU."
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:56:46.295000 2136208 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors."
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:56:46.300000 2136208 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors."
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:56:46.329999 2136208 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX."
+    }
+  ]
+}

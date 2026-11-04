@@ -1,0 +1,16 @@
+{
+  "chrome": "Chrome/156.0.8078.49",
+  "video": "fake camera (tools/make_strike_video.py hands1)",
+  "notesDuringRecording": 16,
+  "screencastFrames": 1168,
+  "videoSeconds": 14,
+  "audio": {
+    "sampleRate": 48000,
+    "recordedSeconds": 17.626666666666665,
+    "peakBeforeNormalize": 0.35439005494117737,
+    "appliedGain": 1.9752247283468152
+  },
+  "heardOffsetMs": 1008.7210000000005,
+  "outputLatencyEstimate": 0.017,
+  "consoleMessages": []
+}

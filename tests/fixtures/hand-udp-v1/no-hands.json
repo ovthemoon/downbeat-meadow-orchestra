@@ -1,0 +1,9 @@
+{
+ "seq": 7,
+ "state": 2,
+ "capture_ms": 2000.25,
+ "infer_end_ms": 2004.5,
+ "send_ms": 2004.75,
+ "aspect": 1.5,
+ "hands": []
+}

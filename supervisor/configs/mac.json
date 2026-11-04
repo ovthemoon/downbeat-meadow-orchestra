@@ -1,0 +1,30 @@
+{
+  "_comment": [
+    "The Mac demo: the same rules as windows.json (see the reasons there). heartbeatGraceSec stays 90 here: the Mac player writes its first beat from its first frame, 1.2 s after the process start, and was ready after 1.8 s (measurements/day5/boot-to-first-heartbeat.json).",
+    "backoff.unstableRuns 3 / maxRestSec 600 / stableAfterSec 120: after 3 starts in a row that never stayed healthy the rest doubles up to 10 minutes; one start that stays healthy for 2 minutes ends it."
+  ],
+  "restartDelaySec": 3,
+  "heartbeatTimeoutSec": 30,
+  "heartbeatGraceSec": 90,
+  "audioStallRestartSec": 20,
+  "backoff": { "maxRestarts": 5, "windowSec": 600, "restSec": 60, "unstableRuns": 3, "maxRestSec": 600, "stableAfterSec": 120 },
+  "pollSec": 1,
+  "logsDir": "{root}/logs",
+  "vars": { "camera": "0", "port": "47800", "input": "hand", "tracker": "{root}/../../tracker" },
+  "processes": [
+    {
+      "name": "tracker",
+      "when": { "var": "input", "equals": "hand" },
+      "command": ["{tracker}/.venv/bin/python", "-m", "downbeat_tracker", "--camera", "{camera}", "--port", "{port}", "--log", "{root}/logs/tracker.log", "--heartbeat", "{root}/logs/tracker-heartbeat.txt"],
+      "cwd": "{tracker}",
+      "heartbeatFile": "{root}/logs/tracker-heartbeat.txt",
+      "heartbeatTimeoutSec": 45
+    },
+    {
+      "name": "unity",
+      "command": ["{root}/Downbeat.app/Contents/MacOS/Downbeat", "--input", "{input}", "--health-dir", "{root}/logs"],
+      "cwd": "{root}",
+      "heartbeatFile": "{root}/logs/heartbeat.txt"
+    }
+  ]
+}

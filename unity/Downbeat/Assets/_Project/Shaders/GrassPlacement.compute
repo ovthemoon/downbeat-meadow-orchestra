@@ -1,0 +1,160 @@
+// Places the blades of one depth band: one jittered cell of the band per thread. The ground height and the hummock field come from a baked texture (red: height,
+// green: hummock, written by the CPU from MeadowTerrain and MeadowFields, so both sides agree). Blades belong to clumps: a clump has one lean, one height and one
+// shade, and is a little taller in the middle. Hummocks and hollows change the height, the number and the darkness of the grass over several metres. A mid-frequency
+// noise mixes deep green, yellow-green and a few dried clumps. Towards the back the grass thins out and shortens into the backdrop plate. Spots around flowers stay bare.
+#pragma kernel Place
+
+struct Blade
+{
+    float3 pos;
+    float yaw;
+    float height;
+    float width;
+    float tint;     // brightness of the blade: clump shade x hummock shade
+    float phase;
+    float shade;    // how much the ground under the blade faces the sun (-1 faces away .. 1 towards)
+    float hue;      // 0 deep green .. 0.7 yellow-green, 1 dried
+    float2 lean;    // where the tip leans, as a fraction of the height
+};
+
+AppendStructuredBuffer<Blade> _Out;
+StructuredBuffer<float4> _Clearings;   // x, z, radius, unused
+
+Texture2D<float2> _Fields;
+SamplerState sampler_linear_clamp;
+
+float4 _Band;       // x zFrom, y zTo, z cell size, w seed
+float4 _Grid;       // x columns, y rows, z half-width per metre of depth, w half-width margin
+float4 _FieldRect;  // x minX, y minZ, z sizeX, w sizeZ
+float4 _GrassA;     // x heightMin, y heightMax, z width, w clump size (m)
+float4 _GrassB;     // x clump lean (0..1), y clearing count, z relief, w dried share
+float4 _GrassC;     // x fadeFromRow, y fadeToRow (picture rows from the top), z fadeMinHeight, w hummock height
+float4 _Camera;     // x camera height (world), y pitch down (radians), z tan(fov / 2)
+float4 _GrassD;     // x hummock density, y hummock dark, z lean, w band height scale
+
+float Hash21(float2 p)
+{
+    p = frac(p * float2(123.34, 456.21));
+    p += dot(p, p + 45.32);
+    return frac(p.x * p.y);
+}
+
+float2 Hash22(float2 p)
+{
+    float n = Hash21(p);
+    return float2(n, Hash21(p + n + 19.19));
+}
+
+float ValueNoise(float2 p)
+{
+    float2 i = floor(p);
+    float2 f = frac(p);
+    f = f * f * (3.0 - 2.0 * f);
+    float a = Hash21(i);
+    float b = Hash21(i + float2(1, 0));
+    float c = Hash21(i + float2(0, 1));
+    float d = Hash21(i + float2(1, 1));
+    return lerp(lerp(a, b, f.x), lerp(c, d, f.x), f.y);
+}
+
+float2 Direction(float angle)
+{
+    return float2(cos(angle), sin(angle));
+}
+
+[numthreads(8, 8, 1)]
+void Place(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= (uint)_Grid.x || id.y >= (uint)_Grid.y) return;
+
+    float cell = _Band.z;
+    float seed = _Band.w;
+    float2 h = Hash22(float2(id.xy) + seed);
+    float z = _Band.x + (id.y + h.x) * cell;
+    if (z >= _Band.y) return;
+
+    float halfWidthMax = _Band.y * _Grid.z + _Grid.w;
+    float x = -halfWidthMax + (id.x + h.y) * cell;
+    if (abs(x) > z * _Grid.z + _Grid.w) return;   // the band is a wedge that follows the view
+
+    float2 p = float2(x, z);
+    int clearings = (int)_GrassB.y;
+    for (int i = 0; i < clearings; i++)
+    {
+        float4 c = _Clearings[i];
+        if (distance(p, c.xy) < c.z) return;
+    }
+
+    float2 uv = (p - _FieldRect.xy) / _FieldRect.zw;
+    float2 fields = _Fields.SampleLevel(sampler_linear_clamp, uv, 0);
+    float ground = fields.x;
+    float hummock = fields.y;
+
+    // the grass thins out into the backdrop plate by picture row (not by distance): where the blade stands on the screen decides, so the hand-over is a horizontal band across the whole
+    // width whatever the ground does; fewer blades, and shorter and narrower ones, down to the size of the painted meadow
+    float sinPitch = sin(_Camera.y);
+    float cosPitch = cos(_Camera.y);
+    float dy = ground - _Camera.x;
+    float forward = -dy * sinPitch + z * cosPitch;
+    float up = dy * cosPitch + z * sinPitch;
+    float row = 0.5 - 0.5 * (up / max(forward, 1e-3)) / _Camera.z;
+    float fadeU = saturate((_GrassC.x - row) / max(_GrassC.x - _GrassC.y, 1e-3));
+    float fade = 1.0 - fadeU * fadeU * (3.0 - 2.0 * fadeU);
+    float keep = fade * lerp(1.0 - _GrassD.x, 1.0, hummock);
+    float2 h2 = Hash22(float2(id.yx) * 1.7 + seed + 3.3);
+    if (Hash21(p * 7.13 + seed + 5.1) > keep) return;
+
+    // the clump this blade belongs to: nearest of the jittered centres around it
+    float clumpSize = _GrassA.w;
+    float2 g = p / clumpSize;
+    float2 gi = floor(g);
+    float bestDistance = 1e9;
+    float2 bestCell = 0;
+    for (int j = -1; j <= 1; j++)
+    {
+        for (int k = -1; k <= 1; k++)
+        {
+            float2 cellId = gi + float2(k, j);
+            float2 centre = cellId + 0.2 + 0.6 * Hash22(cellId * 1.37 + seed);
+            float d = distance(g, centre);
+            if (d < bestDistance)
+            {
+                bestDistance = d;
+                bestCell = cellId;
+            }
+        }
+    }
+    float c1 = Hash21(bestCell + seed + 91.7);
+    float c2 = Hash21(bestCell + seed + 12.3);
+    float c3 = Hash21(bestCell + seed + 45.9);
+    float c4 = Hash21(bestCell + seed + 77.1);
+
+    float dome = 1.0 - 0.35 * saturate(bestDistance / 0.8) * saturate(bestDistance / 0.8);
+    float hummockHeight = lerp(1.0 - _GrassC.w, 1.0 + 0.25 * _GrassC.w, hummock);
+    float height = lerp(_GrassA.x, _GrassA.y, h2.y) * _GrassD.w * lerp(0.7, 1.25, c1) * dome * hummockHeight * lerp(_GrassC.z, 1.0, pow(fade, 1.4));
+
+    float leanBase = _GrassD.z;
+    float2 bladeLean = Direction(h2.x * 6.2831853) * leanBase * lerp(0.3, 1.3, Hash21(p * 2.9 + seed));
+    float2 clumpLean = Direction(c2 * 6.2831853) * leanBase * lerp(0.5, 2.0, c3);
+
+    // mid-frequency hue mix: mostly deep green, patches of yellow-green, a few dried clumps
+    float yellow = smoothstep(0.45, 0.8, ValueNoise(p / 2.3 + seed * 0.37)) * 0.7;
+    float hue = Hash21(p * 11.3 + seed + 8.8) < _GrassB.w ? 1.0 : yellow;   // dried blades are single blades, not whole clumps
+
+    Blade b;
+    b.pos = float3(x, ground - 0.03, z);
+    b.yaw = h2.x * 6.2831853;
+    b.height = height;
+    b.width = _GrassA.z * (0.8 + 0.45 * Hash21(p * 3.1 + seed)) * lerp(0.55, 1.0, fade);
+    float gap = smoothstep(0.35, 0.85, bestDistance);   // between clumps it is dark: the clumps separate
+    b.tint = lerp(0.62, 1.12, c4) * lerp(1.0, 0.3, gap) * lerp(1.0 - _GrassD.y, 1.05, hummock) * lerp(0.4, 1.6, Hash21(p * 13.7 + seed + 2.2));   // every blade a little brighter or darker than its neighbours
+    b.phase = Hash21(p * 5.7 + seed + 1.3);
+
+    // slope of the ground along the view: ground that falls away from the viewer faces the low sun behind the field, ground that rises faces away from it
+    float ahead = _Fields.SampleLevel(sampler_linear_clamp, uv + float2(0, 0.5 / _FieldRect.w), 0).x;
+    float behind = _Fields.SampleLevel(sampler_linear_clamp, uv - float2(0, 0.5 / _FieldRect.w), 0).x;
+    b.shade = clamp(-(ahead - behind) * _GrassB.z, -1.0, 1.0);
+    b.hue = hue;
+    b.lean = lerp(bladeLean, clumpLean, _GrassB.x);
+    _Out.Append(b);
+}

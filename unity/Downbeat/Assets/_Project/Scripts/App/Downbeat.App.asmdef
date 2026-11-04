@@ -1,0 +1,22 @@
+{
+  "name": "Downbeat.App",
+  "rootNamespace": "Downbeat.App",
+  "references": [
+    "Downbeat.Core",
+    "Downbeat.Audio",
+    "Downbeat.Input",
+    "Downbeat.Content",
+    "Downbeat.Meadow",
+    "Downbeat.Record",
+    "VContainer"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

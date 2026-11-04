@@ -1,0 +1,136 @@
+{
+  "run": "boot-1",
+  "acceptEncodingSeenOnBuildRequests": [
+    "gzip, deflate, br, zstd"
+  ],
+  "results": [
+    {
+      "build": "s3-template",
+      "ok": true,
+      "bootMs": 514.0999999046326,
+      "canvas": [
+        480,
+        270
+      ],
+      "resources": [
+        {
+          "file": "s3-template.loader.js",
+          "transferSize": 27282,
+          "encodedBodySize": 26982,
+          "decodedBodySize": 26982,
+          "durationMs": 1.2999999523162842
+        },
+        {
+          "file": "s3-template.framework.js.br",
+          "transferSize": 80287,
+          "encodedBodySize": 79987,
+          "decodedBodySize": 486582,
+          "durationMs": 2.299999952316284
+        },
+        {
+          "file": "s3-template.wasm.br",
+          "transferSize": 10214248,
+          "encodedBodySize": 10213948,
+          "decodedBodySize": 59201501,
+          "durationMs": 212.09999990463257
+        },
+        {
+          "file": "s3-template.data.br",
+          "transferSize": 4554455,
+          "encodedBodySize": 4554155,
+          "decodedBodySize": 14962972,
+          "durationMs": 95.5
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "consoleMessages": [
+        {
+          "type": "warning",
+          "text": "Manual synchronization of Unity Application.persistentDataPath via JS_FileSystem_Sync() is deprecated and will be later removed in a future Unity version. The persistent data directory will be automatically synchronized instead on file modification. Pass config.autoSyncPersistentDataPath = true; to "
+        }
+      ]
+    },
+    {
+      "build": "s3-lean-size",
+      "ok": true,
+      "bootMs": 471.09999990463257,
+      "canvas": [
+        480,
+        270
+      ],
+      "resources": [
+        {
+          "file": "s3-lean-size.loader.js",
+          "transferSize": 27282,
+          "encodedBodySize": 26982,
+          "decodedBodySize": 26982,
+          "durationMs": 0.8000001907348633
+        },
+        {
+          "file": "s3-lean-size.framework.js.br",
+          "transferSize": 74656,
+          "encodedBodySize": 74356,
+          "decodedBodySize": 411934,
+          "durationMs": 2
+        },
+        {
+          "file": "s3-lean-size.wasm.br",
+          "transferSize": 5540081,
+          "encodedBodySize": 5539781,
+          "decodedBodySize": 22016035,
+          "durationMs": 96.29999995231628
+        },
+        {
+          "file": "s3-lean-size.data.br",
+          "transferSize": 3047473,
+          "encodedBodySize": 3047173,
+          "decodedBodySize": 8264039,
+          "durationMs": 53.10000014305115
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "consoleMessages": []
+    },
+    {
+      "build": "day0",
+      "ok": true,
+      "bootMs": 423.10000014305115,
+      "canvas": [
+        480,
+        270
+      ],
+      "resources": [
+        {
+          "file": "day0.loader.js",
+          "transferSize": 27282,
+          "encodedBodySize": 26982,
+          "decodedBodySize": 26982,
+          "durationMs": 0.5999999046325684
+        },
+        {
+          "file": "day0.framework.js.br",
+          "transferSize": 75151,
+          "encodedBodySize": 74851,
+          "decodedBodySize": 413673,
+          "durationMs": 2
+        },
+        {
+          "file": "day0.wasm.br",
+          "transferSize": 5572678,
+          "encodedBodySize": 5572378,
+          "decodedBodySize": 22142601,
+          "durationMs": 122
+        },
+        {
+          "file": "day0.data.br",
+          "transferSize": 3054354,
+          "encodedBodySize": 3054054,
+          "decodedBodySize": 8294169,
+          "durationMs": 60.299999952316284
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "consoleMessages": []
+    }
+  ]
+}

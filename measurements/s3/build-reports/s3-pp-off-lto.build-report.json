@@ -1,0 +1,19 @@
+{
+    "unity": "6000.3.9f1",
+    "result": "Succeeded",
+    "scene": "Assets/Scenes/SampleScene.unity",
+    "profile": "size",
+    "buildSeconds": 132.489626,
+    "reportedTotalBytes": 6692432,
+    "compression": "Brotli",
+    "decompressionFallback": false,
+    "nameFilesAsHashes": false,
+    "exceptionSupport": "None",
+    "strippingLevel": "High",
+    "il2cppCodeGeneration": "OptimizeSize",
+    "il2cppConfiguration": "Release",
+    "codeOptimization": "DiskSizeLTO",
+    "splashScreenShown": false,
+    "development": false,
+    "template": "APPLICATION:Default"
+}

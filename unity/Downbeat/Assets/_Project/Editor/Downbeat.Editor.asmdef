@@ -1,0 +1,24 @@
+{
+  "name": "Downbeat.Editor",
+  "rootNamespace": "Downbeat.EditorTools",
+  "references": [
+    "Downbeat.App",
+    "Downbeat.Meadow",
+    "Downbeat.Core",
+    "Downbeat.Content",
+    "VContainer",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

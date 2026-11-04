@@ -1,0 +1,167 @@
+{
+  "generatedBy": "tools/prepare_nature_samples.mjs",
+  "sampleRate": 32000,
+  "note": "Synthesized, not recorded. centsFromLabel is 0 by construction; measuredCents is the check.",
+  "files": [
+    {
+      "file": "firefly_A5.wav",
+      "instrument": "firefly-bell",
+      "sourceNote": "A5",
+      "synthesized": "bell",
+      "centsFromLabel": 0,
+      "measuredCents": -1.8,
+      "measuredHz": 879.07,
+      "sampleRate": 32000,
+      "durationMs": 2400,
+      "peakDbfs": -5.19,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 1.3,
+        "sha256": "529aeffbd44d29a278c6a10f9901fbfabb2f48b967ac78d9fded216827e3a3dc"
+      }
+    },
+    {
+      "file": "firefly_C6.wav",
+      "instrument": "firefly-bell",
+      "sourceNote": "C6",
+      "synthesized": "bell",
+      "centsFromLabel": 0,
+      "measuredCents": -1.8,
+      "measuredHz": 1045.44,
+      "sampleRate": 32000,
+      "durationMs": 2400,
+      "peakDbfs": -5.19,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 1.7,
+        "sha256": "5de19a9524e517c75e25f75543c841529ce613b16ef602a620ab7a420b8ab076"
+      }
+    },
+    {
+      "file": "firefly_D6.wav",
+      "instrument": "firefly-bell",
+      "sourceNote": "D6",
+      "synthesized": "bell",
+      "centsFromLabel": 0,
+      "measuredCents": -1.1,
+      "measuredHz": 1173.91,
+      "sampleRate": 32000,
+      "durationMs": 2400,
+      "peakDbfs": -5.19,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 1.5,
+        "sha256": "a0b3b3ea57dfa94e7892cb3cb3bfbe8090b5854e3fda7b914b0e96dfba1e164e"
+      }
+    },
+    {
+      "file": "firefly_E6.wav",
+      "instrument": "firefly-bell",
+      "sourceNote": "E6",
+      "synthesized": "bell",
+      "centsFromLabel": 0,
+      "measuredCents": -0.8,
+      "measuredHz": 1317.89,
+      "sampleRate": 32000,
+      "durationMs": 2400,
+      "peakDbfs": -5.19,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 1.3,
+        "sha256": "1dbcd54d51ee63dfd7c2d8caf0c1d091ed498f6d9724881a888ae931063cbccd"
+      }
+    },
+    {
+      "file": "firefly_G6.wav",
+      "instrument": "firefly-bell",
+      "sourceNote": "G6",
+      "synthesized": "bell",
+      "centsFromLabel": 0,
+      "measuredCents": -1,
+      "measuredHz": 1567.1,
+      "sampleRate": 32000,
+      "durationMs": 2400,
+      "peakDbfs": -5.19,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 1.4,
+        "sha256": "865dd74e3290b10f937ee39397a08acde19db4f843816775c717412a70e9fb7a"
+      }
+    },
+    {
+      "file": "pad_A3.wav",
+      "instrument": "sky-pad",
+      "sourceNote": "A3",
+      "synthesized": "pad",
+      "centsFromLabel": 0,
+      "measuredCents": 0,
+      "measuredHz": 220,
+      "sampleRate": 32000,
+      "durationMs": 5600,
+      "peakDbfs": -7.96,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 231.1,
+        "sha256": "6c45ce0fb4aec25022caf7aeccfaca263f5077ab6a4b8af9ec8130d54bff7629"
+      }
+    },
+    {
+      "file": "pad_C4.wav",
+      "instrument": "sky-pad",
+      "sourceNote": "C4",
+      "synthesized": "pad",
+      "centsFromLabel": 0,
+      "measuredCents": 0,
+      "measuredHz": 261.63,
+      "sampleRate": 32000,
+      "durationMs": 5600,
+      "peakDbfs": -7.96,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 222.3,
+        "sha256": "fbd5f75598ba74b7aacb009415cf35b5c0f6b05eaf71c3a7afc57fa687458489"
+      }
+    },
+    {
+      "file": "pad_E4.wav",
+      "instrument": "sky-pad",
+      "sourceNote": "E4",
+      "synthesized": "pad",
+      "centsFromLabel": 0,
+      "measuredCents": 0.1,
+      "measuredHz": 329.65,
+      "sampleRate": 32000,
+      "durationMs": 5600,
+      "peakDbfs": -7.96,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 212.8,
+        "sha256": "7496c92e8ebb9bf83b283949d09e1706a70a4fdc137c5b2fe9f475e756e1869f"
+      }
+    },
+    {
+      "file": "pad_G4.wav",
+      "instrument": "sky-pad",
+      "sourceNote": "G4",
+      "synthesized": "pad",
+      "centsFromLabel": 0,
+      "measuredCents": 0.1,
+      "measuredHz": 392.02,
+      "sampleRate": 32000,
+      "durationMs": 5600,
+      "peakDbfs": -7.96,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 208.8,
+        "sha256": "79b188e1407989a08d1ba628795b0404e3a4f0ebdda540d73e010c3e1f76fef9"
+      }
+    },
+    {
+      "file": "drum_A2.wav",
+      "instrument": "hill-drum",
+      "sourceNote": "A2",
+      "synthesized": "drum",
+      "centsFromLabel": 0,
+      "measuredCents": 0.2,
+      "measuredHz": 110.01,
+      "sampleRate": 32000,
+      "durationMs": 1000,
+      "peakDbfs": -3,
+      "trimmed": {
+        "perceivedOnsetOffsetMs": 0.3,
+        "sha256": "0dbe6cd54938dbeec07727c053d740b3f04f998125197c9fef058464dff06e2c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "scheduledNotesInVideo": 39,
+  "visualEdges": 37,
+  "matched": 37,
+  "medianMs": 17.04818407694475,
+  "p10Ms": -5.868482589721502,
+  "p90Ms": 35.79818407694502,
+  "minMs": -14.20181592305525,
+  "maxMs": 69.13151741027868,
+  "note": "positive = the picture changes after the scheduled (heard) audio time"
+}

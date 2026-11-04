@@ -1,0 +1,152 @@
+{
+  "limits": {
+    "perFileBytes": 5242880,
+    "totalBytes": 15728640,
+    "fileCount": 80
+  },
+  "generatedBy": "tools/size_report.mjs",
+  "reports": [
+    {
+      "name": "downbeat",
+      "dir": "<repo>/unity/Downbeat/Builds/downbeat",
+      "fileCount": 9,
+      "totalBytes": 3657750,
+      "totalMib": 3.488302230834961,
+      "buildFolderBytes": 3644921,
+      "overTotalLimit": false,
+      "files": [
+        {
+          "file": "Build/downbeat.wasm.br",
+          "bytes": 2845838,
+          "mib": 2.7140026092529297,
+          "overPerFileLimit": false,
+          "decompressedBytes": 10870551,
+          "q11Bytes": 2831294
+        },
+        {
+          "file": "Build/downbeat.data.br",
+          "bytes": 698829,
+          "mib": 0.6664552688598633,
+          "overPerFileLimit": false,
+          "decompressedBytes": 3224840,
+          "q11Bytes": 693111
+        },
+        {
+          "file": "Build/downbeat.framework.js.br",
+          "bytes": 73272,
+          "mib": 0.06987762451171875,
+          "overPerFileLimit": false,
+          "decompressedBytes": 384875,
+          "q11Bytes": 73168
+        },
+        {
+          "file": "Build/downbeat.loader.js",
+          "bytes": 26982,
+          "mib": 0.025732040405273438,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "js/downbeat-audio.js",
+          "bytes": 3890,
+          "mib": 0.0037097930908203125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "index.html",
+          "bytes": 3225,
+          "mib": 0.0030755996704101562,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "js/note-player.js",
+          "bytes": 2798,
+          "mib": 0.0026683807373046875,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "js/audio-clock.js",
+          "bytes": 1728,
+          "mib": 0.00164794921875,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "js/start-page.js",
+          "bytes": 1188,
+          "mib": 0.001132965087890625,
+          "overPerFileLimit": false
+        }
+      ]
+    },
+    {
+      "name": "downbeat-lto",
+      "dir": "<repo>/unity/Downbeat/Builds/downbeat-lto",
+      "fileCount": 9,
+      "totalBytes": 3516887,
+      "totalMib": 3.3539648056030273,
+      "buildFolderBytes": 3504042,
+      "overTotalLimit": false,
+      "files": [
+        {
+          "file": "Build/downbeat-lto.wasm.br",
+          "bytes": 2707300,
+          "mib": 2.5818824768066406,
+          "overPerFileLimit": false,
+          "decompressedBytes": 9859347,
+          "q11Bytes": 2710128
+        },
+        {
+          "file": "Build/downbeat-lto.data.br",
+          "bytes": 697272,
+          "mib": 0.6649703979492188,
+          "overPerFileLimit": false,
+          "decompressedBytes": 3224840,
+          "q11Bytes": 693239
+        },
+        {
+          "file": "Build/downbeat-lto.framework.js.br",
+          "bytes": 72489,
+          "mib": 0.06913089752197266,
+          "overPerFileLimit": false,
+          "decompressedBytes": 377964,
+          "q11Bytes": 72435
+        },
+        {
+          "file": "Build/downbeat-lto.loader.js",
+          "bytes": 26981,
+          "mib": 0.02573108673095703,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "js/downbeat-audio.js",
+          "bytes": 3890,
+          "mib": 0.0037097930908203125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "index.html",
+          "bytes": 3241,
+          "mib": 0.0030908584594726562,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "js/note-player.js",
+          "bytes": 2798,
+          "mib": 0.0026683807373046875,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "js/audio-clock.js",
+          "bytes": 1728,
+          "mib": 0.00164794921875,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "js/start-page.js",
+          "bytes": 1188,
+          "mib": 0.001132965087890625,
+          "overPerFileLimit": false
+        }
+      ]
+    }
+  ]
+}

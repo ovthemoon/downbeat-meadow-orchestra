@@ -1,0 +1,16 @@
+[project]
+name = "downbeat-supervisor"
+version = "0.1.0"
+description = "Starts the Downbeat hand tracker and the Unity player, restarts what stops, and watches the player's heartbeat."
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["downbeat_supervisor*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

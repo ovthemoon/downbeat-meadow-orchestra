@@ -1,0 +1,55 @@
+{
+  "video": "captures/day4/task9-preview-30s.mp4",
+  "fps": 24.0,
+  "frameMs": 41.7,
+  "band": [
+    0.34,
+    0.44
+  ],
+  "drumOnsetsInSound": 10,
+  "pictureJumps": 7,
+  "pairs": 7,
+  "lagMs": {
+    "median": 4.3,
+    "min": -37.4,
+    "max": 18.8
+  },
+  "details": [
+    {
+      "soundSec": 13.4957,
+      "pictureSec": 13.5,
+      "lagMs": 4.3
+    },
+    {
+      "soundSec": 14.7312,
+      "pictureSec": 14.75,
+      "lagMs": 18.8
+    },
+    {
+      "soundSec": 15.9957,
+      "pictureSec": 16.0,
+      "lagMs": 4.3
+    },
+    {
+      "soundSec": 17.2313,
+      "pictureSec": 17.2083,
+      "lagMs": -23.0
+    },
+    {
+      "soundSec": 18.4958,
+      "pictureSec": 18.4583,
+      "lagMs": -37.4
+    },
+    {
+      "soundSec": 28.4958,
+      "pictureSec": 28.5,
+      "lagMs": 4.2
+    },
+    {
+      "soundSec": 29.7316,
+      "pictureSec": 29.75,
+      "lagMs": 18.4
+    }
+  ],
+  "note": "lag = time of the first picture frame that shows the haze jump minus time the drum starts in the file's own audio; 0..one frame is expected"
+}

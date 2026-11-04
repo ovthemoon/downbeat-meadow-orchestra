@@ -1,0 +1,83 @@
+{
+  "what": "Frame time at Low before (the old stretching bend) and after the retuned length-preserving bend (max 120, slope 2.4, knee power 4)",
+  "window": "1920x1080",
+  "seconds": 12,
+  "reps_per_round": 3,
+  "rounds": 4,
+  "tier": "Low",
+  "method": "tools/measure_render_cost.py (baseline variant, Low, recorded demo hands, uncapped, --no-record), the two players alternating every round, as in render-cost-partd-final.json",
+  "players": {
+    "mac-before": {
+      "fps_runs": [
+        957.9,
+        926.3,
+        880.7,
+        969.9,
+        909.0,
+        932.2,
+        942.8,
+        813.5,
+        951.7,
+        943.8,
+        920.1,
+        870.5
+      ],
+      "mean_frame_ms": 1.0891
+    },
+    "mac-after": {
+      "fps_runs": [
+        894.8,
+        902.8,
+        896.8,
+        925.8,
+        921.8,
+        978.2,
+        935.2,
+        836.1,
+        931.5,
+        958.8,
+        963.8,
+        969.4
+      ],
+      "mean_frame_ms": 1.0796
+    }
+  },
+  "delta_ms": -0.0095,
+  "delta_percent": -0.87,
+  "paired_round_delta_ms": [
+    0.0284,
+    -0.0056,
+    0.0022,
+    -0.0597
+  ],
+  "noise": "the standard error of each mean is about 0.7 to 1 %, so a difference under 1 % is within the noise",
+  "motion": {
+    "cpu_model_tip_movement_per_gust_heights": {
+      "old": {
+        "mean": 0.37,
+        "lowest_quarter": 0.334,
+        "frozen_percent": 0.0
+      },
+      "max75_slope2.8_knee16": {
+        "mean": 0.246,
+        "lowest_quarter": 0.116,
+        "frozen_percent": 6.3
+      },
+      "max120_slope2.4_knee4": {
+        "mean": 0.294,
+        "lowest_quarter": 0.226,
+        "frozen_percent": 0.0
+      }
+    },
+    "cpu_model_note": "20000 blades with the placement's lean in any direction, breeze 0.154 and gust 0.352 along the wind, stiffness 0.8..1.2; BladeBendTests prints the last two lines, the old formula's line is the same simulation in Python",
+    "frame_to_frame_mean_abs_luminance_meadow_box8_High_20fps": {
+      "idle_old": 3.07,
+      "idle_max75": 2.81,
+      "idle_max120": 2.93,
+      "hand_old": 7.59,
+      "hand_max75": 6.72,
+      "hand_max120": 7.31
+    }
+  },
+  "machine_note": "Apple M4 Pro; a Unity editor of another project was open during the run"
+}

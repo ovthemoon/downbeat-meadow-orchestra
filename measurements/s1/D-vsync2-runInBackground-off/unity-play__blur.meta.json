@@ -1,0 +1,3683 @@
+{
+  "config": {
+    "bpm": 96,
+    "slotsPerBeat": 4,
+    "durationSec": 60,
+    "lookaheadSec": 0.1,
+    "startDelaySec": 0.6,
+    "block": {
+      "ms": 50,
+      "everyMs": 2000
+    },
+    "runDir": "s1/D-vsync2-runInBackground-off",
+    "frameDivisor": 2,
+    "label": "unity-play__blur",
+    "path": "unity-play"
+  },
+  "startedPerfMs": 93717.79999995232,
+  "endedPerfMs": 155790.79999995232,
+  "runtime": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "hardwareConcurrency": 14,
+    "devicePixelRatio": 1,
+    "innerWidth": 1100,
+    "innerHeight": 617,
+    "crossOriginIsolated": false,
+    "secureContext": true,
+    "location": "http://localhost:8765/s1.html?build=day0&vsync=2&bg=0"
+  },
+  "tapMuted": true,
+  "contexts": [
+    {
+      "id": 0,
+      "tag": "unity",
+      "sampleRate": 44100,
+      "state": "running",
+      "baseLatency": 0.005804988662131519,
+      "outputLatency": 0.20500000000000002,
+      "firstFrame": 4067328,
+      "gaps": 0,
+      "peak": 0.5800184011459351,
+      "frames": 2721792,
+      "workletError": null,
+      "rawFile": "s1/D-vsync2-runInBackground-off/raw-audio/unity-play__blur.ctx0-unity.f32"
+    },
+    {
+      "id": 1,
+      "tag": "webaudio",
+      "sampleRate": 44100,
+      "state": "running",
+      "baseLatency": 0.005804988662131519,
+      "outputLatency": 0.20500000000000002,
+      "firstFrame": 4065792,
+      "gaps": 0,
+      "peak": 0,
+      "frames": 2721792,
+      "workletError": null,
+      "rawFile": null
+    }
+  ],
+  "marks": [
+    {
+      "label": "beat-start:unity-play__blur:play",
+      "perfMs": 93717.89999985695,
+      "ctxTimes": {
+        "0": 92.22965986394559,
+        "1": 92.19482993197279
+      }
+    },
+    {
+      "label": "beat-end:unity-play__blur:play",
+      "perfMs": 154823.20000004768,
+      "ctxTimes": {
+        "0": 153.33877551020407,
+        "1": 153.3039455782313
+      }
+    }
+  ],
+  "pageEvents": [
+    {
+      "type": "focus",
+      "perfMs": 34163.09999990463,
+      "visibility": "visible",
+      "hasFocus": false,
+      "blurred": false
+    },
+    {
+      "type": "blur",
+      "perfMs": 114319.09999990463,
+      "visibility": "visible",
+      "hasFocus": false,
+      "blurred": true
+    },
+    {
+      "type": "focus",
+      "perfMs": 124319.39999985695,
+      "visibility": "visible",
+      "hasFocus": false,
+      "blurred": false
+    }
+  ],
+  "blocks": [
+    {
+      "startMs": 95718.29999995232,
+      "durationMs": 50
+    },
+    {
+      "startMs": 97717.89999985695,
+      "durationMs": 50
+    },
+    {
+      "startMs": 99718.5,
+      "durationMs": 50
+    },
+    {
+      "startMs": 101718.20000004768,
+      "durationMs": 50
+    },
+    {
+      "startMs": 103718.70000004768,
+      "durationMs": 50
+    },
+    {
+      "startMs": 105719.09999990463,
+      "durationMs": 50
+    },
+    {
+      "startMs": 107718,
+      "durationMs": 50
+    },
+    {
+      "startMs": 109719.20000004768,
+      "durationMs": 50
+    },
+    {
+      "startMs": 111718.70000004768,
+      "durationMs": 50
+    },
+    {
+      "startMs": 113720.5,
+      "durationMs": 50
+    },
+    {
+      "startMs": 115718.5,
+      "durationMs": 50
+    },
+    {
+      "startMs": 117718.29999995232,
+      "durationMs": 50
+    },
+    {
+      "startMs": 119718.29999995232,
+      "durationMs": 50
+    },
+    {
+      "startMs": 121718.39999985695,
+      "durationMs": 50
+    },
+    {
+      "startMs": 123718.09999990463,
+      "durationMs": 50
+    },
+    {
+      "startMs": 125719.70000004768,
+      "durationMs": 50
+    },
+    {
+      "startMs": 127718.89999985695,
+      "durationMs": 50
+    },
+    {
+      "startMs": 129719.5,
+      "durationMs": 50
+    },
+    {
+      "startMs": 131717.79999995232,
+      "durationMs": 50
+    },
+    {
+      "startMs": 133718.59999990463,
+      "durationMs": 50
+    },
+    {
+      "startMs": 135718.89999985695,
+      "durationMs": 50
+    },
+    {
+      "startMs": 137718.59999990463,
+      "durationMs": 50
+    },
+    {
+      "startMs": 139717.89999985695,
+      "durationMs": 50
+    },
+    {
+      "startMs": 141719.29999995232,
+      "durationMs": 50
+    },
+    {
+      "startMs": 143717.89999985695,
+      "durationMs": 50
+    },
+    {
+      "startMs": 145719.5,
+      "durationMs": 50
+    },
+    {
+      "startMs": 147717.89999985695,
+      "durationMs": 50
+    },
+    {
+      "startMs": 149721,
+      "durationMs": 50
+    },
+    {
+      "startMs": 151718.09999990463,
+      "durationMs": 50
+    },
+    {
+      "startMs": 153720.29999995232,
+      "durationMs": 50
+    }
+  ],
+  "rafIntervalsMs": {
+    "count": 8735,
+    "mean": 7.063812249570692,
+    "p50": 6.900000000008731,
+    "p95": 7.69999999999709,
+    "p99": 7.80000000000291,
+    "max": 42.5,
+    "min": 6
+  },
+  "summary": {
+    "label": "unity-play__blur",
+    "path": "play",
+    "bpm": 96,
+    "slotsPerBeat": 4,
+    "totalSlots": 384,
+    "issued": 384,
+    "skippedLate": 0,
+    "originClock": 93.72099999999999,
+    "originPerfMs": 93717.89999985695,
+    "originCtx": 92.22965986394559,
+    "endPerfMs": 154823.29999995232,
+    "frames": 3618,
+    "maxDspStallSec": 0.0580045351473899,
+    "records": [
+      {
+        "slot": 0,
+        "targetDsp": 93.72099999999999,
+        "dspAtCall": 93.725,
+        "perfMsAtCall": 94321.59999990463,
+        "ctxAtCall": 92.83918367346939
+      },
+      {
+        "slot": 1,
+        "targetDsp": 93.87724999999999,
+        "dspAtCall": 93.892,
+        "perfMsAtCall": 94489,
+        "ctxAtCall": 93.00172335600907
+      },
+      {
+        "slot": 2,
+        "targetDsp": 94.03349999999999,
+        "dspAtCall": 94.044,
+        "perfMsAtCall": 94640.89999985695,
+        "ctxAtCall": 93.15265306122448
+      },
+      {
+        "slot": 3,
+        "targetDsp": 94.18974999999999,
+        "dspAtCall": 94.197,
+        "perfMsAtCall": 94793.79999995232,
+        "ctxAtCall": 93.30938775510204
+      },
+      {
+        "slot": 4,
+        "targetDsp": 94.34599999999999,
+        "dspAtCall": 94.35,
+        "perfMsAtCall": 94946.39999985695,
+        "ctxAtCall": 93.46031746031746
+      },
+      {
+        "slot": 5,
+        "targetDsp": 94.50224999999999,
+        "dspAtCall": 94.516,
+        "perfMsAtCall": 95113.20000004768,
+        "ctxAtCall": 93.62866213151928
+      },
+      {
+        "slot": 6,
+        "targetDsp": 94.65849999999999,
+        "dspAtCall": 94.669,
+        "perfMsAtCall": 95265.89999985695,
+        "ctxAtCall": 93.7795918367347
+      },
+      {
+        "slot": 7,
+        "targetDsp": 94.81474999999999,
+        "dspAtCall": 94.822,
+        "perfMsAtCall": 95418.79999995232,
+        "ctxAtCall": 93.93632653061225
+      },
+      {
+        "slot": 8,
+        "targetDsp": 94.97099999999999,
+        "dspAtCall": 94.975,
+        "perfMsAtCall": 95571.5,
+        "ctxAtCall": 94.08725623582767
+      },
+      {
+        "slot": 9,
+        "targetDsp": 95.12724999999999,
+        "dspAtCall": 95.172,
+        "perfMsAtCall": 95768.5,
+        "ctxAtCall": 94.28462585034013
+      },
+      {
+        "slot": 10,
+        "targetDsp": 95.28349999999999,
+        "dspAtCall": 95.288,
+        "perfMsAtCall": 95884.70000004768,
+        "ctxAtCall": 94.40072562358277
+      },
+      {
+        "slot": 11,
+        "targetDsp": 95.43974999999999,
+        "dspAtCall": 95.44,
+        "perfMsAtCall": 96036.70000004768,
+        "ctxAtCall": 94.55165532879819
+      },
+      {
+        "slot": 12,
+        "targetDsp": 95.59599999999999,
+        "dspAtCall": 95.607,
+        "perfMsAtCall": 96203.5,
+        "ctxAtCall": 94.72
+      },
+      {
+        "slot": 13,
+        "targetDsp": 95.75224999999999,
+        "dspAtCall": 95.759,
+        "perfMsAtCall": 96356.20000004768,
+        "ctxAtCall": 94.87092970521542
+      },
+      {
+        "slot": 14,
+        "targetDsp": 95.90849999999999,
+        "dspAtCall": 95.912,
+        "perfMsAtCall": 96509,
+        "ctxAtCall": 95.02185941043084
+      },
+      {
+        "slot": 15,
+        "targetDsp": 96.06474999999999,
+        "dspAtCall": 96.065,
+        "perfMsAtCall": 96661.70000004768,
+        "ctxAtCall": 95.17859410430839
+      },
+      {
+        "slot": 16,
+        "targetDsp": 96.22099999999999,
+        "dspAtCall": 96.232,
+        "perfMsAtCall": 96828.39999985695,
+        "ctxAtCall": 95.34113378684808
+      },
+      {
+        "slot": 17,
+        "targetDsp": 96.37724999999999,
+        "dspAtCall": 96.384,
+        "perfMsAtCall": 96981.29999995232,
+        "ctxAtCall": 95.49786848072563
+      },
+      {
+        "slot": 18,
+        "targetDsp": 96.53349999999999,
+        "dspAtCall": 96.538,
+        "perfMsAtCall": 97134.79999995232,
+        "ctxAtCall": 95.64879818594105
+      },
+      {
+        "slot": 19,
+        "targetDsp": 96.68974999999999,
+        "dspAtCall": 96.69,
+        "perfMsAtCall": 97286.79999995232,
+        "ctxAtCall": 95.79972789115646
+      },
+      {
+        "slot": 20,
+        "targetDsp": 96.84599999999999,
+        "dspAtCall": 96.857,
+        "perfMsAtCall": 97453.5,
+        "ctxAtCall": 95.96807256235827
+      },
+      {
+        "slot": 21,
+        "targetDsp": 97.00224999999999,
+        "dspAtCall": 97.009,
+        "perfMsAtCall": 97606.20000004768,
+        "ctxAtCall": 96.11900226757369
+      },
+      {
+        "slot": 22,
+        "targetDsp": 97.15849999999999,
+        "dspAtCall": 97.171,
+        "perfMsAtCall": 97768.20000004768,
+        "ctxAtCall": 96.28154195011338
+      },
+      {
+        "slot": 23,
+        "targetDsp": 97.31474999999999,
+        "dspAtCall": 97.322,
+        "perfMsAtCall": 97918.79999995232,
+        "ctxAtCall": 96.4324716553288
+      },
+      {
+        "slot": 24,
+        "targetDsp": 97.47099999999999,
+        "dspAtCall": 97.475,
+        "perfMsAtCall": 98071.70000004768,
+        "ctxAtCall": 96.58340136054422
+      },
+      {
+        "slot": 25,
+        "targetDsp": 97.62724999999999,
+        "dspAtCall": 97.641,
+        "perfMsAtCall": 98238.20000004768,
+        "ctxAtCall": 96.75174603174604
+      },
+      {
+        "slot": 26,
+        "targetDsp": 97.78349999999999,
+        "dspAtCall": 97.794,
+        "perfMsAtCall": 98391,
+        "ctxAtCall": 96.90267573696146
+      },
+      {
+        "slot": 27,
+        "targetDsp": 97.93974999999999,
+        "dspAtCall": 97.947,
+        "perfMsAtCall": 98543.70000004768,
+        "ctxAtCall": 97.05941043083901
+      },
+      {
+        "slot": 28,
+        "targetDsp": 98.09599999999999,
+        "dspAtCall": 98.1,
+        "perfMsAtCall": 98696.5,
+        "ctxAtCall": 97.21034013605443
+      },
+      {
+        "slot": 29,
+        "targetDsp": 98.25224999999999,
+        "dspAtCall": 98.266,
+        "perfMsAtCall": 98863.09999990463,
+        "ctxAtCall": 97.37868480725623
+      },
+      {
+        "slot": 30,
+        "targetDsp": 98.40849999999999,
+        "dspAtCall": 98.419,
+        "perfMsAtCall": 99016,
+        "ctxAtCall": 97.52961451247165
+      },
+      {
+        "slot": 31,
+        "targetDsp": 98.56474999999999,
+        "dspAtCall": 98.572,
+        "perfMsAtCall": 99168.79999995232,
+        "ctxAtCall": 97.6863492063492
+      },
+      {
+        "slot": 32,
+        "targetDsp": 98.72099999999999,
+        "dspAtCall": 98.725,
+        "perfMsAtCall": 99321.59999990463,
+        "ctxAtCall": 97.83727891156462
+      },
+      {
+        "slot": 33,
+        "targetDsp": 98.87724999999999,
+        "dspAtCall": 98.892,
+        "perfMsAtCall": 99489,
+        "ctxAtCall": 98.00562358276645
+      },
+      {
+        "slot": 34,
+        "targetDsp": 99.03349999999999,
+        "dspAtCall": 99.044,
+        "perfMsAtCall": 99641,
+        "ctxAtCall": 98.15655328798186
+      },
+      {
+        "slot": 35,
+        "targetDsp": 99.18974999999999,
+        "dspAtCall": 99.19,
+        "perfMsAtCall": 99786.89999985695,
+        "ctxAtCall": 98.30167800453515
+      },
+      {
+        "slot": 36,
+        "targetDsp": 99.34599999999999,
+        "dspAtCall": 99.357,
+        "perfMsAtCall": 99953.5,
+        "ctxAtCall": 98.47002267573696
+      },
+      {
+        "slot": 37,
+        "targetDsp": 99.50224999999999,
+        "dspAtCall": 99.51,
+        "perfMsAtCall": 100106.79999995232,
+        "ctxAtCall": 98.62095238095237
+      },
+      {
+        "slot": 38,
+        "targetDsp": 99.65849999999999,
+        "dspAtCall": 99.663,
+        "perfMsAtCall": 100259.70000004768,
+        "ctxAtCall": 98.7718820861678
+      },
+      {
+        "slot": 39,
+        "targetDsp": 99.81474999999999,
+        "dspAtCall": 99.815,
+        "perfMsAtCall": 100412,
+        "ctxAtCall": 98.92861678004535
+      },
+      {
+        "slot": 40,
+        "targetDsp": 99.97099999999999,
+        "dspAtCall": 99.982,
+        "perfMsAtCall": 100578.59999990463,
+        "ctxAtCall": 99.09115646258503
+      },
+      {
+        "slot": 41,
+        "targetDsp": 100.12724999999999,
+        "dspAtCall": 100.135,
+        "perfMsAtCall": 100731.70000004768,
+        "ctxAtCall": 99.24789115646259
+      },
+      {
+        "slot": 42,
+        "targetDsp": 100.28349999999999,
+        "dspAtCall": 100.287,
+        "perfMsAtCall": 100884.20000004768,
+        "ctxAtCall": 99.398820861678
+      },
+      {
+        "slot": 43,
+        "targetDsp": 100.43974999999999,
+        "dspAtCall": 100.44,
+        "perfMsAtCall": 101037,
+        "ctxAtCall": 99.54975056689342
+      },
+      {
+        "slot": 44,
+        "targetDsp": 100.59599999999999,
+        "dspAtCall": 100.607,
+        "perfMsAtCall": 101204.20000004768,
+        "ctxAtCall": 99.71809523809524
+      },
+      {
+        "slot": 45,
+        "targetDsp": 100.75224999999999,
+        "dspAtCall": 100.76,
+        "perfMsAtCall": 101356.39999985695,
+        "ctxAtCall": 99.86902494331066
+      },
+      {
+        "slot": 46,
+        "targetDsp": 100.90849999999999,
+        "dspAtCall": 100.912,
+        "perfMsAtCall": 101509.20000004768,
+        "ctxAtCall": 100.0257596371882
+      },
+      {
+        "slot": 47,
+        "targetDsp": 101.06474999999999,
+        "dspAtCall": 101.065,
+        "perfMsAtCall": 101661.89999985695,
+        "ctxAtCall": 100.17668934240363
+      },
+      {
+        "slot": 48,
+        "targetDsp": 101.22099999999999,
+        "dspAtCall": 101.225,
+        "perfMsAtCall": 101821.59999990463,
+        "ctxAtCall": 100.33922902494331
+      },
+      {
+        "slot": 49,
+        "targetDsp": 101.37724999999999,
+        "dspAtCall": 101.378,
+        "perfMsAtCall": 101974.39999985695,
+        "ctxAtCall": 100.49015873015873
+      },
+      {
+        "slot": 50,
+        "targetDsp": 101.53349999999999,
+        "dspAtCall": 101.544,
+        "perfMsAtCall": 102141.09999990463,
+        "ctxAtCall": 100.65269841269841
+      },
+      {
+        "slot": 51,
+        "targetDsp": 101.68974999999999,
+        "dspAtCall": 101.69800000000001,
+        "perfMsAtCall": 102294.59999990463,
+        "ctxAtCall": 100.80943310657597
+      },
+      {
+        "slot": 52,
+        "targetDsp": 101.84599999999999,
+        "dspAtCall": 101.85,
+        "perfMsAtCall": 102447.09999990463,
+        "ctxAtCall": 100.96036281179138
+      },
+      {
+        "slot": 53,
+        "targetDsp": 102.00224999999999,
+        "dspAtCall": 102.003,
+        "perfMsAtCall": 102599.79999995232,
+        "ctxAtCall": 101.1112925170068
+      },
+      {
+        "slot": 54,
+        "targetDsp": 102.15849999999999,
+        "dspAtCall": 102.169,
+        "perfMsAtCall": 102766.39999985695,
+        "ctxAtCall": 101.27963718820861
+      },
+      {
+        "slot": 55,
+        "targetDsp": 102.31474999999999,
+        "dspAtCall": 102.322,
+        "perfMsAtCall": 102918.89999985695,
+        "ctxAtCall": 101.43637188208616
+      },
+      {
+        "slot": 56,
+        "targetDsp": 102.47099999999999,
+        "dspAtCall": 102.475,
+        "perfMsAtCall": 103071.70000004768,
+        "ctxAtCall": 101.58730158730158
+      },
+      {
+        "slot": 57,
+        "targetDsp": 102.62724999999999,
+        "dspAtCall": 102.628,
+        "perfMsAtCall": 103225.29999995232,
+        "ctxAtCall": 101.738231292517
+      },
+      {
+        "slot": 58,
+        "targetDsp": 102.78349999999999,
+        "dspAtCall": 102.795,
+        "perfMsAtCall": 103391.59999990463,
+        "ctxAtCall": 101.90657596371882
+      },
+      {
+        "slot": 59,
+        "targetDsp": 102.93974999999999,
+        "dspAtCall": 102.947,
+        "perfMsAtCall": 103544.09999990463,
+        "ctxAtCall": 102.05750566893424
+      },
+      {
+        "slot": 60,
+        "targetDsp": 103.09599999999999,
+        "dspAtCall": 103.1,
+        "perfMsAtCall": 103696.89999985695,
+        "ctxAtCall": 102.20843537414966
+      },
+      {
+        "slot": 61,
+        "targetDsp": 103.25224999999999,
+        "dspAtCall": 103.26,
+        "perfMsAtCall": 103856.39999985695,
+        "ctxAtCall": 102.37097505668935
+      },
+      {
+        "slot": 62,
+        "targetDsp": 103.40849999999999,
+        "dspAtCall": 103.413,
+        "perfMsAtCall": 104009.70000004768,
+        "ctxAtCall": 102.52190476190476
+      },
+      {
+        "slot": 63,
+        "targetDsp": 103.56474999999999,
+        "dspAtCall": 103.566,
+        "perfMsAtCall": 104162.59999990463,
+        "ctxAtCall": 102.67283446712018
+      },
+      {
+        "slot": 64,
+        "targetDsp": 103.72099999999999,
+        "dspAtCall": 103.733,
+        "perfMsAtCall": 104329.5,
+        "ctxAtCall": 102.84698412698413
+      },
+      {
+        "slot": 65,
+        "targetDsp": 103.87724999999999,
+        "dspAtCall": 103.886,
+        "perfMsAtCall": 104483.09999990463,
+        "ctxAtCall": 102.99791383219954
+      },
+      {
+        "slot": 66,
+        "targetDsp": 104.03349999999999,
+        "dspAtCall": 104.038,
+        "perfMsAtCall": 104634.5,
+        "ctxAtCall": 103.14884353741496
+      },
+      {
+        "slot": 67,
+        "targetDsp": 104.18974999999999,
+        "dspAtCall": 104.191,
+        "perfMsAtCall": 104787.89999985695,
+        "ctxAtCall": 103.29977324263038
+      },
+      {
+        "slot": 68,
+        "targetDsp": 104.34599999999999,
+        "dspAtCall": 104.357,
+        "perfMsAtCall": 104953.89999985695,
+        "ctxAtCall": 103.4681179138322
+      },
+      {
+        "slot": 69,
+        "targetDsp": 104.50224999999999,
+        "dspAtCall": 104.509,
+        "perfMsAtCall": 105106.29999995232,
+        "ctxAtCall": 103.61904761904762
+      },
+      {
+        "slot": 70,
+        "targetDsp": 104.65849999999999,
+        "dspAtCall": 104.663,
+        "perfMsAtCall": 105259.79999995232,
+        "ctxAtCall": 103.77578231292517
+      },
+      {
+        "slot": 71,
+        "targetDsp": 104.81474999999999,
+        "dspAtCall": 104.816,
+        "perfMsAtCall": 105412.5,
+        "ctxAtCall": 103.92671201814059
+      },
+      {
+        "slot": 72,
+        "targetDsp": 104.97099999999999,
+        "dspAtCall": 104.982,
+        "perfMsAtCall": 105579.09999990463,
+        "ctxAtCall": 104.0950566893424
+      },
+      {
+        "slot": 73,
+        "targetDsp": 105.12724999999999,
+        "dspAtCall": 105.173,
+        "perfMsAtCall": 105769.5,
+        "ctxAtCall": 104.28662131519275
+      },
+      {
+        "slot": 74,
+        "targetDsp": 105.28349999999999,
+        "dspAtCall": 105.294,
+        "perfMsAtCall": 105891.20000004768,
+        "ctxAtCall": 104.40272108843537
+      },
+      {
+        "slot": 75,
+        "targetDsp": 105.43974999999999,
+        "dspAtCall": 105.447,
+        "perfMsAtCall": 106043.89999985695,
+        "ctxAtCall": 104.55945578231292
+      },
+      {
+        "slot": 76,
+        "targetDsp": 105.59599999999999,
+        "dspAtCall": 105.6,
+        "perfMsAtCall": 106196.79999995232,
+        "ctxAtCall": 104.71038548752834
+      },
+      {
+        "slot": 77,
+        "targetDsp": 105.75224999999999,
+        "dspAtCall": 105.753,
+        "perfMsAtCall": 106349.70000004768,
+        "ctxAtCall": 104.86131519274376
+      },
+      {
+        "slot": 78,
+        "targetDsp": 105.90849999999999,
+        "dspAtCall": 105.919,
+        "perfMsAtCall": 106516.20000004768,
+        "ctxAtCall": 105.02965986394558
+      },
+      {
+        "slot": 79,
+        "targetDsp": 106.06474999999999,
+        "dspAtCall": 106.072,
+        "perfMsAtCall": 106669.20000004768,
+        "ctxAtCall": 105.18639455782314
+      },
+      {
+        "slot": 80,
+        "targetDsp": 106.22099999999999,
+        "dspAtCall": 106.226,
+        "perfMsAtCall": 106822.79999995232,
+        "ctxAtCall": 105.33732426303855
+      },
+      {
+        "slot": 81,
+        "targetDsp": 106.37724999999999,
+        "dspAtCall": 106.378,
+        "perfMsAtCall": 106975.59999990463,
+        "ctxAtCall": 105.48825396825397
+      },
+      {
+        "slot": 82,
+        "targetDsp": 106.53349999999999,
+        "dspAtCall": 106.545,
+        "perfMsAtCall": 107141.39999985695,
+        "ctxAtCall": 105.65659863945578
+      },
+      {
+        "slot": 83,
+        "targetDsp": 106.68974999999999,
+        "dspAtCall": 106.69800000000001,
+        "perfMsAtCall": 107294.79999995232,
+        "ctxAtCall": 105.8075283446712
+      },
+      {
+        "slot": 84,
+        "targetDsp": 106.84599999999999,
+        "dspAtCall": 106.85,
+        "perfMsAtCall": 107447.09999990463,
+        "ctxAtCall": 105.95845804988662
+      },
+      {
+        "slot": 85,
+        "targetDsp": 107.00224999999999,
+        "dspAtCall": 107.003,
+        "perfMsAtCall": 107599.89999985695,
+        "ctxAtCall": 106.11519274376417
+      },
+      {
+        "slot": 86,
+        "targetDsp": 107.15849999999999,
+        "dspAtCall": 107.171,
+        "perfMsAtCall": 107768.20000004768,
+        "ctxAtCall": 106.28353741496599
+      },
+      {
+        "slot": 87,
+        "targetDsp": 107.31474999999999,
+        "dspAtCall": 107.315,
+        "perfMsAtCall": 107912,
+        "ctxAtCall": 106.42866213151927
+      },
+      {
+        "slot": 88,
+        "targetDsp": 107.47099999999999,
+        "dspAtCall": 107.482,
+        "perfMsAtCall": 108078.70000004768,
+        "ctxAtCall": 106.59120181405896
+      },
+      {
+        "slot": 89,
+        "targetDsp": 107.62724999999999,
+        "dspAtCall": 107.635,
+        "perfMsAtCall": 108231.5,
+        "ctxAtCall": 106.7479365079365
+      },
+      {
+        "slot": 90,
+        "targetDsp": 107.78349999999999,
+        "dspAtCall": 107.788,
+        "perfMsAtCall": 108385,
+        "ctxAtCall": 106.89886621315193
+      },
+      {
+        "slot": 91,
+        "targetDsp": 107.93974999999999,
+        "dspAtCall": 107.94,
+        "perfMsAtCall": 108537.09999990463,
+        "ctxAtCall": 107.04979591836735
+      },
+      {
+        "slot": 92,
+        "targetDsp": 108.09599999999999,
+        "dspAtCall": 108.107,
+        "perfMsAtCall": 108703.89999985695,
+        "ctxAtCall": 107.21814058956916
+      },
+      {
+        "slot": 93,
+        "targetDsp": 108.25224999999999,
+        "dspAtCall": 108.26,
+        "perfMsAtCall": 108856.79999995232,
+        "ctxAtCall": 107.36907029478458
+      },
+      {
+        "slot": 94,
+        "targetDsp": 108.40849999999999,
+        "dspAtCall": 108.412,
+        "perfMsAtCall": 109009.29999995232,
+        "ctxAtCall": 107.52580498866213
+      },
+      {
+        "slot": 95,
+        "targetDsp": 108.56474999999999,
+        "dspAtCall": 108.566,
+        "perfMsAtCall": 109162.89999985695,
+        "ctxAtCall": 107.67673469387755
+      },
+      {
+        "slot": 96,
+        "targetDsp": 108.72099999999999,
+        "dspAtCall": 108.732,
+        "perfMsAtCall": 109328.79999995232,
+        "ctxAtCall": 107.84507936507937
+      },
+      {
+        "slot": 97,
+        "targetDsp": 108.87724999999999,
+        "dspAtCall": 108.885,
+        "perfMsAtCall": 109481.70000004768,
+        "ctxAtCall": 107.99600907029479
+      },
+      {
+        "slot": 98,
+        "targetDsp": 109.03349999999999,
+        "dspAtCall": 109.038,
+        "perfMsAtCall": 109634.5,
+        "ctxAtCall": 108.14693877551021
+      },
+      {
+        "slot": 99,
+        "targetDsp": 109.18974999999999,
+        "dspAtCall": 109.197,
+        "perfMsAtCall": 109794.09999990463,
+        "ctxAtCall": 108.30947845804988
+      },
+      {
+        "slot": 100,
+        "targetDsp": 109.34599999999999,
+        "dspAtCall": 109.35,
+        "perfMsAtCall": 109947.29999995232,
+        "ctxAtCall": 108.4604081632653
+      },
+      {
+        "slot": 101,
+        "targetDsp": 109.50224999999999,
+        "dspAtCall": 109.503,
+        "perfMsAtCall": 110099.79999995232,
+        "ctxAtCall": 108.61714285714285
+      },
+      {
+        "slot": 102,
+        "targetDsp": 109.65849999999999,
+        "dspAtCall": 109.67,
+        "perfMsAtCall": 110266.29999995232,
+        "ctxAtCall": 108.77968253968254
+      },
+      {
+        "slot": 103,
+        "targetDsp": 109.81474999999999,
+        "dspAtCall": 109.822,
+        "perfMsAtCall": 110419.39999985695,
+        "ctxAtCall": 108.93061224489796
+      },
+      {
+        "slot": 104,
+        "targetDsp": 109.97099999999999,
+        "dspAtCall": 109.975,
+        "perfMsAtCall": 110572.20000004768,
+        "ctxAtCall": 109.08734693877551
+      },
+      {
+        "slot": 105,
+        "targetDsp": 110.12724999999999,
+        "dspAtCall": 110.129,
+        "perfMsAtCall": 110725.59999990463,
+        "ctxAtCall": 109.23827664399093
+      },
+      {
+        "slot": 106,
+        "targetDsp": 110.28349999999999,
+        "dspAtCall": 110.295,
+        "perfMsAtCall": 110891.79999995232,
+        "ctxAtCall": 109.40662131519274
+      },
+      {
+        "slot": 107,
+        "targetDsp": 110.43974999999999,
+        "dspAtCall": 110.447,
+        "perfMsAtCall": 111044.09999990463,
+        "ctxAtCall": 109.55755102040817
+      },
+      {
+        "slot": 108,
+        "targetDsp": 110.59599999999999,
+        "dspAtCall": 110.6,
+        "perfMsAtCall": 111196.89999985695,
+        "ctxAtCall": 109.70848072562359
+      },
+      {
+        "slot": 109,
+        "targetDsp": 110.75224999999999,
+        "dspAtCall": 110.767,
+        "perfMsAtCall": 111363.5,
+        "ctxAtCall": 109.8768253968254
+      },
+      {
+        "slot": 110,
+        "targetDsp": 110.90849999999999,
+        "dspAtCall": 110.92,
+        "perfMsAtCall": 111516.5,
+        "ctxAtCall": 110.03356009070295
+      },
+      {
+        "slot": 111,
+        "targetDsp": 111.06474999999999,
+        "dspAtCall": 111.072,
+        "perfMsAtCall": 111669.39999985695,
+        "ctxAtCall": 110.18448979591837
+      },
+      {
+        "slot": 112,
+        "targetDsp": 111.22099999999999,
+        "dspAtCall": 111.232,
+        "perfMsAtCall": 111829.20000004768,
+        "ctxAtCall": 110.34122448979592
+      },
+      {
+        "slot": 113,
+        "targetDsp": 111.37724999999999,
+        "dspAtCall": 111.385,
+        "perfMsAtCall": 111981.59999990463,
+        "ctxAtCall": 110.49795918367347
+      },
+      {
+        "slot": 114,
+        "targetDsp": 111.53349999999999,
+        "dspAtCall": 111.538,
+        "perfMsAtCall": 112134.79999995232,
+        "ctxAtCall": 110.64888888888889
+      },
+      {
+        "slot": 115,
+        "targetDsp": 111.68974999999999,
+        "dspAtCall": 111.69,
+        "perfMsAtCall": 112287.20000004768,
+        "ctxAtCall": 110.79981859410431
+      },
+      {
+        "slot": 116,
+        "targetDsp": 111.84599999999999,
+        "dspAtCall": 111.857,
+        "perfMsAtCall": 112454,
+        "ctxAtCall": 110.96816326530612
+      },
+      {
+        "slot": 117,
+        "targetDsp": 112.00224999999999,
+        "dspAtCall": 112.01,
+        "perfMsAtCall": 112606.59999990463,
+        "ctxAtCall": 111.11909297052154
+      },
+      {
+        "slot": 118,
+        "targetDsp": 112.15849999999999,
+        "dspAtCall": 112.163,
+        "perfMsAtCall": 112759.70000004768,
+        "ctxAtCall": 111.27582766439909
+      },
+      {
+        "slot": 119,
+        "targetDsp": 112.31474999999999,
+        "dspAtCall": 112.316,
+        "perfMsAtCall": 112913,
+        "ctxAtCall": 111.4267573696145
+      },
+      {
+        "slot": 120,
+        "targetDsp": 112.47099999999999,
+        "dspAtCall": 112.482,
+        "perfMsAtCall": 113079.39999985695,
+        "ctxAtCall": 111.59510204081633
+      },
+      {
+        "slot": 121,
+        "targetDsp": 112.62724999999999,
+        "dspAtCall": 112.634,
+        "perfMsAtCall": 113231.20000004768,
+        "ctxAtCall": 111.74603174603175
+      },
+      {
+        "slot": 122,
+        "targetDsp": 112.78349999999999,
+        "dspAtCall": 112.788,
+        "perfMsAtCall": 113384.5,
+        "ctxAtCall": 111.89696145124717
+      },
+      {
+        "slot": 123,
+        "targetDsp": 112.93974999999999,
+        "dspAtCall": 112.941,
+        "perfMsAtCall": 113537.5,
+        "ctxAtCall": 112.05369614512472
+      },
+      {
+        "slot": 124,
+        "targetDsp": 113.09599999999999,
+        "dspAtCall": 113.107,
+        "perfMsAtCall": 113704.09999990463,
+        "ctxAtCall": 112.2162358276644
+      },
+      {
+        "slot": 125,
+        "targetDsp": 113.25224999999999,
+        "dspAtCall": 113.253,
+        "perfMsAtCall": 113849.70000004768,
+        "ctxAtCall": 112.36136054421769
+      },
+      {
+        "slot": 126,
+        "targetDsp": 113.40849999999999,
+        "dspAtCall": 113.42,
+        "perfMsAtCall": 114016.59999990463,
+        "ctxAtCall": 112.5297052154195
+      },
+      {
+        "slot": 127,
+        "targetDsp": 113.56474999999999,
+        "dspAtCall": 113.572,
+        "perfMsAtCall": 114169.39999985695,
+        "ctxAtCall": 112.68063492063492
+      },
+      {
+        "slot": 128,
+        "targetDsp": 113.72099999999999,
+        "dspAtCall": 113.725,
+        "perfMsAtCall": 114321.89999985695,
+        "ctxAtCall": 112.83736961451247
+      },
+      {
+        "slot": 129,
+        "targetDsp": 113.87724999999999,
+        "dspAtCall": 123.732,
+        "perfMsAtCall": 124329.20000004768,
+        "ctxAtCall": 122.84517006802722
+      },
+      {
+        "slot": 130,
+        "targetDsp": 114.03349999999999,
+        "dspAtCall": 123.746,
+        "perfMsAtCall": 124342.89999985695,
+        "ctxAtCall": 122.85678004535147
+      },
+      {
+        "slot": 131,
+        "targetDsp": 114.18974999999999,
+        "dspAtCall": 123.76,
+        "perfMsAtCall": 124356.79999995232,
+        "ctxAtCall": 122.86839002267574
+      },
+      {
+        "slot": 132,
+        "targetDsp": 114.34599999999999,
+        "dspAtCall": 123.774,
+        "perfMsAtCall": 124370.70000004768,
+        "ctxAtCall": 122.88580498866213
+      },
+      {
+        "slot": 133,
+        "targetDsp": 114.50224999999999,
+        "dspAtCall": 123.788,
+        "perfMsAtCall": 124384.59999990463,
+        "ctxAtCall": 122.8974149659864
+      },
+      {
+        "slot": 134,
+        "targetDsp": 114.65849999999999,
+        "dspAtCall": 123.801,
+        "perfMsAtCall": 124397.59999990463,
+        "ctxAtCall": 122.91482993197279
+      },
+      {
+        "slot": 135,
+        "targetDsp": 114.81474999999999,
+        "dspAtCall": 123.815,
+        "perfMsAtCall": 124411.70000004768,
+        "ctxAtCall": 122.92643990929706
+      },
+      {
+        "slot": 136,
+        "targetDsp": 114.97099999999999,
+        "dspAtCall": 123.82900000000001,
+        "perfMsAtCall": 124426.29999995232,
+        "ctxAtCall": 122.93804988662131
+      },
+      {
+        "slot": 137,
+        "targetDsp": 115.12724999999999,
+        "dspAtCall": 123.843,
+        "perfMsAtCall": 124440.20000004768,
+        "ctxAtCall": 122.9554648526077
+      },
+      {
+        "slot": 138,
+        "targetDsp": 115.28349999999999,
+        "dspAtCall": 123.857,
+        "perfMsAtCall": 124454,
+        "ctxAtCall": 122.96707482993197
+      },
+      {
+        "slot": 139,
+        "targetDsp": 115.43974999999999,
+        "dspAtCall": 123.871,
+        "perfMsAtCall": 124467.89999985695,
+        "ctxAtCall": 122.98448979591836
+      },
+      {
+        "slot": 140,
+        "targetDsp": 115.59599999999999,
+        "dspAtCall": 123.886,
+        "perfMsAtCall": 124482.79999995232,
+        "ctxAtCall": 122.99609977324263
+      },
+      {
+        "slot": 141,
+        "targetDsp": 115.75224999999999,
+        "dspAtCall": 123.899,
+        "perfMsAtCall": 124495.79999995232,
+        "ctxAtCall": 123.00770975056689
+      },
+      {
+        "slot": 142,
+        "targetDsp": 115.90849999999999,
+        "dspAtCall": 123.913,
+        "perfMsAtCall": 124509.89999985695,
+        "ctxAtCall": 123.0251247165533
+      },
+      {
+        "slot": 143,
+        "targetDsp": 116.06474999999999,
+        "dspAtCall": 123.927,
+        "perfMsAtCall": 124523.89999985695,
+        "ctxAtCall": 123.03673469387755
+      },
+      {
+        "slot": 144,
+        "targetDsp": 116.22099999999999,
+        "dspAtCall": 123.941,
+        "perfMsAtCall": 124538.20000004768,
+        "ctxAtCall": 123.05414965986395
+      },
+      {
+        "slot": 145,
+        "targetDsp": 116.37724999999999,
+        "dspAtCall": 123.955,
+        "perfMsAtCall": 124551.59999990463,
+        "ctxAtCall": 123.06575963718821
+      },
+      {
+        "slot": 146,
+        "targetDsp": 116.53349999999999,
+        "dspAtCall": 123.96900000000001,
+        "perfMsAtCall": 124565.59999990463,
+        "ctxAtCall": 123.07736961451248
+      },
+      {
+        "slot": 147,
+        "targetDsp": 116.68974999999999,
+        "dspAtCall": 123.984,
+        "perfMsAtCall": 124580.79999995232,
+        "ctxAtCall": 123.09478458049887
+      },
+      {
+        "slot": 148,
+        "targetDsp": 116.84599999999999,
+        "dspAtCall": 123.996,
+        "perfMsAtCall": 124593.5,
+        "ctxAtCall": 123.10639455782312
+      },
+      {
+        "slot": 149,
+        "targetDsp": 117.00224999999999,
+        "dspAtCall": 124.01,
+        "perfMsAtCall": 124607.29999995232,
+        "ctxAtCall": 123.11800453514739
+      },
+      {
+        "slot": 150,
+        "targetDsp": 117.15849999999999,
+        "dspAtCall": 124.024,
+        "perfMsAtCall": 124621.29999995232,
+        "ctxAtCall": 123.13541950113378
+      },
+      {
+        "slot": 151,
+        "targetDsp": 117.31474999999999,
+        "dspAtCall": 124.039,
+        "perfMsAtCall": 124635.79999995232,
+        "ctxAtCall": 123.14702947845805
+      },
+      {
+        "slot": 152,
+        "targetDsp": 117.47099999999999,
+        "dspAtCall": 124.052,
+        "perfMsAtCall": 124649.09999990463,
+        "ctxAtCall": 123.16444444444444
+      },
+      {
+        "slot": 153,
+        "targetDsp": 117.62724999999999,
+        "dspAtCall": 124.066,
+        "perfMsAtCall": 124662.70000004768,
+        "ctxAtCall": 123.17605442176871
+      },
+      {
+        "slot": 154,
+        "targetDsp": 117.78349999999999,
+        "dspAtCall": 124.08,
+        "perfMsAtCall": 124677.09999990463,
+        "ctxAtCall": 123.18766439909297
+      },
+      {
+        "slot": 155,
+        "targetDsp": 117.93974999999999,
+        "dspAtCall": 124.09400000000001,
+        "perfMsAtCall": 124691.5,
+        "ctxAtCall": 123.20507936507937
+      },
+      {
+        "slot": 156,
+        "targetDsp": 118.09599999999999,
+        "dspAtCall": 124.107,
+        "perfMsAtCall": 124704.20000004768,
+        "ctxAtCall": 123.21668934240363
+      },
+      {
+        "slot": 157,
+        "targetDsp": 118.25224999999999,
+        "dspAtCall": 124.122,
+        "perfMsAtCall": 124718.39999985695,
+        "ctxAtCall": 123.23410430839002
+      },
+      {
+        "slot": 158,
+        "targetDsp": 118.40849999999999,
+        "dspAtCall": 124.136,
+        "perfMsAtCall": 124733.20000004768,
+        "ctxAtCall": 123.24571428571429
+      },
+      {
+        "slot": 159,
+        "targetDsp": 118.56474999999999,
+        "dspAtCall": 124.149,
+        "perfMsAtCall": 124745.70000004768,
+        "ctxAtCall": 123.25732426303856
+      },
+      {
+        "slot": 160,
+        "targetDsp": 118.72099999999999,
+        "dspAtCall": 124.163,
+        "perfMsAtCall": 124759.59999990463,
+        "ctxAtCall": 123.27473922902495
+      },
+      {
+        "slot": 161,
+        "targetDsp": 118.87724999999999,
+        "dspAtCall": 124.177,
+        "perfMsAtCall": 124774.39999985695,
+        "ctxAtCall": 123.2863492063492
+      },
+      {
+        "slot": 162,
+        "targetDsp": 119.03349999999999,
+        "dspAtCall": 124.191,
+        "perfMsAtCall": 124787.89999985695,
+        "ctxAtCall": 123.3037641723356
+      },
+      {
+        "slot": 163,
+        "targetDsp": 119.18974999999999,
+        "dspAtCall": 124.205,
+        "perfMsAtCall": 124801.70000004768,
+        "ctxAtCall": 123.31537414965986
+      },
+      {
+        "slot": 164,
+        "targetDsp": 119.34599999999999,
+        "dspAtCall": 124.218,
+        "perfMsAtCall": 124815.20000004768,
+        "ctxAtCall": 123.32698412698413
+      },
+      {
+        "slot": 165,
+        "targetDsp": 119.50224999999999,
+        "dspAtCall": 124.232,
+        "perfMsAtCall": 124828.89999985695,
+        "ctxAtCall": 123.34439909297052
+      },
+      {
+        "slot": 166,
+        "targetDsp": 119.65849999999999,
+        "dspAtCall": 124.246,
+        "perfMsAtCall": 124842.89999985695,
+        "ctxAtCall": 123.35600907029479
+      },
+      {
+        "slot": 167,
+        "targetDsp": 119.81474999999999,
+        "dspAtCall": 124.26,
+        "perfMsAtCall": 124856.79999995232,
+        "ctxAtCall": 123.37342403628118
+      },
+      {
+        "slot": 168,
+        "targetDsp": 119.97099999999999,
+        "dspAtCall": 124.274,
+        "perfMsAtCall": 124870.70000004768,
+        "ctxAtCall": 123.38503401360545
+      },
+      {
+        "slot": 169,
+        "targetDsp": 120.12724999999999,
+        "dspAtCall": 124.288,
+        "perfMsAtCall": 124885.39999985695,
+        "ctxAtCall": 123.3966439909297
+      },
+      {
+        "slot": 170,
+        "targetDsp": 120.28349999999999,
+        "dspAtCall": 124.302,
+        "perfMsAtCall": 124899.20000004768,
+        "ctxAtCall": 123.4140589569161
+      },
+      {
+        "slot": 171,
+        "targetDsp": 120.43974999999999,
+        "dspAtCall": 124.316,
+        "perfMsAtCall": 124913.20000004768,
+        "ctxAtCall": 123.42566893424036
+      },
+      {
+        "slot": 172,
+        "targetDsp": 120.59599999999999,
+        "dspAtCall": 124.33,
+        "perfMsAtCall": 124926.5,
+        "ctxAtCall": 123.44308390022675
+      },
+      {
+        "slot": 173,
+        "targetDsp": 120.75224999999999,
+        "dspAtCall": 124.34400000000001,
+        "perfMsAtCall": 124941.09999990463,
+        "ctxAtCall": 123.45469387755102
+      },
+      {
+        "slot": 174,
+        "targetDsp": 120.90849999999999,
+        "dspAtCall": 124.358,
+        "perfMsAtCall": 124954.89999985695,
+        "ctxAtCall": 123.47210884353741
+      },
+      {
+        "slot": 175,
+        "targetDsp": 121.06474999999999,
+        "dspAtCall": 124.372,
+        "perfMsAtCall": 124968.70000004768,
+        "ctxAtCall": 123.48371882086168
+      },
+      {
+        "slot": 176,
+        "targetDsp": 121.22099999999999,
+        "dspAtCall": 124.386,
+        "perfMsAtCall": 124982.5,
+        "ctxAtCall": 123.49532879818594
+      },
+      {
+        "slot": 177,
+        "targetDsp": 121.37724999999999,
+        "dspAtCall": 124.399,
+        "perfMsAtCall": 124996.5,
+        "ctxAtCall": 123.5069387755102
+      },
+      {
+        "slot": 178,
+        "targetDsp": 121.53349999999999,
+        "dspAtCall": 124.413,
+        "perfMsAtCall": 125009.70000004768,
+        "ctxAtCall": 123.5243537414966
+      },
+      {
+        "slot": 179,
+        "targetDsp": 121.68974999999999,
+        "dspAtCall": 124.428,
+        "perfMsAtCall": 125024.89999985695,
+        "ctxAtCall": 123.54176870748299
+      },
+      {
+        "slot": 180,
+        "targetDsp": 121.84599999999999,
+        "dspAtCall": 124.441,
+        "perfMsAtCall": 125037.39999985695,
+        "ctxAtCall": 123.55337868480726
+      },
+      {
+        "slot": 181,
+        "targetDsp": 122.00224999999999,
+        "dspAtCall": 124.456,
+        "perfMsAtCall": 125052.70000004768,
+        "ctxAtCall": 123.56498866213153
+      },
+      {
+        "slot": 182,
+        "targetDsp": 122.15849999999999,
+        "dspAtCall": 124.46900000000001,
+        "perfMsAtCall": 125066.09999990463,
+        "ctxAtCall": 123.58240362811792
+      },
+      {
+        "slot": 183,
+        "targetDsp": 122.31474999999999,
+        "dspAtCall": 124.482,
+        "perfMsAtCall": 125079.39999985695,
+        "ctxAtCall": 123.59401360544217
+      },
+      {
+        "slot": 184,
+        "targetDsp": 122.47099999999999,
+        "dspAtCall": 124.496,
+        "perfMsAtCall": 125092.89999985695,
+        "ctxAtCall": 123.60562358276644
+      },
+      {
+        "slot": 185,
+        "targetDsp": 122.62724999999999,
+        "dspAtCall": 124.51,
+        "perfMsAtCall": 125106.79999995232,
+        "ctxAtCall": 123.62303854875283
+      },
+      {
+        "slot": 186,
+        "targetDsp": 122.78349999999999,
+        "dspAtCall": 124.524,
+        "perfMsAtCall": 125120.79999995232,
+        "ctxAtCall": 123.6346485260771
+      },
+      {
+        "slot": 187,
+        "targetDsp": 122.93974999999999,
+        "dspAtCall": 124.538,
+        "perfMsAtCall": 125134.59999990463,
+        "ctxAtCall": 123.65206349206349
+      },
+      {
+        "slot": 188,
+        "targetDsp": 123.09599999999999,
+        "dspAtCall": 124.552,
+        "perfMsAtCall": 125148.5,
+        "ctxAtCall": 123.66367346938776
+      },
+      {
+        "slot": 189,
+        "targetDsp": 123.25224999999999,
+        "dspAtCall": 124.566,
+        "perfMsAtCall": 125162.59999990463,
+        "ctxAtCall": 123.67528344671202
+      },
+      {
+        "slot": 190,
+        "targetDsp": 123.40849999999999,
+        "dspAtCall": 124.58,
+        "perfMsAtCall": 125177,
+        "ctxAtCall": 123.69269841269842
+      },
+      {
+        "slot": 191,
+        "targetDsp": 123.56474999999999,
+        "dspAtCall": 124.593,
+        "perfMsAtCall": 125190.20000004768,
+        "ctxAtCall": 123.70430839002267
+      },
+      {
+        "slot": 192,
+        "targetDsp": 123.72099999999999,
+        "dspAtCall": 124.607,
+        "perfMsAtCall": 125204.09999990463,
+        "ctxAtCall": 123.71591836734694
+      },
+      {
+        "slot": 193,
+        "targetDsp": 123.87724999999999,
+        "dspAtCall": 124.621,
+        "perfMsAtCall": 125218.09999990463,
+        "ctxAtCall": 123.73333333333333
+      },
+      {
+        "slot": 194,
+        "targetDsp": 124.03349999999999,
+        "dspAtCall": 124.636,
+        "perfMsAtCall": 125233,
+        "ctxAtCall": 123.74494331065759
+      },
+      {
+        "slot": 195,
+        "targetDsp": 124.18974999999999,
+        "dspAtCall": 124.649,
+        "perfMsAtCall": 125246.59999990463,
+        "ctxAtCall": 123.762358276644
+      },
+      {
+        "slot": 196,
+        "targetDsp": 124.34599999999999,
+        "dspAtCall": 124.664,
+        "perfMsAtCall": 125260.5,
+        "ctxAtCall": 123.77396825396825
+      },
+      {
+        "slot": 197,
+        "targetDsp": 124.50224999999999,
+        "dspAtCall": 124.677,
+        "perfMsAtCall": 125273.59999990463,
+        "ctxAtCall": 123.78557823129252
+      },
+      {
+        "slot": 198,
+        "targetDsp": 124.65849999999999,
+        "dspAtCall": 124.691,
+        "perfMsAtCall": 125287.5,
+        "ctxAtCall": 123.80299319727891
+      },
+      {
+        "slot": 199,
+        "targetDsp": 124.81474999999999,
+        "dspAtCall": 124.816,
+        "perfMsAtCall": 125412.5,
+        "ctxAtCall": 123.92489795918367
+      },
+      {
+        "slot": 200,
+        "targetDsp": 124.97099999999999,
+        "dspAtCall": 124.982,
+        "perfMsAtCall": 125579.20000004768,
+        "ctxAtCall": 124.09324263038549
+      },
+      {
+        "slot": 201,
+        "targetDsp": 125.12724999999999,
+        "dspAtCall": 125.173,
+        "perfMsAtCall": 125770.09999990463,
+        "ctxAtCall": 124.28480725623582
+      },
+      {
+        "slot": 202,
+        "targetDsp": 125.28349999999999,
+        "dspAtCall": 125.295,
+        "perfMsAtCall": 125891.59999990463,
+        "ctxAtCall": 124.4067120181406
+      },
+      {
+        "slot": 203,
+        "targetDsp": 125.43974999999999,
+        "dspAtCall": 125.447,
+        "perfMsAtCall": 126044.29999995232,
+        "ctxAtCall": 124.55764172335601
+      },
+      {
+        "slot": 204,
+        "targetDsp": 125.59599999999999,
+        "dspAtCall": 125.6,
+        "perfMsAtCall": 126197.09999990463,
+        "ctxAtCall": 124.70857142857143
+      },
+      {
+        "slot": 205,
+        "targetDsp": 125.75224999999999,
+        "dspAtCall": 125.753,
+        "perfMsAtCall": 126350,
+        "ctxAtCall": 124.86530612244898
+      },
+      {
+        "slot": 206,
+        "targetDsp": 125.90849999999999,
+        "dspAtCall": 125.92,
+        "perfMsAtCall": 126516.59999990463,
+        "ctxAtCall": 125.02784580498866
+      },
+      {
+        "slot": 207,
+        "targetDsp": 126.06474999999999,
+        "dspAtCall": 126.072,
+        "perfMsAtCall": 126669.09999990463,
+        "ctxAtCall": 125.18458049886621
+      },
+      {
+        "slot": 208,
+        "targetDsp": 126.22099999999999,
+        "dspAtCall": 126.225,
+        "perfMsAtCall": 126822.29999995232,
+        "ctxAtCall": 125.33551020408163
+      },
+      {
+        "slot": 209,
+        "targetDsp": 126.37724999999999,
+        "dspAtCall": 126.378,
+        "perfMsAtCall": 126975.39999985695,
+        "ctxAtCall": 125.48643990929705
+      },
+      {
+        "slot": 210,
+        "targetDsp": 126.53349999999999,
+        "dspAtCall": 126.545,
+        "perfMsAtCall": 127141.59999990463,
+        "ctxAtCall": 125.65478458049887
+      },
+      {
+        "slot": 211,
+        "targetDsp": 126.68974999999999,
+        "dspAtCall": 126.69800000000001,
+        "perfMsAtCall": 127294.39999985695,
+        "ctxAtCall": 125.81151927437642
+      },
+      {
+        "slot": 212,
+        "targetDsp": 126.84599999999999,
+        "dspAtCall": 126.85,
+        "perfMsAtCall": 127447.29999995232,
+        "ctxAtCall": 125.96244897959184
+      },
+      {
+        "slot": 213,
+        "targetDsp": 127.00224999999999,
+        "dspAtCall": 127.003,
+        "perfMsAtCall": 127600,
+        "ctxAtCall": 126.11337868480726
+      },
+      {
+        "slot": 214,
+        "targetDsp": 127.15849999999999,
+        "dspAtCall": 127.172,
+        "perfMsAtCall": 127769.09999990463,
+        "ctxAtCall": 126.28172335600907
+      },
+      {
+        "slot": 215,
+        "targetDsp": 127.31474999999999,
+        "dspAtCall": 127.316,
+        "perfMsAtCall": 127912.5,
+        "ctxAtCall": 126.42684807256236
+      },
+      {
+        "slot": 216,
+        "targetDsp": 127.47099999999999,
+        "dspAtCall": 127.482,
+        "perfMsAtCall": 128079.39999985695,
+        "ctxAtCall": 126.59519274376417
+      },
+      {
+        "slot": 217,
+        "targetDsp": 127.62724999999999,
+        "dspAtCall": 127.635,
+        "perfMsAtCall": 128232,
+        "ctxAtCall": 126.74612244897959
+      },
+      {
+        "slot": 218,
+        "targetDsp": 127.78349999999999,
+        "dspAtCall": 127.788,
+        "perfMsAtCall": 128384.70000004768,
+        "ctxAtCall": 126.89705215419501
+      },
+      {
+        "slot": 219,
+        "targetDsp": 127.93974999999999,
+        "dspAtCall": 127.94100000000002,
+        "perfMsAtCall": 128537.79999995232,
+        "ctxAtCall": 127.05378684807256
+      },
+      {
+        "slot": 220,
+        "targetDsp": 128.096,
+        "dspAtCall": 128.10700000000003,
+        "perfMsAtCall": 128704.20000004768,
+        "ctxAtCall": 127.21632653061225
+      },
+      {
+        "slot": 221,
+        "targetDsp": 128.25225,
+        "dspAtCall": 128.26000000000002,
+        "perfMsAtCall": 128857.29999995232,
+        "ctxAtCall": 127.3730612244898
+      },
+      {
+        "slot": 222,
+        "targetDsp": 128.4085,
+        "dspAtCall": 128.41300000000004,
+        "perfMsAtCall": 129010,
+        "ctxAtCall": 127.52399092970522
+      },
+      {
+        "slot": 223,
+        "targetDsp": 128.56475,
+        "dspAtCall": 128.56500000000003,
+        "perfMsAtCall": 129162.29999995232,
+        "ctxAtCall": 127.67492063492064
+      },
+      {
+        "slot": 224,
+        "targetDsp": 128.721,
+        "dspAtCall": 128.73300000000003,
+        "perfMsAtCall": 129329.79999995232,
+        "ctxAtCall": 127.84326530612245
+      },
+      {
+        "slot": 225,
+        "targetDsp": 128.87725,
+        "dspAtCall": 128.88500000000002,
+        "perfMsAtCall": 129482.09999990463,
+        "ctxAtCall": 127.99419501133787
+      },
+      {
+        "slot": 226,
+        "targetDsp": 129.0335,
+        "dspAtCall": 129.03800000000004,
+        "perfMsAtCall": 129634.79999995232,
+        "ctxAtCall": 128.15092970521542
+      },
+      {
+        "slot": 227,
+        "targetDsp": 129.18975,
+        "dspAtCall": 129.19800000000004,
+        "perfMsAtCall": 129794.29999995232,
+        "ctxAtCall": 128.30766439909297
+      },
+      {
+        "slot": 228,
+        "targetDsp": 129.346,
+        "dspAtCall": 129.35000000000002,
+        "perfMsAtCall": 129947.09999990463,
+        "ctxAtCall": 128.4585941043084
+      },
+      {
+        "slot": 229,
+        "targetDsp": 129.50225,
+        "dspAtCall": 129.50300000000004,
+        "perfMsAtCall": 130099.79999995232,
+        "ctxAtCall": 128.61532879818594
+      },
+      {
+        "slot": 230,
+        "targetDsp": 129.6585,
+        "dspAtCall": 129.67000000000002,
+        "perfMsAtCall": 130267.09999990463,
+        "ctxAtCall": 128.77786848072563
+      },
+      {
+        "slot": 231,
+        "targetDsp": 129.81475,
+        "dspAtCall": 129.82300000000004,
+        "perfMsAtCall": 130419.89999985695,
+        "ctxAtCall": 128.93460317460318
+      },
+      {
+        "slot": 232,
+        "targetDsp": 129.971,
+        "dspAtCall": 129.97600000000003,
+        "perfMsAtCall": 130572.70000004768,
+        "ctxAtCall": 129.0855328798186
+      },
+      {
+        "slot": 233,
+        "targetDsp": 130.12725,
+        "dspAtCall": 130.12900000000002,
+        "perfMsAtCall": 130726.39999985695,
+        "ctxAtCall": 129.24226757369615
+      },
+      {
+        "slot": 234,
+        "targetDsp": 130.2835,
+        "dspAtCall": 130.29500000000002,
+        "perfMsAtCall": 130891.89999985695,
+        "ctxAtCall": 129.40480725623584
+      },
+      {
+        "slot": 235,
+        "targetDsp": 130.43975,
+        "dspAtCall": 130.44800000000004,
+        "perfMsAtCall": 131044.59999990463,
+        "ctxAtCall": 129.55573696145126
+      },
+      {
+        "slot": 236,
+        "targetDsp": 130.596,
+        "dspAtCall": 130.60100000000003,
+        "perfMsAtCall": 131197.39999985695,
+        "ctxAtCall": 129.71247165532878
+      },
+      {
+        "slot": 237,
+        "targetDsp": 130.75225,
+        "dspAtCall": 130.75300000000004,
+        "perfMsAtCall": 131349.89999985695,
+        "ctxAtCall": 129.86340136054423
+      },
+      {
+        "slot": 238,
+        "targetDsp": 130.9085,
+        "dspAtCall": 130.92100000000002,
+        "perfMsAtCall": 131517.39999985695,
+        "ctxAtCall": 130.03174603174602
+      },
+      {
+        "slot": 239,
+        "targetDsp": 131.06475,
+        "dspAtCall": 131.07300000000004,
+        "perfMsAtCall": 131669.70000004768,
+        "ctxAtCall": 130.18267573696144
+      },
+      {
+        "slot": 240,
+        "targetDsp": 131.221,
+        "dspAtCall": 131.23200000000003,
+        "perfMsAtCall": 131829,
+        "ctxAtCall": 130.34521541950113
+      },
+      {
+        "slot": 241,
+        "targetDsp": 131.37725,
+        "dspAtCall": 131.38500000000002,
+        "perfMsAtCall": 131981.79999995232,
+        "ctxAtCall": 130.49614512471655
+      },
+      {
+        "slot": 242,
+        "targetDsp": 131.5335,
+        "dspAtCall": 131.53800000000004,
+        "perfMsAtCall": 132134.70000004768,
+        "ctxAtCall": 130.64707482993197
+      },
+      {
+        "slot": 243,
+        "targetDsp": 131.68975,
+        "dspAtCall": 131.69100000000003,
+        "perfMsAtCall": 132287.39999985695,
+        "ctxAtCall": 130.80380952380952
+      },
+      {
+        "slot": 244,
+        "targetDsp": 131.846,
+        "dspAtCall": 131.85700000000003,
+        "perfMsAtCall": 132454.09999990463,
+        "ctxAtCall": 130.9663492063492
+      },
+      {
+        "slot": 245,
+        "targetDsp": 132.00225,
+        "dspAtCall": 132.01000000000002,
+        "perfMsAtCall": 132606.89999985695,
+        "ctxAtCall": 131.12308390022676
+      },
+      {
+        "slot": 246,
+        "targetDsp": 132.1585,
+        "dspAtCall": 132.16300000000004,
+        "perfMsAtCall": 132759.59999990463,
+        "ctxAtCall": 131.27401360544218
+      },
+      {
+        "slot": 247,
+        "targetDsp": 132.31475,
+        "dspAtCall": 132.31600000000003,
+        "perfMsAtCall": 132912.39999985695,
+        "ctxAtCall": 131.4249433106576
+      },
+      {
+        "slot": 248,
+        "targetDsp": 132.471,
+        "dspAtCall": 132.48200000000003,
+        "perfMsAtCall": 133079.09999990463,
+        "ctxAtCall": 131.59328798185942
+      },
+      {
+        "slot": 249,
+        "targetDsp": 132.62725,
+        "dspAtCall": 132.63500000000002,
+        "perfMsAtCall": 133231.89999985695,
+        "ctxAtCall": 131.74421768707484
+      },
+      {
+        "slot": 250,
+        "targetDsp": 132.7835,
+        "dspAtCall": 132.78800000000004,
+        "perfMsAtCall": 133384.5,
+        "ctxAtCall": 131.9009523809524
+      },
+      {
+        "slot": 251,
+        "targetDsp": 132.93975,
+        "dspAtCall": 132.94100000000003,
+        "perfMsAtCall": 133537.29999995232,
+        "ctxAtCall": 132.0518820861678
+      },
+      {
+        "slot": 252,
+        "targetDsp": 133.096,
+        "dspAtCall": 133.10700000000003,
+        "perfMsAtCall": 133704.09999990463,
+        "ctxAtCall": 132.2202267573696
+      },
+      {
+        "slot": 253,
+        "targetDsp": 133.25225,
+        "dspAtCall": 133.25300000000004,
+        "perfMsAtCall": 133849.89999985695,
+        "ctxAtCall": 132.3653514739229
+      },
+      {
+        "slot": 254,
+        "targetDsp": 133.4085,
+        "dspAtCall": 133.42000000000002,
+        "perfMsAtCall": 134016.5,
+        "ctxAtCall": 132.5336961451247
+      },
+      {
+        "slot": 255,
+        "targetDsp": 133.56475,
+        "dspAtCall": 133.57300000000004,
+        "perfMsAtCall": 134169.59999990463,
+        "ctxAtCall": 132.68462585034013
+      },
+      {
+        "slot": 256,
+        "targetDsp": 133.721,
+        "dspAtCall": 133.72500000000002,
+        "perfMsAtCall": 134322.20000004768,
+        "ctxAtCall": 132.83555555555554
+      },
+      {
+        "slot": 257,
+        "targetDsp": 133.87725,
+        "dspAtCall": 133.87800000000004,
+        "perfMsAtCall": 134474.89999985695,
+        "ctxAtCall": 132.98648526077096
+      },
+      {
+        "slot": 258,
+        "targetDsp": 134.0335,
+        "dspAtCall": 134.04500000000002,
+        "perfMsAtCall": 134641.59999990463,
+        "ctxAtCall": 133.15482993197278
+      },
+      {
+        "slot": 259,
+        "targetDsp": 134.18975,
+        "dspAtCall": 134.19800000000004,
+        "perfMsAtCall": 134794.29999995232,
+        "ctxAtCall": 133.3057596371882
+      },
+      {
+        "slot": 260,
+        "targetDsp": 134.346,
+        "dspAtCall": 134.35000000000002,
+        "perfMsAtCall": 134947.09999990463,
+        "ctxAtCall": 133.46249433106576
+      },
+      {
+        "slot": 261,
+        "targetDsp": 134.50225,
+        "dspAtCall": 134.50300000000004,
+        "perfMsAtCall": 135100,
+        "ctxAtCall": 133.61342403628117
+      },
+      {
+        "slot": 262,
+        "targetDsp": 134.6585,
+        "dspAtCall": 134.67000000000002,
+        "perfMsAtCall": 135266.59999990463,
+        "ctxAtCall": 133.781768707483
+      },
+      {
+        "slot": 263,
+        "targetDsp": 134.81475,
+        "dspAtCall": 134.82300000000004,
+        "perfMsAtCall": 135419.29999995232,
+        "ctxAtCall": 133.93269841269841
+      },
+      {
+        "slot": 264,
+        "targetDsp": 134.971,
+        "dspAtCall": 134.97600000000003,
+        "perfMsAtCall": 135572.89999985695,
+        "ctxAtCall": 134.08943310657597
+      },
+      {
+        "slot": 265,
+        "targetDsp": 135.12725,
+        "dspAtCall": 135.17200000000003,
+        "perfMsAtCall": 135769.09999990463,
+        "ctxAtCall": 134.2809977324263
+      },
+      {
+        "slot": 266,
+        "targetDsp": 135.2835,
+        "dspAtCall": 135.28800000000004,
+        "perfMsAtCall": 135884.59999990463,
+        "ctxAtCall": 134.39709750566894
+      },
+      {
+        "slot": 267,
+        "targetDsp": 135.43975,
+        "dspAtCall": 135.44100000000003,
+        "perfMsAtCall": 136037.39999985695,
+        "ctxAtCall": 134.5538321995465
+      },
+      {
+        "slot": 268,
+        "targetDsp": 135.596,
+        "dspAtCall": 135.60700000000003,
+        "perfMsAtCall": 136204.09999990463,
+        "ctxAtCall": 134.71637188208618
+      },
+      {
+        "slot": 269,
+        "targetDsp": 135.75225,
+        "dspAtCall": 135.76000000000002,
+        "perfMsAtCall": 136356.89999985695,
+        "ctxAtCall": 134.87310657596373
+      },
+      {
+        "slot": 270,
+        "targetDsp": 135.9085,
+        "dspAtCall": 135.91300000000004,
+        "perfMsAtCall": 136509.59999990463,
+        "ctxAtCall": 135.02403628117915
+      },
+      {
+        "slot": 271,
+        "targetDsp": 136.06475,
+        "dspAtCall": 136.06600000000003,
+        "perfMsAtCall": 136662.5,
+        "ctxAtCall": 135.17496598639457
+      },
+      {
+        "slot": 272,
+        "targetDsp": 136.221,
+        "dspAtCall": 136.23200000000003,
+        "perfMsAtCall": 136829.09999990463,
+        "ctxAtCall": 135.34331065759636
+      },
+      {
+        "slot": 273,
+        "targetDsp": 136.37725,
+        "dspAtCall": 136.38500000000002,
+        "perfMsAtCall": 136981.89999985695,
+        "ctxAtCall": 135.49424036281178
+      },
+      {
+        "slot": 274,
+        "targetDsp": 136.5335,
+        "dspAtCall": 136.53800000000004,
+        "perfMsAtCall": 137134.59999990463,
+        "ctxAtCall": 135.65097505668933
+      },
+      {
+        "slot": 275,
+        "targetDsp": 136.68975,
+        "dspAtCall": 136.69100000000003,
+        "perfMsAtCall": 137287.5,
+        "ctxAtCall": 135.80190476190475
+      },
+      {
+        "slot": 276,
+        "targetDsp": 136.846,
+        "dspAtCall": 136.85700000000003,
+        "perfMsAtCall": 137454.09999990463,
+        "ctxAtCall": 135.97024943310657
+      },
+      {
+        "slot": 277,
+        "targetDsp": 137.00225,
+        "dspAtCall": 137.01000000000002,
+        "perfMsAtCall": 137607,
+        "ctxAtCall": 136.121179138322
+      },
+      {
+        "slot": 278,
+        "targetDsp": 137.1585,
+        "dspAtCall": 137.17200000000003,
+        "perfMsAtCall": 137768.89999985695,
+        "ctxAtCall": 136.28371882086168
+      },
+      {
+        "slot": 279,
+        "targetDsp": 137.31475,
+        "dspAtCall": 137.32300000000004,
+        "perfMsAtCall": 137919.29999995232,
+        "ctxAtCall": 136.4346485260771
+      },
+      {
+        "slot": 280,
+        "targetDsp": 137.471,
+        "dspAtCall": 137.47500000000002,
+        "perfMsAtCall": 138072.20000004768,
+        "ctxAtCall": 136.58557823129252
+      },
+      {
+        "slot": 281,
+        "targetDsp": 137.62725,
+        "dspAtCall": 137.62800000000004,
+        "perfMsAtCall": 138225,
+        "ctxAtCall": 136.73650793650793
+      },
+      {
+        "slot": 282,
+        "targetDsp": 137.7835,
+        "dspAtCall": 137.79500000000002,
+        "perfMsAtCall": 138391.59999990463,
+        "ctxAtCall": 136.90485260770976
+      },
+      {
+        "slot": 283,
+        "targetDsp": 137.93975,
+        "dspAtCall": 137.94800000000004,
+        "perfMsAtCall": 138544.39999985695,
+        "ctxAtCall": 137.0615873015873
+      },
+      {
+        "slot": 284,
+        "targetDsp": 138.096,
+        "dspAtCall": 138.10000000000002,
+        "perfMsAtCall": 138697.20000004768,
+        "ctxAtCall": 137.21251700680273
+      },
+      {
+        "slot": 285,
+        "targetDsp": 138.25225,
+        "dspAtCall": 138.25300000000004,
+        "perfMsAtCall": 138850,
+        "ctxAtCall": 137.36344671201815
+      },
+      {
+        "slot": 286,
+        "targetDsp": 138.4085,
+        "dspAtCall": 138.42000000000002,
+        "perfMsAtCall": 139016.70000004768,
+        "ctxAtCall": 137.53179138321997
+      },
+      {
+        "slot": 287,
+        "targetDsp": 138.56475,
+        "dspAtCall": 138.57300000000004,
+        "perfMsAtCall": 139169.39999985695,
+        "ctxAtCall": 137.6827210884354
+      },
+      {
+        "slot": 288,
+        "targetDsp": 138.721,
+        "dspAtCall": 138.72600000000003,
+        "perfMsAtCall": 139322.29999995232,
+        "ctxAtCall": 137.8336507936508
+      },
+      {
+        "slot": 289,
+        "targetDsp": 138.87725,
+        "dspAtCall": 138.87900000000002,
+        "perfMsAtCall": 139475.59999990463,
+        "ctxAtCall": 137.99038548752836
+      },
+      {
+        "slot": 290,
+        "targetDsp": 139.0335,
+        "dspAtCall": 139.04500000000002,
+        "perfMsAtCall": 139641.70000004768,
+        "ctxAtCall": 138.15292517006802
+      },
+      {
+        "slot": 291,
+        "targetDsp": 139.18975,
+        "dspAtCall": 139.19100000000003,
+        "perfMsAtCall": 139787.5,
+        "ctxAtCall": 138.30385487528343
+      },
+      {
+        "slot": 292,
+        "targetDsp": 139.346,
+        "dspAtCall": 139.35800000000003,
+        "perfMsAtCall": 139954.39999985695,
+        "ctxAtCall": 138.46639455782312
+      },
+      {
+        "slot": 293,
+        "targetDsp": 139.50225,
+        "dspAtCall": 139.51100000000002,
+        "perfMsAtCall": 140107.59999990463,
+        "ctxAtCall": 138.62312925170068
+      },
+      {
+        "slot": 294,
+        "targetDsp": 139.6585,
+        "dspAtCall": 139.66300000000004,
+        "perfMsAtCall": 140259.70000004768,
+        "ctxAtCall": 138.7740589569161
+      },
+      {
+        "slot": 295,
+        "targetDsp": 139.81475,
+        "dspAtCall": 139.81600000000003,
+        "perfMsAtCall": 140412.70000004768,
+        "ctxAtCall": 138.9249886621315
+      },
+      {
+        "slot": 296,
+        "targetDsp": 139.971,
+        "dspAtCall": 139.98300000000003,
+        "perfMsAtCall": 140579.5,
+        "ctxAtCall": 139.09333333333333
+      },
+      {
+        "slot": 297,
+        "targetDsp": 140.12725,
+        "dspAtCall": 140.13600000000002,
+        "perfMsAtCall": 140732.89999985695,
+        "ctxAtCall": 139.24426303854875
+      },
+      {
+        "slot": 298,
+        "targetDsp": 140.2835,
+        "dspAtCall": 140.28900000000004,
+        "perfMsAtCall": 140885.79999995232,
+        "ctxAtCall": 139.4009977324263
+      },
+      {
+        "slot": 299,
+        "targetDsp": 140.43975,
+        "dspAtCall": 140.44100000000003,
+        "perfMsAtCall": 141037.59999990463,
+        "ctxAtCall": 139.55192743764172
+      },
+      {
+        "slot": 300,
+        "targetDsp": 140.596,
+        "dspAtCall": 140.60800000000003,
+        "perfMsAtCall": 141204.5,
+        "ctxAtCall": 139.72027210884355
+      },
+      {
+        "slot": 301,
+        "targetDsp": 140.75225,
+        "dspAtCall": 140.76000000000002,
+        "perfMsAtCall": 141357.20000004768,
+        "ctxAtCall": 139.87120181405896
+      },
+      {
+        "slot": 302,
+        "targetDsp": 140.9085,
+        "dspAtCall": 140.91400000000004,
+        "perfMsAtCall": 141510.59999990463,
+        "ctxAtCall": 140.02213151927438
+      },
+      {
+        "slot": 303,
+        "targetDsp": 141.06475,
+        "dspAtCall": 141.06600000000003,
+        "perfMsAtCall": 141662.5,
+        "ctxAtCall": 140.17886621315193
+      },
+      {
+        "slot": 304,
+        "targetDsp": 141.221,
+        "dspAtCall": 141.22600000000003,
+        "perfMsAtCall": 141822.39999985695,
+        "ctxAtCall": 140.3356009070295
+      },
+      {
+        "slot": 305,
+        "targetDsp": 141.37725,
+        "dspAtCall": 141.37900000000002,
+        "perfMsAtCall": 141975.70000004768,
+        "ctxAtCall": 140.49233560090704
+      },
+      {
+        "slot": 306,
+        "targetDsp": 141.5335,
+        "dspAtCall": 141.54500000000002,
+        "perfMsAtCall": 142141.79999995232,
+        "ctxAtCall": 140.6548752834467
+      },
+      {
+        "slot": 307,
+        "targetDsp": 141.68975,
+        "dspAtCall": 141.69800000000004,
+        "perfMsAtCall": 142294.70000004768,
+        "ctxAtCall": 140.81160997732425
+      },
+      {
+        "slot": 308,
+        "targetDsp": 141.846,
+        "dspAtCall": 141.85100000000003,
+        "perfMsAtCall": 142448.09999990463,
+        "ctxAtCall": 140.96253968253967
+      },
+      {
+        "slot": 309,
+        "targetDsp": 142.00225,
+        "dspAtCall": 142.00400000000002,
+        "perfMsAtCall": 142600.79999995232,
+        "ctxAtCall": 141.1134693877551
+      },
+      {
+        "slot": 310,
+        "targetDsp": 142.1585,
+        "dspAtCall": 142.17100000000002,
+        "perfMsAtCall": 142767.29999995232,
+        "ctxAtCall": 141.2818140589569
+      },
+      {
+        "slot": 311,
+        "targetDsp": 142.31475,
+        "dspAtCall": 142.32400000000004,
+        "perfMsAtCall": 142920.5,
+        "ctxAtCall": 141.43274376417233
+      },
+      {
+        "slot": 312,
+        "targetDsp": 142.471,
+        "dspAtCall": 142.47600000000003,
+        "perfMsAtCall": 143072.89999985695,
+        "ctxAtCall": 141.58947845804988
+      },
+      {
+        "slot": 313,
+        "targetDsp": 142.62725,
+        "dspAtCall": 142.62900000000002,
+        "perfMsAtCall": 143226,
+        "ctxAtCall": 141.7404081632653
+      },
+      {
+        "slot": 314,
+        "targetDsp": 142.7835,
+        "dspAtCall": 142.79500000000002,
+        "perfMsAtCall": 143392,
+        "ctxAtCall": 141.90875283446712
+      },
+      {
+        "slot": 315,
+        "targetDsp": 142.93975,
+        "dspAtCall": 142.94800000000004,
+        "perfMsAtCall": 143545.09999990463,
+        "ctxAtCall": 142.05968253968254
+      },
+      {
+        "slot": 316,
+        "targetDsp": 143.096,
+        "dspAtCall": 143.10100000000003,
+        "perfMsAtCall": 143697.79999995232,
+        "ctxAtCall": 142.21061224489796
+      },
+      {
+        "slot": 317,
+        "targetDsp": 143.25225,
+        "dspAtCall": 143.26000000000002,
+        "perfMsAtCall": 143857.09999990463,
+        "ctxAtCall": 142.37315192743765
+      },
+      {
+        "slot": 318,
+        "targetDsp": 143.4085,
+        "dspAtCall": 143.41300000000004,
+        "perfMsAtCall": 144010.29999995232,
+        "ctxAtCall": 142.52408163265306
+      },
+      {
+        "slot": 319,
+        "targetDsp": 143.56475,
+        "dspAtCall": 143.56600000000003,
+        "perfMsAtCall": 144163.20000004768,
+        "ctxAtCall": 142.67501133786848
+      },
+      {
+        "slot": 320,
+        "targetDsp": 143.721,
+        "dspAtCall": 143.73300000000003,
+        "perfMsAtCall": 144329.79999995232,
+        "ctxAtCall": 142.8433560090703
+      },
+      {
+        "slot": 321,
+        "targetDsp": 143.87725,
+        "dspAtCall": 143.88500000000002,
+        "perfMsAtCall": 144482,
+        "ctxAtCall": 142.99428571428572
+      },
+      {
+        "slot": 322,
+        "targetDsp": 144.0335,
+        "dspAtCall": 144.03800000000004,
+        "perfMsAtCall": 144634.79999995232,
+        "ctxAtCall": 143.15102040816328
+      },
+      {
+        "slot": 323,
+        "targetDsp": 144.18975,
+        "dspAtCall": 144.19100000000003,
+        "perfMsAtCall": 144787.59999990463,
+        "ctxAtCall": 143.3019501133787
+      },
+      {
+        "slot": 324,
+        "targetDsp": 144.346,
+        "dspAtCall": 144.35800000000003,
+        "perfMsAtCall": 144954.70000004768,
+        "ctxAtCall": 143.4702947845805
+      },
+      {
+        "slot": 325,
+        "targetDsp": 144.50225,
+        "dspAtCall": 144.51000000000002,
+        "perfMsAtCall": 145107.20000004768,
+        "ctxAtCall": 143.6212244897959
+      },
+      {
+        "slot": 326,
+        "targetDsp": 144.6585,
+        "dspAtCall": 144.66300000000004,
+        "perfMsAtCall": 145260,
+        "ctxAtCall": 143.77215419501132
+      },
+      {
+        "slot": 327,
+        "targetDsp": 144.81475,
+        "dspAtCall": 144.81600000000003,
+        "perfMsAtCall": 145412.79999995232,
+        "ctxAtCall": 143.92888888888888
+      },
+      {
+        "slot": 328,
+        "targetDsp": 144.971,
+        "dspAtCall": 144.98300000000003,
+        "perfMsAtCall": 145579.29999995232,
+        "ctxAtCall": 144.09142857142857
+      },
+      {
+        "slot": 329,
+        "targetDsp": 145.12725,
+        "dspAtCall": 145.17300000000003,
+        "perfMsAtCall": 145769.79999995232,
+        "ctxAtCall": 144.2829931972789
+      },
+      {
+        "slot": 330,
+        "targetDsp": 145.2835,
+        "dspAtCall": 145.29500000000002,
+        "perfMsAtCall": 145892,
+        "ctxAtCall": 144.40489795918367
+      },
+      {
+        "slot": 331,
+        "targetDsp": 145.43975,
+        "dspAtCall": 145.44800000000004,
+        "perfMsAtCall": 146044.79999995232,
+        "ctxAtCall": 144.5558276643991
+      },
+      {
+        "slot": 332,
+        "targetDsp": 145.596,
+        "dspAtCall": 145.60200000000003,
+        "perfMsAtCall": 146198.29999995232,
+        "ctxAtCall": 144.71256235827664
+      },
+      {
+        "slot": 333,
+        "targetDsp": 145.75225,
+        "dspAtCall": 145.75400000000002,
+        "perfMsAtCall": 146350.89999985695,
+        "ctxAtCall": 144.86349206349206
+      },
+      {
+        "slot": 334,
+        "targetDsp": 145.9085,
+        "dspAtCall": 145.92000000000002,
+        "perfMsAtCall": 146516.89999985695,
+        "ctxAtCall": 145.03183673469388
+      },
+      {
+        "slot": 335,
+        "targetDsp": 146.06475,
+        "dspAtCall": 146.07300000000004,
+        "perfMsAtCall": 146669.59999990463,
+        "ctxAtCall": 145.1827664399093
+      },
+      {
+        "slot": 336,
+        "targetDsp": 146.221,
+        "dspAtCall": 146.22600000000003,
+        "perfMsAtCall": 146822.59999990463,
+        "ctxAtCall": 145.33950113378685
+      },
+      {
+        "slot": 337,
+        "targetDsp": 146.37725,
+        "dspAtCall": 146.37900000000002,
+        "perfMsAtCall": 146976.29999995232,
+        "ctxAtCall": 145.49043083900227
+      },
+      {
+        "slot": 338,
+        "targetDsp": 146.5335,
+        "dspAtCall": 146.54500000000002,
+        "perfMsAtCall": 147141.89999985695,
+        "ctxAtCall": 145.65297052154196
+      },
+      {
+        "slot": 339,
+        "targetDsp": 146.68975,
+        "dspAtCall": 146.69800000000004,
+        "perfMsAtCall": 147295.29999995232,
+        "ctxAtCall": 145.8097052154195
+      },
+      {
+        "slot": 340,
+        "targetDsp": 146.846,
+        "dspAtCall": 146.85100000000003,
+        "perfMsAtCall": 147447.79999995232,
+        "ctxAtCall": 145.96063492063493
+      },
+      {
+        "slot": 341,
+        "targetDsp": 147.00225,
+        "dspAtCall": 147.00400000000002,
+        "perfMsAtCall": 147601.09999990463,
+        "ctxAtCall": 146.11736961451248
+      },
+      {
+        "slot": 342,
+        "targetDsp": 147.1585,
+        "dspAtCall": 147.17100000000002,
+        "perfMsAtCall": 147768.20000004768,
+        "ctxAtCall": 146.27990929705214
+      },
+      {
+        "slot": 343,
+        "targetDsp": 147.31475,
+        "dspAtCall": 147.31600000000003,
+        "perfMsAtCall": 147913,
+        "ctxAtCall": 146.42503401360545
+      },
+      {
+        "slot": 344,
+        "targetDsp": 147.471,
+        "dspAtCall": 147.48300000000003,
+        "perfMsAtCall": 148079.79999995232,
+        "ctxAtCall": 146.59337868480725
+      },
+      {
+        "slot": 345,
+        "targetDsp": 147.62725,
+        "dspAtCall": 147.63600000000002,
+        "perfMsAtCall": 148232.70000004768,
+        "ctxAtCall": 146.74430839002267
+      },
+      {
+        "slot": 346,
+        "targetDsp": 147.7835,
+        "dspAtCall": 147.78800000000004,
+        "perfMsAtCall": 148385.20000004768,
+        "ctxAtCall": 146.90104308390022
+      },
+      {
+        "slot": 347,
+        "targetDsp": 147.93975,
+        "dspAtCall": 147.94100000000003,
+        "perfMsAtCall": 148537.70000004768,
+        "ctxAtCall": 147.05197278911564
+      },
+      {
+        "slot": 348,
+        "targetDsp": 148.096,
+        "dspAtCall": 148.10800000000003,
+        "perfMsAtCall": 148704.39999985695,
+        "ctxAtCall": 147.22031746031746
+      },
+      {
+        "slot": 349,
+        "targetDsp": 148.25225,
+        "dspAtCall": 148.26000000000002,
+        "perfMsAtCall": 148857.09999990463,
+        "ctxAtCall": 147.37124716553288
+      },
+      {
+        "slot": 350,
+        "targetDsp": 148.4085,
+        "dspAtCall": 148.41500000000002,
+        "perfMsAtCall": 149011.79999995232,
+        "ctxAtCall": 147.52798185941043
+      },
+      {
+        "slot": 351,
+        "targetDsp": 148.56475,
+        "dspAtCall": 148.56600000000003,
+        "perfMsAtCall": 149163.09999990463,
+        "ctxAtCall": 147.67891156462585
+      },
+      {
+        "slot": 352,
+        "targetDsp": 148.721,
+        "dspAtCall": 148.73300000000003,
+        "perfMsAtCall": 149330.39999985695,
+        "ctxAtCall": 147.84145124716554
+      },
+      {
+        "slot": 353,
+        "targetDsp": 148.87725,
+        "dspAtCall": 148.88500000000002,
+        "perfMsAtCall": 149482.20000004768,
+        "ctxAtCall": 147.9981859410431
+      },
+      {
+        "slot": 354,
+        "targetDsp": 149.0335,
+        "dspAtCall": 149.03900000000004,
+        "perfMsAtCall": 149635.29999995232,
+        "ctxAtCall": 148.1491156462585
+      },
+      {
+        "slot": 355,
+        "targetDsp": 149.18975,
+        "dspAtCall": 149.19900000000004,
+        "perfMsAtCall": 149795.70000004768,
+        "ctxAtCall": 148.3116553287982
+      },
+      {
+        "slot": 356,
+        "targetDsp": 149.346,
+        "dspAtCall": 149.35100000000003,
+        "perfMsAtCall": 149948,
+        "ctxAtCall": 148.4625850340136
+      },
+      {
+        "slot": 357,
+        "targetDsp": 149.50225,
+        "dspAtCall": 149.50400000000002,
+        "perfMsAtCall": 150100.5,
+        "ctxAtCall": 148.61351473922903
+      },
+      {
+        "slot": 358,
+        "targetDsp": 149.6585,
+        "dspAtCall": 149.67000000000004,
+        "perfMsAtCall": 150267,
+        "ctxAtCall": 148.78185941043083
+      },
+      {
+        "slot": 359,
+        "targetDsp": 149.81475,
+        "dspAtCall": 149.82300000000004,
+        "perfMsAtCall": 150419.70000004768,
+        "ctxAtCall": 148.93278911564627
+      },
+      {
+        "slot": 360,
+        "targetDsp": 149.971,
+        "dspAtCall": 149.97700000000003,
+        "perfMsAtCall": 150573.70000004768,
+        "ctxAtCall": 149.0837188208617
+      },
+      {
+        "slot": 361,
+        "targetDsp": 150.12725,
+        "dspAtCall": 150.12900000000002,
+        "perfMsAtCall": 150725.59999990463,
+        "ctxAtCall": 149.24045351473922
+      },
+      {
+        "slot": 362,
+        "targetDsp": 150.2835,
+        "dspAtCall": 150.29600000000002,
+        "perfMsAtCall": 150892.59999990463,
+        "ctxAtCall": 149.40879818594104
+      },
+      {
+        "slot": 363,
+        "targetDsp": 150.43975,
+        "dspAtCall": 150.44900000000004,
+        "perfMsAtCall": 151045.70000004768,
+        "ctxAtCall": 149.55972789115646
+      },
+      {
+        "slot": 364,
+        "targetDsp": 150.596,
+        "dspAtCall": 150.60200000000003,
+        "perfMsAtCall": 151198.5,
+        "ctxAtCall": 149.71065759637187
+      },
+      {
+        "slot": 365,
+        "targetDsp": 150.75225,
+        "dspAtCall": 150.75400000000002,
+        "perfMsAtCall": 151350.59999990463,
+        "ctxAtCall": 149.8615873015873
+      },
+      {
+        "slot": 366,
+        "targetDsp": 150.9085,
+        "dspAtCall": 150.92100000000002,
+        "perfMsAtCall": 151517.79999995232,
+        "ctxAtCall": 150.02993197278911
+      },
+      {
+        "slot": 367,
+        "targetDsp": 151.06475,
+        "dspAtCall": 151.07500000000002,
+        "perfMsAtCall": 151671.79999995232,
+        "ctxAtCall": 150.18086167800453
+      },
+      {
+        "slot": 368,
+        "targetDsp": 151.221,
+        "dspAtCall": 151.23300000000003,
+        "perfMsAtCall": 151829.39999985695,
+        "ctxAtCall": 150.34340136054422
+      },
+      {
+        "slot": 369,
+        "targetDsp": 151.37725,
+        "dspAtCall": 151.38600000000002,
+        "perfMsAtCall": 151982.39999985695,
+        "ctxAtCall": 150.49433106575964
+      },
+      {
+        "slot": 370,
+        "targetDsp": 151.5335,
+        "dspAtCall": 151.53800000000004,
+        "perfMsAtCall": 152135.5,
+        "ctxAtCall": 150.6510657596372
+      },
+      {
+        "slot": 371,
+        "targetDsp": 151.68975,
+        "dspAtCall": 151.69100000000003,
+        "perfMsAtCall": 152287.89999985695,
+        "ctxAtCall": 150.8019954648526
+      },
+      {
+        "slot": 372,
+        "targetDsp": 151.846,
+        "dspAtCall": 151.85800000000003,
+        "perfMsAtCall": 152455,
+        "ctxAtCall": 150.97034013605443
+      },
+      {
+        "slot": 373,
+        "targetDsp": 152.00225,
+        "dspAtCall": 152.01100000000002,
+        "perfMsAtCall": 152608,
+        "ctxAtCall": 151.12126984126985
+      },
+      {
+        "slot": 374,
+        "targetDsp": 152.1585,
+        "dspAtCall": 152.16300000000004,
+        "perfMsAtCall": 152759.5,
+        "ctxAtCall": 151.27219954648527
+      },
+      {
+        "slot": 375,
+        "targetDsp": 152.31475,
+        "dspAtCall": 152.31600000000003,
+        "perfMsAtCall": 152913,
+        "ctxAtCall": 151.42893424036282
+      },
+      {
+        "slot": 376,
+        "targetDsp": 152.471,
+        "dspAtCall": 152.48300000000003,
+        "perfMsAtCall": 153079.70000004768,
+        "ctxAtCall": 151.59147392290248
+      },
+      {
+        "slot": 377,
+        "targetDsp": 152.62725,
+        "dspAtCall": 152.63600000000002,
+        "perfMsAtCall": 153233.09999990463,
+        "ctxAtCall": 151.74820861678003
+      },
+      {
+        "slot": 378,
+        "targetDsp": 152.7835,
+        "dspAtCall": 152.78800000000004,
+        "perfMsAtCall": 153385.29999995232,
+        "ctxAtCall": 151.89913832199545
+      },
+      {
+        "slot": 379,
+        "targetDsp": 152.93975,
+        "dspAtCall": 152.94100000000003,
+        "perfMsAtCall": 153538.20000004768,
+        "ctxAtCall": 152.0500680272109
+      },
+      {
+        "slot": 380,
+        "targetDsp": 153.096,
+        "dspAtCall": 153.10800000000003,
+        "perfMsAtCall": 153704.39999985695,
+        "ctxAtCall": 152.2184126984127
+      },
+      {
+        "slot": 381,
+        "targetDsp": 153.25225,
+        "dspAtCall": 153.25400000000002,
+        "perfMsAtCall": 153851.20000004768,
+        "ctxAtCall": 152.36353741496598
+      },
+      {
+        "slot": 382,
+        "targetDsp": 153.4085,
+        "dspAtCall": 153.42000000000004,
+        "perfMsAtCall": 154017.29999995232,
+        "ctxAtCall": 152.5318820861678
+      },
+      {
+        "slot": 383,
+        "targetDsp": 153.56475,
+        "dspAtCall": 153.57400000000004,
+        "perfMsAtCall": 154170.39999985695,
+        "ctxAtCall": 152.68281179138322
+      }
+    ]
+  },
+  "unityEvents": [
+    {
+      "kind": "dsp",
+      "perfMs": 93724.20000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 93.127,
+        "dspSec": 65.91598639455782,
+        "ctxSec": 92.2354648526077,
+        "perfMs": 93724.09999990463,
+        "frame": 4607
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 94724.29999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 94.127,
+        "dspSec": 66.91598639455782,
+        "ctxSec": 93.23972789115646,
+        "perfMs": 94724.20000004768,
+        "frame": 4679
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 95768.5,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 95.172,
+        "dspSec": 67.9609977324263,
+        "ctxSec": 94.28462585034013,
+        "perfMs": 95768.39999985695,
+        "frame": 4751
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 96731.20000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 96.134,
+        "dspSec": 68.92299319727891,
+        "ctxSec": 95.24825396825396,
+        "perfMs": 96731.09999990463,
+        "frame": 4821
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 97768.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 97.171,
+        "dspSec": 69.96,
+        "ctxSec": 96.28154195011338,
+        "perfMs": 97768.09999990463,
+        "frame": 4893
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 98724.29999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 98.127,
+        "dspSec": 70.91598639455782,
+        "ctxSec": 97.23936507936509,
+        "perfMs": 98724.29999995232,
+        "frame": 4962
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 99768.70000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 99.172,
+        "dspSec": 71.9609977324263,
+        "ctxSec": 98.28426303854876,
+        "perfMs": 99768.70000004768,
+        "frame": 5034
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 100717.79999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 100.121,
+        "dspSec": 72.91,
+        "ctxSec": 99.2304761904762,
+        "perfMs": 100717.70000004768,
+        "frame": 5103
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 101717.39999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 101.121,
+        "dspSec": 73.91,
+        "ctxSec": 100.22893424036282,
+        "perfMs": 101717.39999985695,
+        "frame": 5175
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 102725.29999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 102.128,
+        "dspSec": 74.91700680272109,
+        "ctxSec": 101.2390022675737,
+        "perfMs": 102725.20000004768,
+        "frame": 5245
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 103768.79999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 103.172,
+        "dspSec": 75.9609977324263,
+        "ctxSec": 102.28390022675737,
+        "perfMs": 103768.79999995232,
+        "frame": 5317
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 104717.79999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 104.121,
+        "dspSec": 76.91,
+        "ctxSec": 103.2301133786848,
+        "perfMs": 104717.70000004768,
+        "frame": 5386
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 105717.70000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 105.121,
+        "dspSec": 77.91,
+        "ctxSec": 104.23437641723356,
+        "perfMs": 105717.59999990463,
+        "frame": 5458
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 106725.20000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 106.128,
+        "dspSec": 78.91700680272109,
+        "ctxSec": 105.23863945578232,
+        "perfMs": 106725,
+        "frame": 5528
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 107768.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 107.171,
+        "dspSec": 79.96,
+        "ctxSec": 106.28353741496599,
+        "perfMs": 107768.09999990463,
+        "frame": 5600
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 108717.70000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 108.121,
+        "dspSec": 80.91,
+        "ctxSec": 107.22975056689343,
+        "perfMs": 108717.59999990463,
+        "frame": 5669
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 109717.70000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 109.121,
+        "dspSec": 81.91,
+        "ctxSec": 108.23401360544217,
+        "perfMs": 109717.70000004768,
+        "frame": 5741
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 110725.20000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 110.128,
+        "dspSec": 82.91700680272109,
+        "ctxSec": 109.23827664399093,
+        "perfMs": 110725.09999990463,
+        "frame": 5811
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 111768.79999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 111.172,
+        "dspSec": 83.9609977324263,
+        "ctxSec": 110.2831746031746,
+        "perfMs": 111768.79999995232,
+        "frame": 5883
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 112717.79999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 112.121,
+        "dspSec": 84.91,
+        "ctxSec": 111.22938775510204,
+        "perfMs": 112717.79999995232,
+        "frame": 5952
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 113719.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 113.122,
+        "dspSec": 85.91099773242631,
+        "ctxSec": 112.2336507936508,
+        "perfMs": 113719,
+        "frame": 6024
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124329.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.732,
+        "dspSec": 86.52,
+        "ctxSec": 122.84517006802722,
+        "perfMs": 124329,
+        "frame": 6066
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124342.79999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.746,
+        "dspSec": 86.53399092970521,
+        "ctxSec": 122.85678004535147,
+        "perfMs": 124342.79999995232,
+        "frame": 6067
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124356.70000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.76,
+        "dspSec": 86.5480045351474,
+        "ctxSec": 122.86839002267574,
+        "perfMs": 124356.59999990463,
+        "frame": 6068
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124370.59999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.774,
+        "dspSec": 86.56199546485261,
+        "ctxSec": 122.88580498866213,
+        "perfMs": 124370.5,
+        "frame": 6069
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124384.5,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.788,
+        "dspSec": 86.57600907029479,
+        "ctxSec": 122.8974149659864,
+        "perfMs": 124384.5,
+        "frame": 6070
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124397.5,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.801,
+        "dspSec": 86.58900226757369,
+        "ctxSec": 122.91482993197279,
+        "perfMs": 124397.5,
+        "frame": 6071
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124411.59999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.815,
+        "dspSec": 86.6029931972789,
+        "ctxSec": 122.92643990929706,
+        "perfMs": 124411.5,
+        "frame": 6072
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124426.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.82900000000001,
+        "dspSec": 86.6170068027211,
+        "ctxSec": 122.93804988662131,
+        "perfMs": 124426.09999990463,
+        "frame": 6073
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124440,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.843,
+        "dspSec": 86.63099773242631,
+        "ctxSec": 122.9554648526077,
+        "perfMs": 124440,
+        "frame": 6074
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124453.79999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 123.857,
+        "dspSec": 86.64498866213152,
+        "ctxSec": 122.96707482993197,
+        "perfMs": 124453.79999995232,
+        "frame": 6075
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 124718.29999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 124.122,
+        "dspSec": 86.91,
+        "ctxSec": 123.23410430839002,
+        "perfMs": 124718.20000004768,
+        "frame": 6094
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 125718.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 125.121,
+        "dspSec": 87.9090022675737,
+        "ctxSec": 124.23256235827664,
+        "perfMs": 125718,
+        "frame": 6166
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 126724.89999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 126.128,
+        "dspSec": 88.91600907029479,
+        "ctxSec": 125.2368253968254,
+        "perfMs": 126724.79999995232,
+        "frame": 6236
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 127769,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 127.172,
+        "dspSec": 89.96,
+        "ctxSec": 126.28172335600907,
+        "perfMs": 127768.89999985695,
+        "frame": 6308
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 128718.39999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 128.12100000000004,
+        "dspSec": 90.9090022675737,
+        "ctxSec": 127.23374149659864,
+        "perfMs": 128718.20000004768,
+        "frame": 6377
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 129718.20000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 129.12100000000004,
+        "dspSec": 91.9090022675737,
+        "ctxSec": 128.23219954648525,
+        "perfMs": 129718.09999990463,
+        "frame": 6449
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 130726.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 130.12900000000002,
+        "dspSec": 92.91700680272109,
+        "ctxSec": 129.24226757369615,
+        "perfMs": 130726,
+        "frame": 6519
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 131768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 131.17100000000002,
+        "dspSec": 93.9590022675737,
+        "ctxSec": 130.28136054421768,
+        "perfMs": 131767.89999985695,
+        "frame": 6591
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 132717.89999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 132.12100000000004,
+        "dspSec": 94.9090022675737,
+        "ctxSec": 131.23337868480726,
+        "perfMs": 132717.79999995232,
+        "frame": 6660
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 133717.89999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 133.12100000000004,
+        "dspSec": 95.9090022675737,
+        "ctxSec": 132.23183673469387,
+        "perfMs": 133717.89999985695,
+        "frame": 6732
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 134724.89999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 134.12800000000004,
+        "dspSec": 96.91600907029479,
+        "ctxSec": 133.24190476190475,
+        "perfMs": 134724.79999995232,
+        "frame": 6802
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 135769.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 135.17200000000003,
+        "dspSec": 97.96,
+        "ctxSec": 134.2809977324263,
+        "perfMs": 135769,
+        "frame": 6874
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 136718,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 136.12100000000004,
+        "dspSec": 98.9090022675737,
+        "ctxSec": 135.2330158730159,
+        "perfMs": 136717.89999985695,
+        "frame": 6943
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 137718,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 137.12100000000004,
+        "dspSec": 99.9090022675737,
+        "ctxSec": 136.2314739229025,
+        "perfMs": 137717.89999985695,
+        "frame": 7015
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 138725,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 138.12800000000004,
+        "dspSec": 100.91600907029479,
+        "ctxSec": 137.24154195011337,
+        "perfMs": 138724.89999985695,
+        "frame": 7085
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 139768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 139.17100000000002,
+        "dspSec": 101.9590022675737,
+        "ctxSec": 138.28063492063492,
+        "perfMs": 139768,
+        "frame": 7157
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 140718.39999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 140.12200000000004,
+        "dspSec": 102.91,
+        "ctxSec": 139.23265306122448,
+        "perfMs": 140718.29999995232,
+        "frame": 7226
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 141718.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 141.12100000000004,
+        "dspSec": 103.9090022675737,
+        "ctxSec": 140.23111111111112,
+        "perfMs": 141718,
+        "frame": 7298
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 142725.20000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 142.12800000000004,
+        "dspSec": 104.91600907029479,
+        "ctxSec": 141.241179138322,
+        "perfMs": 142725.09999990463,
+        "frame": 7368
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 143768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 143.17100000000002,
+        "dspSec": 105.9590022675737,
+        "ctxSec": 142.28027210884355,
+        "perfMs": 143768,
+        "frame": 7440
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 144718.20000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 144.12100000000004,
+        "dspSec": 106.9090022675737,
+        "ctxSec": 143.2322902494331,
+        "perfMs": 144718.09999990463,
+        "frame": 7509
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 145718.39999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 145.12200000000004,
+        "dspSec": 107.91,
+        "ctxSec": 144.2307482993197,
+        "perfMs": 145718.29999995232,
+        "frame": 7581
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 146725.09999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 146.12800000000004,
+        "dspSec": 108.91600907029479,
+        "ctxSec": 145.24081632653062,
+        "perfMs": 146725.09999990463,
+        "frame": 7651
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 147768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 147.17100000000002,
+        "dspSec": 109.9590022675737,
+        "ctxSec": 146.27990929705214,
+        "perfMs": 147768,
+        "frame": 7723
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 148718.39999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 148.12200000000004,
+        "dspSec": 110.91,
+        "ctxSec": 147.23192743764173,
+        "perfMs": 148718.29999995232,
+        "frame": 7792
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 149718.59999990463,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 149.12200000000004,
+        "dspSec": 111.91,
+        "ctxSec": 148.23038548752834,
+        "perfMs": 149718.39999985695,
+        "frame": 7864
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 150725.39999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 150.12900000000002,
+        "dspSec": 112.91700680272109,
+        "ctxSec": 149.24045351473922,
+        "perfMs": 150725.39999985695,
+        "frame": 7934
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 151768.20000004768,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 151.17200000000003,
+        "dspSec": 113.96,
+        "ctxSec": 150.27954648526077,
+        "perfMs": 151768.20000004768,
+        "frame": 8006
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 152718.39999985695,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 152.12200000000004,
+        "dspSec": 114.91,
+        "ctxSec": 151.23156462585035,
+        "perfMs": 152718.29999995232,
+        "frame": 8075
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 153718,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 153.12100000000004,
+        "dspSec": 115.9090022675737,
+        "ctxSec": 152.23002267573696,
+        "perfMs": 153718,
+        "frame": 8147
+      }
+    },
+    {
+      "kind": "dsp",
+      "perfMs": 154726.29999995232,
+      "data": {
+        "label": "unity-play__blur",
+        "realtimeSec": 154.13000000000002,
+        "dspSec": 116.91800453514739,
+        "ctxSec": 153.24009070294784,
+        "perfMs": 154726.20000004768,
+        "frame": 8217
+      }
+    }
+  ]
+}

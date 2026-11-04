@@ -1,0 +1,156 @@
+{
+  "limits": {
+    "files": 80,
+    "totalBytes": 15728640,
+    "fileBytes": 5242880,
+    "depth": 4
+  },
+  "fileCount": 34,
+  "totalBytes": 8031282,
+  "totalMiB": 7.65922737121582,
+  "groups": {
+    "Build (Unity)": 3644921,
+    "content/img": 3216928,
+    "content/audio": 1145554,
+    "other": 23879
+  },
+  "problems": [],
+  "files": [
+    {
+      "path": "Build/downbeat.wasm.br",
+      "bytes": 2845838
+    },
+    {
+      "path": "Build/downbeat.data.br",
+      "bytes": 698829
+    },
+    {
+      "path": "content/img/forest/harp_play.png",
+      "bytes": 589703
+    },
+    {
+      "path": "content/img/forest/harp_idle.png",
+      "bytes": 569932
+    },
+    {
+      "path": "content/img/forest/marimba_idle.png",
+      "bytes": 450549
+    },
+    {
+      "path": "content/img/forest/marimba_play.png",
+      "bytes": 444561
+    },
+    {
+      "path": "content/img/forest/recorder_idle.png",
+      "bytes": 414615
+    },
+    {
+      "path": "content/img/forest/recorder_play.png",
+      "bytes": 412617
+    },
+    {
+      "path": "content/img/forest/stage_bg.jpg",
+      "bytes": 161439
+    },
+    {
+      "path": "content/img/forest/idle_hint.png",
+      "bytes": 138831
+    },
+    {
+      "path": "content/audio/harp_A4.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/harp_C5.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/harp_D6.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/harp_E5.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/harp_G5.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/marimba_C5_loud.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/marimba_C5_med.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/marimba_G5_med.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "Build/downbeat.framework.js.br",
+      "bytes": 73272
+    },
+    {
+      "path": "content/audio/recorder_G6.wav",
+      "bytes": 49754
+    },
+    {
+      "path": "content/audio/recorder_As5.wav",
+      "bytes": 46114
+    },
+    {
+      "path": "content/audio/recorder_C6.wav",
+      "bytes": 45152
+    },
+    {
+      "path": "content/audio/recorder_D6.wav",
+      "bytes": 44360
+    },
+    {
+      "path": "content/audio/recorder_E6.wav",
+      "bytes": 42542
+    },
+    {
+      "path": "content/img/forest/audience_bg.jpg",
+      "bytes": 34681
+    },
+    {
+      "path": "Build/downbeat.loader.js",
+      "bytes": 26982
+    },
+    {
+      "path": "js/tap.js",
+      "bytes": 4912
+    },
+    {
+      "path": "content/content.json",
+      "bytes": 4743
+    },
+    {
+      "path": "js/downbeat-audio.js",
+      "bytes": 3890
+    },
+    {
+      "path": "index.html",
+      "bytes": 3225
+    },
+    {
+      "path": "js/note-player.js",
+      "bytes": 2798
+    },
+    {
+      "path": "js/audio-clock.js",
+      "bytes": 1728
+    },
+    {
+      "path": "js/tap-worklet.js",
+      "bytes": 1395
+    },
+    {
+      "path": "js/start-page.js",
+      "bytes": 1188
+    }
+  ]
+}

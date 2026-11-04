@@ -1,0 +1,73 @@
+{
+    "machine": "Mac16,11",
+    "gpu": "Apple M4 Pro",
+    "unity": "6000.3.9f1",
+    "os": "Mac OS X 15.7.3",
+    "note": "Shared desktop: other apps (browsers, another Unity editor) were running; numbers are what this Mac did at that time, not a benchmark.",
+    "runs": [
+        {
+            "source": "player-windowed",
+            "tier": "High",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 20.7,
+            "frames": 8951,
+            "fpsAverage": 430.6,
+            "frameMsP50": 2.0,
+            "frameMsP95": 3.6,
+            "frameMsP99": 4.1,
+            "frameMsMax": 191.3,
+            "framesOver25ms": 1,
+            "grassBlades": 241523,
+            "note": "Mac player (Mono, Release), window 1920x1080 (requested 1920x1080), fullscreen=False, vSync and frame cap off, grass tier High, arguments: --input mouse; log: measurements/perf/player-logs/"
+        },
+        {
+            "source": "player-windowed",
+            "tier": "Low",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 20.7,
+            "frames": 25458,
+            "fpsAverage": 1225.5,
+            "frameMsP50": 0.7,
+            "frameMsP95": 1.2,
+            "frameMsP99": 1.5,
+            "frameMsMax": 170.1,
+            "framesOver25ms": 1,
+            "grassBlades": 64784,
+            "note": "Mac player (Mono, Release), window 1920x1080 (requested 1920x1080), fullscreen=False, vSync and frame cap off, grass tier Low, arguments: --input mouse; log: measurements/perf/player-logs/"
+        },
+        {
+            "source": "playmode-editor",
+            "tier": "High",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 10.0,
+            "frames": 2403,
+            "fpsAverage": 240.2,
+            "frameMsP50": 4.11,
+            "frameMsP95": 4.53,
+            "frameMsP99": 4.9,
+            "frameMsMax": 15.2,
+            "framesOver25ms": 0,
+            "grassBlades": 241523,
+            "note": "Unity editor PlayMode (batchmode), meadow camera drawn by the test once per frame into a 1920x1080 texture and waited for (a one-pixel readback), vSync off, grass tier High"
+        },
+        {
+            "source": "playmode-editor",
+            "tier": "Low",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 10.0,
+            "frames": 3588,
+            "fpsAverage": 358.7,
+            "frameMsP50": 2.74,
+            "frameMsP95": 3.29,
+            "frameMsP99": 3.95,
+            "frameMsMax": 12.47,
+            "framesOver25ms": 0,
+            "grassBlades": 64784,
+            "note": "Unity editor PlayMode (batchmode), meadow camera drawn by the test once per frame into a 1920x1080 texture and waited for (a one-pixel readback), vSync off, grass tier Low"
+        }
+    ]
+}

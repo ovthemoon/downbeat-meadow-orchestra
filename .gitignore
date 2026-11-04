@@ -1,0 +1,49 @@
+# Unity
+unity/Downbeat/[Ll]ibrary/
+unity/Downbeat/[Tt]emp/
+unity/Downbeat/[Oo]bj/
+unity/Downbeat/[Bb]uild/
+unity/Downbeat/[Bb]uilds/
+unity/Downbeat/[Ll]ogs/
+unity/Downbeat/[Uu]ser[Ss]ettings/
+unity/Downbeat/mono_crash.*
+unity/Downbeat/*.csproj
+unity/Downbeat/*.sln
+unity/Downbeat/*.user
+unity/Downbeat/*.pidb.meta
+unity/Downbeat/*.pdb.meta
+unity/Downbeat/*.mdb.meta
+
+# Node / web
+node_modules/
+web/vendor/
+
+# Raw audio recordings are large and reproducible; summaries stay in git
+measurements/**/raw-audio/
+
+# OS
+.DS_Store
+.cache/
+measurements/requests.jsonl
+measurements/**/requests.jsonl
+unity/Downbeat/.vscode/
+unity/Downbeat/.idea/
+unity/Downbeat/*.slnx
+dist/
+
+# Chrome net-logs are tens of MB; the summaries next to them are kept
+measurements/**/chrome-netlog.json
+
+# Native player builds (reproducible with tools/unity_build.sh)
+/builds/
+
+# Python tracker / supervisor
+tracker/.venv/
+supervisor/.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Pictures and numbers of test and measurement runs (full size, not kept in git); DOWNBEAT_KEEP_CAPTURES=1 copies the few kept ones to measurements/ as JPEG
+/captures/
+tracker/logs/

@@ -1,0 +1,17 @@
+{
+    "unity": "6000.3.9f1",
+    "result": "Succeeded",
+    "scene": "Assets/Scenes/SampleScene.unity",
+    "profile": "baseline",
+    "buildSeconds": 278.355771,
+    "reportedTotalBytes": 14896019,
+    "compression": "Brotli",
+    "decompressionFallback": false,
+    "nameFilesAsHashes": false,
+    "exceptionSupport": "ExplicitlyThrownExceptionsOnly",
+    "strippingLevel": "Minimal",
+    "il2cppCodeGeneration": "OptimizeSpeed",
+    "il2cppConfiguration": "Release",
+    "development": false,
+    "template": "APPLICATION:Default"
+}

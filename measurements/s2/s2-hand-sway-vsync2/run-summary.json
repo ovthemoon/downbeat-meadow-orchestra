@@ -1,0 +1,119 @@
+{
+  "run": "s2-hand-sway-vsync2",
+  "chromeVersion": "Chrome/156.0.8078.49",
+  "chromeArgs": [
+    "--use-fake-ui-for-media-stream",
+    "--use-fake-device-for-media-stream",
+    "--use-file-for-fake-video-capture=<tmp>/a24ee148-1536-477c-bc61-a01332b5b9de/scratchpad/cam/hand-sway.y4m",
+    "--autoplay-policy=no-user-gesture-required",
+    "--disable-background-timer-throttling",
+    "--disable-renderer-backgrounding",
+    "--disable-backgrounding-occluded-windows",
+    "--window-position=40,40",
+    "--window-size=1100,760"
+  ],
+  "video": "<tmp>/a24ee148-1536-477c-bc61-a01332b5b9de/scratchpad/cam/hand-sway.y4m",
+  "init": {
+    "bootMs": 393.60000014305115,
+    "vsync": 2,
+    "cameraSettings": {
+      "aspectRatio": 1.3333333333333333,
+      "deviceId": "3320a998fd82ff6802040fa389205d8005de50b0e24f0e4a7d1963f23b84d0a4",
+      "frameRate": 30,
+      "groupId": "7a1e2f3d0030e9e5853834ac588a0aba452442507e03c2f2c0bb878ec203ef6a",
+      "height": 480,
+      "resizeMode": "none",
+      "width": 640
+    },
+    "videoWidth": 640,
+    "videoHeight": 480
+  },
+  "result": {
+    "label": "result",
+    "fps": {
+      "baselineBefore": {
+        "fps": 71.99999830632844,
+        "p95": 14.999999664723873,
+        "max": 19.999999552965164
+      },
+      "pullOnly": {
+        "fps": 71.99999904520108,
+        "p95": 14.999999664723873,
+        "max": 17.999999225139618
+      },
+      "trackingGPU": {
+        "fps": 71.82403797160521,
+        "p95": 25.00000037252903,
+        "max": 31.000006943941116
+      },
+      "trackingCPU": {
+        "fps": 36.225651172040216,
+        "p95": 64.99999761581421,
+        "max": 74.00000095367432
+      },
+      "baselineAfter": {
+        "fps": 71.99999823885149,
+        "p95": 14.999999664723873,
+        "max": 16.00000075995922
+      }
+    },
+    "bridge": {
+      "calls": 10000,
+      "nowMsLoopMs": 0.9000000953674316,
+      "readHandsLoopMs": 0.5999999046325684,
+      "readHandsUsPerCall": 0.05999999046325684,
+      "nowMsUsPerCall": 0.09000000953674317,
+      "managedBytesDuringReadHands": 0,
+      "writeBackOk": true,
+      "writeBackAfterGrowthOk": true,
+      "alignmentError": 0,
+      "jsonLoopMs": 16.59999990463257,
+      "jsonUsPerCall": 16.59999990463257,
+      "managedBytesDuringJson": 8192000,
+      "jsonLength": 2534
+    }
+  },
+  "network": {
+    "total": 22,
+    "hosts": {
+      "localhost:8767": 22
+    },
+    "nonGetRequests": [
+      {
+        "method": "POST",
+        "url": "http://localhost:8767/save?name=s2%2Fs2-hand-sway-vsync2%2Fresult.json",
+        "hasPostData": true
+      }
+    ]
+  },
+  "consoleMessages": [
+    {
+      "type": "warning",
+      "text": "W1029 02:54:16.806000 2136208 gl_context.cc:1118] OpenGL error checking is disabled"
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:54:17.019000 2136208 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX."
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:54:40.097999 2136208 gl_context.cc:1118] OpenGL error checking is disabled"
+    },
+    {
+      "type": "error",
+      "text": "INFO: Created TensorFlow Lite XNNPACK delegate for CPU."
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:54:40.116000 2136208 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors."
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:54:40.120999 2136208 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors."
+    },
+    {
+      "type": "warning",
+      "text": "W1029 02:54:40.161999 2136208 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX."
+    }
+  ]
+}

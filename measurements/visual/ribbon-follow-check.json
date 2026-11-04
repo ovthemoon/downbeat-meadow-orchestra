@@ -1,0 +1,43 @@
+{
+  "note": "Short real-window check of the hand ribbon glide (HandRibbonFollow, the One Euro filter) on the Mac player, --input replay, Low tier, a 960x540 window, the window pictures recorded at about 30 per second for 14 s, once with the shipped follow settings and once with the filter switched off (ribbon.followMinHz 1000, followBeta 0, followSpeedHz 1000: the raw place). The ribbon head was found in every picture as the end of the longest warm streak in the field (a colour mask, so some pictures are missed or mistaken for a firefly or poppy; steps over 60 px are dropped). The strikes of the demo recording move the hand fast, so this checks that the glide adds no visible lag or jerk in a strike; a still hand, where the filter matters most, is covered by HandRibbonFollowTests (EditMode). Result: the head moves 20.9 px per picture (RMS) with the glide and 20.7 without, its acceleration 32.3 and 31.7 px: no difference at this sampling, so no added lag or jerk is visible. Six consecutive pictures of one strike: the head runs 283, 306, 338, 364, 389, 411 px along a straight line at 335 px height, a continuous streak with its head at the leading end. Not seen: the ribbon on a real tracker at 15-30 fps (the Windows laptop), where the filter has the most to do.",
+  "withGlide": {
+    "ribbonFrames": 249,
+    "stepsKept": 173,
+    "headStepRmsPx": 20.85,
+    "headAccelerationRmsPx": 32.27,
+    "headStepP95Px": 48.61
+  },
+  "withoutGlide": {
+    "ribbonFrames": 252,
+    "stepsKept": 189,
+    "headStepRmsPx": 20.69,
+    "headAccelerationRmsPx": 31.7,
+    "headStepP95Px": 50.75
+  },
+  "sixConsecutivePicturesOfAStrike_headXY": [
+    [
+      283,
+      335
+    ],
+    [
+      306,
+      336
+    ],
+    [
+      338,
+      335
+    ],
+    [
+      364,
+      334
+    ],
+    [
+      389,
+      336
+    ],
+    [
+      411,
+      336
+    ]
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "config": {
+    "aheadSec": [
+      0.25,
+      0.5,
+      1,
+      2,
+      0.25,
+      0.5,
+      1,
+      2,
+      0.25,
+      0.5,
+      1,
+      2
+    ],
+    "spacingSec": 3,
+    "runDir": "s1/E-ahead",
+    "label": "ahead"
+  },
+  "startedPerfMs": 3653.0999999046326,
+  "runtime": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "hardwareConcurrency": 14,
+    "devicePixelRatio": 1,
+    "innerWidth": 1100,
+    "innerHeight": 617,
+    "crossOriginIsolated": false,
+    "secureContext": true,
+    "location": "http://localhost:8765/s1.html?build=day0&vsync=2&bg=1"
+  },
+  "contexts": [
+    {
+      "id": 0,
+      "tag": "unity",
+      "sampleRate": 44100,
+      "state": "running",
+      "baseLatency": 0.005804988662131519,
+      "outputLatency": 0.20500000000000002,
+      "firstFrame": 91392,
+      "gaps": 0,
+      "peak": 0.5800184011459351,
+      "frames": 1737472,
+      "workletError": null,
+      "rawFile": "s1/E-ahead/raw-audio/ahead.ctx0-unity.f32"
+    },
+    {
+      "id": 1,
+      "tag": "webaudio",
+      "sampleRate": 44100,
+      "state": "running",
+      "baseLatency": 0.005804988662131519,
+      "outputLatency": 0.20500000000000002,
+      "firstFrame": 90112,
+      "gaps": 0,
+      "peak": 0,
+      "frames": 1737472,
+      "workletError": null,
+      "rawFile": null
+    }
+  ],
+  "marks": [
+    {
+      "label": "ahead-start",
+      "perfMs": 3656.0999999046326,
+      "ctxTimes": {
+        "0": 2.078185941043084,
+        "1": 2.049160997732426
+      }
+    },
+    {
+      "label": "ahead-end",
+      "perfMs": 40252.799999952316,
+      "ctxTimes": {
+        "0": 38.66702947845805,
+        "1": 38.638004535147395
+      }
+    }
+  ],
+  "summary": {
+    "records": [
+      {
+        "aheadSec": 0.25,
+        "dsp0": 3.7009977324263037,
+        "perf0": 4163.099999904633,
+        "ctx0": 2.583219954648526,
+        "targetDsp": 3.9509977324263037
+      },
+      {
+        "aheadSec": 0.5,
+        "dsp0": 6.714988662131519,
+        "perf0": 7176.699999809265,
+        "ctx0": 5.596009070294785,
+        "targetDsp": 7.214988662131519
+      },
+      {
+        "aheadSec": 1,
+        "dsp0": 9.72798185941043,
+        "perf0": 10189.699999809265,
+        "ctx0": 8.608798185941042,
+        "targetDsp": 10.72798185941043
+      },
+      {
+        "aheadSec": 2,
+        "dsp0": 12.72798185941043,
+        "perf0": 13189.799999952316,
+        "ctx0": 11.609977324263038,
+        "targetDsp": 14.72798185941043
+      },
+      {
+        "aheadSec": 0.25,
+        "dsp0": 15.728979591836735,
+        "perf0": 16190.299999952316,
+        "ctx0": 14.611156462585035,
+        "targetDsp": 15.978979591836735
+      },
+      {
+        "aheadSec": 0.5,
+        "dsp0": 18.741995464852607,
+        "perf0": 19203.599999904633,
+        "ctx0": 17.623945578231293,
+        "targetDsp": 19.241995464852607
+      },
+      {
+        "aheadSec": 1,
+        "dsp0": 21.741995464852607,
+        "perf0": 22203.89999985695,
+        "ctx0": 20.625124716553287,
+        "targetDsp": 22.741995464852607
+      },
+      {
+        "aheadSec": 2,
+        "dsp0": 24.74299319727891,
+        "perf0": 25204.599999904633,
+        "ctx0": 23.62630385487528,
+        "targetDsp": 26.74299319727891
+      },
+      {
+        "aheadSec": 0.25,
+        "dsp0": 27.755986394557823,
+        "perf0": 28218,
+        "ctx0": 26.639092970521542,
+        "targetDsp": 28.005986394557823
+      },
+      {
+        "aheadSec": 0.5,
+        "dsp0": 30.77,
+        "perf0": 31231.699999809265,
+        "ctx0": 29.6518820861678,
+        "targetDsp": 31.27
+      },
+      {
+        "aheadSec": 1,
+        "dsp0": 33.776984126984125,
+        "perf0": 34238.799999952316,
+        "ctx0": 32.6530612244898,
+        "targetDsp": 34.776984126984125
+      },
+      {
+        "aheadSec": 2,
+        "dsp0": 36.776984126984125,
+        "perf0": 37239.09999990463,
+        "ctx0": 35.65424036281179,
+        "targetDsp": 38.776984126984125
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "tile": 32,
+  "reference": "meadow_front_b.png",
+  "capture": "task6c.png",
+  "bands": [
+    {
+      "band": [
+        0.4,
+        0.45
+      ],
+      "luminanceRef": 0.0889,
+      "luminanceCapture": 0.0901,
+      "luminanceDiff": 0.013,
+      "contrastRef": 0.0902,
+      "contrastCapture": 0.0839,
+      "contrastDiff": -0.07
+    },
+    {
+      "band": [
+        0.45,
+        0.5
+      ],
+      "luminanceRef": 0.1036,
+      "luminanceCapture": 0.1035,
+      "luminanceDiff": -0.0,
+      "contrastRef": 0.1089,
+      "contrastCapture": 0.0951,
+      "contrastDiff": -0.126
+    },
+    {
+      "band": [
+        0.5,
+        0.55
+      ],
+      "luminanceRef": 0.0965,
+      "luminanceCapture": 0.0966,
+      "luminanceDiff": 0.0,
+      "contrastRef": 0.1255,
+      "contrastCapture": 0.1055,
+      "contrastDiff": -0.16
+    },
+    {
+      "band": [
+        0.55,
+        0.65
+      ],
+      "luminanceRef": 0.0722,
+      "luminanceCapture": 0.0729,
+      "luminanceDiff": 0.009,
+      "contrastRef": 0.1279,
+      "contrastCapture": 0.0896,
+      "contrastDiff": -0.299
+    },
+    {
+      "band": [
+        0.65,
+        0.75
+      ],
+      "luminanceRef": 0.0677,
+      "luminanceCapture": 0.0673,
+      "luminanceDiff": -0.007,
+      "contrastRef": 0.1292,
+      "contrastCapture": 0.1034,
+      "contrastDiff": -0.199
+    },
+    {
+      "band": [
+        0.75,
+        0.85
+      ],
+      "luminanceRef": 0.053,
+      "luminanceCapture": 0.0507,
+      "luminanceDiff": -0.044,
+      "contrastRef": 0.121,
+      "contrastCapture": 0.104,
+      "contrastDiff": -0.141
+    },
+    {
+      "band": [
+        0.85,
+        1.0
+      ],
+      "luminanceRef": 0.0206,
+      "luminanceCapture": 0.0213,
+      "luminanceDiff": 0.033,
+      "contrastRef": 0.0725,
+      "contrastCapture": 0.0739,
+      "contrastDiff": 0.019
+    }
+  ]
+}

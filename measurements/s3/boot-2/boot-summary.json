@@ -1,0 +1,49 @@
+{
+  "run": "boot-2",
+  "acceptEncodingSeenOnBuildRequests": [
+    "gzip, deflate, br, zstd"
+  ],
+  "results": [
+    {
+      "build": "s3-lean-size-lto",
+      "ok": true,
+      "bootMs": 823.9000000953674,
+      "canvas": [
+        480,
+        270
+      ],
+      "resources": [
+        {
+          "file": "s3-lean-size-lto.loader.js",
+          "transferSize": 27282,
+          "encodedBodySize": 26982,
+          "decodedBodySize": 26982,
+          "durationMs": 3.200000047683716
+        },
+        {
+          "file": "s3-lean-size-lto.framework.js.br",
+          "transferSize": 73903,
+          "encodedBodySize": 73603,
+          "decodedBodySize": 397145,
+          "durationMs": 4.099999904632568
+        },
+        {
+          "file": "s3-lean-size-lto.wasm.br",
+          "transferSize": 5098026,
+          "encodedBodySize": 5097726,
+          "decodedBodySize": 18588986,
+          "durationMs": 117.70000004768372
+        },
+        {
+          "file": "s3-lean-size-lto.data.br",
+          "transferSize": 3052889,
+          "encodedBodySize": 3052589,
+          "decodedBodySize": 8288706,
+          "durationMs": 66.10000014305115
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "consoleMessages": []
+    }
+  ]
+}

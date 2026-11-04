@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-29 05:28:46Z" end-time="2026-10-29 05:28:47Z" duration="1.6491275">
+  <test-suite type="TestSuite" id="1007" name="Downbeat" fullname="Downbeat" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-29 05:28:46Z" end-time="2026-10-29 05:28:47Z" duration="1.649128" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1003" name="Downbeat.Tests.PlayMode.dll" fullname="/Users/USER/Documents/GitHub/downbeat-hand-orchestra/unity/Downbeat/Library/ScriptAssemblies/Downbeat.Tests.PlayMode.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-29 05:28:46Z" end-time="2026-10-29 05:28:47Z" duration="1.644805" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="2639" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1004" name="Downbeat" fullname="Downbeat" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-29 05:28:46Z" end-time="2026-10-29 05:28:47Z" duration="1.644285" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1005" name="Tests" fullname="Downbeat.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-29 05:28:46Z" end-time="2026-10-29 05:28:47Z" duration="1.643919" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="EditorPlayModeSmokeTest" fullname="Downbeat.Tests.EditorPlayModeSmokeTest" classname="Downbeat.Tests.EditorPlayModeSmokeTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-29 05:28:46Z" end-time="2026-10-29 05:28:47Z" duration="1.643076" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="Boots_with_the_repository_content_and_schedules_a_note" fullname="Downbeat.Tests.EditorPlayModeSmokeTest.Boots_with_the_repository_content_and_schedules_a_note" methodname="Boots_with_the_repository_content_and_schedules_a_note" classname="Downbeat.Tests.EditorPlayModeSmokeTest" runstate="Runnable" seed="1154463133" result="Passed" start-time="2026-10-29 05:28:46Z" end-time="2026-10-29 05:28:47Z" duration="1.637565" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[page] loading content
+[page] loading sounds
+[page] input: Mouse mode for now: camera is starting
+Saving results to: ../../measurements/unit-tests/playmode-results.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

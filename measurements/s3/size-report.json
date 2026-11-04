@@ -1,0 +1,849 @@
+{
+  "limits": {
+    "perFileBytes": 5242880,
+    "totalBytes": 15728640,
+    "fileCount": 80
+  },
+  "generatedBy": "tools/size_report.mjs",
+  "reports": [
+    {
+      "name": "s3-template",
+      "dir": "<repo>/unity/Downbeat/Builds/s3-template",
+      "fileCount": 18,
+      "totalBytes": 14896019,
+      "totalMib": 14.205950736999512,
+      "buildFolderBytes": 14875072,
+      "overTotalLimit": false,
+      "files": [
+        {
+          "file": "Build/s3-template.wasm.br",
+          "bytes": 10213948,
+          "mib": 9.740779876708984,
+          "overPerFileLimit": true,
+          "decompressedBytes": 59201501,
+          "q11Bytes": 9979707
+        },
+        {
+          "file": "Build/s3-template.data.br",
+          "bytes": 4554155,
+          "mib": 4.3431806564331055,
+          "overPerFileLimit": false,
+          "decompressedBytes": 14962972,
+          "q11Bytes": 4508317
+        },
+        {
+          "file": "Build/s3-template.framework.js.br",
+          "bytes": 79987,
+          "mib": 0.07628154754638672,
+          "overPerFileLimit": false,
+          "decompressedBytes": 486582,
+          "q11Bytes": 79986
+        },
+        {
+          "file": "Build/s3-template.loader.js",
+          "bytes": 26982,
+          "mib": 0.025732040405273438,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "index.html",
+          "bytes": 5603,
+          "mib": 0.005343437194824219,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-light.png",
+          "bytes": 3077,
+          "mib": 0.0029344558715820312,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-dark.png",
+          "bytes": 3042,
+          "mib": 0.0029010772705078125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/favicon.ico",
+          "bytes": 2305,
+          "mib": 0.0021982192993164062,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/webmemd-icon.png",
+          "bytes": 1670,
+          "mib": 0.0015926361083984375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "StreamingAssets/UnityServicesProjectConfiguration.json",
+          "bytes": 1448,
+          "mib": 0.00138092041015625,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/style.css",
+          "bytes": 1448,
+          "mib": 0.00138092041015625,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-title-footer.png",
+          "bytes": 1151,
+          "mib": 0.0010976791381835938,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/MemoryProfiler.png",
+          "bytes": 665,
+          "mib": 0.0006341934204101562,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/fullscreen-button.png",
+          "bytes": 175,
+          "mib": 0.00016689300537109375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-light.png",
+          "bytes": 109,
+          "mib": 0.00010395050048828125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-dark.png",
+          "bytes": 96,
+          "mib": 0.000091552734375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-light.png",
+          "bytes": 84,
+          "mib": 0.000080108642578125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-dark.png",
+          "bytes": 74,
+          "mib": 0.0000705718994140625,
+          "overPerFileLimit": false
+        }
+      ]
+    },
+    {
+      "name": "s3-lean-size",
+      "dir": "<repo>/unity/Downbeat/Builds/s3-lean-size",
+      "fileCount": 17,
+      "totalBytes": 8707795,
+      "totalMib": 8.304400444030762,
+      "buildFolderBytes": 8688292,
+      "overTotalLimit": false,
+      "files": [
+        {
+          "file": "Build/s3-lean-size.wasm.br",
+          "bytes": 5539781,
+          "mib": 5.283146858215332,
+          "overPerFileLimit": true,
+          "decompressedBytes": 22016035,
+          "q11Bytes": 5337798
+        },
+        {
+          "file": "Build/s3-lean-size.data.br",
+          "bytes": 3047173,
+          "mib": 2.906010627746582,
+          "overPerFileLimit": false,
+          "decompressedBytes": 8264039,
+          "q11Bytes": 3000446
+        },
+        {
+          "file": "Build/s3-lean-size.framework.js.br",
+          "bytes": 74356,
+          "mib": 0.07091140747070312,
+          "overPerFileLimit": false,
+          "decompressedBytes": 411934,
+          "q11Bytes": 74352
+        },
+        {
+          "file": "Build/s3-lean-size.loader.js",
+          "bytes": 26982,
+          "mib": 0.025732040405273438,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "index.html",
+          "bytes": 5607,
+          "mib": 0.005347251892089844,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-light.png",
+          "bytes": 3077,
+          "mib": 0.0029344558715820312,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-dark.png",
+          "bytes": 3042,
+          "mib": 0.0029010772705078125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/favicon.ico",
+          "bytes": 2305,
+          "mib": 0.0021982192993164062,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/webmemd-icon.png",
+          "bytes": 1670,
+          "mib": 0.0015926361083984375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/style.css",
+          "bytes": 1448,
+          "mib": 0.00138092041015625,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-title-footer.png",
+          "bytes": 1151,
+          "mib": 0.0010976791381835938,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/MemoryProfiler.png",
+          "bytes": 665,
+          "mib": 0.0006341934204101562,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/fullscreen-button.png",
+          "bytes": 175,
+          "mib": 0.00016689300537109375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-light.png",
+          "bytes": 109,
+          "mib": 0.00010395050048828125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-dark.png",
+          "bytes": 96,
+          "mib": 0.000091552734375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-light.png",
+          "bytes": 84,
+          "mib": 0.000080108642578125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-dark.png",
+          "bytes": 74,
+          "mib": 0.0000705718994140625,
+          "overPerFileLimit": false
+        }
+      ]
+    },
+    {
+      "name": "day0",
+      "dir": "<repo>/unity/Downbeat/Builds/day0",
+      "fileCount": 17,
+      "totalBytes": 8747736,
+      "totalMib": 8.342491149902344,
+      "buildFolderBytes": 8728265,
+      "overTotalLimit": false,
+      "files": [
+        {
+          "file": "Build/day0.wasm.br",
+          "bytes": 5572378,
+          "mib": 5.314233779907227,
+          "overPerFileLimit": true,
+          "decompressedBytes": 22142601,
+          "q11Bytes": 5367908
+        },
+        {
+          "file": "Build/day0.data.br",
+          "bytes": 3054054,
+          "mib": 2.9125728607177734,
+          "overPerFileLimit": false,
+          "decompressedBytes": 8294169,
+          "q11Bytes": 3003004
+        },
+        {
+          "file": "Build/day0.framework.js.br",
+          "bytes": 74851,
+          "mib": 0.07138347625732422,
+          "overPerFileLimit": false,
+          "decompressedBytes": 413673,
+          "q11Bytes": 74740
+        },
+        {
+          "file": "Build/day0.loader.js",
+          "bytes": 26982,
+          "mib": 0.025732040405273438,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "index.html",
+          "bytes": 5575,
+          "mib": 0.005316734313964844,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-light.png",
+          "bytes": 3077,
+          "mib": 0.0029344558715820312,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-dark.png",
+          "bytes": 3042,
+          "mib": 0.0029010772705078125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/favicon.ico",
+          "bytes": 2305,
+          "mib": 0.0021982192993164062,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/webmemd-icon.png",
+          "bytes": 1670,
+          "mib": 0.0015926361083984375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/style.css",
+          "bytes": 1448,
+          "mib": 0.00138092041015625,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-title-footer.png",
+          "bytes": 1151,
+          "mib": 0.0010976791381835938,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/MemoryProfiler.png",
+          "bytes": 665,
+          "mib": 0.0006341934204101562,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/fullscreen-button.png",
+          "bytes": 175,
+          "mib": 0.00016689300537109375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-light.png",
+          "bytes": 109,
+          "mib": 0.00010395050048828125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-dark.png",
+          "bytes": 96,
+          "mib": 0.000091552734375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-light.png",
+          "bytes": 84,
+          "mib": 0.000080108642578125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-dark.png",
+          "bytes": 74,
+          "mib": 0.0000705718994140625,
+          "overPerFileLimit": false
+        }
+      ]
+    },
+    {
+      "name": "s3-lean-size-lto",
+      "dir": "<repo>/unity/Downbeat/Builds/s3-lean-size-lto",
+      "fileCount": 17,
+      "totalBytes": 8270419,
+      "totalMib": 7.887286186218262,
+      "buildFolderBytes": 8250900,
+      "overTotalLimit": false,
+      "files": [
+        {
+          "file": "Build/s3-lean-size-lto.wasm.br",
+          "bytes": 5097726,
+          "mib": 4.861570358276367,
+          "overPerFileLimit": false,
+          "decompressedBytes": 18588986,
+          "q11Bytes": 4974694
+        },
+        {
+          "file": "Build/s3-lean-size-lto.data.br",
+          "bytes": 3052589,
+          "mib": 2.9111757278442383,
+          "overPerFileLimit": false,
+          "decompressedBytes": 8288706,
+          "q11Bytes": 3001487
+        },
+        {
+          "file": "Build/s3-lean-size-lto.framework.js.br",
+          "bytes": 73603,
+          "mib": 0.07019329071044922,
+          "overPerFileLimit": false,
+          "decompressedBytes": 397145,
+          "q11Bytes": 73574
+        },
+        {
+          "file": "Build/s3-lean-size-lto.loader.js",
+          "bytes": 26982,
+          "mib": 0.025732040405273438,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "index.html",
+          "bytes": 5623,
+          "mib": 0.005362510681152344,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-light.png",
+          "bytes": 3077,
+          "mib": 0.0029344558715820312,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-dark.png",
+          "bytes": 3042,
+          "mib": 0.0029010772705078125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/favicon.ico",
+          "bytes": 2305,
+          "mib": 0.0021982192993164062,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/webmemd-icon.png",
+          "bytes": 1670,
+          "mib": 0.0015926361083984375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/style.css",
+          "bytes": 1448,
+          "mib": 0.00138092041015625,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-title-footer.png",
+          "bytes": 1151,
+          "mib": 0.0010976791381835938,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/MemoryProfiler.png",
+          "bytes": 665,
+          "mib": 0.0006341934204101562,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/fullscreen-button.png",
+          "bytes": 175,
+          "mib": 0.00016689300537109375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-light.png",
+          "bytes": 109,
+          "mib": 0.00010395050048828125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-dark.png",
+          "bytes": 96,
+          "mib": 0.000091552734375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-light.png",
+          "bytes": 84,
+          "mib": 0.000080108642578125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-dark.png",
+          "bytes": 74,
+          "mib": 0.0000705718994140625,
+          "overPerFileLimit": false
+        }
+      ]
+    },
+    {
+      "name": "s3-pp-off",
+      "dir": "<tmp>/a24ee148-1536-477c-bc61-a01332b5b9de/scratchpad/variants/pp-off/Builds/s3-pp-off",
+      "fileCount": 17,
+      "totalBytes": 7166507,
+      "totalMib": 6.8345136642456055,
+      "buildFolderBytes": 7147016,
+      "overTotalLimit": false,
+      "files": [
+        {
+          "file": "Build/s3-pp-off.wasm.br",
+          "bytes": 5572378,
+          "mib": 5.314233779907227,
+          "overPerFileLimit": true,
+          "decompressedBytes": 22142601,
+          "q11Bytes": 5367908
+        },
+        {
+          "file": "Build/s3-pp-off.data.br",
+          "bytes": 1472805,
+          "mib": 1.404576301574707,
+          "overPerFileLimit": false,
+          "decompressedBytes": 6388094,
+          "q11Bytes": 1460033
+        },
+        {
+          "file": "Build/s3-pp-off.framework.js.br",
+          "bytes": 74851,
+          "mib": 0.07138347625732422,
+          "overPerFileLimit": false,
+          "decompressedBytes": 413673,
+          "q11Bytes": 74740
+        },
+        {
+          "file": "Build/s3-pp-off.loader.js",
+          "bytes": 26982,
+          "mib": 0.025732040405273438,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "index.html",
+          "bytes": 5595,
+          "mib": 0.005335807800292969,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-light.png",
+          "bytes": 3077,
+          "mib": 0.0029344558715820312,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-dark.png",
+          "bytes": 3042,
+          "mib": 0.0029010772705078125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/favicon.ico",
+          "bytes": 2305,
+          "mib": 0.0021982192993164062,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/webmemd-icon.png",
+          "bytes": 1670,
+          "mib": 0.0015926361083984375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/style.css",
+          "bytes": 1448,
+          "mib": 0.00138092041015625,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-title-footer.png",
+          "bytes": 1151,
+          "mib": 0.0010976791381835938,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/MemoryProfiler.png",
+          "bytes": 665,
+          "mib": 0.0006341934204101562,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/fullscreen-button.png",
+          "bytes": 175,
+          "mib": 0.00016689300537109375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-light.png",
+          "bytes": 109,
+          "mib": 0.00010395050048828125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-dark.png",
+          "bytes": 96,
+          "mib": 0.000091552734375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-light.png",
+          "bytes": 84,
+          "mib": 0.000080108642578125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-dark.png",
+          "bytes": 74,
+          "mib": 0.0000705718994140625,
+          "overPerFileLimit": false
+        }
+      ]
+    },
+    {
+      "name": "s3-pp-off-lto",
+      "dir": "<tmp>/a24ee148-1536-477c-bc61-a01332b5b9de/scratchpad/variants/pp-off/Builds/s3-pp-off-lto",
+      "fileCount": 17,
+      "totalBytes": 6692432,
+      "totalMib": 6.3824005126953125,
+      "buildFolderBytes": 6672925,
+      "overTotalLimit": false,
+      "files": [
+        {
+          "file": "Build/s3-pp-off-lto.wasm.br",
+          "bytes": 5097726,
+          "mib": 4.861570358276367,
+          "overPerFileLimit": false,
+          "decompressedBytes": 18588986,
+          "q11Bytes": 4974694
+        },
+        {
+          "file": "Build/s3-pp-off-lto.data.br",
+          "bytes": 1474614,
+          "mib": 1.406301498413086,
+          "overPerFileLimit": false,
+          "decompressedBytes": 6388094,
+          "q11Bytes": 1459738
+        },
+        {
+          "file": "Build/s3-pp-off-lto.framework.js.br",
+          "bytes": 73603,
+          "mib": 0.07019329071044922,
+          "overPerFileLimit": false,
+          "decompressedBytes": 397145,
+          "q11Bytes": 73574
+        },
+        {
+          "file": "Build/s3-pp-off-lto.loader.js",
+          "bytes": 26982,
+          "mib": 0.025732040405273438,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "index.html",
+          "bytes": 5611,
+          "mib": 0.005351066589355469,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-light.png",
+          "bytes": 3077,
+          "mib": 0.0029344558715820312,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-dark.png",
+          "bytes": 3042,
+          "mib": 0.0029010772705078125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/favicon.ico",
+          "bytes": 2305,
+          "mib": 0.0021982192993164062,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/webmemd-icon.png",
+          "bytes": 1670,
+          "mib": 0.0015926361083984375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/style.css",
+          "bytes": 1448,
+          "mib": 0.00138092041015625,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-title-footer.png",
+          "bytes": 1151,
+          "mib": 0.0010976791381835938,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/MemoryProfiler.png",
+          "bytes": 665,
+          "mib": 0.0006341934204101562,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/fullscreen-button.png",
+          "bytes": 175,
+          "mib": 0.00016689300537109375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-light.png",
+          "bytes": 109,
+          "mib": 0.00010395050048828125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-dark.png",
+          "bytes": 96,
+          "mib": 0.000091552734375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-light.png",
+          "bytes": 84,
+          "mib": 0.000080108642578125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-dark.png",
+          "bytes": 74,
+          "mib": 0.0000705718994140625,
+          "overPerFileLimit": false
+        }
+      ]
+    },
+    {
+      "name": "s3-builtin",
+      "dir": "<tmp>/a24ee148-1536-477c-bc61-a01332b5b9de/scratchpad/variants/builtin/Builds/s3-builtin",
+      "fileCount": 17,
+      "totalBytes": 3392041,
+      "totalMib": 3.2349023818969727,
+      "buildFolderBytes": 3372546,
+      "overTotalLimit": false,
+      "files": [
+        {
+          "file": "Build/s3-builtin.wasm.br",
+          "bytes": 2643559,
+          "mib": 2.52109432220459,
+          "overPerFileLimit": false,
+          "decompressedBytes": 10036940,
+          "q11Bytes": 2633629
+        },
+        {
+          "file": "Build/s3-builtin.data.br",
+          "bytes": 630360,
+          "mib": 0.6011581420898438,
+          "overPerFileLimit": false,
+          "decompressedBytes": 2946192,
+          "q11Bytes": 625788
+        },
+        {
+          "file": "Build/s3-builtin.framework.js.br",
+          "bytes": 71645,
+          "mib": 0.06832599639892578,
+          "overPerFileLimit": false,
+          "decompressedBytes": 373226,
+          "q11Bytes": 71487
+        },
+        {
+          "file": "Build/s3-builtin.loader.js",
+          "bytes": 26982,
+          "mib": 0.025732040405273438,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "index.html",
+          "bytes": 5599,
+          "mib": 0.005339622497558594,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-light.png",
+          "bytes": 3077,
+          "mib": 0.0029344558715820312,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-dark.png",
+          "bytes": 3042,
+          "mib": 0.0029010772705078125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/favicon.ico",
+          "bytes": 2305,
+          "mib": 0.0021982192993164062,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/webmemd-icon.png",
+          "bytes": 1670,
+          "mib": 0.0015926361083984375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/style.css",
+          "bytes": 1448,
+          "mib": 0.00138092041015625,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/unity-logo-title-footer.png",
+          "bytes": 1151,
+          "mib": 0.0010976791381835938,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/MemoryProfiler.png",
+          "bytes": 665,
+          "mib": 0.0006341934204101562,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/fullscreen-button.png",
+          "bytes": 175,
+          "mib": 0.00016689300537109375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-light.png",
+          "bytes": 109,
+          "mib": 0.00010395050048828125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-empty-dark.png",
+          "bytes": 96,
+          "mib": 0.000091552734375,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-light.png",
+          "bytes": 84,
+          "mib": 0.000080108642578125,
+          "overPerFileLimit": false
+        },
+        {
+          "file": "TemplateData/progress-bar-full-dark.png",
+          "bytes": 74,
+          "mib": 0.0000705718994140625,
+          "overPerFileLimit": false
+        }
+      ]
+    }
+  ]
+}

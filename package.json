@@ -1,0 +1,16 @@
+{
+  "name": "downbeat-hand-orchestra",
+  "version": "0.0.0-day0",
+  "private": true,
+  "type": "module",
+  "description": "Downbeat: webcam hand-gesture orchestra (Unity Web + MediaPipe). Day 0 feasibility tooling.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "serve": "node web/serve.mjs"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "0.10.35"
+  }
+}

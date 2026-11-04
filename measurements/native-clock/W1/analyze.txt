@@ -1,0 +1,3 @@
+path,scenario,onsets,expectedSlots,missedSlots,duplicateSlots,schedulerSkippedLate,std_ms,p95_ms,max_ms,drift_ms_per_min,offset_ms,after_std_ms,after_max_ms,criteria
+native-scheduled,calm,379,384,5,0,5,0.002,0.001,0.020,0.002,-0.001,,,{"std":true;"max":true;"drift":true}
+native-scheduled,stress,379,384,5,0,5,0.936,0.073,18.197,-0.055,0.076,,,{"std":true;"max":false;"drift":true}

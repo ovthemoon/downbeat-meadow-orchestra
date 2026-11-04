@@ -1,0 +1,345 @@
+{
+  "vcslRepo": "sgossner/VCSL",
+  "vcslCommit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+  "trim": {
+    "preRollSec": 0.002,
+    "lengthSec": 1.3,
+    "fadeOutSec": 0.15,
+    "targetPeak": 0.708
+  },
+  "notesAre": "sounding pitch measured with YIN; VCSL file-name octaves for marimba, recorders, hand chimes and strumstick are one octave below the sounding pitch; the congas are unpitched (note = nominal A, tuneCents 0)",
+  "sources": [
+    {
+      "instrument": "harp",
+      "vcslPath": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_A4_mf1.wav",
+      "note": "A4",
+      "labelNote": "A4",
+      "variant": "mf1",
+      "outName": "harp_A4"
+    },
+    {
+      "instrument": "harp",
+      "vcslPath": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_C5_mf1.wav",
+      "note": "C5",
+      "labelNote": "C5",
+      "variant": "mf1",
+      "outName": "harp_C5"
+    },
+    {
+      "instrument": "harp",
+      "vcslPath": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_E5_mf1.wav",
+      "note": "E5",
+      "labelNote": "E5",
+      "variant": "mf1",
+      "outName": "harp_E5"
+    },
+    {
+      "instrument": "harp",
+      "vcslPath": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_G5_mf1.wav",
+      "note": "G5",
+      "labelNote": "G5",
+      "variant": "mf1",
+      "outName": "harp_G5"
+    },
+    {
+      "instrument": "harp",
+      "vcslPath": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_D6_mf1.wav",
+      "note": "D6",
+      "labelNote": "D6",
+      "variant": "mf1",
+      "outName": "harp_D6"
+    },
+    {
+      "instrument": "marimba",
+      "vcslPath": "Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_med_01.wav",
+      "note": "C5",
+      "labelNote": "C4",
+      "variant": "med",
+      "outName": "marimba_C5_med"
+    },
+    {
+      "instrument": "marimba",
+      "vcslPath": "Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G4_med_01.wav",
+      "note": "G5",
+      "labelNote": "G4",
+      "variant": "med",
+      "outName": "marimba_G5_med"
+    },
+    {
+      "instrument": "marimba",
+      "vcslPath": "Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav",
+      "note": "C5",
+      "labelNote": "C4",
+      "variant": "loud",
+      "outName": "marimba_C5_loud"
+    },
+    {
+      "instrument": "recorder",
+      "vcslPath": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_A#4_rr1_Main.wav",
+      "note": "A#5",
+      "labelNote": "A#4",
+      "variant": "staccato",
+      "outName": "recorder_As5"
+    },
+    {
+      "instrument": "recorder",
+      "vcslPath": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_C5_rr1_Main.wav",
+      "note": "C6",
+      "labelNote": "C5",
+      "variant": "staccato",
+      "outName": "recorder_C6"
+    },
+    {
+      "instrument": "recorder",
+      "vcslPath": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_D5_rr1_Main.wav",
+      "note": "D6",
+      "labelNote": "D5",
+      "variant": "staccato",
+      "outName": "recorder_D6"
+    },
+    {
+      "instrument": "recorder",
+      "vcslPath": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_E5_rr1_Main.wav",
+      "note": "E6",
+      "labelNote": "E5",
+      "variant": "staccato",
+      "outName": "recorder_E6"
+    },
+    {
+      "instrument": "recorder",
+      "vcslPath": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_G5_rr1_Main.wav",
+      "note": "G6",
+      "labelNote": "G5",
+      "variant": "staccato",
+      "outName": "recorder_G6"
+    },
+    {
+      "instrument": "bell",
+      "vcslPath": "Idiophones/Struck Idiophones/Hand Chimes/sus_A#3_r01_main.wav",
+      "note": "A#4",
+      "labelNote": "A#3",
+      "variant": "sustain",
+      "outName": "bell_As4"
+    },
+    {
+      "instrument": "bell",
+      "vcslPath": "Idiophones/Struck Idiophones/Hand Chimes/sus_D4_r01_main.wav",
+      "note": "D5",
+      "labelNote": "D4",
+      "variant": "sustain",
+      "outName": "bell_D5"
+    },
+    {
+      "instrument": "bell",
+      "vcslPath": "Idiophones/Struck Idiophones/Hand Chimes/sus_G#4_r01_main.wav",
+      "note": "G#5",
+      "labelNote": "G#4",
+      "variant": "sustain",
+      "outName": "bell_Gs5"
+    },
+    {
+      "instrument": "bell",
+      "vcslPath": "Idiophones/Struck Idiophones/Hand Chimes/sus_C5_r01_main.wav",
+      "note": "C6",
+      "labelNote": "C5",
+      "variant": "sustain",
+      "outName": "bell_C6"
+    },
+    {
+      "instrument": "bell",
+      "vcslPath": "Idiophones/Struck Idiophones/Hand Chimes/sus_E5_r01_main.wav",
+      "note": "E6",
+      "labelNote": "E5",
+      "variant": "sustain",
+      "outName": "bell_E6"
+    },
+    {
+      "instrument": "bell",
+      "vcslPath": "Idiophones/Struck Idiophones/Hand Chimes/sus_G#5_r01_main.wav",
+      "note": "G#6",
+      "labelNote": "G#5",
+      "variant": "sustain",
+      "outName": "bell_Gs6"
+    },
+    {
+      "instrument": "lowstring",
+      "vcslPath": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_A2_vl2_rr1.wav",
+      "note": "A3",
+      "labelNote": "A2",
+      "variant": "finger-vl2",
+      "outName": "lowstring_A3"
+    },
+    {
+      "instrument": "lowstring",
+      "vcslPath": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_D3_vl2_rr1.wav",
+      "note": "D4",
+      "labelNote": "D3",
+      "variant": "finger-vl2",
+      "outName": "lowstring_D4"
+    },
+    {
+      "instrument": "lowstring",
+      "vcslPath": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_G3_vl2_rr1.wav",
+      "note": "G4",
+      "labelNote": "G3",
+      "variant": "finger-vl2",
+      "outName": "lowstring_G4"
+    },
+    {
+      "instrument": "lowstring",
+      "vcslPath": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_A3_vl2_rr1.wav",
+      "note": "A4",
+      "labelNote": "A3",
+      "variant": "finger-vl2",
+      "outName": "lowstring_A4"
+    },
+    {
+      "instrument": "lowstring",
+      "vcslPath": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_D4_vl2_rr1.wav",
+      "note": "D5",
+      "labelNote": "D4",
+      "variant": "finger-vl2",
+      "outName": "lowstring_D5"
+    },
+    {
+      "instrument": "lowstring",
+      "vcslPath": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_G4_vl2_rr2.wav",
+      "note": "G5",
+      "labelNote": "G4",
+      "variant": "finger-vl2",
+      "outName": "lowstring_G5"
+    },
+    {
+      "instrument": "handdrum",
+      "vcslPath": "Membranophones/Struck Membranophones/Conga/Tumba_HitN_v4_rr1_Sum.wav",
+      "note": "A2",
+      "labelNote": null,
+      "variant": "tumba-hit-v4",
+      "unpitched": true,
+      "outName": "handdrum_A2_tumba"
+    },
+    {
+      "instrument": "handdrum",
+      "vcslPath": "Membranophones/Struck Membranophones/Conga/Conga_HitN_v3_rr1_Sum.wav",
+      "note": "A3",
+      "labelNote": null,
+      "variant": "conga-hit-v3",
+      "unpitched": true,
+      "outName": "handdrum_A3_conga"
+    },
+    {
+      "instrument": "handdrum",
+      "vcslPath": "Membranophones/Struck Membranophones/Conga/Quinto_HitN_v3_rr2_Sum.wav",
+      "note": "A4",
+      "labelNote": null,
+      "variant": "quinto-hit-v3",
+      "unpitched": true,
+      "outName": "handdrum_A4_quinto"
+    }
+  ],
+  "scale": {
+    "name": "A minor pentatonic (A C D E G)",
+    "notes": [
+      {
+        "degree": 1,
+        "targets": [
+          {
+            "target": "A4",
+            "source": "harp_A4",
+            "semitones": 0
+          },
+          {
+            "target": "A4",
+            "source": "marimba_C5_med",
+            "semitones": -3
+          },
+          {
+            "target": "A5",
+            "source": "recorder_As5",
+            "semitones": -1
+          }
+        ]
+      },
+      {
+        "degree": 2,
+        "targets": [
+          {
+            "target": "C5",
+            "source": "harp_C5",
+            "semitones": 0
+          },
+          {
+            "target": "C5",
+            "source": "marimba_C5_med",
+            "semitones": 0
+          },
+          {
+            "target": "C6",
+            "source": "recorder_C6",
+            "semitones": 0
+          }
+        ]
+      },
+      {
+        "degree": 3,
+        "targets": [
+          {
+            "target": "D5",
+            "source": "harp_D6",
+            "semitones": -12
+          },
+          {
+            "target": "D5",
+            "source": "marimba_C5_med",
+            "semitones": 2
+          },
+          {
+            "target": "D6",
+            "source": "recorder_D6",
+            "semitones": 0
+          }
+        ]
+      },
+      {
+        "degree": 4,
+        "targets": [
+          {
+            "target": "E5",
+            "source": "harp_E5",
+            "semitones": 0
+          },
+          {
+            "target": "E5",
+            "source": "marimba_G5_med",
+            "semitones": -3
+          },
+          {
+            "target": "E6",
+            "source": "recorder_E6",
+            "semitones": 0
+          }
+        ]
+      },
+      {
+        "degree": 5,
+        "targets": [
+          {
+            "target": "G5",
+            "source": "harp_G5",
+            "semitones": 0
+          },
+          {
+            "target": "G5",
+            "source": "marimba_G5_med",
+            "semitones": 0
+          },
+          {
+            "target": "G6",
+            "source": "recorder_G6",
+            "semitones": 0
+          }
+        ]
+      }
+    ]
+  }
+}

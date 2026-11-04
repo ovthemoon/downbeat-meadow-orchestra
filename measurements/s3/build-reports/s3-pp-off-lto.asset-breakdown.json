@@ -1,0 +1,402 @@
+{
+    "assetCount": 2866,
+    "packedTotalBytes": 3649983,
+    "byType": [
+        {
+            "type": "Texture2D",
+            "count": 11,
+            "bytes": 2825284
+        },
+        {
+            "type": "Shader",
+            "count": 23,
+            "bytes": 421432
+        },
+        {
+            "type": "MonoBehaviour",
+            "count": 622,
+            "bytes": 109792
+        },
+        {
+            "type": "MonoScript",
+            "count": 841,
+            "bytes": 106988
+        },
+        {
+            "type": "Font",
+            "count": 1,
+            "bytes": 81330
+        },
+        {
+            "type": "RectTransform",
+            "count": 514,
+            "bytes": 61320
+        },
+        {
+            "type": "GameObject",
+            "count": 514,
+            "bytes": 30190
+        },
+        {
+            "type": "CanvasRenderer",
+            "count": 323,
+            "bytes": 4199
+        },
+        {
+            "type": "Sprite",
+            "count": 7,
+            "bytes": 3312
+        },
+        {
+            "type": "ComputeShader",
+            "count": 2,
+            "bytes": 3044
+        },
+        {
+            "type": "TextAsset",
+            "count": 2,
+            "bytes": 2092
+        },
+        {
+            "type": "Material",
+            "count": 2,
+            "bytes": 452
+        },
+        {
+            "type": "PreloadData",
+            "count": 2,
+            "bytes": 422
+        },
+        {
+            "type": "Canvas",
+            "count": 2,
+            "bytes": 126
+        }
+    ],
+    "topAssets": [
+        {
+            "path": "Built-in Texture2D: Splash Screen Unity Logo",
+            "type": "Texture2D",
+            "bytes": 2796376
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Light2D.shader",
+            "type": "Shader",
+            "bytes": 206308
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf",
+            "type": "Font",
+            "bytes": 81330
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CoreBlit.shader",
+            "type": "Shader",
+            "bytes": 64480
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrass.shader",
+            "type": "Shader",
+            "bytes": 29096
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrassBillboard.shader",
+            "type": "Shader",
+            "bytes": 21256
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainDetailLit.shader",
+            "type": "Shader",
+            "bytes": 19224
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/DebugFont.tga",
+            "type": "Texture2D",
+            "bytes": 16508
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Debug/HDRDebugView.shader",
+            "type": "Shader",
+            "bytes": 11740
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CoreBlitColorAndDepth.shader",
+            "type": "Shader",
+            "bytes": 9396
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Projected.shader",
+            "type": "Shader",
+            "bytes": 7580
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Unshadow-Sprite.shader",
+            "type": "Shader",
+            "bytes": 7040
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Unshadow-Geometry.shader",
+            "type": "Shader",
+            "bytes": 6540
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Shaders/CoreCopy.shader",
+            "type": "Shader",
+            "bytes": 5908
+        },
+        {
+            "path": "Resources/unity_builtin_extra",
+            "type": "Texture2D",
+            "bytes": 5580
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Debug/DebugReplacement.shader",
+            "type": "Shader",
+            "bytes": 4692
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CopyDepth.shader",
+            "type": "Shader",
+            "bytes": 4524
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Shadow-Sprite.shader",
+            "type": "Shader",
+            "bytes": 4268
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 4244
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64/L/LDR_LLL1_0.png",
+            "type": "Texture2D",
+            "bytes": 4220
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader",
+            "type": "Shader",
+            "bytes": 4116
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/Sampling.shader",
+            "type": "Shader",
+            "bytes": 3900
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Shadow-Geometry.shader",
+            "type": "Shader",
+            "bytes": 3864
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader",
+            "type": "Shader",
+            "bytes": 3336
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute",
+            "type": "ComputeShader",
+            "bytes": 3024
+        },
+        {
+            "path": "Assets/UniversalRenderPipelineGlobalSettings.asset",
+            "type": "MonoBehaviour",
+            "bytes": 2644
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Vrs/Shaders/VrsVisualization.shader",
+            "type": "Shader",
+            "bytes": 2452
+        },
+        {
+            "path": "Assets/Resources/PerformanceTestRunInfo.json",
+            "type": "TextAsset",
+            "bytes": 2032
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png",
+            "type": "Texture2D",
+            "bytes": 612
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png",
+            "type": "Texture2D",
+            "bytes": 612
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png",
+            "type": "Texture2D",
+            "bytes": 608
+        },
+        {
+            "path": "Assets/DefaultVolumeProfile.asset",
+            "type": "MonoBehaviour",
+            "bytes": 560
+        },
+        {
+            "path": "Resources/unity_builtin_extra",
+            "type": "Sprite",
+            "bytes": 520
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 508
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectPopupField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 508
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectPopupField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 508
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIButton.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 500
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 500
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 500
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 500
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 500
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 500
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 500
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 500
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 500
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png",
+            "type": "Sprite",
+            "bytes": 496
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png",
+            "type": "Sprite",
+            "bytes": 492
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIBitField.prefab",
+            "type": "RectTransform",
+            "bytes": 492
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHandlerRenderingLayerField.prefab",
+            "type": "RectTransform",
+            "bytes": 492
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png",
+            "type": "Sprite",
+            "bytes": 488
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/XR/XRMirrorView.shader",
+            "type": "Shader",
+            "bytes": 480
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/BlitHDROverlay.shader",
+            "type": "Shader",
+            "bytes": 476
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHandlerRenderingLayerField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 476
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIBitField.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 476
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIElement8px.png",
+            "type": "Sprite",
+            "bytes": 468
+        },
+        {
+            "path": "Assets/Settings/UniversalRP.asset",
+            "type": "MonoBehaviour",
+            "bytes": 448
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png",
+            "type": "Sprite",
+            "bytes": 428
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 424
+        },
+        {
+            "path": "Built-in Sprite: ",
+            "type": "Sprite",
+            "bytes": 420
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 420
+        }
+    ],
+    "includedEngineModules": [
+        "Animation Module",
+        "Audio Module",
+        "Core Module",
+        "GraphicsStateCollectionSerializer Module",
+        "HierarchyCore Module",
+        "IMGUI Module",
+        "InputForUI Module",
+        "InputLegacy Module",
+        "JSONSerialize Module",
+        "Physics Module",
+        "PhysicsBackendPhysX Module",
+        "Properties Module",
+        "RenderAs2D Module",
+        "RuntimeInitializeOnLoadManagerInitializer Module",
+        "SharedInternals Module",
+        "Terrain Module",
+        "TextCoreFontEngine Module",
+        "TextCoreTextEngine Module",
+        "TextRendering Module",
+        "UI Module",
+        "UIElements Module",
+        "WebGL Module"
+    ]
+}

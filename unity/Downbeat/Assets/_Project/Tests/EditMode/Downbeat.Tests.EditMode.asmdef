@@ -1,0 +1,32 @@
+{
+  "name": "Downbeat.Tests.EditMode",
+  "rootNamespace": "Downbeat.Tests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "Downbeat.Core",
+    "Downbeat.Content",
+    "Downbeat.Input",
+    "Downbeat.App",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Downbeat.Audio",
+    "Downbeat.Meadow",
+    "Downbeat.Record"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

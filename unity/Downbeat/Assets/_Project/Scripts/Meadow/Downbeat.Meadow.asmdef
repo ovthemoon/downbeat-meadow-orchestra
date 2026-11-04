@@ -1,0 +1,19 @@
+{
+  "name": "Downbeat.Meadow",
+  "rootNamespace": "Downbeat.Meadow",
+  "references": [
+    "Downbeat.Core",
+    "Downbeat.Content",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

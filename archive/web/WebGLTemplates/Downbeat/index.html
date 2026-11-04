@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Downbeat - hand gesture orchestra (prototype)</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #0b0a12; color: #efe7d4; font-family: system-ui, "Apple SD Gothic Neo", sans-serif; }
+    body { display: flex; align-items: center; justify-content: center; }
+    #stage { position: relative; width: min(100vw, calc(100vh * 8 / 3)); aspect-ratio: 8 / 3; background: #000; }
+    #unity-canvas { width: 100%; height: 100%; display: block; }
+    #overlay { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+      background: radial-gradient(ellipse at center, #241b3a 0%, #0b0a12 75%); text-align: center; transition: opacity .5s; }
+    #overlay.hidden { opacity: 0; pointer-events: none; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 64px); letter-spacing: .04em; font-weight: 600; }
+    p { margin: 0; opacity: .75; font-size: clamp(12px, 1.4vw, 18px); }
+    button { margin-top: 8px; padding: .7em 2.2em; font-size: clamp(16px, 2vw, 26px); border-radius: 999px; border: 2px solid #f3d27a; background: #f3d27a22;
+      color: #f3d27a; cursor: pointer; }
+    button:hover:not(:disabled) { background: #f3d27a44; }
+    button:disabled { opacity: .5; cursor: default; }
+    #status { min-height: 1.4em; font-size: clamp(11px, 1.2vw, 15px); opacity: .7; }
+    #note { position: absolute; left: 12px; bottom: 8px; font-size: 12px; opacity: .55; }
+    #camera-status { min-height: 1.3em; font-size: clamp(11px, 1.2vw, 15px); opacity: .7; }
+    #privacy { max-width: 78%; font-size: clamp(10px, 1.05vw, 14px); line-height: 1.45; opacity: .8; border: 1px solid #efe7d433; border-radius: 10px; padding: .6em 1em; }
+    #privacy b { color: #f3d27a; font-weight: 600; }
+    #alt-links { font-size: clamp(11px, 1.15vw, 15px); opacity: .8; }
+    #alt-links a { color: #f3d27a; margin: 0 .6em; }
+    #mode-badge { position: absolute; left: 12px; top: 10px; padding: 4px 10px; border-radius: 999px; background: #000a; border: 1px solid #f3d27a66;
+      color: #f3d27a; font-size: clamp(11px, 1.15vw, 15px); pointer-events: none; }
+    #hand-preview { position: absolute; right: 10px; top: 10px; width: 17%; aspect-ratio: 4 / 3; border: 1px solid #efe7d466; border-radius: 6px; background: #000; }
+    #camera-video { position: absolute; width: 2px; height: 2px; opacity: 0; pointer-events: none; }
+  </style>
+  <script>
+    // ?tap=1 records what reaches the speakers (measurement and the demo video); it must be installed before any AudioContext exists
+    if (new URLSearchParams(location.search).get('tap') === '1') document.write('<script src="js/tap.js"><\/script>');
+  </script>
+</head>
+<body>
+  <div id="stage">
+    <canvas id="unity-canvas" tabindex="-1"></canvas>
+    <div id="overlay">
+      <h1>Downbeat</h1>
+      <p>Strike downward with your hand in front of the camera (or click the stage). Left / middle / right = harp / recorder / marimba, height = pitch.</p>
+      <div id="privacy">
+        <b>개인정보</b> 카메라 영상은 이 브라우저 안에서만 처리하며 저장하거나 어디로도 보내지 않습니다. 손의 위치 좌표만 사용합니다.
+        외부에서 내려받는 것은 손 인식 프로그램과 모델 파일뿐입니다(<span id="privacy-hosts"></span>).<br>
+        <b>Privacy</b> Camera video is processed only in this browser and is never stored or sent anywhere. Only hand coordinates are used.
+        The only downloads from outside are the hand tracking code and model (from the hosts above).
+      </div>
+      <button id="start" type="button">Start</button>
+      <div id="status"></div>
+      <div id="camera-status"></div>
+      <div id="alt-links">No camera? <a href="?input=mouse">play with the mouse</a> <a href="?input=replay">watch a recorded hand demo</a></div>
+    </div>
+    <div id="mode-badge" hidden></div>
+    <canvas id="hand-preview" width="256" height="192" hidden></canvas>
+    <video id="camera-video" playsinline muted></video>
+    <div id="note">Personal prototype, not a real exhibition installation.</div>
+  </div>
+  <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+  <script type="module">
+    import { wireStartScreen } from './js/start-page.js';
+    const config = {
+      dataUrl: "Build/{{{ DATA_FILENAME }}}",
+      frameworkUrl: "Build/{{{ FRAMEWORK_FILENAME }}}",
+#if USE_WASM
+      codeUrl: "Build/{{{ CODE_FILENAME }}}",
+#endif
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: {{{ JSON.stringify(COMPANY_NAME) }}},
+      productName: {{{ JSON.stringify(PRODUCT_NAME) }}},
+      productVersion: {{{ JSON.stringify(PRODUCT_VERSION) }}},
+    };
+    wireStartScreen({
+      button: document.getElementById('start'),
+      overlay: document.getElementById('overlay'),
+      statusLine: document.getElementById('status'),
+      cameraLine: document.getElementById('camera-status'),
+      badge: document.getElementById('mode-badge'),
+      video: document.getElementById('camera-video'),
+      previewCanvas: document.getElementById('hand-preview'),
+      privacyHosts: document.getElementById('privacy-hosts'),
+      startUnity: async () => {
+        window.Downbeat.unity = await createUnityInstance(document.getElementById('unity-canvas'), config, (progress) => {
+          document.getElementById('status').textContent = `loading ${Math.round(progress * 100)}%`;
+        });
+      },
+    });
+  </script>
+</body>
+</html>

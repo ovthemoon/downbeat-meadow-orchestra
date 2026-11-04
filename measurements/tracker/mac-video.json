@@ -1,0 +1,86 @@
+{
+  "what": "hand tracker on a looping video file (no camera): fps and detection ms per frame, plus the UDP datagrams received",
+  "video": "tests/fixtures/video/hand-strikes.mp4",
+  "videoFacts": "640x480, 30 fps, 6 s, one CC0 hand photo moved by tools/make_strike_video.py (a picture of a hand)",
+  "machine": {
+    "platform": "macOS-15.7.3-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.10",
+    "processor": "arm"
+  },
+  "versions": {
+    "mediapipe": "0.10.35",
+    "numpy": "2.5.4",
+    "opencv-contrib-python": "5.0.0.93"
+  },
+  "delegate": "CPU (MediaPipe Tasks default on macOS; XNNPACK)",
+  "note": "shared Mac (other Unity editors and apps were running, see the load averages); the MediaPipe C++ start-up lines on stderr are its own logging",
+  "runs": [
+    {
+      "name": "paced",
+      "maxFps": 30.0,
+      "requestedSeconds": 30.0,
+      "wallSecondsIncludingStartup": 30.56,
+      "loadAvgBefore_1_5_15min": [
+        7.13,
+        7.17,
+        7.4
+      ],
+      "loadAvgAfter_1_5_15min": [
+        5.79,
+        6.82,
+        7.26
+      ],
+      "tracker": {
+        "frames": 870,
+        "frames_with_hands": 870,
+        "seconds": 29.102,
+        "fps": 29.86,
+        "infer_ms_p50": 10.987,
+        "infer_ms_p95": 11.455,
+        "infer_ms_max": 20.961,
+        "infer_ms_mean": 11.06
+      },
+      "udp": {
+        "datagramsReceived": 870,
+        "undecodable": 0,
+        "seqStrictlyIncreasing": true,
+        "seqGaps": 0,
+        "handFrameRatio": 1.0
+      }
+    },
+    {
+      "name": "unpaced",
+      "maxFps": 1000.0,
+      "requestedSeconds": 30.0,
+      "wallSecondsIncludingStartup": 30.6,
+      "loadAvgBefore_1_5_15min": [
+        5.79,
+        6.82,
+        7.26
+      ],
+      "loadAvgAfter_1_5_15min": [
+        7.96,
+        7.28,
+        7.41
+      ],
+      "tracker": {
+        "frames": 2579,
+        "frames_with_hands": 2579,
+        "seconds": 29.144,
+        "fps": 88.459,
+        "infer_ms_p50": 10.924,
+        "infer_ms_p95": 11.416,
+        "infer_ms_max": 22.056,
+        "infer_ms_mean": 10.988
+      },
+      "udp": {
+        "datagramsReceived": 2579,
+        "undecodable": 0,
+        "seqStrictlyIncreasing": true,
+        "seqGaps": 0,
+        "handFrameRatio": 1.0
+      }
+    }
+  ]
+}

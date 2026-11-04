@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "downbeat-tracker"
+version = "0.1.0"
+description = "Hand tracker of the Downbeat meadow orchestra: webcam or video -> MediaPipe Hand Landmarker -> hand coordinates over local UDP (hand-udp-v1)."
+readme = "README.md"
+license = { text = "MIT" }
+# Python 3.12 is the version the plan fixes for the tracker (a project-local venv under tracker/.venv).
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  # Exact pin: the newest 0.10.x release with wheels for macOS arm64 and Windows amd64 (see ../docs/protocol and measurements/env/tracker-python.txt).
+  "mediapipe==0.10.35",
+  "numpy>=1.26",
+  # mediapipe itself depends on opencv-contrib-python; installing opencv-python next to it would put two cv2 packages in one environment.
+  "opencv-contrib-python>=4.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+downbeat-tracker = "downbeat_tracker.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["downbeat_tracker*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: runs MediaPipe on a video (about a second or two)"]

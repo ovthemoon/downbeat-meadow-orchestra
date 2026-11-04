@@ -1,0 +1,275 @@
+[
+  {
+    "id": "camera-ok",
+    "camera": "fake",
+    "query": "input=hand",
+    "trackerState": 2,
+    "cameraLine": "camera: hand tracking is running",
+    "label": "Camera mode: strike downward with your hand",
+    "gumCalls": 1,
+    "notesFromClicks": [
+      [
+        0,
+        6,
+        4,
+        true
+      ],
+      [
+        0,
+        7,
+        10,
+        true
+      ]
+    ],
+    "pass": {
+      "state": true,
+      "label": true,
+      "mousePlays": true,
+      "noCameraRequest": true
+    },
+    "console": [],
+    "ok": true
+  },
+  {
+    "id": "camera-denied",
+    "camera": "denied",
+    "query": "input=hand",
+    "trackerState": 3,
+    "cameraLine": "camera: permission was denied, using the mouse",
+    "label": "Mouse mode: camera permission was denied",
+    "gumCalls": 1,
+    "notesFromClicks": [
+      [
+        0,
+        2,
+        5,
+        false
+      ],
+      [
+        1,
+        6,
+        7,
+        false
+      ],
+      [
+        2,
+        4,
+        10,
+        false
+      ]
+    ],
+    "pass": {
+      "state": true,
+      "label": true,
+      "mousePlays": true,
+      "noCameraRequest": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[downbeat] camera: Permission denied"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "id": "camera-missing",
+    "camera": "missing",
+    "query": "input=hand",
+    "trackerState": 4,
+    "cameraLine": "camera: none found, using the mouse",
+    "label": "Mouse mode: no camera found",
+    "gumCalls": 1,
+    "notesFromClicks": [
+      [
+        0,
+        2,
+        3,
+        false
+      ],
+      [
+        1,
+        6,
+        6,
+        false
+      ],
+      [
+        2,
+        4,
+        8,
+        false
+      ]
+    ],
+    "pass": {
+      "state": true,
+      "label": true,
+      "mousePlays": true,
+      "noCameraRequest": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[downbeat] camera: Requested device not found"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "id": "camera-broken",
+    "camera": "broken",
+    "query": "input=hand",
+    "trackerState": 5,
+    "cameraLine": "camera: could not be opened, using the mouse",
+    "label": "Mouse mode: the camera could not be opened",
+    "gumCalls": 1,
+    "notesFromClicks": [
+      [
+        0,
+        2,
+        3,
+        false
+      ],
+      [
+        1,
+        6,
+        6,
+        false
+      ],
+      [
+        2,
+        4,
+        8,
+        false
+      ]
+    ],
+    "pass": {
+      "state": true,
+      "label": true,
+      "mousePlays": true,
+      "noCameraRequest": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[downbeat] camera: Could not start video source"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "id": "permission-pending",
+    "camera": "pending",
+    "query": "input=hand",
+    "trackerState": 1,
+    "cameraLine": "camera: waiting for permission, loading the hand model...",
+    "label": "Mouse mode for now: camera is starting",
+    "gumCalls": 1,
+    "notesFromClicks": [
+      [
+        0,
+        2,
+        5,
+        false
+      ],
+      [
+        1,
+        6,
+        7,
+        false
+      ],
+      [
+        2,
+        4,
+        10,
+        false
+      ]
+    ],
+    "pass": {
+      "state": true,
+      "label": true,
+      "mousePlays": true,
+      "noCameraRequest": true
+    },
+    "console": [],
+    "ok": true
+  },
+  {
+    "id": "model-failed",
+    "camera": "fake",
+    "query": "input=hand&mpbase=/no-such-dir",
+    "trackerState": 6,
+    "cameraLine": "camera: the hand model could not be loaded, using the mouse",
+    "label": "Mouse mode: the hand model could not be loaded",
+    "gumCalls": 1,
+    "notesFromClicks": [
+      [
+        0,
+        2,
+        5,
+        false
+      ],
+      [
+        1,
+        6,
+        7,
+        false
+      ],
+      [
+        2,
+        4,
+        10,
+        false
+      ]
+    ],
+    "pass": {
+      "state": true,
+      "label": true,
+      "mousePlays": true,
+      "noCameraRequest": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[downbeat] camera: Failed to fetch dynamically imported module: http://localhost:8794/no-such-dir/vision_bundle.mjs"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "id": "mouse-requested",
+    "camera": "fake",
+    "query": "input=mouse",
+    "trackerState": null,
+    "cameraLine": "",
+    "label": "Mouse mode: click the stage",
+    "gumCalls": 0,
+    "notesFromClicks": [
+      [
+        0,
+        2,
+        3,
+        false
+      ],
+      [
+        1,
+        6,
+        6,
+        false
+      ],
+      [
+        2,
+        4,
+        8,
+        false
+      ]
+    ],
+    "pass": {
+      "state": true,
+      "label": true,
+      "mousePlays": true,
+      "noCameraRequest": true
+    },
+    "console": [],
+    "ok": true
+  }
+]

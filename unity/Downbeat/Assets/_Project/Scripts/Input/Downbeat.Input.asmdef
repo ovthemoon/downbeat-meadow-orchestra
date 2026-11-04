@@ -1,0 +1,16 @@
+{
+  "name": "Downbeat.Input",
+  "rootNamespace": "Downbeat.Controls",
+  "references": [
+    "Downbeat.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+path,scenario,onsets,expectedSlots,missedSlots,duplicateSlots,schedulerSkippedLate,std_ms,p95_ms,max_ms,drift_ms_per_min,offset_ms,after_std_ms,after_max_ms,criteria
+unity-play,blur,384,384,0,0,0,7.417,12.255,36.251,-16.508,-0.674,8.605,58.125,{"std":false;"max":false;"drift":false}
+unity-play,calm,384,384,0,0,0,4.208,7.115,9.082,0.776,8.736,,,{"std":false;"max":true;"drift":true}
+unity-play,hidden,341,384,64,1,0,6.715,11.007,34.906,1309.832,-146.742,18.823,75.852,{"std":false;"max":false;"drift":false}
+unity-play,stress,384,384,0,0,0,6.377,8.033,39.086,0.715,5.894,,,{"std":false;"max":false;"drift":true}
+unity-scheduled,blur,384,384,0,0,0,1.686,2.900,3.165,-0.136,3.146,1.856,5.281,{"std":true;"max":true;"drift":true}
+unity-scheduled,calm,384,384,0,0,0,1.738,2.865,5.839,-1.578,1.209,,,{"std":true;"max":true;"drift":true}
+unity-scheduled,hidden,321,384,64,1,64,1.761,2.899,4.366,0.341,2.894,5.194,65.103,{"std":true;"max":true;"drift":true}
+unity-scheduled,stress,384,384,0,0,0,2.476,4.718,6.234,-8.072,-2.941,,,{"std":true;"max":true;"drift":false}
+webaudio,blur,384,384,0,0,0,0.002,0.003,0.003,-0.000,-0.003,0.002,0.003,{"std":true;"max":true;"drift":true}
+webaudio,calm,384,384,0,0,0,0.002,0.003,0.003,-0.000,-0.003,,,{"std":true;"max":true;"drift":true}
+webaudio,hidden,321,384,63,0,63,0.002,0.003,0.003,-0.000,-0.003,0.002,0.003,{"std":true;"max":true;"drift":true}
+webaudio,stress,384,384,0,0,0,0.002,0.003,0.003,-0.000,-0.003,,,{"std":true;"max":true;"drift":true}

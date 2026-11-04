@@ -1,0 +1,7 @@
+path,scenario,onsets,expectedSlots,missedSlots,duplicateSlots,schedulerSkippedLate,std_ms,p95_ms,max_ms,drift_ms_per_min,offset_ms,after_std_ms,after_max_ms,criteria
+unity-play,calm,384,384,0,0,0,4.873,9.145,12.378,-15.205,-0.885,,,{"std":false;"max":false;"drift":false}
+unity-play,stress,384,384,0,0,0,6.746,9.608,43.956,-3.023,-4.691,,,{"std":false;"max":false;"drift":true}
+unity-scheduled,calm,385,384,0,1,0,3.876,5.203,53.457,-14.125,3.139,,,{"std":false;"max":false;"drift":false}
+unity-scheduled,stress,385,384,0,1,0,3.548,3.285,59.456,-1.087,0.964,,,{"std":false;"max":false;"drift":true}
+webaudio,calm,384,384,0,0,0,0.002,0.003,0.003,-0.000,-0.003,,,{"std":true;"max":true;"drift":true}
+webaudio,stress,384,384,0,0,0,0.002,0.003,0.003,-0.000,-0.003,,,{"std":true;"max":true;"drift":true}

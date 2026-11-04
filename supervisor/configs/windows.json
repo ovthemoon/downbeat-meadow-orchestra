@@ -1,0 +1,51 @@
+{
+  "_comment": [
+    "Why these numbers (the supervisor ignores keys that start with an underscore).",
+    "heartbeatTimeoutSec 30: the player writes a beat every 5 s from its first frame, so 30 s is six missed beats; a frozen main thread is seen within half a minute.",
+    "heartbeatGraceSec 180: how long a start may take to produce its first beat and to reach app=running (the beat says app=loading, and audio=starting until the sound is up; a running audio clock alone proves nothing, because a Boot that threw leaves the app loading for ever). The player beats from its first frame: on the Mac (Apple M4 Pro, 5 runs with a fresh copy of the build) the first beat came 1.2 s after the process was started, audio=ok 1.3 s, and '[Downbeat] ready' 1.8 s (measurements/day5/boot-to-first-heartbeat.json). The Windows laptop has not been measured. 180 s is 150 times the Mac's first beat, so a laptop that boots tens of times slower still gets through, while a player that never gets there (a hung driver, a build that waits for a shader) is restarted after 3 minutes. It was 90 s when the first beat only came after the sound was up.",
+    "audioStallRestartSec 20: the player says audio=stalled (the clock stopped for 3 s) or audio=failed (it gave up after its own 30 s); 20 s more is enough to forgive a device that comes back at once.",
+    "backoff.maxRestarts / windowSec / restSec: more than 5 restarts in 10 minutes rest 60 s (a program that crashes at once).",
+    "backoff.unstableRuns 3, maxRestSec 600, stableAfterSec 120: when 3 starts in a row never stayed healthy for 2 minutes (an HDMI monitor that is the only sound device is off: every start ends in audio=failed), the rest after each further one doubles, 60, 120, 240, 480 and then 600 s, and one start that stays healthy for 2 minutes puts everything back. 3 is few enough that the thrash is cut within about 3 minutes and many enough that one bad start (a camera held by another program for a moment) is not punished; 600 s is the longest a visitor-less exhibition waits for the device to come back (by arithmetic, not measured: a try takes about 55 s, 30 s for the app to give up on the sound + 20 s + 3 s, so about 520 tries in 8 hours, and one try per 10 minutes is about 50); 120 s is longer than the app's own 30 s boot and the 20 s stall time together, so a start that fails and recovers by itself cannot pass for stable."
+  ],
+  "restartDelaySec": 3,
+  "heartbeatTimeoutSec": 30,
+  "heartbeatGraceSec": 180,
+  "audioStallRestartSec": 20,
+  "backoff": { "maxRestarts": 5, "windowSec": 600, "restSec": 60, "unstableRuns": 3, "maxRestSec": 600, "stableAfterSec": 120 },
+  "pollSec": 1,
+  "logsDir": "{root}/logs",
+  "vars": { "camera": "0", "backend": "auto", "port": "47800", "input": "hand", "soak": "0", "quality": "", "playMode": "", "maxFps": "", "latency": "0", "logPose": "0", "trackerDir": "{root}/tracker" },
+  "processes": [
+    {
+      "name": "tracker",
+      "_comment": "heartbeatTimeoutSec 45 for the tracker: its loop beats at least every 2 s, also with no camera (the loop that tries to open it again), so a silence is a read() or an open() that does not return (Media Foundation after a USB unplug). The camera opened in 0.3 s on the Windows laptop with Media Foundation and OPENCV_VIDEOIO_MSMF_ENABLE_HW_TRANSFORMS=0 (tracker/README.md); without that variable it can take tens of seconds (opencv/opencv#17687), so the variable is in the env below and the tracker also sets it itself for -Backend msmf. 45 s is longer than any open that is still alive and short enough that hands are not gone for long. priority aboveNormal: the tracker starts with the above-normal priority class, so that a busy app (the picture) does not starve it on a laptop whose graphics chip and processor share one power budget (the tracker fell to a median of 6 pictures a second); it is stdlib and needs no administrator rights. {trackerPython} has no default: the Python environment is not in the bundle but in %LOCALAPPDATA%/Downbeat/venv (outside a Desktop that OneDrive syncs), and run-supervised.ps1 passes its python.exe with --var trackerPython=.",
+      "when": { "var": "input", "equals": "hand" },
+      "command": [
+        "{trackerPython}", "-m", "downbeat_tracker", "--camera", "{camera}", "--backend", "{backend}", "--port", "{port}",
+        "--log", "{trackerDir}/logs/tracker-supervised.log", "--heartbeat", "{trackerDir}/logs/tracker-heartbeat.txt"
+      ],
+      "cwd": "{trackerDir}",
+      "env": { "PYTHONUTF8": "1", "OPENCV_VIDEOIO_MSMF_ENABLE_HW_TRANSFORMS": "0" },
+      "heartbeatFile": "{trackerDir}/logs/tracker-heartbeat.txt",
+      "heartbeatTimeoutSec": 45,
+      "priority": "aboveNormal"
+    },
+    {
+      "name": "unity",
+      "command": [
+        "{root}/Downbeat.exe", "-screen-fullscreen", "1", "--input", "{input}", "--health-dir", "{root}/logs",
+        { "word": "--soak", "when": { "var": "soak", "equals": "1" } },
+        { "word": "--latency-mode", "when": { "var": "latency", "equals": "1" } },
+        { "word": "--log-pose", "when": { "var": "logPose", "equals": "1" } },
+        { "words": ["--quality", "{quality}"], "when": { "var": "quality", "equals": "Auto" } },
+        { "words": ["--quality", "{quality}"], "when": { "var": "quality", "equals": "High" } },
+        { "words": ["--quality", "{quality}"], "when": { "var": "quality", "equals": "Low" } },
+        { "words": ["--play-mode", "{playMode}"], "when": { "var": "playMode", "equals": "conduct" } },
+        { "words": ["--play-mode", "{playMode}"], "when": { "var": "playMode", "equals": "strike" } },
+        { "words": ["--max-fps", "{maxFps}"], "when": { "var": "maxFps", "notEquals": "" } }
+      ],
+      "cwd": "{root}",
+      "heartbeatFile": "{root}/logs/heartbeat.txt"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Downbeat Day 0 - S-3 boot check</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font: 14px/1.4 system-ui, sans-serif; margin: 16px; background: #14161a; color: #e8e8e8; }
+    canvas { display: block; background: #222; width: 480px; height: 270px; }
+  </style>
+</head>
+<body>
+  <h1>S-3 boot check</h1>
+  <canvas id="unity-canvas" width="480" height="270"></canvas>
+  <pre id="log">loading...</pre>
+  <script type="module">
+    import { startUnity, sleep } from './js/day0-common.js';
+    const build = new URLSearchParams(location.search).get('build');
+    window.bootResult = startUnity(build, document.getElementById('unity-canvas'))
+      .then(async ({ instance, bootMs }) => {
+        await sleep(2000); // let a few frames render
+        const resources = performance.getEntriesByType('resource')
+          .filter((r) => r.name.includes('/Build/'))
+          .map((r) => ({ file: r.name.split('/').pop(), transferSize: r.transferSize, encodedBodySize: r.encodedBodySize, decodedBodySize: r.decodedBodySize, durationMs: r.duration }));
+        const canvas = document.getElementById('unity-canvas');
+        const result = { build, ok: true, bootMs, canvas: [canvas.width, canvas.height], resources, userAgent: navigator.userAgent };
+        document.getElementById('log').textContent = JSON.stringify(result, null, 2);
+        return result;
+      })
+      .catch((error) => ({ build, ok: false, error: String(error.message ?? error) }));
+  </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "window": "1920x1080",
+  "seconds": 12,
+  "runs": {
+    "Low/baseline": {
+      "fps": 1059.3,
+      "p50_ms": 0.8,
+      "p95_ms": 1.4,
+      "gpu_ms": 1.64,
+      "frames": 12801,
+      "look": "scale 1.00 msaa 1 Auto cap vsync",
+      "fps_runs": [
+        1124.8,
+        967.1,
+        1086.0
+      ],
+      "frame_ms": 0.944
+    },
+    "High/baseline": {
+      "fps": 275.8,
+      "p50_ms": 3.4,
+      "p95_ms": 5.7,
+      "gpu_ms": 5.32,
+      "frames": 3151,
+      "look": "scale 1.00 msaa 4 Linear cap vsync",
+      "fps_runs": [
+        271.8,
+        278.8,
+        276.7
+      ],
+      "frame_ms": 3.626
+    }
+  }
+}

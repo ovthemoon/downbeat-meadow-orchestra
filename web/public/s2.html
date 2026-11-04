@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Downbeat Day 0 - S-2 hand tracking + Unity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font: 14px/1.4 system-ui, sans-serif; margin: 16px; background: #14161a; color: #e8e8e8; }
+    canvas { display: block; background: #222; width: 480px; height: 270px; margin-bottom: 12px; }
+    video { width: 160px; height: 120px; background: #000; }
+    pre { background: #0d0e10; padding: 8px; max-height: 200px; overflow: auto; }
+  </style>
+</head>
+<body>
+  <h1>S-2 hand tracking + Unity</h1>
+  <canvas id="unity-canvas" width="480" height="270"></canvas>
+  <video id="cam" autoplay muted playsinline></video>
+  <pre id="log">starting...</pre>
+  <script type="module">
+    import './js/day0-common.js';
+    import './js/s2.js';
+    const params = new URLSearchParams(location.search);
+    const log = document.getElementById('log');
+    window.day0Ready = window.day0.initS2({
+      build: params.get('build') ?? 'day0',
+      canvas: document.getElementById('unity-canvas'),
+      video: document.getElementById('cam'),
+      vsync: Number(params.get('vsync') ?? 1),
+    }).then((info) => { log.textContent += '\nready ' + JSON.stringify(info); return info; })
+      .catch((error) => { log.textContent += '\ninit failed: ' + error.message; throw error; });
+  </script>
+</body>
+</html>

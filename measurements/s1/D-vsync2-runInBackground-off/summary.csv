@@ -1,0 +1,4 @@
+path,scenario,onsets,expectedSlots,missedSlots,duplicateSlots,schedulerSkippedLate,std_ms,p95_ms,max_ms,drift_ms_per_min,offset_ms,after_std_ms,after_max_ms,criteria
+unity-play,blur,343,384,64,1,0,6.731,8.875,41.299,1342.486,-141.976,17.619,77.658,{"std":false;"max":false;"drift":false}
+unity-scheduled,blur,387,384,176,5,0,20.217,48.214,51.140,7.762,16.737,5.740,60.806,{"std":false;"max":false;"drift":false}
+webaudio,blur,384,384,0,0,0,0.002,0.003,0.003,-0.000,-0.003,0.002,0.003,{"std":true;"max":true;"drift":true}

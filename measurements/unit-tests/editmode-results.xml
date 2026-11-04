@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="137" result="Passed" total="137" passed="137" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.1182599">
+  <test-suite type="TestSuite" id="1000" name="Downbeat" fullname="Downbeat" runstate="Runnable" testcasecount="137" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.118260" total="137" passed="137" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1157" name="Downbeat.Tests.EditMode.dll" fullname="/Users/USER/Documents/GitHub/downbeat-hand-orchestra/unity/Downbeat/Library/ScriptAssemblies/Downbeat.Tests.EditMode.dll" runstate="Runnable" testcasecount="137" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.113496" total="137" passed="137" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="1910" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1158" name="Downbeat" fullname="Downbeat" runstate="Runnable" testcasecount="137" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.112919" total="137" passed="137" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1159" name="Tests" fullname="Downbeat.Tests" runstate="Runnable" testcasecount="137" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.112363" total="137" passed="137" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="BeatGridTests" fullname="Downbeat.Tests.BeatGridTests" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.024557" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1010" name="BarTimeAtOrAfter_returns_the_next_bar_line_and_keeps_a_time_that_is_already_on_one" fullname="Downbeat.Tests.BeatGridTests.BarTimeAtOrAfter_returns_the_next_bar_line_and_keeps_a_time_that_is_already_on_one" methodname="BarTimeAtOrAfter_returns_the_next_bar_line_and_keeps_a_time_that_is_already_on_one" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" seed="1588225846" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.011444" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="Constructor_rejects_invalid_arguments" fullname="Downbeat.Tests.BeatGridTests.Constructor_rejects_invalid_arguments" methodname="Constructor_rejects_invalid_arguments" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" seed="1270194067" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000497" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="FirstSlotAtOrAfter_before_origin_gives_negative_or_zero_slot" fullname="Downbeat.Tests.BeatGridTests.FirstSlotAtOrAfter_before_origin_gives_negative_or_zero_slot" methodname="FirstSlotAtOrAfter_before_origin_gives_negative_or_zero_slot" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" seed="1678794405" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000665" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="FirstSlotAtOrAfter_returns_same_slot_when_time_is_on_the_grid" fullname="Downbeat.Tests.BeatGridTests.FirstSlotAtOrAfter_returns_same_slot_when_time_is_on_the_grid" methodname="FirstSlotAtOrAfter_returns_same_slot_when_time_is_on_the_grid" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" seed="1574239096" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000227" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="FirstSlotAtOrAfter_rounds_up_between_slots" fullname="Downbeat.Tests.BeatGridTests.FirstSlotAtOrAfter_rounds_up_between_slots" methodname="FirstSlotAtOrAfter_rounds_up_between_slots" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" seed="1557382465" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000212" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="LastSlotAtOrBefore_and_FirstSlotAtOrAfter_bracket_an_off_grid_time" fullname="Downbeat.Tests.BeatGridTests.LastSlotAtOrBefore_and_FirstSlotAtOrAfter_bracket_an_off_grid_time" methodname="LastSlotAtOrBefore_and_FirstSlotAtOrAfter_bracket_an_off_grid_time" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" seed="609795083" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000136" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="SlotDuration_at_96bpm_sixteenth_is_156_25_ms" fullname="Downbeat.Tests.BeatGridTests.SlotDuration_at_96bpm_sixteenth_is_156_25_ms" methodname="SlotDuration_at_96bpm_sixteenth_is_156_25_ms" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" seed="812368521" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000046" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="SlotForTrigger_keeps_the_minimum_lead" fullname="Downbeat.Tests.BeatGridTests.SlotForTrigger_keeps_the_minimum_lead" methodname="SlotForTrigger_keeps_the_minimum_lead" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" seed="2047783913" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001528" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="SlotTime_is_computed_from_index_without_accumulated_error" fullname="Downbeat.Tests.BeatGridTests.SlotTime_is_computed_from_index_without_accumulated_error" methodname="SlotTime_is_computed_from_index_without_accumulated_error" classname="Downbeat.Tests.BeatGridTests" runstate="Runnable" seed="781380631" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000066" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1011" name="ContentValidatorTests" fullname="Downbeat.Tests.ContentValidatorTests" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.008972" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1014" name="A_duplicate_sample_id_is_reported" fullname="Downbeat.Tests.ContentValidatorTests.A_duplicate_sample_id_is_reported" methodname="A_duplicate_sample_id_is_reported" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" seed="1977650210" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.003976" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="A_scale_that_cannot_be_played_with_the_given_samples_is_reported" fullname="Downbeat.Tests.ContentValidatorTests.A_scale_that_cannot_be_played_with_the_given_samples_is_reported" methodname="A_scale_that_cannot_be_played_with_the_given_samples_is_reported" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" seed="708110678" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000899" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="A_theme_without_all_three_performers_is_reported" fullname="Downbeat.Tests.ContentValidatorTests.A_theme_without_all_three_performers_is_reported" methodname="A_theme_without_all_three_performers_is_reported" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" seed="382041724" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000336" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="An_unknown_part_and_a_bad_bpm_are_reported" fullname="Downbeat.Tests.ContentValidatorTests.An_unknown_part_and_a_bad_bpm_are_reported" methodname="An_unknown_part_and_a_bad_bpm_are_reported" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" seed="1194682023" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000244" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="Nonsense_hand_settings_are_reported" fullname="Downbeat.Tests.ContentValidatorTests.Nonsense_hand_settings_are_reported" methodname="Nonsense_hand_settings_are_reported" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" seed="1671016397" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000261" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="Null_content_is_reported" fullname="Downbeat.Tests.ContentValidatorTests.Null_content_is_reported" methodname="Null_content_is_reported" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" seed="514760964" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000984" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="Out_of_range_audio_settings_are_reported" fullname="Downbeat.Tests.ContentValidatorTests.Out_of_range_audio_settings_are_reported" methodname="Out_of_range_audio_settings_are_reported" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" seed="951861458" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000365" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="The_shipped_content_has_hand_settings_and_a_file_without_them_still_validates" fullname="Downbeat.Tests.ContentValidatorTests.The_shipped_content_has_hand_settings_and_a_file_without_them_still_validates" methodname="The_shipped_content_has_hand_settings_and_a_file_without_them_still_validates" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" seed="1717535469" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000235" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="The_shipped_content_json_is_valid" fullname="Downbeat.Tests.ContentValidatorTests.The_shipped_content_json_is_valid" methodname="The_shipped_content_json_is_valid" classname="Downbeat.Tests.ContentValidatorTests" runstate="Runnable" seed="1942771273" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000302" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1021" name="FrameStatsTests" fullname="Downbeat.Tests.FrameStatsTests" classname="Downbeat.Tests.FrameStatsTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.002524" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1025" name="Add_rejects_negative_and_NaN" fullname="Downbeat.Tests.FrameStatsTests.Add_rejects_negative_and_NaN" methodname="Add_rejects_negative_and_NaN" classname="Downbeat.Tests.FrameStatsTests" runstate="Runnable" seed="1751080572" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000415" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1024" name="Summarize_does_not_change_the_collector" fullname="Downbeat.Tests.FrameStatsTests.Summarize_does_not_change_the_collector" methodname="Summarize_does_not_change_the_collector" classname="Downbeat.Tests.FrameStatsTests" runstate="Runnable" seed="333726665" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001087" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="Summarize_of_empty_collector_is_all_zero" fullname="Downbeat.Tests.FrameStatsTests.Summarize_of_empty_collector_is_all_zero" methodname="Summarize_of_empty_collector_is_all_zero" classname="Downbeat.Tests.FrameStatsTests" runstate="Runnable" seed="702716506" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000154" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="Summarize_reports_mean_percentiles_and_threshold_counts" fullname="Downbeat.Tests.FrameStatsTests.Summarize_reports_mean_percentiles_and_threshold_counts" methodname="Summarize_reports_mean_percentiles_and_threshold_counts" classname="Downbeat.Tests.FrameStatsTests" runstate="Runnable" seed="1281808275" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000216" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1026" name="HandFrameReaderTests" fullname="Downbeat.Tests.HandFrameReaderTests" classname="Downbeat.Tests.HandFrameReaderTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.009289" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1034" name="A_nonsense_aspect_falls_back_to_four_by_three" fullname="Downbeat.Tests.HandFrameReaderTests.A_nonsense_aspect_falls_back_to_four_by_three" methodname="A_nonsense_aspect_falls_back_to_four_by_three" classname="Downbeat.Tests.HandFrameReaderTests" runstate="Runnable" seed="1807252713" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000587" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="Hands_with_non_finite_coordinates_or_bad_ids_are_skipped_not_trusted" fullname="Downbeat.Tests.HandFrameReaderTests.Hands_with_non_finite_coordinates_or_bad_ids_are_skipped_not_trusted" methodname="Hands_with_non_finite_coordinates_or_bad_ids_are_skipped_not_trusted" classname="Downbeat.Tests.HandFrameReaderTests" runstate="Runnable" seed="1794699919" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.003493" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="Layout_numbers_match_the_page_format" fullname="Downbeat.Tests.HandFrameReaderTests.Layout_numbers_match_the_page_format" methodname="Layout_numbers_match_the_page_format" classname="Downbeat.Tests.HandFrameReaderTests" runstate="Runnable" seed="1106091802" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000221" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="Missing_or_short_buffers_are_rejected" fullname="Downbeat.Tests.HandFrameReaderTests.Missing_or_short_buffers_are_rejected" methodname="Missing_or_short_buffers_are_rejected" classname="Downbeat.Tests.HandFrameReaderTests" runstate="Runnable" seed="2044685387" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001391" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="Palm_center_and_size_come_from_the_five_palm_landmarks" fullname="Downbeat.Tests.HandFrameReaderTests.Palm_center_and_size_come_from_the_five_palm_landmarks" methodname="Palm_center_and_size_come_from_the_five_palm_landmarks" classname="Downbeat.Tests.HandFrameReaderTests" runstate="Runnable" seed="1701661886" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000940" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="Palm_size_is_measured_in_video_heights_so_the_aspect_ratio_matters" fullname="Downbeat.Tests.HandFrameReaderTests.Palm_size_is_measured_in_video_heights_so_the_aspect_ratio_matters" methodname="Palm_size_is_measured_in_video_heights_so_the_aspect_ratio_matters" classname="Downbeat.Tests.HandFrameReaderTests" runstate="Runnable" seed="660124067" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000525" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="Two_hands_keep_their_ids" fullname="Downbeat.Tests.HandFrameReaderTests.Two_hands_keep_their_ids" methodname="Two_hands_keep_their_ids" classname="Downbeat.Tests.HandFrameReaderTests" runstate="Runnable" seed="184993995" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000166" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="Unknown_tracker_states_read_as_an_error_not_as_running" fullname="Downbeat.Tests.HandFrameReaderTests.Unknown_tracker_states_read_as_an_error_not_as_running" methodname="Unknown_tracker_states_read_as_an_error_not_as_running" classname="Downbeat.Tests.HandFrameReaderTests" runstate="Runnable" seed="706205700" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000068" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1035" name="HandInterpreterTests" fullname="Downbeat.Tests.HandInterpreterTests" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.015475" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1038" name="A_fast_downward_strike_plays_exactly_one_note_even_if_the_motion_keeps_going" fullname="Downbeat.Tests.HandInterpreterTests.A_fast_downward_strike_plays_exactly_one_note_even_if_the_motion_keeps_going" methodname="A_fast_downward_strike_plays_exactly_one_note_even_if_the_motion_keeps_going" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1488465729" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.003448" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1052" name="A_hand_below_the_confidence_threshold_is_ignored" fullname="Downbeat.Tests.HandInterpreterTests.A_hand_below_the_confidence_threshold_is_ignored" methodname="A_hand_below_the_confidence_threshold_is_ignored" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1189679129" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000192" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="A_hand_that_disappears_right_after_the_trigger_still_gets_its_note" fullname="Downbeat.Tests.HandInterpreterTests.A_hand_that_disappears_right_after_the_trigger_still_gets_its_note" methodname="A_hand_that_disappears_right_after_the_trigger_still_gets_its_note" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="469535751" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000249" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="A_hand_that_stays_still_plays_nothing" fullname="Downbeat.Tests.HandInterpreterTests.A_hand_that_stays_still_plays_nothing" methodname="A_hand_that_stays_still_plays_nothing" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="297926959" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000144" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1047" name="A_harder_strike_is_stronger_and_a_very_hard_one_is_full_strength" fullname="Downbeat.Tests.HandInterpreterTests.A_harder_strike_is_stronger_and_a_very_hard_one_is_full_strength" methodname="A_harder_strike_is_stronger_and_a_very_hard_one_is_full_strength" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="480607251" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000433" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="A_higher_hand_gives_a_higher_pitch_step_and_the_extremes_are_reachable" fullname="Downbeat.Tests.HandInterpreterTests.A_higher_hand_gives_a_higher_pitch_step_and_the_extremes_are_reachable" methodname="A_higher_hand_gives_a_higher_pitch_step_and_the_extremes_are_reachable" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1101407302" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000173" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1037" name="A_slow_downward_drift_is_not_a_strike" fullname="Downbeat.Tests.HandInterpreterTests.A_slow_downward_drift_is_not_a_strike" methodname="A_slow_downward_drift_is_not_a_strike" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="972135296" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000098" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="After_a_strike_the_hand_must_slow_down_before_the_next_one_and_then_plays_again" fullname="Downbeat.Tests.HandInterpreterTests.After_a_strike_the_hand_must_slow_down_before_the_next_one_and_then_plays_again" methodname="After_a_strike_the_hand_must_slow_down_before_the_next_one_and_then_plays_again" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1583287741" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000272" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1064" name="Dead_bands_keep_a_hand_on_a_boundary_from_flipping" fullname="Downbeat.Tests.HandInterpreterTests.Dead_bands_keep_a_hand_on_a_boundary_from_flipping" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.002173" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1057" name="Dead_bands_keep_a_hand_on_a_boundary_from_flipping(2.95f,3,0.2f,3)" fullname="Downbeat.Tests.HandInterpreterTests.Dead_bands_keep_a_hand_on_a_boundary_from_flipping(2.95f,3,0.2f,3)" methodname="Dead_bands_keep_a_hand_on_a_boundary_from_flipping" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="419621178" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000560" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1058" name="Dead_bands_keep_a_hand_on_a_boundary_from_flipping(2.7f,3,0.2f,2)" fullname="Downbeat.Tests.HandInterpreterTests.Dead_bands_keep_a_hand_on_a_boundary_from_flipping(2.7f,3,0.2f,2)" methodname="Dead_bands_keep_a_hand_on_a_boundary_from_flipping" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="2000557406" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000087" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1059" name="Dead_bands_keep_a_hand_on_a_boundary_from_flipping(4.15f,3,0.2f,3)" fullname="Downbeat.Tests.HandInterpreterTests.Dead_bands_keep_a_hand_on_a_boundary_from_flipping(4.15f,3,0.2f,3)" methodname="Dead_bands_keep_a_hand_on_a_boundary_from_flipping" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1628260925" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000049" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1060" name="Dead_bands_keep_a_hand_on_a_boundary_from_flipping(4.3f,3,0.2f,4)" fullname="Downbeat.Tests.HandInterpreterTests.Dead_bands_keep_a_hand_on_a_boundary_from_flipping(4.3f,3,0.2f,4)" methodname="Dead_bands_keep_a_hand_on_a_boundary_from_flipping" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="632164221" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000047" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1061" name="Dead_bands_keep_a_hand_on_a_boundary_from_flipping(7.5f,0,0.2f,7)" fullname="Downbeat.Tests.HandInterpreterTests.Dead_bands_keep_a_hand_on_a_boundary_from_flipping(7.5f,0,0.2f,7)" methodname="Dead_bands_keep_a_hand_on_a_boundary_from_flipping" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="788399985" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000047" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1062" name="Dead_bands_keep_a_hand_on_a_boundary_from_flipping(5.0f,-1,0.2f,5)" fullname="Downbeat.Tests.HandInterpreterTests.Dead_bands_keep_a_hand_on_a_boundary_from_flipping(5.0f,-1,0.2f,5)" methodname="Dead_bands_keep_a_hand_on_a_boundary_from_flipping" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="2089148163" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000049" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1063" name="Dead_bands_keep_a_hand_on_a_boundary_from_flipping(10.0f,9,0.2f,9)" fullname="Downbeat.Tests.HandInterpreterTests.Dead_bands_keep_a_hand_on_a_boundary_from_flipping(10.0f,9,0.2f,9)" methodname="Dead_bands_keep_a_hand_on_a_boundary_from_flipping" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1917691277" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000047" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1053" name="Reappearing_in_another_place_after_a_gap_is_not_a_strike" fullname="Downbeat.Tests.HandInterpreterTests.Reappearing_in_another_place_after_a_gap_is_not_a_strike" methodname="Reappearing_in_another_place_after_a_gap_is_not_a_strike" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="435736593" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000617" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1056" name="Reset_forgets_hands_so_a_looping_replay_starts_clean" fullname="Downbeat.Tests.HandInterpreterTests.Reset_forgets_hands_so_a_looping_replay_starts_clean" methodname="Reset_forgets_hands_so_a_looping_replay_starts_clean" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1176527374" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000463" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1048" name="Strength_comes_from_the_peak_speed_not_from_the_first_frame_over_the_threshold" fullname="Downbeat.Tests.HandInterpreterTests.Strength_comes_from_the_peak_speed_not_from_the_first_frame_over_the_threshold" methodname="Strength_comes_from_the_peak_speed_not_from_the_first_frame_over_the_threshold" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="2094577618" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000772" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1045" name="The_left_middle_and_right_thirds_pick_the_part" fullname="Downbeat.Tests.HandInterpreterTests.The_left_middle_and_right_thirds_pick_the_part" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001167" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1042" name="The_left_middle_and_right_thirds_pick_the_part(0.1f,Strings)" fullname="Downbeat.Tests.HandInterpreterTests.The_left_middle_and_right_thirds_pick_the_part(0.1f,Strings)" methodname="The_left_middle_and_right_thirds_pick_the_part" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="462734810" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000228" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1043" name="The_left_middle_and_right_thirds_pick_the_part(0.5f,Winds)" fullname="Downbeat.Tests.HandInterpreterTests.The_left_middle_and_right_thirds_pick_the_part(0.5f,Winds)" methodname="The_left_middle_and_right_thirds_pick_the_part" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="585998189" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000060" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1044" name="The_left_middle_and_right_thirds_pick_the_part(0.9f,Perc)" fullname="Downbeat.Tests.HandInterpreterTests.The_left_middle_and_right_thirds_pick_the_part(0.9f,Perc)" methodname="The_left_middle_and_right_thirds_pick_the_part" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="227352530" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000046" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1055" name="The_same_frames_always_give_the_same_strikes" fullname="Downbeat.Tests.HandInterpreterTests.The_same_frames_always_give_the_same_strikes" methodname="The_same_frames_always_give_the_same_strikes" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="61127140" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000678" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="The_same_gesture_gives_the_same_note_near_or_far_from_the_camera" fullname="Downbeat.Tests.HandInterpreterTests.The_same_gesture_gives_the_same_note_near_or_far_from_the_camera" methodname="The_same_gesture_gives_the_same_note_near_or_far_from_the_camera" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1455018661" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000247" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="The_same_hand_cannot_trigger_again_within_the_retrigger_time" fullname="Downbeat.Tests.HandInterpreterTests.The_same_hand_cannot_trigger_again_within_the_retrigger_time" methodname="The_same_hand_cannot_trigger_again_within_the_retrigger_time" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="123157575" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000281" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1050" name="Two_hands_strike_independently_with_their_own_ids_and_parts" fullname="Downbeat.Tests.HandInterpreterTests.Two_hands_strike_independently_with_their_own_ids_and_parts" methodname="Two_hands_strike_independently_with_their_own_ids_and_parts" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1139935827" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001607" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="Upward_motion_never_triggers_but_the_next_downward_strike_does" fullname="Downbeat.Tests.HandInterpreterTests.Upward_motion_never_triggers_but_the_next_downward_strike_does" methodname="Upward_motion_never_triggers_but_the_next_downward_strike_does" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="1075731456" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000143" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1041" name="Without_slowing_down_the_hand_cannot_strike_twice" fullname="Downbeat.Tests.HandInterpreterTests.Without_slowing_down_the_hand_cannot_strike_twice" methodname="Without_slowing_down_the_hand_cannot_strike_twice" classname="Downbeat.Tests.HandInterpreterTests" runstate="Runnable" seed="385122203" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000072" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1065" name="HandMotionTrackerTests" fullname="Downbeat.Tests.HandMotionTrackerTests" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.004894" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1071" name="A_hand_missing_for_a_moment_is_still_known_but_not_tracked_and_is_dropped_after_the_gap" fullname="Downbeat.Tests.HandMotionTrackerTests.A_hand_missing_for_a_moment_is_still_known_but_not_tracked_and_is_dropped_after_the_gap" methodname="A_hand_missing_for_a_moment_is_still_known_but_not_tracked_and_is_dropped_after_the_gap" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" seed="1721539636" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000498" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1072" name="A_hand_that_comes_back_after_a_long_gap_is_a_new_epoch_without_a_jump_in_velocity" fullname="Downbeat.Tests.HandMotionTrackerTests.A_hand_that_comes_back_after_a_long_gap_is_a_new_epoch_without_a_jump_in_velocity" methodname="A_hand_that_comes_back_after_a_long_gap_is_a_new_epoch_without_a_jump_in_velocity" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" seed="765873102" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000530" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1067" name="A_hand_that_stays_still_has_zero_velocity" fullname="Downbeat.Tests.HandMotionTrackerTests.A_hand_that_stays_still_has_zero_velocity" methodname="A_hand_that_stays_still_has_zero_velocity" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" seed="318463567" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000331" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1068" name="Downward_motion_gives_the_speed_in_palm_lengths_per_second" fullname="Downbeat.Tests.HandMotionTrackerTests.Downward_motion_gives_the_speed_in_palm_lengths_per_second" methodname="Downward_motion_gives_the_speed_in_palm_lengths_per_second" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" seed="1088757272" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000348" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1073" name="Low_confidence_hands_are_ignored_and_Reset_forgets_everything" fullname="Downbeat.Tests.HandMotionTrackerTests.Low_confidence_hands_are_ignored_and_Reset_forgets_everything" methodname="Low_confidence_hands_are_ignored_and_Reset_forgets_everything" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" seed="457078882" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000292" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1069" name="Moving_up_is_a_negative_down_speed_and_moving_right_is_a_positive_x_velocity" fullname="Downbeat.Tests.HandMotionTrackerTests.Moving_up_is_a_negative_down_speed_and_moving_right_is_a_positive_x_velocity" methodname="Moving_up_is_a_negative_down_speed_and_moving_right_is_a_positive_x_velocity" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" seed="435906465" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000192" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1074" name="Settings_changes_apply_to_the_next_frame" fullname="Downbeat.Tests.HandMotionTrackerTests.Settings_changes_apply_to_the_next_frame" methodname="Settings_changes_apply_to_the_next_frame" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" seed="1759195907" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000238" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1066" name="The_first_frame_of_a_hand_has_a_position_but_no_velocity" fullname="Downbeat.Tests.HandMotionTrackerTests.The_first_frame_of_a_hand_has_a_position_but_no_velocity" methodname="The_first_frame_of_a_hand_has_a_position_but_no_velocity" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" seed="212860741" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000226" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1070" name="Two_hands_are_listed_in_id_order_with_their_own_motion" fullname="Downbeat.Tests.HandMotionTrackerTests.Two_hands_are_listed_in_id_order_with_their_own_motion" methodname="Two_hands_are_listed_in_id_order_with_their_own_motion" classname="Downbeat.Tests.HandMotionTrackerTests" runstate="Runnable" seed="1852836391" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000420" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1075" name="InputModeTests" fullname="Downbeat.Tests.InputModeTests" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.006939" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1090" name="A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why" fullname="Downbeat.Tests.InputModeTests.A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.002460" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1086" name="A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why(CameraDenied,&quot;denied&quot;)" fullname="Downbeat.Tests.InputModeTests.A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why(CameraDenied,&quot;denied&quot;)" methodname="A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="1578997110" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001191" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1087" name="A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why(CameraMissing,&quot;no camera&quot;)" fullname="Downbeat.Tests.InputModeTests.A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why(CameraMissing,&quot;no camera&quot;)" methodname="A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="338923376" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000175" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1088" name="A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why(CameraError,&quot;could not be opened&quot;)" fullname="Downbeat.Tests.InputModeTests.A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why(CameraError,&quot;could not be opened&quot;)" methodname="A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="1928603379" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000098" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1089" name="A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why(ModelFailed,&quot;model&quot;)" fullname="Downbeat.Tests.InputModeTests.A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why(ModelFailed,&quot;model&quot;)" methodname="A_camera_that_cannot_be_used_falls_back_to_the_mouse_and_says_why" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="1698181669" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000085" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1091" name="Mouse_and_replay_do_not_depend_on_the_camera" fullname="Downbeat.Tests.InputModeTests.Mouse_and_replay_do_not_depend_on_the_camera" methodname="Mouse_and_replay_do_not_depend_on_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="1483861814" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000388" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1085" name="The_camera_mode_is_used_only_while_the_tracker_is_running" fullname="Downbeat.Tests.InputModeTests.The_camera_mode_is_used_only_while_the_tracker_is_running" methodname="The_camera_mode_is_used_only_while_the_tracker_is_running" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="937828084" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000250" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1084" name="The_input_parameter_is_parsed_and_defaults_to_the_camera" fullname="Downbeat.Tests.InputModeTests.The_input_parameter_is_parsed_and_defaults_to_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.002402" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1076" name="The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;mouse&quot;,Mouse)" fullname="Downbeat.Tests.InputModeTests.The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;mouse&quot;,Mouse)" methodname="The_input_parameter_is_parsed_and_defaults_to_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="1977364581" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000404" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1077" name="The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;MOUSE&quot;,Mouse)" fullname="Downbeat.Tests.InputModeTests.The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;MOUSE&quot;,Mouse)" methodname="The_input_parameter_is_parsed_and_defaults_to_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="39297001" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000104" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1078" name="The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;replay&quot;,Replay)" fullname="Downbeat.Tests.InputModeTests.The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;replay&quot;,Replay)" methodname="The_input_parameter_is_parsed_and_defaults_to_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="1344830258" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000083" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1079" name="The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;hand&quot;,Hand)" fullname="Downbeat.Tests.InputModeTests.The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;hand&quot;,Hand)" methodname="The_input_parameter_is_parsed_and_defaults_to_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="1008320302" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000082" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1080" name="The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;camera&quot;,Hand)" fullname="Downbeat.Tests.InputModeTests.The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;camera&quot;,Hand)" methodname="The_input_parameter_is_parsed_and_defaults_to_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="2026300148" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000077" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1081" name="The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;&quot;,Hand)" fullname="Downbeat.Tests.InputModeTests.The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;&quot;,Hand)" methodname="The_input_parameter_is_parsed_and_defaults_to_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="259717372" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000078" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1082" name="The_input_parameter_is_parsed_and_defaults_to_the_camera(null,Hand)" fullname="Downbeat.Tests.InputModeTests.The_input_parameter_is_parsed_and_defaults_to_the_camera(null,Hand)" methodname="The_input_parameter_is_parsed_and_defaults_to_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="412491917" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000091" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1083" name="The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;nonsense&quot;,Hand)" fullname="Downbeat.Tests.InputModeTests.The_input_parameter_is_parsed_and_defaults_to_the_camera(&quot;nonsense&quot;,Hand)" methodname="The_input_parameter_is_parsed_and_defaults_to_the_camera" classname="Downbeat.Tests.InputModeTests" runstate="Runnable" seed="748687412" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000097" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1098" name="NoteVisualQueueTests" fullname="Downbeat.Tests.NoteVisualQueueTests" classname="Downbeat.Tests.NoteVisualQueueTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.003085" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1099" name="A_note_is_released_only_when_it_is_heard" fullname="Downbeat.Tests.NoteVisualQueueTests.A_note_is_released_only_when_it_is_heard" methodname="A_note_is_released_only_when_it_is_heard" classname="Downbeat.Tests.NoteVisualQueueTests" runstate="Runnable" seed="360297328" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001115" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1102" name="Draining_appends_to_the_given_list_without_touching_what_is_already_there" fullname="Downbeat.Tests.NoteVisualQueueTests.Draining_appends_to_the_given_list_without_touching_what_is_already_there" methodname="Draining_appends_to_the_given_list_without_touching_what_is_already_there" classname="Downbeat.Tests.NoteVisualQueueTests" runstate="Runnable" seed="601794907" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000174" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1101" name="Due_notes_come_out_in_time_order_and_later_ones_stay" fullname="Downbeat.Tests.NoteVisualQueueTests.Due_notes_come_out_in_time_order_and_later_ones_stay" methodname="Due_notes_come_out_in_time_order_and_later_ones_stay" classname="Downbeat.Tests.NoteVisualQueueTests" runstate="Runnable" seed="1915081500" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000511" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1100" name="The_lead_releases_a_note_slightly_early" fullname="Downbeat.Tests.NoteVisualQueueTests.The_lead_releases_a_note_slightly_early" methodname="The_lead_releases_a_note_slightly_early" classname="Downbeat.Tests.NoteVisualQueueTests" runstate="Runnable" seed="702996914" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000092" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1103" name="PitchMapperTests" fullname="Downbeat.Tests.PitchMapperTests" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.003044" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1105" name="An_exact_sample_is_played_at_rate_one" fullname="Downbeat.Tests.PitchMapperTests.An_exact_sample_is_played_at_rate_one" methodname="An_exact_sample_is_played_at_rate_one" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="1050186999" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000306" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1112" name="Constructor_rejects_missing_or_duplicate_parts" fullname="Downbeat.Tests.PitchMapperTests.Constructor_rejects_missing_or_duplicate_parts" methodname="Constructor_rejects_missing_or_duplicate_parts" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="224720666" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000265" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1108" name="Measured_tuning_error_is_corrected_by_the_playback_rate" fullname="Downbeat.Tests.PitchMapperTests.Measured_tuning_error_is_corrected_by_the_playback_rate" methodname="Measured_tuning_error_is_corrected_by_the_playback_rate" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="1526049351" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000062" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1109" name="Onset_offset_shrinks_when_the_sample_is_played_faster" fullname="Downbeat.Tests.PitchMapperTests.Onset_offset_shrinks_when_the_sample_is_played_faster" methodname="Onset_offset_shrinks_when_the_sample_is_played_faster" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="1223199753" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000096" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1111" name="Sample_indexes_follow_load_order_across_instruments" fullname="Downbeat.Tests.PitchMapperTests.Sample_indexes_follow_load_order_across_instruments" methodname="Sample_indexes_follow_load_order_across_instruments" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="1593061539" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000118" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1104" name="Scale_steps_follow_A_minor_pentatonic_over_two_octaves" fullname="Downbeat.Tests.PitchMapperTests.Scale_steps_follow_A_minor_pentatonic_over_two_octaves" methodname="Scale_steps_follow_A_minor_pentatonic_over_two_octaves" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="441304744" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000116" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1110" name="Steps_beyond_the_allowed_shift_are_rejected" fullname="Downbeat.Tests.PitchMapperTests.Steps_beyond_the_allowed_shift_are_rejected" methodname="Steps_beyond_the_allowed_shift_are_rejected" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="1245841219" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000106" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1106" name="The_closest_sample_is_chosen_and_the_rate_matches_the_semitone_shift" fullname="Downbeat.Tests.PitchMapperTests.The_closest_sample_is_chosen_and_the_rate_matches_the_semitone_shift" methodname="The_closest_sample_is_chosen_and_the_rate_matches_the_semitone_shift" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="1283588999" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000074" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1107" name="The_measured_pitch_is_used_not_the_file_name_so_the_recorder_A5_comes_from_A_sharp_5_minus_one_semitone" fullname="Downbeat.Tests.PitchMapperTests.The_measured_pitch_is_used_not_the_file_name_so_the_recorder_A5_comes_from_A_sharp_5_minus_one_semitone" methodname="The_measured_pitch_is_used_not_the_file_name_so_the_recorder_A5_comes_from_A_sharp_5_minus_one_semitone" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="706557838" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000063" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1113" name="The_shipped_content_resolves_every_part_and_step_within_the_allowed_shift" fullname="Downbeat.Tests.PitchMapperTests.The_shipped_content_resolves_every_part_and_step_within_the_allowed_shift" methodname="The_shipped_content_resolves_every_part_and_step_within_the_allowed_shift" classname="Downbeat.Tests.PitchMapperTests" runstate="Runnable" seed="1083708344" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000550" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1114" name="PointerMappingTests" fullname="Downbeat.Tests.PointerMappingTests" classname="Downbeat.Tests.PointerMappingTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.002101" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1119" name="A_stage_that_does_not_start_at_the_origin_is_handled" fullname="Downbeat.Tests.PointerMappingTests.A_stage_that_does_not_start_at_the_origin_is_handled" methodname="A_stage_that_does_not_start_at_the_origin_is_handled" classname="Downbeat.Tests.PointerMappingTests" runstate="Runnable" seed="1764496831" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000263" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1118" name="Clicks_outside_the_stage_view_are_ignored" fullname="Downbeat.Tests.PointerMappingTests.Clicks_outside_the_stage_view_are_ignored" methodname="Clicks_outside_the_stage_view_are_ignored" classname="Downbeat.Tests.PointerMappingTests" runstate="Runnable" seed="2000699392" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000070" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1116" name="Height_picks_the_pitch_with_the_top_being_the_highest_and_margins_clamped" fullname="Downbeat.Tests.PointerMappingTests.Height_picks_the_pitch_with_the_top_being_the_highest_and_margins_clamped" methodname="Height_picks_the_pitch_with_the_top_being_the_highest_and_margins_clamped" classname="Downbeat.Tests.PointerMappingTests" runstate="Runnable" seed="49770534" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000167" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1115" name="Horizontal_thirds_pick_the_part" fullname="Downbeat.Tests.PointerMappingTests.Horizontal_thirds_pick_the_part" methodname="Horizontal_thirds_pick_the_part" classname="Downbeat.Tests.PointerMappingTests" runstate="Runnable" seed="1787093645" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000149" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1120" name="PartAt_clamps_outside_positions" fullname="Downbeat.Tests.PointerMappingTests.PartAt_clamps_outside_positions" methodname="PartAt_clamps_outside_positions" classname="Downbeat.Tests.PointerMappingTests" runstate="Runnable" seed="1363581031" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000124" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1117" name="Pitch_never_decreases_as_the_pointer_moves_up" fullname="Downbeat.Tests.PointerMappingTests.Pitch_never_decreases_as_the_pointer_moves_up" methodname="Pitch_never_decreases_as_the_pointer_moves_up" classname="Downbeat.Tests.PointerMappingTests" runstate="Runnable" seed="168292860" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000299" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1121" name="QuantizedNoteSchedulerTests" fullname="Downbeat.Tests.QuantizedNoteSchedulerTests" classname="Downbeat.Tests.QuantizedNoteSchedulerTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.006939" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1125" name="A_click_pushed_further_than_the_limit_is_dropped" fullname="Downbeat.Tests.QuantizedNoteSchedulerTests.A_click_pushed_further_than_the_limit_is_dropped" methodname="A_click_pushed_further_than_the_limit_is_dropped" classname="Downbeat.Tests.QuantizedNoteSchedulerTests" runstate="Runnable" seed="1730169170" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000454" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1127" name="A_later_click_is_not_pushed_once_the_gap_has_passed" fullname="Downbeat.Tests.QuantizedNoteSchedulerTests.A_later_click_is_not_pushed_once_the_gap_has_passed" methodname="A_later_click_is_not_pushed_once_the_gap_has_passed" classname="Downbeat.Tests.QuantizedNoteSchedulerTests" runstate="Runnable" seed="1897417407" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001133" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1123" name="Chooses_the_earliest_slot_with_enough_lead" fullname="Downbeat.Tests.QuantizedNoteSchedulerTests.Chooses_the_earliest_slot_with_enough_lead" methodname="Chooses_the_earliest_slot_with_enough_lead" classname="Downbeat.Tests.QuantizedNoteSchedulerTests" runstate="Runnable" seed="842891038" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000180" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1129" name="Intent_clamps_velocity_and_rejects_negative_steps" fullname="Downbeat.Tests.QuantizedNoteSchedulerTests.Intent_clamps_velocity_and_rejects_negative_steps" methodname="Intent_clamps_velocity_and_rejects_negative_steps" classname="Downbeat.Tests.QuantizedNoteSchedulerTests" runstate="Runnable" seed="671860085" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000212" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1122" name="Irregular_click_times_always_land_exactly_on_a_grid_slot" fullname="Downbeat.Tests.QuantizedNoteSchedulerTests.Irregular_click_times_always_land_exactly_on_a_grid_slot" methodname="Irregular_click_times_always_land_exactly_on_a_grid_slot" classname="Downbeat.Tests.QuantizedNoteSchedulerTests" runstate="Runnable" seed="83514741" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001219" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1126" name="Minimum_gap_of_a_part_spaces_its_notes_but_other_parts_are_independent" fullname="Downbeat.Tests.QuantizedNoteSchedulerTests.Minimum_gap_of_a_part_spaces_its_notes_but_other_parts_are_independent" methodname="Minimum_gap_of_a_part_spaces_its_notes_but_other_parts_are_independent" classname="Downbeat.Tests.QuantizedNoteSchedulerTests" runstate="Runnable" seed="1831878466" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000138" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1128" name="Settings_reject_invalid_values" fullname="Downbeat.Tests.QuantizedNoteSchedulerTests.Settings_reject_invalid_values" methodname="Settings_reject_invalid_values" classname="Downbeat.Tests.QuantizedNoteSchedulerTests" runstate="Runnable" seed="643427343" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000206" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1124" name="Two_clicks_for_the_same_slot_push_the_second_one_to_the_next_slot" fullname="Downbeat.Tests.QuantizedNoteSchedulerTests.Two_clicks_for_the_same_slot_push_the_second_one_to_the_next_slot" methodname="Two_clicks_for_the_same_slot_push_the_second_one_to_the_next_slot" classname="Downbeat.Tests.QuantizedNoteSchedulerTests" runstate="Runnable" seed="372145695" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000083" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1130" name="ReplayTests" fullname="Downbeat.Tests.ReplayTests" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.017652" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1149" name="A_looping_replay_plays_the_same_notes_again_on_the_next_bar_line" fullname="Downbeat.Tests.ReplayTests.A_looping_replay_plays_the_same_notes_again_on_the_next_bar_line" methodname="A_looping_replay_plays_the_same_notes_again_on_the_next_bar_line" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="809611345" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.002686" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1148" name="A_replay_starts_on_a_bar_line_and_asks_for_each_note_at_the_time_it_had_in_the_recording" fullname="Downbeat.Tests.ReplayTests.A_replay_starts_on_a_bar_line_and_asks_for_each_note_at_the_time_it_had_in_the_recording" methodname="A_replay_starts_on_a_bar_line_and_asks_for_each_note_at_the_time_it_had_in_the_recording" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="742696405" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000585" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1131" name="A_valid_replay_passes_and_a_json_round_trip_keeps_it_valid" fullname="Downbeat.Tests.ReplayTests.A_valid_replay_passes_and_a_json_round_trip_keeps_it_valid" methodname="A_valid_replay_passes_and_a_json_round_trip_keeps_it_valid" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1712877673" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001310" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1132" name="Broken_replays_are_rejected_with_a_reason" fullname="Downbeat.Tests.ReplayTests.Broken_replays_are_rejected_with_a_reason" methodname="Broken_replays_are_rejected_with_a_reason" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1456228780" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000593" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1144" name="Only_relative_json_paths_inside_the_site_may_be_requested" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.003527" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1133" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay/demo-hands.json&quot;,True)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay/demo-hands.json&quot;,True)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1470626018" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000744" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1134" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;demo-hands.json&quot;,True)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;demo-hands.json&quot;,True)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1537023986" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000043" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1135" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay/my_run-2.json&quot;,True)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay/my_run-2.json&quot;,True)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="2129615380" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000029" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1136" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;../content.json&quot;,False)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;../content.json&quot;,False)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="406538118" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000027" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1137" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;/etc/passwd.json&quot;,False)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;/etc/passwd.json&quot;,False)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1044121699" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000026" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1138" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;https://example.com/x.json&quot;,False)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;https://example.com/x.json&quot;,False)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1192952204" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000026" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1139" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay\\x.json&quot;,False)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay\\x.json&quot;,False)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="837675079" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000025" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1140" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay/x.txt&quot;,False)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay/x.txt&quot;,False)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="584977130" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000025" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1141" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay/x.json?y=1&quot;,False)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay/x.json?y=1&quot;,False)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1923851530" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000026" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1142" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay//x.json&quot;,False)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;replay//x.json&quot;,False)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="92999164" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000049" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1143" name="Only_relative_json_paths_inside_the_site_may_be_requested(&quot;&quot;,False)" fullname="Downbeat.Tests.ReplayTests.Only_relative_json_paths_inside_the_site_may_be_requested(&quot;&quot;,False)" methodname="Only_relative_json_paths_inside_the_site_may_be_requested" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1439735382" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000027" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1147" name="The_notes_do_not_depend_on_how_often_the_game_asks_for_frames" fullname="Downbeat.Tests.ReplayTests.The_notes_do_not_depend_on_how_often_the_game_asks_for_frames" methodname="The_notes_do_not_depend_on_how_often_the_game_asks_for_frames" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="2015780786" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000938" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1145" name="The_player_hands_out_frames_in_order_when_their_time_comes" fullname="Downbeat.Tests.ReplayTests.The_player_hands_out_frames_in_order_when_their_time_comes" methodname="The_player_hands_out_frames_in_order_when_their_time_comes" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="340301028" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000407" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1150" name="The_replay_notes_land_on_the_same_grid_slots_every_run" fullname="Downbeat.Tests.ReplayTests.The_replay_notes_land_on_the_same_grid_slots_every_run" methodname="The_replay_notes_land_on_the_same_grid_slots_every_run" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1748729238" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000979" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1146" name="The_same_replay_run_twice_gives_the_identical_note_list" fullname="Downbeat.Tests.ReplayTests.The_same_replay_run_twice_gives_the_identical_note_list" methodname="The_same_replay_run_twice_gives_the_identical_note_list" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="888820421" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000408" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1151" name="The_shipped_demo_replay_is_valid_and_gives_the_same_strikes_on_every_run" fullname="Downbeat.Tests.ReplayTests.The_shipped_demo_replay_is_valid_and_gives_the_same_strikes_on_every_run" methodname="The_shipped_demo_replay_is_valid_and_gives_the_same_strikes_on_every_run" classname="Downbeat.Tests.ReplayTests" runstate="Runnable" seed="1773064805" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.004739" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1092" name="SwitchingPlayInputTests" fullname="Downbeat.Tests.SwitchingPlayInputTests" classname="Downbeat.Tests.SwitchingPlayInputTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.002280" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1094" name="A_denied_camera_switches_to_the_mouse_and_announces_it_once" fullname="Downbeat.Tests.SwitchingPlayInputTests.A_denied_camera_switches_to_the_mouse_and_announces_it_once" methodname="A_denied_camera_switches_to_the_mouse_and_announces_it_once" classname="Downbeat.Tests.SwitchingPlayInputTests" runstate="Runnable" seed="469491553" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000822" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1096" name="In_hand_mode_a_strike_plays_and_mouse_clicks_are_ignored" fullname="Downbeat.Tests.SwitchingPlayInputTests.In_hand_mode_a_strike_plays_and_mouse_clicks_are_ignored" methodname="In_hand_mode_a_strike_plays_and_mouse_clicks_are_ignored" classname="Downbeat.Tests.SwitchingPlayInputTests" runstate="Runnable" seed="1191090326" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000316" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1095" name="In_mouse_mode_injected_clicks_play_and_hand_strikes_do_not" fullname="Downbeat.Tests.SwitchingPlayInputTests.In_mouse_mode_injected_clicks_play_and_hand_strikes_do_not" methodname="In_mouse_mode_injected_clicks_play_and_hand_strikes_do_not" classname="Downbeat.Tests.SwitchingPlayInputTests" runstate="Runnable" seed="1337281165" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000211" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1097" name="Notes_queued_for_the_old_mode_are_dropped_when_the_mode_changes" fullname="Downbeat.Tests.SwitchingPlayInputTests.Notes_queued_for_the_old_mode_are_dropped_when_the_mode_changes" methodname="Notes_queued_for_the_old_mode_are_dropped_when_the_mode_changes" classname="Downbeat.Tests.SwitchingPlayInputTests" runstate="Runnable" seed="241060734" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000082" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1093" name="The_camera_starting_means_mouse_for_now_then_hands_once_the_tracker_runs" fullname="Downbeat.Tests.SwitchingPlayInputTests.The_camera_starting_means_mouse_for_now_then_hands_once_the_tracker_runs" methodname="The_camera_starting_means_mouse_for_now_then_hands_once_the_tracker_runs" classname="Downbeat.Tests.SwitchingPlayInputTests" runstate="Runnable" seed="1185850025" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000091" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1152" name="VelocityMapperTests" fullname="Downbeat.Tests.VelocityMapperTests" classname="Downbeat.Tests.VelocityMapperTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.001106" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1155" name="Gain_is_audible_for_the_softest_note_and_one_for_the_loudest" fullname="Downbeat.Tests.VelocityMapperTests.Gain_is_audible_for_the_softest_note_and_one_for_the_loudest" methodname="Gain_is_audible_for_the_softest_note_and_one_for_the_loudest" classname="Downbeat.Tests.VelocityMapperTests" runstate="Runnable" seed="1858602931" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000115" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1153" name="Slow_clicks_are_medium_and_fast_clicks_are_loud" fullname="Downbeat.Tests.VelocityMapperTests.Slow_clicks_are_medium_and_fast_clicks_are_loud" methodname="Slow_clicks_are_medium_and_fast_clicks_are_loud" classname="Downbeat.Tests.VelocityMapperTests" runstate="Runnable" seed="598428102" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000077" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1156" name="Strike_speed_maps_from_the_minimum_at_the_trigger_to_full_strength_at_full_speed" fullname="Downbeat.Tests.VelocityMapperTests.Strike_speed_maps_from_the_minimum_at_the_trigger_to_full_strength_at_full_speed" methodname="Strike_speed_maps_from_the_minimum_at_the_trigger_to_full_strength_at_full_speed" classname="Downbeat.Tests.VelocityMapperTests" runstate="Runnable" seed="2057661667" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000056" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1154" name="Velocity_never_decreases_as_clicks_get_faster" fullname="Downbeat.Tests.VelocityMapperTests.Velocity_never_decreases_as_clicks_get_faster" methodname="Velocity_never_decreases_as_clicks_get_faster" classname="Downbeat.Tests.VelocityMapperTests" runstate="Runnable" seed="226628536" result="Passed" start-time="2026-10-29 05:28:37Z" end-time="2026-10-29 05:28:37Z" duration="0.000294" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: ../../measurements/unit-tests/editmode-results.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

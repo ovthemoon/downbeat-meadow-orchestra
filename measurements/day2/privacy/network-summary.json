@@ -1,0 +1,155 @@
+{
+  "video": "<tmp>/a24ee148-1536-477c-bc61-a01332b5b9de/scratchpad/cam2/hands2.y4m",
+  "seconds": 45,
+  "trackerFrames": {
+    "frames": 1304,
+    "state": 2
+  },
+  "recordedFramesDuringRun": 1304,
+  "chromeVersion": "Chrome/156.0.8078.49",
+  "devtoolsLog": {
+    "total": 45,
+    "hosts": {
+      "localhost:8795": 41,
+      "cdn.jsdelivr.net": 3,
+      "storage.googleapis.com": 1
+    },
+    "resourceTypes": {
+      "Document": 1,
+      "Script": 17,
+      "Other": 2,
+      "Fetch": 25
+    },
+    "nonGetRequests": [],
+    "requestsWithBody": 0,
+    "longestUrl": 110,
+    "failed": [
+      {
+        "url": "http://localhost:8795/content/img/forest/stage_bg.jpg",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:8795/content/img/forest/harp_idle.png",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:8795/content/img/forest/harp_play.png",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:8795/content/img/forest/recorder_idle.png",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:8795/content/img/forest/recorder_play.png",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:8795/content/img/forest/marimba_idle.png",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:8795/content/img/forest/marimba_play.png",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "webSocketsCreated": 0,
+    "webSocketFramesSent": 0,
+    "pageOrigin": "http://localhost:8795"
+  },
+  "targetTypesSeen": [
+    "browser_ui",
+    "page"
+  ],
+  "positiveControl": {
+    "total": 1,
+    "hosts": {
+      "localhost:8795": 1
+    },
+    "resourceTypes": {
+      "Fetch": 1
+    },
+    "nonGetRequests": [
+      {
+        "method": "POST",
+        "url": "http://localhost:8795/control-upload-of-a-camera-frame",
+        "hasPostData": true,
+        "postDataBytes": 0
+      }
+    ],
+    "requestsWithBody": 1,
+    "longestUrl": 54,
+    "failed": [],
+    "webSocketsCreated": 0,
+    "webSocketFramesSent": 0,
+    "pageOrigin": "http://localhost:8795"
+  },
+  "netlog": {
+    "pageOrigin": "http://localhost:8795",
+    "startedByThePage": {
+      "requests": 45,
+      "hosts": {
+        "localhost:8795": 41,
+        "cdn.jsdelivr.net": 3,
+        "storage.googleapis.com": 1
+      },
+      "nonGetOrWithUpload": [
+        {
+          "method": "POST",
+          "url": "http://localhost:8795/control-upload-of-a-camera-frame",
+          "uploadBytes": 3628
+        }
+      ]
+    },
+    "startedByChromeItself": {
+      "requests": 24,
+      "hosts": {
+        "clients2.google.com": 2,
+        "clientservices.googleapis.com": 1,
+        "accounts.google.com": 1,
+        "www.google.com": 1,
+        "www.gstatic.com": 1,
+        "update.googleapis.com": 3,
+        "localhost:8795": 1,
+        "translate.googleapis.com": 1,
+        "edgedl.me.gvt1.com": 1,
+        "clients2.googleusercontent.com": 1,
+        "rr3---sn-ab02a0nfpgxapox-bh2z6.gvt1.com": 1,
+        "www.googleapis.com": 1,
+        "optimizationguide-pa.googleapis.com": 9
+      },
+      "nonGetOrWithUpload": [
+        {
+          "method": "POST",
+          "url": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard&laf=b64bin",
+          "uploadBytes": 1
+        },
+        {
+          "method": "POST",
+          "url": "https://update.googleapis.com/service/update2/json?cup2key=ML-DSA-44-16:d7FJDdvgt90R3qn5kJs3YI8ratie-F1HVoDzmWqDNO4&cup2",
+          "uploadBytes": 883
+        },
+        {
+          "method": "POST",
+          "url": "https://update.googleapis.com/service/update2/json",
+          "uploadBytes": 1623
+        },
+        {
+          "method": "POST",
+          "url": "https://www.googleapis.com/chromewebstore/v1.1/items/verify",
+          "uploadBytes": 119
+        },
+        {
+          "method": "POST",
+          "url": "https://optimizationguide-pa.googleapis.com/v1:GetModels?key=REDACTED",
+          "uploadBytes": 1112
+        },
+        {
+          "method": "POST",
+          "url": "https://update.googleapis.com/service/update2/json?cup2key=ML-DSA-44-16:aodfiBBnHz4rCAfOuOBG6aKl2FpDT4o9UQE9ELn5DKQ&cup2",
+          "uploadBytes": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1298 @@
+{
+  "generatedBy": "tools/prepare_samples.mjs",
+  "scale": "A minor pentatonic (A C D E G)",
+  "trim": {
+    "preRollSec": 0.002,
+    "lengthSec": 1.3,
+    "fadeOutSec": 0.15,
+    "targetPeak": 0.708
+  },
+  "notes": [
+    {
+      "instrument": "harp",
+      "target": "A4",
+      "file": "harp_A4.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    },
+    {
+      "instrument": "marimba",
+      "target": "A4",
+      "file": "marimba_C5_med.wav",
+      "semitones": -3,
+      "playbackRate": 0.8408964152537146
+    },
+    {
+      "instrument": "recorder",
+      "target": "A5",
+      "file": "recorder_As5.wav",
+      "semitones": -1,
+      "playbackRate": 0.9438743126816935
+    },
+    {
+      "instrument": "harp",
+      "target": "C5",
+      "file": "harp_C5.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    },
+    {
+      "instrument": "marimba",
+      "target": "C5",
+      "file": "marimba_C5_med.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    },
+    {
+      "instrument": "recorder",
+      "target": "C6",
+      "file": "recorder_C6.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    },
+    {
+      "instrument": "harp",
+      "target": "D5",
+      "file": "harp_D6.wav",
+      "semitones": -12,
+      "playbackRate": 0.5
+    },
+    {
+      "instrument": "marimba",
+      "target": "D5",
+      "file": "marimba_C5_med.wav",
+      "semitones": 2,
+      "playbackRate": 1.122462048309373
+    },
+    {
+      "instrument": "recorder",
+      "target": "D6",
+      "file": "recorder_D6.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    },
+    {
+      "instrument": "harp",
+      "target": "E5",
+      "file": "harp_E5.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    },
+    {
+      "instrument": "marimba",
+      "target": "E5",
+      "file": "marimba_G5_med.wav",
+      "semitones": -3,
+      "playbackRate": 0.8408964152537146
+    },
+    {
+      "instrument": "recorder",
+      "target": "E6",
+      "file": "recorder_E6.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    },
+    {
+      "instrument": "harp",
+      "target": "G5",
+      "file": "harp_G5.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    },
+    {
+      "instrument": "marimba",
+      "target": "G5",
+      "file": "marimba_G5_med.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    },
+    {
+      "instrument": "recorder",
+      "target": "G6",
+      "file": "recorder_G6.wav",
+      "semitones": 0,
+      "playbackRate": 1
+    }
+  ],
+  "files": [
+    {
+      "file": "harp_A4.wav",
+      "instrument": "harp",
+      "sourceNote": "A4",
+      "fileNameNote": "A4",
+      "sourceVariant": "mf1",
+      "measuredHz": 437.5492101842458,
+      "measuredNote": "A4",
+      "centsFromLabel": -9.66988918187468,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 12151.768707482994,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 20.58956916099773,
+          "relMinus40db": 21.065759637188208,
+          "halfPeak": 24.852607709750565
+        },
+        "peakDbfs": -18.184596954847414,
+        "sha256": "3665f3975cad4a33f46784aa4f896f4b4319ba2b7831e892d975bc38c9f09f23"
+      },
+      "trimmed": {
+        "startFrame": 841,
+        "removedLeadMs": 19.0702947845805,
+        "gain": 5.744643803392348,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 5.782312925170068
+        },
+        "perceivedOnsetOffsetMs": 5.782312925170068,
+        "sha256": "f06a2c6e0d33c2e16bfc47143fb1c95fc659a520421d1c0afa0272f9b1652d26"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A4_mf1.wav",
+        "path": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_A4_mf1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "harp_C5.wav",
+      "instrument": "harp",
+      "sourceNote": "C5",
+      "fileNameNote": "C5",
+      "sourceVariant": "mf1",
+      "measuredHz": 519.9475928456062,
+      "measuredNote": "C5",
+      "centsFromLabel": -10.964768330794072,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 7013.015873015873,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 25.215419501133788,
+          "relMinus40db": 25.215419501133788,
+          "halfPeak": 30.408163265306122
+        },
+        "peakDbfs": -20.270021505768746,
+        "sha256": "7c8b862f6fd3f1442ed87537af976d84bda8c05a5b4900e8907d570b5202a517"
+      },
+      "trimmed": {
+        "startFrame": 1024,
+        "removedLeadMs": 23.219954648526077,
+        "gain": 7.3035554855973555,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 7.188208616780045
+        },
+        "perceivedOnsetOffsetMs": 7.188208616780045,
+        "sha256": "40577d51c27021e191cdf193dfc2ee78b8c0ccfc17b87767ef686e6c0fa72995"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_C5_mf1.wav",
+        "path": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_C5_mf1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "harp_E5.wav",
+      "instrument": "harp",
+      "sourceNote": "E5",
+      "fileNameNote": "E5",
+      "sourceVariant": "mf1",
+      "measuredHz": 654.9636757950669,
+      "measuredNote": "E5",
+      "centsFromLabel": -11.30635188496143,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 6641.383219954649,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 23.854875283446713,
+          "relMinus40db": 23.378684807256235,
+          "halfPeak": 26.21315192743764
+        },
+        "peakDbfs": -22.282711445358608,
+        "sha256": "95dd9ddb0bd15bee7687906e00f25aafcaa43020cc9501f0e8b6cabf0e9a53ec"
+      },
+      "trimmed": {
+        "startFrame": 943,
+        "removedLeadMs": 21.383219954648524,
+        "gain": 9.208074617979758,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.11337868480725624,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 4.829931972789116
+        },
+        "perceivedOnsetOffsetMs": 4.829931972789116,
+        "sha256": "63ef199871479f3c80ae1732a20c0f59fb338f00a349785bf4f1f579693672da"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_E5_mf1.wav",
+        "path": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_E5_mf1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "harp_G5.wav",
+      "instrument": "harp",
+      "sourceNote": "G5",
+      "fileNameNote": "G5",
+      "sourceVariant": "mf1",
+      "measuredHz": 781.2464222541354,
+      "measuredNote": "G5",
+      "centsFromLabel": -6.071015135358948,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 5950.861678004535,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 21.179138321995467,
+          "relMinus40db": 17.006802721088437,
+          "halfPeak": 22.72108843537415
+        },
+        "peakDbfs": -26.851104744150835,
+        "sha256": "f2004dfc617997fbabc6f849add2af06f4f859361c44a8fca0f993dc7f999540"
+      },
+      "trimmed": {
+        "startFrame": 662,
+        "removedLeadMs": 15.011337868480727,
+        "gain": 15.580754869039623,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 7.709750566893424
+        },
+        "perceivedOnsetOffsetMs": 7.709750566893424,
+        "sha256": "7dfcdd8fff73ac5b7865b14653d52ab44a515b540d912f993f5eb31699c9db25"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_G5_mf1.wav",
+        "path": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_G5_mf1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "harp_D6.wav",
+      "instrument": "harp",
+      "sourceNote": "D6",
+      "fileNameNote": "D6",
+      "sourceVariant": "mf1",
+      "measuredHz": 1169.5179296874462,
+      "measuredNote": "D6",
+      "centsFromLabel": -7.593739138138744,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 3898.548752834467,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 16.099773242630384,
+          "relMinus40db": 12.721088435374151,
+          "halfPeak": 21.859410430839002
+        },
+        "peakDbfs": -23.10660146757825,
+        "sha256": "b040b61fb279efa1a9b9c60dcbd8626a37f57ffb30f3b50747a2123ee4db5bd2"
+      },
+      "trimmed": {
+        "startFrame": 473,
+        "removedLeadMs": 10.72562358276644,
+        "gain": 10.124260964433777,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 11.133786848072562
+        },
+        "perceivedOnsetOffsetMs": 11.133786848072562,
+        "sha256": "b4210f3d983e601acf5bc868a864b3f536d32ba64472605254d628e91cbe0ba0"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D6_mf1.wav",
+        "path": "Chordophones/Composite Chordophones/Concert Harp/KSHarp_D6_mf1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "marimba_C5_med.wav",
+      "instrument": "marimba",
+      "sourceNote": "C5",
+      "fileNameNote": "C4",
+      "sourceVariant": "med",
+      "measuredHz": 524.537500788985,
+      "measuredNote": "C5",
+      "centsFromLabel": 4.250874500772284,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 2476.190476190476,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 6.099773242630386,
+          "relMinus40db": 5.442176870748299,
+          "halfPeak": 10.408163265306122
+        },
+        "peakDbfs": -36.41086494614819,
+        "sha256": "3e88c006eef05e8f7891f8f6027042006199a4ec3b53a0ad7308f9782a52d4df"
+      },
+      "trimmed": {
+        "startFrame": 152,
+        "removedLeadMs": 3.4467120181405897,
+        "gain": 46.835644943536686,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 1.7233560090702948,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 6.961451247165534
+        },
+        "perceivedOnsetOffsetMs": 6.961451247165534,
+        "sha256": "c160afea202a357e536e890f3dba9b073f1c90e84398dee072587366a7727a2b"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C4_med_01.wav",
+        "path": "Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_med_01.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "marimba_G5_med.wav",
+      "instrument": "marimba",
+      "sourceNote": "G5",
+      "fileNameNote": "G4",
+      "sourceVariant": "med",
+      "measuredHz": 783.1870556070186,
+      "measuredNote": "G5",
+      "centsFromLabel": -1.7759238987281378,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 2192.81179138322,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 5.532879818594104,
+          "relMinus40db": 4.625850340136054,
+          "halfPeak": 8.095238095238095
+        },
+        "peakDbfs": -34.74498414457946,
+        "sha256": "278e738d8214cdc192e63c3350b1e464a72c86dc135ddf0c5ce035569be66c71"
+      },
+      "trimmed": {
+        "startFrame": 116,
+        "removedLeadMs": 2.630385487528345,
+        "gain": 38.66183516851921,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.997732426303855,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 5.464852607709751
+        },
+        "perceivedOnsetOffsetMs": 5.464852607709751,
+        "sha256": "d6b352729b7ae5b5a2df3527aa01d10b43a4ef99a8f85fb50c2fcbbc3bb44b57"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_G4_med_01.wav",
+        "path": "Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G4_med_01.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "marimba_C5_loud.wav",
+      "instrument": "marimba",
+      "sourceNote": "C5",
+      "fileNameNote": "C4",
+      "sourceVariant": "loud",
+      "measuredHz": 524.5355119115927,
+      "measuredNote": "C5",
+      "centsFromLabel": 4.244310205972113,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 3841.7233560090704,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 5.464852607709751,
+          "relMinus40db": 5.374149659863946,
+          "halfPeak": 6.507936507936508
+        },
+        "peakDbfs": -23.892220113354735,
+        "sha256": "4af539d47a452d7fad26e171b1c8adcca272cee97191f040d192680462c880b8"
+      },
+      "trimmed": {
+        "startFrame": 149,
+        "removedLeadMs": 3.378684807256236,
+        "gain": 11.082666467622328,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 1.9501133786848073,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 3.129251700680272
+        },
+        "perceivedOnsetOffsetMs": 3.129251700680272,
+        "sha256": "a0d0271b692eb43d218459bdae26f88ed256c49f95f3a35656983b5b944800a3"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav",
+        "path": "Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "recorder_As5.wav",
+      "instrument": "recorder",
+      "sourceNote": "A#5",
+      "fileNameNote": "A#4",
+      "sourceVariant": "staccato",
+      "measuredHz": 937.4958398184679,
+      "measuredNote": "A#5",
+      "centsFromLabel": 9.570517680309365,
+      "sampleRate": 48000,
+      "durationMs": 479.89583333333337,
+      "original": {
+        "durationMs": 482.125,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 4.291666666666667,
+          "relMinus40db": 4.229166666666667,
+          "halfPeak": 19.3125
+        },
+        "peakDbfs": -21.4187345725135,
+        "sha256": "82dfb60dd22df20639995e6ec6cbf10b5c199f99695d6c41b31a40cb052509ab"
+      },
+      "trimmed": {
+        "startFrame": 107,
+        "removedLeadMs": 2.2291666666666665,
+        "gain": 8.336235716852316,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.08333333333333333,
+          "relMinus40db": 2,
+          "halfPeak": 17.083333333333332
+        },
+        "perceivedOnsetOffsetMs": 17.083333333333332,
+        "sha256": "88e28a6cb16c11749dddcd62f03e201fbf79d4941759bcac7e39b64f13848459"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Baroque%20Soprano%20Recorder/Staccato/SopRecorder_Stac_A%234_rr1_Main.wav",
+        "path": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_A#4_rr1_Main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "recorder_C6.wav",
+      "instrument": "recorder",
+      "sourceNote": "C6",
+      "fileNameNote": "C5",
+      "sourceVariant": "staccato",
+      "measuredHz": 1049.4088145557282,
+      "measuredNote": "C6",
+      "centsFromLabel": 4.801661114942135,
+      "sampleRate": 48000,
+      "durationMs": 469.875,
+      "original": {
+        "durationMs": 471.58333333333337,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 3.6875,
+          "relMinus40db": 3.7083333333333335,
+          "halfPeak": 15.4375
+        },
+        "peakDbfs": -18.809863183904223,
+        "sha256": "b563a3e15f3ce5622d9d7975ac6463f1022202bf095d005e3c50e3951b4f702e"
+      },
+      "trimmed": {
+        "startFrame": 82,
+        "removedLeadMs": 1.7083333333333335,
+        "gain": 6.173428419372006,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.10416666666666667,
+          "relMinus40db": 2,
+          "halfPeak": 13.729166666666668
+        },
+        "perceivedOnsetOffsetMs": 13.729166666666668,
+        "sha256": "afcbdfae73648e0f743b2fe169907251b70ec977f3bdb16fb7884b171b77af29"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Baroque%20Soprano%20Recorder/Staccato/SopRecorder_Stac_C5_rr1_Main.wav",
+        "path": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_C5_rr1_Main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "recorder_D6.wav",
+      "instrument": "recorder",
+      "sourceNote": "D6",
+      "fileNameNote": "D5",
+      "sourceVariant": "staccato",
+      "measuredHz": 1168.6158304417102,
+      "measuredNote": "D6",
+      "centsFromLabel": -8.929629354499014,
+      "sampleRate": 48000,
+      "durationMs": 461.625,
+      "original": {
+        "durationMs": 464.77083333333337,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 1.0416666666666667,
+          "relMinus40db": 5.145833333333333,
+          "halfPeak": 15.1875
+        },
+        "peakDbfs": -14.595285333576333,
+        "sha256": "5691dc7ed0aa16ed18d80d157571330b75a42f0255f6292f8355823ce4f74971"
+      },
+      "trimmed": {
+        "startFrame": 151,
+        "removedLeadMs": 3.1458333333333335,
+        "gain": 3.800121867321867,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.1875,
+          "relMinus40db": 2,
+          "halfPeak": 12.041666666666668
+        },
+        "perceivedOnsetOffsetMs": 12.041666666666668,
+        "sha256": "f6b66d56cbc93d84b68b6188e9a163a67db6bd2244086f1f3c15765cf553e999"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Baroque%20Soprano%20Recorder/Staccato/SopRecorder_Stac_D5_rr1_Main.wav",
+        "path": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_D5_rr1_Main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "recorder_E6.wav",
+      "instrument": "recorder",
+      "sourceNote": "E6",
+      "fileNameNote": "E5",
+      "sourceVariant": "staccato",
+      "measuredHz": 1318.1086037771158,
+      "measuredNote": "E6",
+      "centsFromLabel": -0.5274216532981768,
+      "sampleRate": 48000,
+      "durationMs": 442.6875,
+      "original": {
+        "durationMs": 442.6875,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 34.125
+        },
+        "peakDbfs": -20.556334350056833,
+        "sha256": "700b7636e9b75d74d86f7833b76f116b2fe8ce7b79d9d54ecd99ffbd96ec7e59"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 7.54831429965837,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 34.125
+        },
+        "perceivedOnsetOffsetMs": 34.125,
+        "sha256": "ba811c775e0cbd0432cff34af47b473ad08313c6bc88473178871cdb483bccac"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Baroque%20Soprano%20Recorder/Staccato/SopRecorder_Stac_E5_rr1_Main.wav",
+        "path": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_E5_rr1_Main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "recorder_G6.wav",
+      "instrument": "recorder",
+      "sourceNote": "G6",
+      "fileNameNote": "G5",
+      "sourceVariant": "staccato",
+      "measuredHz": 1572.7135964217982,
+      "measuredNote": "G6",
+      "centsFromLabel": 5.216647566723509,
+      "sampleRate": 48000,
+      "durationMs": 517.8125,
+      "original": {
+        "durationMs": 519.7291666666667,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 3.895833333333333,
+          "relMinus40db": 3.9166666666666665,
+          "halfPeak": 31.833333333333332
+        },
+        "peakDbfs": -16.402868250558306,
+        "sha256": "95ca87580607f7d1eb0c22cd29ad6704dfcb801ec8125f3ebc5be66cc6e75677"
+      },
+      "trimmed": {
+        "startFrame": 92,
+        "removedLeadMs": 1.9166666666666665,
+        "gain": 4.679254538120209,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 2,
+          "halfPeak": 29.916666666666668
+        },
+        "perceivedOnsetOffsetMs": 29.916666666666668,
+        "sha256": "89899e75cb005001d25be3b30bc156b15c92008b477d1f6cf9443b01dccafdc7"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Baroque%20Soprano%20Recorder/Staccato/SopRecorder_Stac_G5_rr1_Main.wav",
+        "path": "Aerophones/Edge-blown Aerophones/Baroque Soprano Recorder/Staccato/SopRecorder_Stac_G5_rr1_Main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "bell_As4.wav",
+      "instrument": "bell",
+      "sourceNote": "A#4",
+      "fileNameNote": "A#3",
+      "sourceVariant": "sustain",
+      "measuredHz": 467.1556541391903,
+      "measuredNote": "A#4",
+      "centsFromLabel": 3.679766854430966,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 8349.977324263038,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 22.53968253968254
+        },
+        "peakDbfs": -15.591689710233268,
+        "sha256": "2eb505e93627247114582d8e103d77ff427ab2e882bb73e30925d265c09210a4"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 4.2620421774028605,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 22.53968253968254
+        },
+        "perceivedOnsetOffsetMs": 22.53968253968254,
+        "sha256": "9038074e07afcf157b7e1149c2a2bba085155c4d076833afd7339f7939e62b37"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hand%20Chimes/sus_A%233_r01_main.wav",
+        "path": "Idiophones/Struck Idiophones/Hand Chimes/sus_A#3_r01_main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "bell_D5.wav",
+      "instrument": "bell",
+      "sourceNote": "D5",
+      "fileNameNote": "D4",
+      "sourceVariant": "sustain",
+      "measuredHz": 587.4949072308156,
+      "measuredNote": "D5",
+      "centsFromLabel": 0.4873861708929894,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 9790.77097505669,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 16.303854875283445
+        },
+        "peakDbfs": -16.558948982516842,
+        "sha256": "ab6598ca5d49f8d19f14b9e5fdfbdb35353ca7cc83e7d4f78946b6faa9371c67"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 4.764098222106711,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 16.303854875283445
+        },
+        "perceivedOnsetOffsetMs": 16.303854875283445,
+        "sha256": "027513398d7393bb90f7de175693d5da9137e421aa9d536d0a50d448e5629829"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hand%20Chimes/sus_D4_r01_main.wav",
+        "path": "Idiophones/Struck Idiophones/Hand Chimes/sus_D4_r01_main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "bell_Gs5.wav",
+      "instrument": "bell",
+      "sourceNote": "G#5",
+      "fileNameNote": "G#4",
+      "sourceVariant": "sustain",
+      "measuredHz": 831.7993520735469,
+      "measuredNote": "G#5",
+      "centsFromLabel": 2.4784449445647283,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 9209.818594104308,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 7.64172335600907
+        },
+        "peakDbfs": -15.94206971171581,
+        "sha256": "e52f03ab7ccd2227581e913f6822f225b8973eec4cc48feb917bae91b3de9c59"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 4.437483418839563,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 7.64172335600907
+        },
+        "perceivedOnsetOffsetMs": 7.64172335600907,
+        "sha256": "522f504fd4eca0c38b5e305c5238c73786f63dfef4ecc05628a0314a753f43d4"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hand%20Chimes/sus_G%234_r01_main.wav",
+        "path": "Idiophones/Struck Idiophones/Hand Chimes/sus_G#4_r01_main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "bell_C6.wav",
+      "instrument": "bell",
+      "sourceNote": "C6",
+      "fileNameNote": "C5",
+      "sourceVariant": "sustain",
+      "measuredHz": 1047.3729715788197,
+      "measuredNote": "C6",
+      "centsFromLabel": 1.439821737065472,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 7141.56462585034,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 11.47392290249433
+        },
+        "peakDbfs": -17.64723543727478,
+        "sha256": "836f13d448c9d6d685da634368615c2f7c03b6fb5b99ac93627e1fbb40368e58"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 5.400015787801187,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 11.47392290249433
+        },
+        "perceivedOnsetOffsetMs": 11.47392290249433,
+        "sha256": "f9a4759ca3bf55cb06eb4f704f76fae73e022d847f507be2b6f723d9d60ed856"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hand%20Chimes/sus_C5_r01_main.wav",
+        "path": "Idiophones/Struck Idiophones/Hand Chimes/sus_C5_r01_main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "bell_E6.wav",
+      "instrument": "bell",
+      "sourceNote": "E6",
+      "fileNameNote": "E5",
+      "sourceVariant": "sustain",
+      "measuredHz": 1321.755374532365,
+      "measuredNote": "E6",
+      "centsFromLabel": 4.255716999705328,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 5119.795918367347,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 7.551020408163265
+        },
+        "peakDbfs": -16.41686730298533,
+        "sha256": "2da4e4cbad54362ab0363f5cd54f447cbf86ae7f7130ad0a38fc9e98a8e9fe37"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 4.686802175498183,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 7.551020408163265
+        },
+        "perceivedOnsetOffsetMs": 7.551020408163265,
+        "sha256": "f9bd2df578d4dda2aa8fde77a1444ede19025d4e75260fcf9a229c6240cd488e"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hand%20Chimes/sus_E5_r01_main.wav",
+        "path": "Idiophones/Struck Idiophones/Hand Chimes/sus_E5_r01_main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "bell_Gs6.wav",
+      "instrument": "bell",
+      "sourceNote": "G#6",
+      "fileNameNote": "G#5",
+      "sourceVariant": "sustain",
+      "measuredHz": 1665.8537760997158,
+      "measuredNote": "G#6",
+      "centsFromLabel": 4.823610083656149,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 4840.92970521542,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 7.687074829931973
+        },
+        "peakDbfs": -17.662024124734984,
+        "sha256": "73d64199cd073ebce1e45b7405ec1aa834e3b2264a3f4db2492c41759c5784ee"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 5.409217743180455,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0,
+          "halfPeak": 7.687074829931973
+        },
+        "perceivedOnsetOffsetMs": 7.687074829931973,
+        "sha256": "e9bb73a9a89a48da3191800176cea3b81829c5cc1e5bb0d6937dcc23af8d3776"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Hand%20Chimes/sus_G%235_r01_main.wav",
+        "path": "Idiophones/Struck Idiophones/Hand Chimes/sus_G#5_r01_main.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "lowstring_A3.wav",
+      "instrument": "lowstring",
+      "sourceNote": "A3",
+      "fileNameNote": "A2",
+      "sourceVariant": "finger-vl2",
+      "measuredHz": 220.55427176994172,
+      "measuredNote": "A3",
+      "centsFromLabel": 4.356215469210412,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 9253.174603174602,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 1.5873015873015872,
+          "relMinus40db": 3.8775510204081636,
+          "halfPeak": 8.253968253968255
+        },
+        "peakDbfs": -19.21648076786202,
+        "sha256": "ffa98d5e651a1f3e07baa131a31d99e23e93cc7dab03855d24c680d311933a99"
+      },
+      "trimmed": {
+        "startFrame": 83,
+        "removedLeadMs": 1.8820861678004535,
+        "gain": 6.4693000743969,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 6.3718820861678
+        },
+        "perceivedOnsetOffsetMs": 6.3718820861678,
+        "sha256": "3a0d030478eeb75943f573b89ebdae2764b7f2251278131d178df24219b3b4fc"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_A2_vl2_rr1.wav",
+        "path": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_A2_vl2_rr1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "lowstring_D4.wav",
+      "instrument": "lowstring",
+      "sourceNote": "D4",
+      "fileNameNote": "D3",
+      "sourceVariant": "finger-vl2",
+      "measuredHz": 294.5008679057503,
+      "measuredNote": "D4",
+      "centsFromLabel": 4.92203438995702,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 8528.616780045353,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 1.6326530612244898,
+          "relMinus40db": 0.06802721088435373,
+          "halfPeak": 4.308390022675737
+        },
+        "peakDbfs": -26.29873233712811,
+        "sha256": "0cf1b2e22ca33297cb6c898de2fb6c1231c1be6c03f39f02028ac5925c80d07f"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 14.620757519771056,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0.06802721088435373,
+          "halfPeak": 4.308390022675737
+        },
+        "perceivedOnsetOffsetMs": 4.308390022675737,
+        "sha256": "98291694f57691a22341e5f871ca8aad659e6aaf2da12082ad5413763cf5abf6"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_D3_vl2_rr1.wav",
+        "path": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_D3_vl2_rr1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "lowstring_G4.wav",
+      "instrument": "lowstring",
+      "sourceNote": "G4",
+      "fileNameNote": "G3",
+      "sourceVariant": "finger-vl2",
+      "measuredHz": 392.74230686870135,
+      "measuredNote": "G4",
+      "centsFromLabel": 3.295390624293759,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 6614.240362811791,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 1.6780045351473922,
+          "relMinus40db": 2.1768707482993195,
+          "halfPeak": 5.396825396825397
+        },
+        "peakDbfs": -17.024660348984874,
+        "sha256": "641c33c72478866b53ec1f99fb4b70ed80a51a06a4cdf99dd40f275a89eb3125"
+      },
+      "trimmed": {
+        "startFrame": 8,
+        "removedLeadMs": 0.18140589569160998,
+        "gain": 5.026506808354696,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 1.99546485260771,
+          "halfPeak": 5.215419501133787
+        },
+        "perceivedOnsetOffsetMs": 5.215419501133787,
+        "sha256": "e853dae2ccf3d5c21dc36de350f52385b6ce2e19be4ec9d992952a4df658a93c"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_G3_vl2_rr1.wav",
+        "path": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_G3_vl2_rr1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "lowstring_A4.wav",
+      "instrument": "lowstring",
+      "sourceNote": "A4",
+      "fileNameNote": "A3",
+      "sourceVariant": "finger-vl2",
+      "measuredHz": 440.2168482970409,
+      "measuredNote": "A4",
+      "centsFromLabel": 0.8530060828547903,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 8105.442176870747,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.36281179138321995,
+          "relMinus40db": 0.29478458049886624,
+          "halfPeak": 3.968253968253968
+        },
+        "peakDbfs": -20.968167213694397,
+        "sha256": "7099bf15310393098b5171b1442c8da130894c255c558061efbbb0cdf3c8703e"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 7.914830494662374,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0.29478458049886624,
+          "halfPeak": 3.968253968253968
+        },
+        "perceivedOnsetOffsetMs": 3.968253968253968,
+        "sha256": "db7d30622f3ce98dee9732c5fc87dc441b7bffc63b7b0b4c0a94760cd0d0eef7"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_A3_vl2_rr1.wav",
+        "path": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_A3_vl2_rr1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "lowstring_D5.wav",
+      "instrument": "lowstring",
+      "sourceNote": "D5",
+      "fileNameNote": "D4",
+      "sourceVariant": "finger-vl2",
+      "measuredHz": 588.1364283955648,
+      "measuredNote": "D5",
+      "centsFromLabel": 2.3767937771566494,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 6535.895691609977,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.15873015873015872,
+          "relMinus40db": 1.1111111111111112,
+          "halfPeak": 7.64172335600907
+        },
+        "peakDbfs": -18.47058047933036,
+        "sha256": "1bc9669c702913751350d23b5cf176d72bf450447f07b355064aed4dfb0aa9b5"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 5.936934829645616,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 1.1111111111111112,
+          "halfPeak": 7.64172335600907
+        },
+        "perceivedOnsetOffsetMs": 7.64172335600907,
+        "sha256": "9fc4b6d3acf6257e083f9af9dd1726fe86df74b065cf2925d1234b56047edccb"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_D4_vl2_rr1.wav",
+        "path": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_D4_vl2_rr1.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "lowstring_G5.wav",
+      "instrument": "lowstring",
+      "sourceNote": "G5",
+      "fileNameNote": "G4",
+      "sourceVariant": "finger-vl2",
+      "measuredHz": 785.4110563048754,
+      "measuredNote": "G5",
+      "centsFromLabel": 3.1332600203654692,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 2376.3718820861677,
+        "channels": 2,
+        "bitsPerSample": 24,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 1.6099773242630386,
+          "relMinus40db": 1.655328798185941,
+          "halfPeak": 4.988662131519274
+        },
+        "peakDbfs": -17.91465003649796,
+        "sha256": "510dcc92b2c57204f829380dd12dc8f709bcff3d35a9c215a509a4244dad6eee"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 5.568853070090103,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.6802721088435374,
+          "relMinus40db": 1.655328798185941,
+          "halfPeak": 4.988662131519274
+        },
+        "perceivedOnsetOffsetMs": 4.988662131519274,
+        "sha256": "8167545a8c06fb79607c1854b40dfd1ddea219e7a34293489219fbf99f4c97e9"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_G4_vl2_rr2.wav",
+        "path": "Chordophones/Composite Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_G4_vl2_rr2.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "handdrum_A2_tumba.wav",
+      "instrument": "handdrum",
+      "sourceNote": "A2",
+      "fileNameNote": null,
+      "sourceVariant": "tumba-hit-v4",
+      "unpitched": true,
+      "measuredHz": null,
+      "measuredNote": null,
+      "centsFromLabel": 0,
+      "sampleRate": 44100,
+      "durationMs": 913.2426303854875,
+      "original": {
+        "durationMs": 913.2426303854875,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.45351473922902497,
+          "relMinus40db": 0.45351473922902497,
+          "halfPeak": 3.5147392290249435
+        },
+        "peakDbfs": -22.90058752822409,
+        "sha256": "5504101dba1a22e133efb77147084e96565a7ff64535f94f2f3d8934f2b2895b"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 9.886956744086937,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0.45351473922902497,
+          "halfPeak": 3.5147392290249435
+        },
+        "perceivedOnsetOffsetMs": 3.5147392290249435,
+        "sha256": "40f6bd8e1562d5e2991cb96c3bc87c6360c3e3c71efee08488eb0979a1b2e57a"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Conga/Tumba_HitN_v4_rr1_Sum.wav",
+        "path": "Membranophones/Struck Membranophones/Conga/Tumba_HitN_v4_rr1_Sum.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "handdrum_A3_conga.wav",
+      "instrument": "handdrum",
+      "sourceNote": "A3",
+      "fileNameNote": null,
+      "sourceVariant": "conga-hit-v3",
+      "unpitched": true,
+      "measuredHz": null,
+      "measuredNote": null,
+      "centsFromLabel": 0,
+      "sampleRate": 44100,
+      "durationMs": 1300,
+      "original": {
+        "durationMs": 1309.6371882086169,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.20408163265306123,
+          "relMinus40db": 0.4308390022675737,
+          "halfPeak": 3.4240362811791383
+        },
+        "peakDbfs": -17.12113447091739,
+        "sha256": "664365ac735d819c69cabbbae8a78d225fa73059e698ad8ca292c46cc03c6961"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 5.082647387446598,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0.4308390022675737,
+          "halfPeak": 3.4240362811791383
+        },
+        "perceivedOnsetOffsetMs": 3.4240362811791383,
+        "sha256": "85cc99684b66e9f3005d971091d36695e875c1794769e418f153f1d791f1a001"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Conga/Conga_HitN_v3_rr1_Sum.wav",
+        "path": "Membranophones/Struck Membranophones/Conga/Conga_HitN_v3_rr1_Sum.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "file": "handdrum_A4_quinto.wav",
+      "instrument": "handdrum",
+      "sourceNote": "A4",
+      "fileNameNote": null,
+      "sourceVariant": "quinto-hit-v3",
+      "unpitched": true,
+      "measuredHz": null,
+      "measuredNote": null,
+      "centsFromLabel": 0,
+      "sampleRate": 44100,
+      "durationMs": 890.5668934240363,
+      "original": {
+        "durationMs": 890.5668934240363,
+        "channels": 2,
+        "bitsPerSample": 16,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0.7029478458049886,
+          "relMinus40db": 0.9070294784580499,
+          "halfPeak": 3.7188208616780045
+        },
+        "peakDbfs": -14.568295058669891,
+        "sha256": "84b8d93a05c13ad7c04e6bd28f467ae3667e15ccaaf8aacd93928ec66504fb4d"
+      },
+      "trimmed": {
+        "startFrame": 0,
+        "removedLeadMs": 0,
+        "gain": 3.7883318092749834,
+        "leadingSilenceMs": {
+          "absMinus60dbfs": 0,
+          "relMinus40db": 0.9070294784580499,
+          "halfPeak": 3.7188208616780045
+        },
+        "perceivedOnsetOffsetMs": 3.7188208616780045,
+        "sha256": "f9e5dcd06a2cd9a57d9c484a91e45a48450a3a904f489860e5fc1ee45f049cd0"
+      },
+      "source": {
+        "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Conga/Quinto_HitN_v3_rr2_Sum.wav",
+        "path": "Membranophones/Struck Membranophones/Conga/Quinto_HitN_v3_rr2_Sum.wav",
+        "commit": "c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e",
+        "license": "CC0-1.0"
+      }
+    }
+  ]
+}

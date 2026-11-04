@@ -1,0 +1,122 @@
+[
+  {
+    "file": "captures/day4/bloom/base-l3.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "clippedShare": 0.0319,
+    "brightShare": 0.0193,
+    "glowCount": 1938,
+    "glowMaxWidthPct": 5.31,
+    "glowP95WidthPct": 0.63,
+    "glowsOver1_5Pct": 20,
+    "fieldMean": 106.7,
+    "fieldDetail": 11.53
+  },
+  {
+    "file": "captures/day4/bloom/base-l1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "clippedShare": 0.0106,
+    "brightShare": 0.0169,
+    "glowCount": 1834,
+    "glowMaxWidthPct": 4.74,
+    "glowP95WidthPct": 0.57,
+    "glowsOver1_5Pct": 11,
+    "fieldMean": 90.4,
+    "fieldDetail": 9.65
+  },
+  {
+    "file": "captures/day4/bloom/base-idle.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "clippedShare": 0.0053,
+    "brightShare": 0.008,
+    "glowCount": 1190,
+    "glowMaxWidthPct": 2.29,
+    "glowP95WidthPct": 0.47,
+    "glowsOver1_5Pct": 3,
+    "fieldMean": 66.4,
+    "fieldDetail": 6.97
+  },
+  {
+    "file": "captures/day4/bloom/base-play.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "clippedShare": 0.0586,
+    "brightShare": 0.0478,
+    "glowCount": 2227,
+    "glowMaxWidthPct": 14.95,
+    "glowP95WidthPct": 0.83,
+    "glowsOver1_5Pct": 39,
+    "fieldMean": 137.7,
+    "fieldDetail": 11.98
+  },
+  {
+    "file": "captures/day4/bloom/final3-l3.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "clippedShare": 0.0103,
+    "brightShare": 0.0069,
+    "glowCount": 2158,
+    "glowMaxWidthPct": 1.61,
+    "glowP95WidthPct": 0.57,
+    "glowsOver1_5Pct": 3,
+    "fieldMean": 68.2,
+    "fieldDetail": 21.01
+  },
+  {
+    "file": "captures/day4/bloom/final3-l1.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "clippedShare": 0.0046,
+    "brightShare": 0.005,
+    "glowCount": 1993,
+    "glowMaxWidthPct": 1.67,
+    "glowP95WidthPct": 0.47,
+    "glowsOver1_5Pct": 3,
+    "fieldMean": 50.5,
+    "fieldDetail": 17.21
+  },
+  {
+    "file": "captures/day4/bloom/final3-idle.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "clippedShare": 0.0024,
+    "brightShare": 0.0023,
+    "glowCount": 1238,
+    "glowMaxWidthPct": 0.89,
+    "glowP95WidthPct": 0.37,
+    "glowsOver1_5Pct": 0,
+    "fieldMean": 32.0,
+    "fieldDetail": 11.57
+  },
+  {
+    "file": "captures/day4/bloom/final3-play.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "clippedShare": 0.0146,
+    "brightShare": 0.0099,
+    "glowCount": 2627,
+    "glowMaxWidthPct": 4.38,
+    "glowP95WidthPct": 0.68,
+    "glowsOver1_5Pct": 18,
+    "fieldMean": 87.7,
+    "fieldDetail": 23.46
+  }
+]

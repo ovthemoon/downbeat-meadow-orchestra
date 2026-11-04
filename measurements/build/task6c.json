@@ -1,0 +1,16 @@
+{
+  "mac": {
+    "buildSeconds": 9.504666,
+    "colorSpace": "Linear",
+    "contentFolderBytes": 6107892,
+    "contentFolderFiles": 30,
+    "note": "bytes are the sum of file sizes on disk (not compressed); buildSeconds is Unity's build time and is much shorter when its caches are warm (clean first builds took about 44 s Mac and 46 s Windows)",
+    "player": "Downbeat.app",
+    "playerBytes": 115850794,
+    "playerFiles": 175,
+    "scriptingBackend": "Mono2x",
+    "totalBytes": 121958686,
+    "totalFiles": 205,
+    "unity": "6000.3.9f1"
+  }
+}

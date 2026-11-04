@@ -1,0 +1,20 @@
+{
+  "name": "Downbeat.Day0.Editor",
+  "rootNamespace": "Downbeat.EditorTools",
+  "references": [
+    "Downbeat.Day0"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "DOWNBEAT_DAY0"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

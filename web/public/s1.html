@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Downbeat Day 0 - S-1 beat clock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/js/tap.js"></script>
+  <style>
+    body { font: 14px/1.4 system-ui, sans-serif; margin: 16px; background: #14161a; color: #e8e8e8; }
+    canvas { display: block; background: #222; width: 480px; height: 270px; margin-bottom: 12px; }
+    button { margin: 0 8px 8px 0; padding: 6px 12px; }
+    pre { background: #0d0e10; padding: 8px; max-height: 260px; overflow: auto; }
+  </style>
+</head>
+<body>
+  <h1>S-1 beat clock test</h1>
+  <canvas id="unity-canvas" width="480" height="270"></canvas>
+  <div>
+    <button data-path="unity-scheduled">1. Unity PlayScheduled</button>
+    <button data-path="unity-play">2. Unity Play() per frame</button>
+    <button data-path="webaudio">3. Web Audio start(when)</button>
+    <label><input type="checkbox" id="stress"> 50 ms block every 2 s</label>
+  </div>
+  <pre id="log">starting...</pre>
+  <script type="module">
+    import './js/s1.js';
+    const params = new URLSearchParams(location.search);
+    const log = document.getElementById('log');
+    const say = (text) => { log.textContent += '\n' + text; };
+    const build = params.get('build') ?? 'day0';
+    window.day0Ready = window.day0.init({ build, canvas: document.getElementById('unity-canvas'), vsync: Number(params.get('vsync') ?? 1), runInBackground: params.get('bg') !== '0' })
+      .then((info) => { say(`Unity ready (boot ${info.bootMs.toFixed(0)} ms)`); return info; })
+      .catch((error) => { say('init failed: ' + error.message); throw error; });
+    document.querySelectorAll('button[data-path]').forEach((button) => {
+      button.addEventListener('click', async () => {
+        await window.day0Ready;
+        say('running ' + button.dataset.path + ' ...');
+        const block = document.getElementById('stress').checked ? { ms: 50, everyMs: 2000 } : null;
+        const result = await window.day0.runBeat({ label: 'manual-' + button.dataset.path, path: button.dataset.path, durationSec: 20, block, runDir: 's1/manual' });
+        say('done: ' + JSON.stringify(result));
+      });
+    });
+  </script>
+</body>
+</html>

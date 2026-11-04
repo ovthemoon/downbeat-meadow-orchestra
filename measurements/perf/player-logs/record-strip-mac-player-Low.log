@@ -1,0 +1,53 @@
+Mono path[0] = '<repo>/builds/mac/Downbeat.app/Contents/Resources/Data/Managed'
+Mono config path = '<repo>/builds/mac/Downbeat.app/Contents/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path <repo>/builds/mac/Downbeat.app/Contents/Resources/Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+ preferred device: Apple M4 Pro (high power)
+Metal devices available: 1
+0: Apple M4 Pro (high power)
+Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.074 seconds
+- Finished resetting the current domain, in  0.001 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.280833 ms
+[RunAutomation] screen 1920x1080 fullscreen=False quality=High
+[Downbeat] loading content
+[Downbeat] preparing the hand input
+[MeadowStage] quality Low: 1400 blades per m2, 64784 blades, 190 flowers, up to 30 fireflies
+[Downbeat] loading sounds
+[record] Strip, meadow on screen 0, record on screen 0 (3 screen(s)); cards in ~/Library/Application Support/ovthemoon/Downbeat/cards
+[health] writing to <repo>/builds/mac/logs every 60 s
+[Downbeat] ready
+[input] Replay: recorded hand motion (replay/demo-hands.json)
+[frame-stats] window seconds=15.0 frames=15286 fps=1010.6 p50=0.9 p95=1.5 p99=1.9 max=226.2 over25ms=3 over50ms=2 tracker=Running hands_now=1 frames_with_hands=14773/15286 notes=52
+[RunAutomation] quit-after reached
+Thread 0x31c1bf000 may have been prematurely finalized
+[frame-stats] TOTAL seconds=20.6 frames=21194 fps=1023.9 p50=0.9 p95=1.5 p99=1.8 max=226.2 over25ms=3 over50ms=2 tracker=Running hands_now=0 frames_with_hands=17518/21194 notes=66
+Thread 0x16cfab000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x16bc87000 may have been prematurely finalized
+Thread 0x16bd13000 may have been prematurely finalized
+Thread 0x16beb7000 may have been prematurely finalized
+Thread 0x16bd9f000 may have been prematurely finalized
+Thread 0x16be2b000 may have been prematurely finalized

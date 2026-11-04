@@ -1,0 +1,43 @@
+Mono path[0] = '<repo>/builds/mac/Downbeat.app/Contents/Resources/Data/Managed'
+Mono config path = '<repo>/builds/mac/Downbeat.app/Contents/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path <repo>/builds/mac/Downbeat.app/Contents/Resources/Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M4 Pro (high power)
+Metal devices available: 1
+0: Apple M4 Pro (high power)
+Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.066 seconds
+- Finished resetting the current domain, in  0.001 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.327291 ms
+[ClockMeasurement] scenario=calm duration=60s bpm=96 slotsPerBeat=4 out=<repo>/measurements/native-clock/R1
+[ClockMeasurement] done: 2925568 frames, 384/384 clicks scheduled, 0 skipped late, stolen 0, late 0
+Thread 0x170fff000 may have been prematurely finalized
+Thread 0x170f27000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x16faeb000 may have been prematurely finalized
+Thread 0x16fb77000 may have been prematurely finalized
+Thread 0x16fd1b000 may have been prematurely finalized
+Thread 0x16fc8f000 may have been prematurely finalized
+Thread 0x16fc03000 may have been prematurely finalized

@@ -1,0 +1,48 @@
+# Tracker Python environment (Task 3)
+date: 2026-10-29T07:06:53Z
+python: Python 3.12.10 (uv-managed CPython 3.12.10, project-local venv tracker/.venv; the Mac's system python is 3.14.6)
+installer: uv 0.6.12  (uv venv --python 3.12 .venv ; uv pip install -e '.[dev]')
+
+## Why mediapipe==0.10.35
+- The plan asks for an exact pin of a 0.10.x release that has wheels for macOS arm64 AND Windows amd64.
+- PyPI file list of 0.10.35 (2026-04-27, the newest 0.10.x; 1.0.0 and later are not 0.10.x):
+    mediapipe-0.10.35-py3-none-macosx_11_0_arm64.whl  17782605 bytes  sha256 3b31376f34ca3665e34b834565996464cd66c9c91316e914fa7f149c891ce7ac
+    mediapipe-0.10.35-py3-none-manylinux_2_28_x86_64.whl  12400490 bytes  sha256 db9a579df48cffe9570cd3e93f6a5d2dd089a1103b846c60c5b5de8a21c38db0
+    mediapipe-0.10.35-py3-none-win_amd64.whl  10905503 bytes  sha256 b08f001cf3c3cd0d88d9ed68f3368dc8a4913f568281a93117f083115aa672ba
+    mediapipe-0.10.35-py3-none-win_arm64.whl  9992331 bytes  sha256 46255326a6213118aaa518a7aa25e35f93337e82677960cc2a945f117bff8444
+- Wheels of 0.10.30-0.10.35 are tagged py3-none-<platform>, not cp312: they are not tied to Python 3.12. A dry-run 'uv pip install --dry-run --python 3.14 mediapipe==0.10.35' resolves too (not run at runtime). 3.12 is kept because the plan fixes it.
+- Older 0.10.x with cp312 wheels for both platforms (0.10.18, 0.10.20, 0.10.21) are older than the 0.10.35 that the web prototype's @mediapipe/tasks-vision 0.10.35 pairs with.
+- Tasks API check on this Mac: vision.HandLandmarker, RunningMode.VIDEO, num_hands=2 run on CPU (XNNPACK); see measurements/tracker/mac-video.json.
+- NOT verified: that the Windows amd64 wheel installs and runs (no Windows machine here; the user's Windows session A does that).
+- mediapipe depends on opencv-contrib-python (so the tracker uses that package for cv2, not opencv-python) and numpy; opencv-contrib-python resolved to 5.0.0.93 and numpy to 2.5.4 on this Mac (not pinned, see below).
+
+## Model file
+hand_landmarker.task (float16, v1), 7,819,105 bytes, sha256 fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1
+downloaded on first run from https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task into ~/.cache/downbeat/ (checksum verified; the same file the web prototype used, tools/vendor.lock.json). Not in the repository.
+
+## uv pip freeze (this Mac)
+absl-py==2.5.1
+certifi==2026.10.23
+cffi==2.1.1
+contourpy==1.4.0
+cycler==0.12.1
+-e file://<repo>/tracker
+flatbuffers==25.12.19
+fonttools==4.68.0
+iniconfig==2.3.1
+kiwisolver==1.5.1
+matplotlib==3.11.2
+mediapipe==0.10.35
+numpy==2.5.4
+opencv-contrib-python==5.0.0.93
+packaging==26.3
+pillow==13.0.0
+pluggy==1.7.0
+pycparser==3.12
+pygments==2.21.0
+pyparsing==3.3.3
+pytest==9.2.0
+python-dateutil==3.0.0
+six==1.17.0
+sounddevice==0.5.6
+tzdata==2026.6

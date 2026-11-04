@@ -1,0 +1,154 @@
+{
+  "what": "The performance energy (nature layers' levels) after 30 s of one conducted hand, from the real ConductEngine and the real PerformanceEnergy with the constants of content/content.json (riseBase 0.06, risePerVelocity 0.06, halfLifeSec 6, levels 0.2/0.45/0.7, hysteresis 0.05). Test: ConductPlayTests.TheEnergyAfter30Seconds_OfAHandHeldUp_OrConducting.",
+  "shares": {
+    "stillShare": 0.25,
+    "activeShare": 0.4,
+    "note": "A conducted note adds this share of a normal note's energy: the still share when the hand moves less than stillPalms (0.3 palms/s), else the active share."
+  },
+  "hand": "x 0.5 (the winds, at least 2 slots between notes, so at most every half beat); heights: high 0.15, middle 0.5, low 0.8 (0 top .. 1 bottom); movement = a circle of radius 0.1 at the given palms per second; the tracker at 30 and 6 pictures a second gives the same numbers",
+  "runs": [
+    {
+      "scenario": "fast movement (6 palms a second), low",
+      "tracker_fps": 6,
+      "notes_in_30s": 94,
+      "energy_at_30s": 0.847,
+      "peak_energy": 0.867,
+      "level": 3
+    },
+    {
+      "scenario": "fast movement (6 palms a second), low",
+      "tracker_fps": 30,
+      "notes_in_30s": 94,
+      "energy_at_30s": 0.847,
+      "peak_energy": 0.866,
+      "level": 3
+    },
+    {
+      "scenario": "fast movement (6 palms a second), middle",
+      "tracker_fps": 6,
+      "notes_in_30s": 94,
+      "energy_at_30s": 0.975,
+      "peak_energy": 0.998,
+      "level": 3
+    },
+    {
+      "scenario": "fast movement (6 palms a second), middle",
+      "tracker_fps": 30,
+      "notes_in_30s": 94,
+      "energy_at_30s": 0.975,
+      "peak_energy": 0.998,
+      "level": 3
+    },
+    {
+      "scenario": "medium movement (2.5 palms a second), middle",
+      "tracker_fps": 6,
+      "notes_in_30s": 94,
+      "energy_at_30s": 0.975,
+      "peak_energy": 0.998,
+      "level": 3
+    },
+    {
+      "scenario": "medium movement (2.5 palms a second), middle",
+      "tracker_fps": 30,
+      "notes_in_30s": 94,
+      "energy_at_30s": 0.975,
+      "peak_energy": 0.998,
+      "level": 3
+    },
+    {
+      "scenario": "slow movement (1 palm a second), high",
+      "tracker_fps": 6,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.617,
+      "peak_energy": 0.655,
+      "level": 2
+    },
+    {
+      "scenario": "slow movement (1 palm a second), high",
+      "tracker_fps": 30,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.617,
+      "peak_energy": 0.655,
+      "level": 2
+    },
+    {
+      "scenario": "slow movement (1 palm a second), middle",
+      "tracker_fps": 6,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.514,
+      "peak_energy": 0.549,
+      "level": 2
+    },
+    {
+      "scenario": "slow movement (1 palm a second), middle",
+      "tracker_fps": 30,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.514,
+      "peak_energy": 0.548,
+      "level": 2
+    },
+    {
+      "scenario": "still hand, high",
+      "tracker_fps": 6,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.391,
+      "peak_energy": 0.415,
+      "level": 1
+    },
+    {
+      "scenario": "still hand, high",
+      "tracker_fps": 30,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.391,
+      "peak_energy": 0.415,
+      "level": 1
+    },
+    {
+      "scenario": "still hand, low",
+      "tracker_fps": 6,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.26,
+      "peak_energy": 0.276,
+      "level": 1
+    },
+    {
+      "scenario": "still hand, low",
+      "tracker_fps": 30,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.26,
+      "peak_energy": 0.276,
+      "level": 1
+    },
+    {
+      "scenario": "still hand, middle",
+      "tracker_fps": 6,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.323,
+      "peak_energy": 0.343,
+      "level": 1
+    },
+    {
+      "scenario": "still hand, middle",
+      "tracker_fps": 30,
+      "notes_in_30s": 47,
+      "energy_at_30s": 0.323,
+      "peak_energy": 0.343,
+      "level": 1
+    }
+  ],
+  "still_hand_that_leaves_at_20s": {
+    "energy_at_60s": 0.004,
+    "level_at_40s": 0
+  },
+  "demo_hands_replay": {
+    "notes": 114,
+    "parts": [
+      "Winds",
+      "Strings",
+      "Perc"
+    ],
+    "seconds": 16.1,
+    "note": "content/replay/demo-hands.json (one hand, 30 pictures a second) through ConductEngine"
+  },
+  "machine": "Mac, Unity EditMode; no camera and no sound device are involved"
+}

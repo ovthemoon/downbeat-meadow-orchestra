@@ -1,0 +1,17 @@
+# Unity module install (Task 1 step 1)
+date: 2026-10-29T06:21:40Z
+editor: 6000.3.9f1 (Apple silicon), /Applications/Unity/Hub/Editor/6000.3.9f1
+command: "/Applications/Unity Hub.app/Contents/MacOS/Unity Hub" -- --headless install-modules --version 6000.3.9f1 --module windows-mono --childModules
+login/GUI needed: no (Hub CLI ran headless while the Hub app was running in --silent mode)
+modules.json windows-mono: downloadSize 361323255 B, installedSize 937062000 B
+installed size on disk: 917M
+Mac standalone (Mono): built into the editor (PlaybackEngines/MacStandaloneSupport present)
+
+## Hub output (progress lines collapsed)
+[Windows Build Support (Mono)] validating download...
+[Windows Build Support (Mono)] in progress...
+[Windows Build Support (Mono)] downloading ... (70 progress lines; last: [Windows Build Support (Mono)] finished downloading.)
+[Windows Build Support (Mono)] queued for install.
+[Windows Build Support (Mono)] installing...
+[Windows Build Support (Mono)] installed successfully.
+All Tasks Completed Successfully.

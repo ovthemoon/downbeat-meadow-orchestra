@@ -1,0 +1,16 @@
+{
+    "note": "audio.wav is the final mix (first channel), 16-bit mono; frames.csv gives, for every JPEG, the audio-clock time that was being heard when it was drawn.",
+    "audioSampleRate": 48000,
+    "audioFirstSampleTime": 0.8106666666666667,
+    "audioFrames": 4799488,
+    "audioPeak": 0.49958229064941409,
+    "audioGaps": 0,
+    "audioClippedSamples": 0,
+    "frames": 0,
+    "frameWidth": 0,
+    "frameHeight": 0,
+    "firstFrameVisualNow": 0.0,
+    "lastFrameVisualNow": 0.0,
+    "averageFps": 0.0,
+    "slowestFrameMs": 0.0
+}

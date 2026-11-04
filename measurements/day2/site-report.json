@@ -1,0 +1,196 @@
+{
+  "limits": {
+    "files": 80,
+    "totalBytes": 15728640,
+    "fileBytes": 5242880,
+    "depth": 4
+  },
+  "fileCount": 44,
+  "totalBytes": 8242792,
+  "totalMiB": 7.860939025878906,
+  "groups": {
+    "Build (Unity)": 3664089,
+    "content/img": 3216928,
+    "other": 216221,
+    "content/audio": 1145554
+  },
+  "problems": [],
+  "files": [
+    {
+      "path": "Build/downbeat.wasm.br",
+      "bytes": 2859017
+    },
+    {
+      "path": "Build/downbeat.data.br",
+      "bytes": 704456
+    },
+    {
+      "path": "content/img/forest/harp_play.png",
+      "bytes": 589703
+    },
+    {
+      "path": "content/img/forest/harp_idle.png",
+      "bytes": 569932
+    },
+    {
+      "path": "content/img/forest/marimba_idle.png",
+      "bytes": 450549
+    },
+    {
+      "path": "content/img/forest/marimba_play.png",
+      "bytes": 444561
+    },
+    {
+      "path": "content/img/forest/recorder_idle.png",
+      "bytes": 414615
+    },
+    {
+      "path": "content/img/forest/recorder_play.png",
+      "bytes": 412617
+    },
+    {
+      "path": "content/replay/demo-hands.json",
+      "bytes": 161829
+    },
+    {
+      "path": "content/img/forest/stage_bg.jpg",
+      "bytes": 161439
+    },
+    {
+      "path": "content/img/forest/idle_hint.png",
+      "bytes": 138831
+    },
+    {
+      "path": "content/audio/harp_A4.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/harp_C5.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/harp_D6.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/harp_E5.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/harp_G5.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/marimba_C5_loud.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/marimba_C5_med.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "content/audio/marimba_G5_med.wav",
+      "bytes": 114704
+    },
+    {
+      "path": "Build/downbeat.framework.js.br",
+      "bytes": 73634
+    },
+    {
+      "path": "content/audio/recorder_G6.wav",
+      "bytes": 49754
+    },
+    {
+      "path": "content/audio/recorder_As5.wav",
+      "bytes": 46114
+    },
+    {
+      "path": "content/audio/recorder_C6.wav",
+      "bytes": 45152
+    },
+    {
+      "path": "content/audio/recorder_D6.wav",
+      "bytes": 44360
+    },
+    {
+      "path": "content/audio/recorder_E6.wav",
+      "bytes": 42542
+    },
+    {
+      "path": "content/img/forest/audience_bg.jpg",
+      "bytes": 34681
+    },
+    {
+      "path": "Build/downbeat.loader.js",
+      "bytes": 26982
+    },
+    {
+      "path": "js/tracker.js",
+      "bytes": 8630
+    },
+    {
+      "path": "index.html",
+      "bytes": 5453
+    },
+    {
+      "path": "content/content.json",
+      "bytes": 5052
+    },
+    {
+      "path": "js/tap.js",
+      "bytes": 4912
+    },
+    {
+      "path": "js/start-page.js",
+      "bytes": 4380
+    },
+    {
+      "path": "js/downbeat-audio.js",
+      "bytes": 3890
+    },
+    {
+      "path": "js/hand-ids.js",
+      "bytes": 3848
+    },
+    {
+      "path": "js/note-player.js",
+      "bytes": 2798
+    },
+    {
+      "path": "js/hand-buffer.js",
+      "bytes": 2526
+    },
+    {
+      "path": "js/tracker-config.js",
+      "bytes": 2038
+    },
+    {
+      "path": "js/camera.js",
+      "bytes": 1944
+    },
+    {
+      "path": "js/hand-preview.js",
+      "bytes": 1820
+    },
+    {
+      "path": "js/audio-clock.js",
+      "bytes": 1728
+    },
+    {
+      "path": "js/hand-recorder.js",
+      "bytes": 1688
+    },
+    {
+      "path": "js/page-state.js",
+      "bytes": 1683
+    },
+    {
+      "path": "js/tap-worklet.js",
+      "bytes": 1395
+    },
+    {
+      "path": "js/input-mode.js",
+      "bytes": 607
+    }
+  ]
+}

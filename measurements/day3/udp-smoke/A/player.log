@@ -1,0 +1,56 @@
+Mono path[0] = '<repo>/builds/mac/Downbeat.app/Contents/Resources/Data/Managed'
+Mono config path = '<repo>/builds/mac/Downbeat.app/Contents/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path <repo>/builds/mac/Downbeat.app/Contents/Resources/Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+ preferred device: Apple M4 Pro (high power)
+Metal devices available: 1
+0: Apple M4 Pro (high power)
+Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.087 seconds
+- Finished resetting the current domain, in  0.001 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.613541 ms
+[Downbeat] loading content
+[Downbeat] preparing the hand input
+[Downbeat] loading sounds
+[Downbeat] ready
+[input] Camera mode: strike downward with your hand
+[frame-stats] window seconds=5.0 frames=601 fps=120.0 p50=8.3 p95=9.0 p99=9.3 max=9.3 over25ms=0 over50ms=0 tracker=Running hands_now=1 frames_with_hands=601/601 notes=4 bad_packets=0 dropped_packets=0
+[frame-stats] window seconds=5.0 frames=600 fps=120.0 p50=8.3 p95=9.2 p99=9.3 max=9.3 over25ms=0 over50ms=0 tracker=Running hands_now=1 frames_with_hands=1201/1201 notes=9 bad_packets=0 dropped_packets=0
+[frame-stats] window seconds=5.0 frames=598 fps=119.6 p50=8.3 p95=8.9 p99=9.3 max=15.5 over25ms=0 over50ms=0 tracker=Running hands_now=1 frames_with_hands=1799/1799 notes=13 bad_packets=0 dropped_packets=0
+[frame-stats] window seconds=5.0 frames=599 fps=119.7 p50=8.3 p95=8.5 p99=9.2 max=14.3 over25ms=0 over50ms=0 tracker=Running hands_now=1 frames_with_hands=2398/2398 notes=17 bad_packets=0 dropped_packets=0
+[frame-stats] window seconds=5.0 frames=599 fps=119.8 p50=8.3 p95=8.9 p99=9.2 max=12.1 over25ms=0 over50ms=0 tracker=Running hands_now=1 frames_with_hands=2997/2997 notes=21 bad_packets=0 dropped_packets=0
+[RunAutomation] capture requested: <repo>/measurements/day3/udp-smoke/A/hand-cursor.png
+[frame-stats] window seconds=5.0 frames=600 fps=119.9 p50=8.3 p95=9.2 p99=9.3 max=12.4 over25ms=0 over50ms=0 tracker=Running hands_now=1 frames_with_hands=3597/3597 notes=25 bad_packets=0 dropped_packets=0
+[frame-stats] window seconds=5.0 frames=599 fps=119.8 p50=8.3 p95=9.0 p99=9.3 max=12.0 over25ms=0 over50ms=0 tracker=Running hands_now=1 frames_with_hands=4196/4196 notes=29 bad_packets=0 dropped_packets=0
+[frame-stats] window seconds=5.0 frames=600 fps=119.9 p50=8.3 p95=9.3 p99=9.3 max=10.5 over25ms=0 over50ms=0 tracker=Running hands_now=1 frames_with_hands=4796/4796 notes=34 bad_packets=0 dropped_packets=0
+[RunAutomation] quit-after reached
+Thread 0x171ecb000 may have been prematurely finalized
+[frame-stats] TOTAL seconds=44.5 frames=5331 fps=119.8 p50=8.3 p95=9.1 p99=9.3 max=15.5 over25ms=0 over50ms=0 tracker=Running hands_now=1 frames_with_hands=5331/5331 notes=37 bad_packets=0 dropped_packets=0
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x1709b7000 may have been prematurely finalized
+Thread 0x17092b000 may have been prematurely finalized
+Thread 0x170b5b000 may have been prematurely finalized
+Thread 0x170acf000 may have been prematurely finalized
+Thread 0x170a43000 may have been prematurely finalized

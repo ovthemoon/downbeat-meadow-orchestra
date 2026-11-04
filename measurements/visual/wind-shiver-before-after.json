@@ -1,0 +1,234 @@
+{
+  "note": "What made the grass shiver, measured on the build before the change (HEAD 722eb86 plus only the --wind-mute and --frame-dump tools, no change in what is drawn) and what the new wind does. Pictures: the player's own 1920x1080 off-screen path (equal to the window within 0.2-0.4 grey steps, see measurements/visual/bloom-metrics-before-after.json), High tier, mid sky, no fireflies, Unity's clock stepped 1/20 s per picture so every run of the same settings gives the same pictures, 10 s each; the lower half of the picture (the 3D grass) is measured. Metrics: tools/wind_metrics.py. motionRms = RMS change of a pixel from one picture to the next (0..255 grey). unexplained = share of the change between pictures 0.25 s apart that no smooth local shift of a 32 x 32 block explains (1 = blades move out of step with their neighbours, lower = the surface moves as one). flowRoughness = how far (px) the best shift of a block is from its neighbours'. The grass is very fine, so any motion at all is a large pixel change: the pixel numbers show where motion comes from; the blade-to-blade statistic below is the direct measure of neighbours moving together.",
+  "causes": [
+    {
+      "hypothesis": "(1) the breeze swell had a different random offset per blade (phase * 2.0)",
+      "verdict": "CAUSE of the idle shiver",
+      "evidence": "Blades 10 cm apart, computed offline from the old shader formula over 200 000 random places and times: |difference of the two bends| / |bend| has median 0.36 and 90th percentile 1.54 (a blade next to one at rest leans as far as its whole own bend); with the phase term off 0.08 and 0.17. On screen, with the phase term muted the share of change that no local shift explains falls from 0.825 to 0.737 and the flow roughness from 0.897 to 0.650."
+    },
+    {
+      "hypothesis": "(2) the breeze direction turns across the field (no stretch leans one way)",
+      "verdict": "not the shiver, but the reason there was no one direction",
+      "evidence": "Muting it (one fixed direction) lowers the picture change by 9 % (25.80 -> 23.36) and does not make the motion more coherent (unexplained 0.852). From the formula: the direction turns 3 deg over 10 cm, 25 deg over 1 m and 74 deg over 3 m, so no patch of a few metres leans the same way."
+    },
+    {
+      "hypothesis": "(3) the beat sweeps and note rings are sharp pulses",
+      "verdict": "CAUSE of the shiver while playing",
+      "evidence": "Stand-in for a played piece (a beat sweep and a note ring on every beat at 96 bpm): the picture change is 46.29 with the waves and 25.82 without (+79 %), the flow roughness 4.52 px against 0.91. A sweep at 22 m/s and 1.8 m wide is over one blade for 0.16 s, once every 0.625 s; a ring at 9 m/s for 0.40 s."
+    },
+    {
+      "hypothesis": "(4) sub-pixel shimmer of the dew tips (sparkle)",
+      "verdict": "not a cause",
+      "evidence": "Muting the sparkle changes nothing: 25.794 against 25.800."
+    },
+    {
+      "hypothesis": "(5) found on the way: a float clock",
+      "verdict": "not seen in a short run, but would show after days",
+      "evidence": "_Time.y is a float: after about 3 days of uptime its step is a whole frame at 60 fps. The new wind takes only small wrapped numbers (BreezePhase) from the double clock; tested at 400 days."
+    }
+  ],
+  "afterNumbers": {
+    "neighbours10cm": "median |dBend|/|bend| 0.127 (was 0.36), 90th percentile 0.286 (was 1.54), 100 % of 4933 pairs lean the same way (cos > 0.9): BreezeModelTests",
+    "idle": "picture change 29.84 (the grass moves on purpose more than before: tip swing up to about 0.6 of a blade height at a gust), unexplained 0.7525 (was 0.825); muted: breeze 0.88, gusts 27.40, sway 28.69, flutter 29.71",
+    "playing": "picture change 44.08 with the waves, 29.82 without: the waves add 14.3 where they added 20.5 (-30 %); flow roughness 3.88 px (was 4.52). A sweep now takes 7 m/s and 2.6 m width, over a blade for 0.74 s; a ring at 4.5 m/s for 1.16 s.",
+    "caveat": "The block-matching flow roughness of the idle picture is higher after (1.47 px against 0.90) because the blades now move farther in 0.25 s (the search is +-6 px); it is not evidence of more disorder. The blade-to-blade statistic above is."
+  },
+  "background": {
+    "what": "How much the painted background (everything above the 3D grass) changes in an idle meadow, in grey steps (0..255) over 10 s. Rows are shares of the picture height from the top.",
+    "before": {
+      "sky": {
+        "meanLuma": 74.5,
+        "meanChangePerPicture": 0.001,
+        "meanChangeOverTheWholeRun": 0.03,
+        "swingOfTheBandMeanPct": 0.01
+      },
+      "hills": {
+        "meanLuma": 74.2,
+        "meanChangePerPicture": 0.0012,
+        "meanChangeOverTheWholeRun": 0.02,
+        "swingOfTheBandMeanPct": 0.01
+      },
+      "paintedFarMeadow": {
+        "meanLuma": 78.4,
+        "meanChangePerPicture": 0.0002,
+        "meanChangeOverTheWholeRun": 0.01,
+        "swingOfTheBandMeanPct": 0.0
+      }
+    },
+    "after": {
+      "sky": {
+        "meanLuma": 45.4,
+        "meanChangePerPicture": 0.0715,
+        "meanChangeOverTheWholeRun": 3.03,
+        "swingOfTheBandMeanPct": 0.62
+      },
+      "hills": {
+        "meanLuma": 41.2,
+        "meanChangePerPicture": 0.0245,
+        "meanChangeOverTheWholeRun": 1.1,
+        "swingOfTheBandMeanPct": 0.19
+      },
+      "paintedFarMeadow": {
+        "meanLuma": 36.5,
+        "meanChangePerPicture": 0.0904,
+        "meanChangeOverTheWholeRun": 3.9,
+        "swingOfTheBandMeanPct": 7.45
+      }
+    },
+    "note": "before: the old build, 10 s, mid sky (a still painting: only video compression noise changes); after: the first 10.5 s of captures/wind/wind-clip-28s.mp4 (blue-hour sky, nobody playing). The sky changes by the drifting clouds, the far meadow by the rolling gusts and the cloud shadows; the hills hardly, as intended."
+  },
+  "before": {
+    "build": "HEAD 722eb86 plus the --wind-mute and --frame-dump tools only (no change to what is drawn); the mutes of that build were breeze, waves, hands, sparkle, phase (the per-blade offset of the breeze), direction (the breeze direction that turns across the field)",
+    "runs": [
+      {
+        "name": "idle-all",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 25.7999,
+        "unexplained": 0.8251,
+        "flowRoughness": 0.897,
+        "peakToMedian": 1.03
+      },
+      {
+        "name": "idle-nobreeze",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 1.013,
+        "unexplained": 0.9995,
+        "flowRoughness": 0.0,
+        "peakToMedian": 2.08
+      },
+      {
+        "name": "idle-nophase",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 25.7192,
+        "unexplained": 0.7374,
+        "flowRoughness": 0.65,
+        "peakToMedian": 1.04
+      },
+      {
+        "name": "idle-nodirection",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 23.3557,
+        "unexplained": 0.8516,
+        "flowRoughness": 0.733,
+        "peakToMedian": 1.03
+      },
+      {
+        "name": "idle-nosparkle",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 25.7941,
+        "unexplained": 0.8259,
+        "flowRoughness": 0.898,
+        "peakToMedian": 1.02
+      },
+      {
+        "name": "idle-allmuted",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 0.5717,
+        "unexplained": 1.0,
+        "flowRoughness": 0.0,
+        "peakToMedian": 1.81
+      },
+      {
+        "name": "beats-all",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 46.2921,
+        "unexplained": 0.8471,
+        "flowRoughness": 4.516,
+        "peakToMedian": 1.1
+      },
+      {
+        "name": "beats-nobreeze",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 46.2038,
+        "unexplained": 0.8457,
+        "flowRoughness": 4.519,
+        "peakToMedian": 1.1
+      },
+      {
+        "name": "beats-nowaves",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 25.823,
+        "unexplained": 0.8252,
+        "flowRoughness": 0.91,
+        "peakToMedian": 1.02
+      }
+    ]
+  },
+  "after": {
+    "build": "the new wind (meadow.breeze) and clouds; mutes breeze, waves, gusts, sway, flutter",
+    "runs": [
+      {
+        "name": "idle-all",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 29.8353,
+        "unexplained": 0.7525,
+        "flowRoughness": 1.468,
+        "peakToMedian": 1.1
+      },
+      {
+        "name": "idle-nobreeze",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 0.8811,
+        "unexplained": 1.0,
+        "flowRoughness": 0.0,
+        "peakToMedian": 1.55
+      },
+      {
+        "name": "idle-nogusts",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 27.3982,
+        "unexplained": 0.7701,
+        "flowRoughness": 1.297,
+        "peakToMedian": 1.08
+      },
+      {
+        "name": "idle-nosway",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 28.6915,
+        "unexplained": 0.7714,
+        "flowRoughness": 1.21,
+        "peakToMedian": 1.09
+      },
+      {
+        "name": "idle-noflutter",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 29.7065,
+        "unexplained": 0.7255,
+        "flowRoughness": 1.292,
+        "peakToMedian": 1.06
+      },
+      {
+        "name": "beats-all",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 44.0805,
+        "unexplained": 0.8229,
+        "flowRoughness": 3.881,
+        "peakToMedian": 1.25
+      },
+      {
+        "name": "beats-nowaves",
+        "pictures": 200,
+        "fps": 20.0,
+        "motionRms": 29.819,
+        "unexplained": 0.7524,
+        "flowRoughness": 1.466,
+        "peakToMedian": 1.1
+      }
+    ]
+  }
+}

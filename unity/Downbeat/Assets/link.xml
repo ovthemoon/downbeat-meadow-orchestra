@@ -1,0 +1,10 @@
+<linker>
+  <!-- VContainer builds objects by reflection; keep our assemblies and VContainer intact under High managed stripping. -->
+  <assembly fullname="VContainer" preserve="all"/>
+  <assembly fullname="Downbeat.Core" preserve="all"/>
+  <assembly fullname="Downbeat.Audio" preserve="all"/>
+  <assembly fullname="Downbeat.Input" preserve="all"/>
+  <assembly fullname="Downbeat.Content" preserve="all"/>
+  <assembly fullname="Downbeat.Views" preserve="all"/>
+  <assembly fullname="Downbeat.App" preserve="all"/>
+</linker>

@@ -1,0 +1,129 @@
+{
+  "note": "Task 12, checked with the real Mac player (builds/mac/Downbeat.app, content next to the .app, built-in copy in Contents/Resources/Data/StreamingAssets/default-content, last-known-good in ~/Library/Application Support/ovthemoon/Downbeat/last-known-good). Every run used --mute --no-record. Paths shorten the home folder to ~. The same decisions are tested without a player in ContentLocatorTests and ContentValidatorNativeTests, and the F5 path in ContentReloadPlayModeTests. NOT tested: Windows (the code and the build step are the same; the Windows built-in copy is Downbeat_Data/StreamingAssets/default-content, which the Windows build contains). Run H was added after the checkpoint-5 fixes (trial decode of every sound, last-known-good only once the app is ready); runs A-G were made before them with the same behaviour for those cases, and A-D and F were repeated on the rebuilt player (A: External and the last-known-good copy is made at ready; B, C: LastKnownGood; D, F: BuiltIn).",
+  "runs": [
+    {
+      "name": "A-fresh",
+      "what": "a good content folder next to the program, first start (no last-known-good yet)",
+      "expect": "External; a last-known-good copy is made",
+      "log": [
+        "[content] using the content next to the program (<repo>/builds/mac/content)",
+        "[Downbeat] ready"
+      ],
+      "contentSourceNote": [
+        "time_utc=2026-10-29T17:20:14.6163910Z",
+        "origin=External",
+        "root=<repo>/builds/mac/content",
+        "reason=(none: the content folder next to the program is in use)"
+      ],
+      "lastKnownGoodAfter": [
+        "audio",
+        "content.json",
+        "img",
+        "replay"
+      ]
+    },
+    {
+      "name": "B-broken-json",
+      "what": "content.json next to the program replaced by \"{ broken on purpose\"",
+      "expect": "LastKnownGood, with the reason",
+      "log": [
+        "[content] using the LastKnownGood content (~/Library/Application Support/ovthemoon/Downbeat/last-known-good) because: external content rejected (<repo>/builds/mac/content): content.json is not valid JSON: JSON parse error: Missing a name for object member.",
+        "[Downbeat] ready"
+      ],
+      "contentSourceNote": [
+        "time_utc=2026-10-29T17:20:29.4648490Z",
+        "origin=LastKnownGood",
+        "root=~/Library/Application Support/ovthemoon/Downbeat/last-known-good",
+        "reason=external content rejected (<repo>/builds/mac/content): content.json is not valid JSON: JSON parse error: Missing a name for object member."
+      ]
+    },
+    {
+      "name": "C-missing-wav",
+      "what": "audio/harp_A4.wav moved away from the content folder",
+      "expect": "LastKnownGood, the reason names the file",
+      "log": [
+        "[content] using the LastKnownGood content (~/Library/Application Support/ovthemoon/Downbeat/last-known-good) because: external content rejected (<repo>/builds/mac/content): audio/harp_A4.wav is missing",
+        "[Downbeat] ready"
+      ],
+      "contentSourceNote": [
+        "time_utc=2026-10-29T17:20:44.3772200Z",
+        "origin=LastKnownGood",
+        "root=~/Library/Application Support/ovthemoon/Downbeat/last-known-good",
+        "reason=external content rejected (<repo>/builds/mac/content): audio/harp_A4.wav is missing"
+      ]
+    },
+    {
+      "name": "D-builtin",
+      "what": "no content folder next to the program and no last-known-good (a new PC)",
+      "expect": "BuiltIn, with both reasons",
+      "log": [
+        "[content] using the BuiltIn content (<repo>/builds/mac/Downbeat.app/Contents/Resources/Data/StreamingAssets/default-content) because: external content: folder not found (<repo>/builds/mac/content) | last known good: folder not found (~/Library/Application Support/ovthemoon/Downbeat/last-known-good)",
+        "[Downbeat] ready"
+      ],
+      "contentSourceNote": [
+        "time_utc=2026-10-29T17:20:59.2389290Z",
+        "origin=BuiltIn",
+        "root=<repo>/builds/mac/Downbeat.app/Contents/Resources/Data/StreamingAssets/default-content",
+        "reason=external content: folder not found (<repo>/builds/mac/content) | last known good: folder not found (~/Library/Application Support/ovthemoon/Downbeat/last-known-good)"
+      ]
+    },
+    {
+      "name": "F-soak-builtin",
+      "what": "--soak (recorded hand, silent) on the built-in content only: the replay file is read from the built-in folder",
+      "expect": "the visit flow runs (state Playing, notes counted)",
+      "log": [
+        "[content] using the BuiltIn content (<repo>/builds/mac/Downbeat.app/Contents/Resources/Data/StreamingAssets/default-content) because: external content: folder not found (<repo>/builds/mac/content) | last known good: folder not found (~/Library/Application Support/ovthemoon/Downbeat/last-known-good)",
+        "[Downbeat] ready"
+      ],
+      "healthRowsTail": [
+        "2026-10-29T17:21:49Z,35.0,119.9,119.5,9.2,12.1,0,0.021,3.5,93.9,329.4,29.8,,1.000,19,0,0,0,0,Playing,3,1",
+        "2026-10-29T17:21:54Z,40.0,118.1,112.5,9.1,54.9,0,0.043,3.6,93.9,330.5,9.4,,0.418,13,0,0,0,0,Playing,2,1",
+        "2026-10-29T17:21:59Z,45.0,118.4,112.5,9.2,62.8,0,0.064,3.6,93.9,330.7,12.4,,0.412,6,0,0,0,0,Playing,1,1"
+      ]
+    },
+    {
+      "name": "E-reload",
+      "what": "while running: at 6 s a valid change (meadow.wind.beatSweep.amplitude x3), F5 at 10 s; at 14 s content.json broken, F5 at 19 s (F5 pressed by --reload-content-at 10,19)",
+      "expect": "the first reload is accepted and the meadow is built again at the next bar line; the second is refused with the reason and the picture stays",
+      "log": [
+        "[content] using the content next to the program (<repo>/builds/mac/content)",
+        "[Downbeat] ready",
+        "[content] reload requested (F5)",
+        "[content] reload accepted: the meadow is built again at the next bar line (1.1 s from now)",
+        "[content] reloaded: the meadow was built again from the new content",
+        "[content] reload requested (F5)",
+        "[content] reload refused, the picture stays as it is: external content rejected (<repo>/builds/mac/content): content.json is not valid JSON: JSON parse error: Missing a name for object member."
+      ]
+    },
+    {
+      "name": "G-bom",
+      "what": "content.json saved with a byte order mark (what Windows Notepad and PowerShell Set-Content -Encoding UTF8 write)",
+      "expect": "External (before the fix the validator passed it but the loader failed and the app silently used the last-known-good copy)",
+      "log": [
+        "[content] using the content next to the program (<repo>/builds/mac/content)",
+        "[Downbeat] ready"
+      ],
+      "contentSourceNote": [
+        "time_utc=2026-10-29T17:19:47.4226790Z",
+        "origin=External",
+        "root=<repo>/builds/mac/content",
+        "reason=(none: the content folder next to the program is in use)"
+      ]
+    },
+    {
+      "name": "H-undecodable-wav",
+      "what": "audio/harp_A4.wav with a header that the validator accepts but that Unity cannot decode (the format tag changed from PCM to float while the file still says 16 bits per sample)",
+      "expect": "the loader opens every sound once (TrialDecode), passes over the external folder and uses the last-known-good copy; nothing is kept as last known good from the failed copy",
+      "log": [
+        "[content] using the LastKnownGood content (~/Library/Application Support/ovthemoon/Downbeat/last-known-good) because: External content failed to load: sound audio/harp_A4.wav: Unity cannot decode it | external content: could not be loaded",
+        "[Downbeat] ready"
+      ],
+      "contentSourceNote": [
+        "time_utc=2026-10-29T18:01:36.3079280Z",
+        "origin=LastKnownGood",
+        "root=~/Library/Application Support/ovthemoon/Downbeat/last-known-good",
+        "reason=External content failed to load: sound audio/harp_A4.wav: Unity cannot decode it | external content: could not be loaded"
+      ]
+    }
+  ]
+}

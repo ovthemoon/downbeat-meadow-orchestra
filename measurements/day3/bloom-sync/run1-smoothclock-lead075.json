@@ -1,0 +1,11 @@
+{
+    "flowersOpened": 72,
+    "medianLagMs": 1.1,
+    "medianAbsLagMs": 2.8,
+    "p95AbsLagMs": 58.1,
+    "maxAbsLagMs": 62.1,
+    "medianFrameMs": 8.3,
+    "medianAbsLagFrames": 0.34,
+    "framesMeasured": 2571,
+    "note": "Mac player, window; lag = (audio time of the frame where the bloom first reached 0.5) - (time the note is heard); the bloom starts bloom.leadSec before the note is heard"
+}

@@ -1,0 +1,36 @@
+{
+    "runs": [
+        {
+            "source": "player-windowed",
+            "tier": "High",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 14.9,
+            "frames": 5856,
+            "fpsAverage": 394.8,
+            "frameMsP50": 2.3,
+            "frameMsP95": 4.1,
+            "frameMsP99": 4.6,
+            "frameMsMax": 18.7,
+            "framesOver25ms": 0,
+            "grassBlades": 241523,
+            "note": "Mac player (Mono, Release), window 1920x1080 (requested 1920x1080), fullscreen=False, vSync and frame cap off, grass tier High, arguments: --input replay --loop --hold-energy 0.85 --no-record; log: measurements/perf/player-logs/"
+        },
+        {
+            "source": "player-windowed",
+            "tier": "Low",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 20.7,
+            "frames": 23408,
+            "fpsAverage": 1131.1,
+            "frameMsP50": 0.8,
+            "frameMsP95": 1.4,
+            "frameMsP99": 1.6,
+            "frameMsMax": 154.2,
+            "framesOver25ms": 1,
+            "grassBlades": 64784,
+            "note": "Mac player (Mono, Release), window 1920x1080 (requested 1920x1080), fullscreen=False, vSync and frame cap off, grass tier Low, arguments: --input replay --loop --hold-energy 0.85 --no-record; log: measurements/perf/player-logs/"
+        }
+    ]
+}

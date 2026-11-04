@@ -1,0 +1,18 @@
+{
+  "name": "Downbeat.Day0",
+  "rootNamespace": "Downbeat.Day0",
+  "references": [
+    "Downbeat.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "DOWNBEAT_DAY0"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

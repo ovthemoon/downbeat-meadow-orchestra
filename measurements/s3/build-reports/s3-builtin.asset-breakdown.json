@@ -1,0 +1,129 @@
+{
+    "assetCount": 16,
+    "packedTotalBytes": 3322918,
+    "byType": [
+        {
+            "type": "Texture2D",
+            "count": 1,
+            "bytes": 2796376
+        },
+        {
+            "type": "Cubemap",
+            "count": 1,
+            "bytes": 524492
+        },
+        {
+            "type": "MonoScript",
+            "count": 10,
+            "bytes": 928
+        },
+        {
+            "type": "Sprite",
+            "count": 1,
+            "bytes": 420
+        },
+        {
+            "type": "PreloadData",
+            "count": 2,
+            "bytes": 398
+        },
+        {
+            "type": "Material",
+            "count": 1,
+            "bytes": 304
+        }
+    ],
+    "topAssets": [
+        {
+            "path": "Built-in Texture2D: Splash Screen Unity Logo",
+            "type": "Texture2D",
+            "bytes": 2796376
+        },
+        {
+            "path": "Resources/unity_builtin_extra",
+            "type": "Cubemap",
+            "bytes": 524492
+        },
+        {
+            "path": "Built-in Sprite: ",
+            "type": "Sprite",
+            "bytes": 420
+        },
+        {
+            "path": "",
+            "type": "PreloadData",
+            "bytes": 373
+        },
+        {
+            "path": "Resources/unity_builtin_extra",
+            "type": "Material",
+            "bytes": 304
+        },
+        {
+            "path": "Assets/_Project/Scripts/Day0/FrameWindowRunner.cs",
+            "type": "MonoScript",
+            "bytes": 108
+        },
+        {
+            "path": "Assets/_Project/Scripts/Day0/Day0Controller.cs",
+            "type": "MonoScript",
+            "bytes": 100
+        },
+        {
+            "path": "Assets/_Project/Scripts/Day0/BeatTestRunner.cs",
+            "type": "MonoScript",
+            "bytes": 100
+        },
+        {
+            "path": "Assets/_Project/Scripts/Core/FrameStats.cs",
+            "type": "MonoScript",
+            "bytes": 92
+        },
+        {
+            "path": "Assets/_Project/Scripts/Day0/AheadTest.cs",
+            "type": "MonoScript",
+            "bytes": 92
+        },
+        {
+            "path": "Assets/_Project/Scripts/Day0/BridgeBench.cs",
+            "type": "MonoScript",
+            "bytes": 92
+        },
+        {
+            "path": "Assets/_Project/Scripts/Day0/Day0Bridge.cs",
+            "type": "MonoScript",
+            "bytes": 92
+        },
+        {
+            "path": "Assets/_Project/Scripts/Core/BeatGrid.cs",
+            "type": "MonoScript",
+            "bytes": 84
+        },
+        {
+            "path": "Assets/_Project/Scripts/Day0/Spinner.cs",
+            "type": "MonoScript",
+            "bytes": 84
+        },
+        {
+            "path": "Assets/_Project/Scripts/Day0/Day0Json.cs",
+            "type": "MonoScript",
+            "bytes": 84
+        },
+        {
+            "path": "",
+            "type": "PreloadData",
+            "bytes": 25
+        }
+    ],
+    "includedEngineModules": [
+        "Audio Module",
+        "Core Module",
+        "GraphicsStateCollectionSerializer Module",
+        "JSONSerialize Module",
+        "Physics Module",
+        "PhysicsBackendPhysX Module",
+        "RuntimeInitializeOnLoadManagerInitializer Module",
+        "SharedInternals Module",
+        "WebGL Module"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+  "run": "E-ahead",
+  "chromeVersion": "Chrome/156.0.8078.49",
+  "chromeArgs": [
+    "--use-fake-ui-for-media-stream",
+    "--autoplay-policy=no-user-gesture-required",
+    "--window-position=40,40",
+    "--window-size=1100,760",
+    "--disable-background-timer-throttling",
+    "--disable-renderer-backgrounding",
+    "--disable-backgrounding-occluded-windows"
+  ],
+  "vsync": 2,
+  "runInBackground": true,
+  "paths": [
+    "unity-scheduled",
+    "unity-play",
+    "webaudio"
+  ],
+  "scenarios": [
+    {
+      "name": "calm",
+      "block": null,
+      "disturbance": null
+    },
+    {
+      "name": "stress",
+      "block": {
+        "ms": 50,
+        "everyMs": 2000
+      },
+      "disturbance": null
+    },
+    {
+      "name": "hidden",
+      "block": {
+        "ms": 50,
+        "everyMs": 2000
+      },
+      "disturbance": "hidden"
+    }
+  ],
+  "durationSec": 60,
+  "results": [],
+  "ahead": {
+    "label": "ahead",
+    "records": 12,
+    "contexts": [
+      {
+        "id": 0,
+        "tag": "unity",
+        "peak": 0.5800184011459351
+      },
+      {
+        "id": 1,
+        "tag": "webaudio",
+        "peak": 0
+      }
+    ]
+  }
+}

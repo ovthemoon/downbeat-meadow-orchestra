@@ -1,0 +1,154 @@
+{
+  "what": "The frame time of the Mac player at 1920x1080 (a window), uncapped, running the recorded demo hands for 15 s, once per variant of one lever of the Low (or High) tier; the mean of 3 runs. A variant edits only that value of the tier in a copy of the content folder (tools/measure_render_cost.py).",
+  "machine": "Apple M4 Pro, Metal, Unity 6000.3.9f1, build of the Mac player at 04:xx of Oct 30 (label lowbase)",
+  "reading": [
+    "The Mac's GPU is fast and tile based: the frame is 1.2 ms (Low) and 3.6 ms (High), mostly work on the CPU side, so the pixel levers show smaller savings here than on an Intel UHD, which is limited by fill rate and memory bandwidth. The numbers say which lever is big, not what the laptop will give.",
+    "A single run varies by about 5 per cent; the mean of three is used.",
+    "gpu_ms is Unity's FrameTimingManager (works on Metal) but it moved from run to run in no pattern (the Apple GPU changes its clock with the load), so it is not used for the comparison."
+  ],
+  "runs": {
+    "Low/baseline": {
+      "fps": 810.6,
+      "frame_ms": 1.234,
+      "fps_runs": [
+        828.5,
+        800.6,
+        802.6
+      ],
+      "change_in_frame_time_vs_baseline_percent": 0.0,
+      "gpu_ms_frametimingmanager": 2.15
+    },
+    "Low/scale0.85": {
+      "fps": 900.0,
+      "frame_ms": 1.111,
+      "fps_runs": [
+        912.3,
+        889.7,
+        897.9
+      ],
+      "change_in_frame_time_vs_baseline_percent": -10.0,
+      "gpu_ms_frametimingmanager": 1.92
+    },
+    "Low/scale0.7": {
+      "fps": 995.0,
+      "frame_ms": 1.005,
+      "fps_runs": [
+        1005.4,
+        985.4,
+        994.3
+      ],
+      "change_in_frame_time_vs_baseline_percent": -18.6,
+      "gpu_ms_frametimingmanager": 1.62
+    },
+    "Low/scale0.6": {
+      "fps": 1032.9,
+      "frame_ms": 0.968,
+      "fps_runs": [
+        1043.3,
+        1048.2,
+        1007.3
+      ],
+      "change_in_frame_time_vs_baseline_percent": -21.6,
+      "gpu_ms_frametimingmanager": 1.53
+    },
+    "Low/bloom-dual-quarter-4": {
+      "fps": 798.9,
+      "frame_ms": 1.252,
+      "fps_runs": [
+        825.8,
+        781.3,
+        789.5
+      ],
+      "change_in_frame_time_vs_baseline_percent": 1.5,
+      "gpu_ms_frametimingmanager": 2.31
+    },
+    "Low/bloom-off": {
+      "fps": 850.0,
+      "frame_ms": 1.176,
+      "fps_runs": [
+        844.7,
+        834.1,
+        871.2
+      ],
+      "change_in_frame_time_vs_baseline_percent": -4.7,
+      "gpu_ms_frametimingmanager": 2.54
+    },
+    "Low/sky-cheap": {
+      "fps": 862.2,
+      "frame_ms": 1.16,
+      "fps_runs": [
+        854.9,
+        858.2,
+        873.5
+      ],
+      "change_in_frame_time_vs_baseline_percent": -6.0,
+      "gpu_ms_frametimingmanager": 2.0
+    },
+    "Low/msaa2": {
+      "fps": 736.4,
+      "frame_ms": 1.358,
+      "fps_runs": [
+        736.0,
+        737.1,
+        736.1
+      ],
+      "change_in_frame_time_vs_baseline_percent": 10.0,
+      "gpu_ms_frametimingmanager": 2.34
+    },
+    "Low/low-levers": {
+      "fps": 1074.0,
+      "frame_ms": 0.931,
+      "fps_runs": [
+        1084.0,
+        1079.3,
+        1058.8
+      ],
+      "change_in_frame_time_vs_baseline_percent": -24.6,
+      "gpu_ms_frametimingmanager": 1.52
+    },
+    "High/baseline": {
+      "fps": 277.6,
+      "frame_ms": 3.602,
+      "fps_runs": [
+        265.4,
+        279.4,
+        287.9
+      ],
+      "change_in_frame_time_vs_baseline_percent": 0.0,
+      "gpu_ms_frametimingmanager": 5.11
+    },
+    "High/scale0.85": {
+      "fps": 291.9,
+      "frame_ms": 3.426,
+      "fps_runs": [
+        297.6,
+        289.3,
+        288.8
+      ],
+      "change_in_frame_time_vs_baseline_percent": -4.9,
+      "gpu_ms_frametimingmanager": 4.72
+    },
+    "High/bloom-dual-quarter-4": {
+      "fps": 293.5,
+      "frame_ms": 3.407,
+      "fps_runs": [
+        290.0,
+        291.3,
+        299.3
+      ],
+      "change_in_frame_time_vs_baseline_percent": -5.4,
+      "gpu_ms_frametimingmanager": 5.18
+    },
+    "High/msaa2": {
+      "fps": 291.6,
+      "frame_ms": 3.429,
+      "fps_runs": [
+        295.3,
+        293.2,
+        286.4
+      ],
+      "change_in_frame_time_vs_baseline_percent": -4.8,
+      "gpu_ms_frametimingmanager": 4.84
+    }
+  }
+}

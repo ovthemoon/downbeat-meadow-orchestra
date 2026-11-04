@@ -1,0 +1,73 @@
+{
+    "machine": "Mac16,11",
+    "gpu": "Apple M4 Pro",
+    "unity": "6000.3.9f1",
+    "os": "Mac OS X 15.7.3",
+    "note": "Shared desktop: other apps (browsers, another Unity editor) were running; numbers are what this Mac did at that time, not a benchmark.",
+    "runs": [
+        {
+            "source": "player-windowed",
+            "tier": "High",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 20.7,
+            "frames": 8886,
+            "fpsAverage": 427.7,
+            "frameMsP50": 2.0,
+            "frameMsP95": 3.7,
+            "frameMsP99": 4.2,
+            "frameMsMax": 255.2,
+            "framesOver25ms": 1,
+            "grassBlades": 241523,
+            "note": "Mac player (Mono, Release), window 1920x1080 (requested 1920x1080), fullscreen=False, vSync and frame cap off, grass tier High, arguments: --input replay --loop --fireflies 1; log: measurements/perf/player-logs/"
+        },
+        {
+            "source": "player-windowed",
+            "tier": "Low",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 20.7,
+            "frames": 23215,
+            "fpsAverage": 1117.7,
+            "frameMsP50": 0.8,
+            "frameMsP95": 1.3,
+            "frameMsP99": 1.7,
+            "frameMsMax": 232.4,
+            "framesOver25ms": 2,
+            "grassBlades": 64784,
+            "note": "Mac player (Mono, Release), window 1920x1080 (requested 1920x1080), fullscreen=False, vSync and frame cap off, grass tier Low, arguments: --input replay --loop --fireflies 1; log: measurements/perf/player-logs/"
+        },
+        {
+            "source": "playmode-editor",
+            "tier": "High",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 10.01,
+            "frames": 2095,
+            "fpsAverage": 209.4,
+            "frameMsP50": 4.72,
+            "frameMsP95": 5.2,
+            "frameMsP99": 5.67,
+            "frameMsMax": 13.06,
+            "framesOver25ms": 0,
+            "grassBlades": 241523,
+            "note": "Unity editor PlayMode (batchmode), meadow camera drawn by the test once per frame into a 1920x1080 texture and waited for (a one-pixel readback), vSync off, grass tier High, with two hand ribbons, a note every 0.25 s (seeds, petals, flower blooms) and fireflies at level 1"
+        },
+        {
+            "source": "playmode-editor",
+            "tier": "Low",
+            "width": 1920,
+            "height": 1080,
+            "seconds": 10.0,
+            "frames": 3336,
+            "fpsAverage": 333.5,
+            "frameMsP50": 2.95,
+            "frameMsP95": 3.49,
+            "frameMsP99": 3.93,
+            "frameMsMax": 12.56,
+            "framesOver25ms": 0,
+            "grassBlades": 64784,
+            "note": "Unity editor PlayMode (batchmode), meadow camera drawn by the test once per frame into a 1920x1080 texture and waited for (a one-pixel readback), vSync off, grass tier Low, with two hand ribbons, a note every 0.25 s (seeds, petals, flower blooms) and fireflies at level 1"
+        }
+    ]
+}

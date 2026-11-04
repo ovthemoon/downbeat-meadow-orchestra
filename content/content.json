@@ -1,0 +1,2945 @@
+{
+  "schemaVersion": 4,
+  "contentVersion": "2026-11-01.1",
+  "audio": {
+    "masterGainDb": -6,
+    "maxVoices": 32,
+    "minLeadSec": 0.1,
+    "originDelaySec": 0.5
+  },
+  "instruments": [
+    {
+      "id": "harp",
+      "part": "harp",
+      "gainDb": 0,
+      "rootMidi": 69,
+      "maxPitchShift": 12,
+      "samples": [
+        {
+          "id": "harp_A4",
+          "file": "audio/harp_A4.wav",
+          "soundingMidi": 69,
+          "tuneCents": -9.7,
+          "perceivedOnsetOffsetMs": 5.8
+        },
+        {
+          "id": "harp_C5",
+          "file": "audio/harp_C5.wav",
+          "soundingMidi": 72,
+          "tuneCents": -11,
+          "perceivedOnsetOffsetMs": 7.2
+        },
+        {
+          "id": "harp_E5",
+          "file": "audio/harp_E5.wav",
+          "soundingMidi": 76,
+          "tuneCents": -11.3,
+          "perceivedOnsetOffsetMs": 4.8
+        },
+        {
+          "id": "harp_G5",
+          "file": "audio/harp_G5.wav",
+          "soundingMidi": 79,
+          "tuneCents": -6.1,
+          "perceivedOnsetOffsetMs": 7.7
+        },
+        {
+          "id": "harp_D6",
+          "file": "audio/harp_D6.wav",
+          "soundingMidi": 86,
+          "tuneCents": -7.6,
+          "perceivedOnsetOffsetMs": 11.1
+        }
+      ]
+    },
+    {
+      "id": "recorder",
+      "part": "recorder",
+      "gainDb": -4,
+      "rootMidi": 81,
+      "maxPitchShift": 12,
+      "samples": [
+        {
+          "id": "recorder_As5",
+          "file": "audio/recorder_As5.wav",
+          "soundingMidi": 82,
+          "tuneCents": 9.6,
+          "perceivedOnsetOffsetMs": 17.1
+        },
+        {
+          "id": "recorder_C6",
+          "file": "audio/recorder_C6.wav",
+          "soundingMidi": 84,
+          "tuneCents": 4.8,
+          "perceivedOnsetOffsetMs": 13.7
+        },
+        {
+          "id": "recorder_D6",
+          "file": "audio/recorder_D6.wav",
+          "soundingMidi": 86,
+          "tuneCents": -8.9,
+          "perceivedOnsetOffsetMs": 12
+        },
+        {
+          "id": "recorder_E6",
+          "file": "audio/recorder_E6.wav",
+          "soundingMidi": 88,
+          "tuneCents": -0.5,
+          "perceivedOnsetOffsetMs": 34.1
+        },
+        {
+          "id": "recorder_G6",
+          "file": "audio/recorder_G6.wav",
+          "soundingMidi": 91,
+          "tuneCents": 5.2,
+          "perceivedOnsetOffsetMs": 29.9
+        }
+      ]
+    },
+    {
+      "id": "bell",
+      "part": "bell",
+      "gainDb": -4,
+      "rootMidi": 69,
+      "maxPitchShift": 2,
+      "samples": [
+        {
+          "id": "bell_As4",
+          "file": "audio/bell_As4.wav",
+          "soundingMidi": 70,
+          "tuneCents": 3.7,
+          "perceivedOnsetOffsetMs": 22.5
+        },
+        {
+          "id": "bell_D5",
+          "file": "audio/bell_D5.wav",
+          "soundingMidi": 74,
+          "tuneCents": 0.5,
+          "perceivedOnsetOffsetMs": 16.3
+        },
+        {
+          "id": "bell_Gs5",
+          "file": "audio/bell_Gs5.wav",
+          "soundingMidi": 80,
+          "tuneCents": 2.5,
+          "perceivedOnsetOffsetMs": 7.6
+        },
+        {
+          "id": "bell_C6",
+          "file": "audio/bell_C6.wav",
+          "soundingMidi": 84,
+          "tuneCents": 1.4,
+          "perceivedOnsetOffsetMs": 11.5
+        },
+        {
+          "id": "bell_E6",
+          "file": "audio/bell_E6.wav",
+          "soundingMidi": 88,
+          "tuneCents": 4.3,
+          "perceivedOnsetOffsetMs": 7.6
+        },
+        {
+          "id": "bell_Gs6",
+          "file": "audio/bell_Gs6.wav",
+          "soundingMidi": 92,
+          "tuneCents": 4.8,
+          "perceivedOnsetOffsetMs": 7.7
+        }
+      ]
+    },
+    {
+      "id": "lowstring",
+      "part": "lowstring",
+      "gainDb": 0,
+      "rootMidi": 57,
+      "maxPitchShift": 2,
+      "samples": [
+        {
+          "id": "lowstring_A3",
+          "file": "audio/lowstring_A3.wav",
+          "soundingMidi": 57,
+          "tuneCents": 4.4,
+          "perceivedOnsetOffsetMs": 6.4
+        },
+        {
+          "id": "lowstring_D4",
+          "file": "audio/lowstring_D4.wav",
+          "soundingMidi": 62,
+          "tuneCents": 4.9,
+          "perceivedOnsetOffsetMs": 4.3
+        },
+        {
+          "id": "lowstring_G4",
+          "file": "audio/lowstring_G4.wav",
+          "soundingMidi": 67,
+          "tuneCents": 3.3,
+          "perceivedOnsetOffsetMs": 5.2
+        },
+        {
+          "id": "lowstring_A4",
+          "file": "audio/lowstring_A4.wav",
+          "soundingMidi": 69,
+          "tuneCents": 0.9,
+          "perceivedOnsetOffsetMs": 4
+        },
+        {
+          "id": "lowstring_D5",
+          "file": "audio/lowstring_D5.wav",
+          "soundingMidi": 74,
+          "tuneCents": 2.4,
+          "perceivedOnsetOffsetMs": 7.6
+        },
+        {
+          "id": "lowstring_G5",
+          "file": "audio/lowstring_G5.wav",
+          "soundingMidi": 79,
+          "tuneCents": 3.1,
+          "perceivedOnsetOffsetMs": 5
+        }
+      ]
+    },
+    {
+      "id": "marimba",
+      "part": "marimba",
+      "gainDb": -1,
+      "rootMidi": 69,
+      "maxPitchShift": 12,
+      "samples": [
+        {
+          "id": "marimba_C5_med",
+          "file": "audio/marimba_C5_med.wav",
+          "soundingMidi": 72,
+          "tuneCents": 4.3,
+          "perceivedOnsetOffsetMs": 7
+        },
+        {
+          "id": "marimba_G5_med",
+          "file": "audio/marimba_G5_med.wav",
+          "soundingMidi": 79,
+          "tuneCents": -1.8,
+          "perceivedOnsetOffsetMs": 5.5
+        }
+      ]
+    },
+    {
+      "id": "handdrum",
+      "part": "handdrum",
+      "gainDb": 1,
+      "rootMidi": 45,
+      "maxPitchShift": 5,
+      "samples": [
+        {
+          "id": "handdrum_A2_tumba",
+          "file": "audio/handdrum_A2_tumba.wav",
+          "soundingMidi": 45,
+          "tuneCents": 0,
+          "perceivedOnsetOffsetMs": 3.5
+        },
+        {
+          "id": "handdrum_A3_conga",
+          "file": "audio/handdrum_A3_conga.wav",
+          "soundingMidi": 57,
+          "tuneCents": 0,
+          "perceivedOnsetOffsetMs": 3.4
+        },
+        {
+          "id": "handdrum_A4_quinto",
+          "file": "audio/handdrum_A4_quinto.wav",
+          "soundingMidi": 69,
+          "tuneCents": 0,
+          "perceivedOnsetOffsetMs": 3.7
+        }
+      ]
+    }
+  ],
+  "song": {
+    "id": "morning-forest",
+    "bpm": 96,
+    "slotsPerBeat": 4,
+    "beatsPerBar": 4,
+    "rootMidi": 69,
+    "scaleSteps": [
+      0,
+      3,
+      5,
+      7,
+      10
+    ],
+    "pitchSteps": 10,
+    "partMinGapSlots": [
+      {
+        "part": "harp",
+        "slots": 1
+      },
+      {
+        "part": "recorder",
+        "slots": 2
+      },
+      {
+        "part": "bell",
+        "slots": 2
+      },
+      {
+        "part": "lowstring",
+        "slots": 2
+      },
+      {
+        "part": "marimba",
+        "slots": 1
+      },
+      {
+        "part": "handdrum",
+        "slots": 1
+      }
+    ],
+    "maxPushSlots": 2
+  },
+  "hand": {
+    "minScore": 0.5,
+    "triggerSpeed": 3,
+    "rearmSpeed": 1,
+    "fullSpeed": 9,
+    "minVelocity": 0.3,
+    "peakWaitMs": 50,
+    "peakDropRatio": 0.85,
+    "velocityWindowMs": 70,
+    "minRetriggerMs": 150,
+    "maxGapMs": 250,
+    "heightHysteresis": 0.015,
+    "partHysteresis": 0.03,
+    "udpPort": 47800,
+    "trackerTimeoutSec": 2,
+    "mirrorX": true
+  },
+  "conduct": {
+    "mode": "conduct",
+    "motionWindowMs": 400,
+    "stillPalms": 0.3,
+    "halfBeatPalms": 1.5,
+    "quarterBeatPalms": 4,
+    "minVelocity": 0.25,
+    "loudPalms": 4,
+    "downbeatAccent": 0.1,
+    "releaseSec": 1.5,
+    "crossfadeSec": 0.3,
+    "holdMs": 800,
+    "phrases": [
+      {
+        "part": "harp",
+        "steps": [
+          0,
+          2,
+          4,
+          7,
+          4,
+          2
+        ]
+      },
+      {
+        "part": "recorder",
+        "steps": [
+          7,
+          5,
+          4,
+          2
+        ]
+      },
+      {
+        "part": "bell",
+        "steps": [
+          9,
+          7,
+          9,
+          5
+        ]
+      },
+      {
+        "part": "lowstring",
+        "steps": [
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "part": "marimba",
+        "steps": [
+          0,
+          0,
+          4,
+          0
+        ]
+      },
+      {
+        "part": "handdrum",
+        "steps": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "songPhrases": [
+      {
+        "part": "lowstring",
+        "steps": [
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "part": "marimba",
+        "steps": [
+          1,
+          2,
+          3,
+          2
+        ]
+      }
+    ]
+  },
+  "cells": {
+    "rowSplit": 0.5,
+    "rowHysteresis": 0.03,
+    "labels": [
+      "하프",
+      "리코더",
+      "종",
+      "낮은 현",
+      "마림바",
+      "손북"
+    ],
+    "colors": [
+      "#F2C46B",
+      "#F4F1E6",
+      "#BFE3FF",
+      "#C9A27A",
+      "#E2453A",
+      "#E8A04A"
+    ]
+  },
+  "pose": {
+    "openRatio": 1.35,
+    "fistRatio": 1.15,
+    "confirmFrames": 2
+  },
+  "autoQuality": {
+    "enabled": true,
+    "vsyncBudgetFps": 60,
+    "slowFrameFactor": 1.3,
+    "overFraction": 0.5,
+    "windowSec": 4,
+    "downDwellSec": 10,
+    "confirmSec": 8,
+    "confirmDownDwellSec": 3,
+    "upDwellSec": 90,
+    "maxUpDwellSec": 1800,
+    "upHoldSec": 300,
+    "headroomShare": 0.5,
+    "trackerMinFps": 12,
+    "trackerStarveSec": 8,
+    "busyGpuShare": 0.5,
+    "pendingScaleStep": 0.1,
+    "pendingScaleFloor": 0.5,
+    "performingEvidenceSec": 20,
+    "starveGainShare": 0.2,
+    "starveGainWindowSec": 20,
+    "starveGiveUpAfter": 2,
+    "starveIgnoreSec": 600,
+    "starveIgnoreMaxSec": 14400,
+    "starveCancelsAsFailure": 3,
+    "ladder": [
+      {
+        "tier": "High",
+        "renderScale": 1
+      },
+      {
+        "tier": "High",
+        "renderScale": 0.85
+      },
+      {
+        "tier": "Low",
+        "renderScale": 1
+      },
+      {
+        "tier": "Low",
+        "renderScale": 0.85
+      },
+      {
+        "tier": "Low",
+        "renderScale": 0.7
+      },
+      {
+        "tier": "Low",
+        "renderScale": 0.6
+      }
+    ],
+    "start": {
+      "weakNames": [
+        "Intel",
+        "UHD",
+        "HD Graphics",
+        "Iris",
+        "Vega",
+        "Microsoft Basic",
+        "llvmpipe",
+        "SwiftShader",
+        "Radeon Graphics"
+      ],
+      "strongNames": [
+        "Arc",
+        "GeForce",
+        "RTX",
+        "GTX",
+        "Radeon RX",
+        "Apple M",
+        "Quadro"
+      ],
+      "weakMemoryMb": 2048,
+      "weakStartStep": 4,
+      "strongStartStep": 0
+    }
+  },
+  "cutoff": {
+    "spreadPalms": 2,
+    "minApartPalms": 3.5,
+    "windowSec": 1,
+    "holdSec": 0.2,
+    "fadeSec": 0.25,
+    "restartLockSec": 1.5,
+    "endWordSec": 1.5
+  },
+  "nature": {
+    "leadBars": 1,
+    "seed": 17,
+    "energy": {
+      "riseBase": 0.06,
+      "risePerVelocity": 0.06,
+      "halfLifeSec": 6,
+      "level1": 0.2,
+      "level2": 0.45,
+      "level3": 0.7,
+      "hysteresis": 0.05
+    },
+    "rules": {
+      "offbeatSlot": 2,
+      "fireflyChance": 0.35,
+      "fireflyTopSteps": 5,
+      "fireflyGain": 1,
+      "chords": [
+        {
+          "steps": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "steps": [
+            1,
+            3,
+            4
+          ]
+        }
+      ],
+      "barsPerChord": 2,
+      "skyGain": 0.8,
+      "hillsAccentSlot": 8,
+      "hillsAccentGain": 0.6,
+      "hillsGain": 1
+    },
+    "visualSmoothSec": 2.5,
+    "hillPulse": 0.35,
+    "hillPulseSec": 0.6,
+    "hillPulseRow": 0.4,
+    "hillPulseHalfHeight": 0.12,
+    "hillPulseFollow": 0.85,
+    "skyEnergyLow": 0.15,
+    "skyEnergyHigh": 0.9,
+    "instruments": [
+      {
+        "id": "firefly-bell",
+        "layer": "fireflies",
+        "gainDb": -6,
+        "rootMidi": 69,
+        "maxPitchShift": 2,
+        "samples": [
+          {
+            "id": "firefly_A5",
+            "file": "audio/firefly_A5.wav",
+            "soundingMidi": 81,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 1.3
+          },
+          {
+            "id": "firefly_C6",
+            "file": "audio/firefly_C6.wav",
+            "soundingMidi": 84,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 1.7
+          },
+          {
+            "id": "firefly_D6",
+            "file": "audio/firefly_D6.wav",
+            "soundingMidi": 86,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 1.5
+          },
+          {
+            "id": "firefly_E6",
+            "file": "audio/firefly_E6.wav",
+            "soundingMidi": 88,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 1.3
+          },
+          {
+            "id": "firefly_G6",
+            "file": "audio/firefly_G6.wav",
+            "soundingMidi": 91,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 1.4
+          }
+        ]
+      },
+      {
+        "id": "sky-pad",
+        "layer": "sky",
+        "gainDb": -6,
+        "rootMidi": 57,
+        "maxPitchShift": 3,
+        "samples": [
+          {
+            "id": "pad_A3",
+            "file": "audio/pad_A3.wav",
+            "soundingMidi": 57,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 231.1
+          },
+          {
+            "id": "pad_C4",
+            "file": "audio/pad_C4.wav",
+            "soundingMidi": 60,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 222.3
+          },
+          {
+            "id": "pad_E4",
+            "file": "audio/pad_E4.wav",
+            "soundingMidi": 64,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 212.8
+          },
+          {
+            "id": "pad_G4",
+            "file": "audio/pad_G4.wav",
+            "soundingMidi": 67,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 208.8
+          }
+        ]
+      },
+      {
+        "id": "hill-drum",
+        "layer": "hills",
+        "gainDb": -6,
+        "rootMidi": 45,
+        "maxPitchShift": 0,
+        "samples": [
+          {
+            "id": "drum_A2",
+            "file": "audio/drum_A2.wav",
+            "soundingMidi": 45,
+            "tuneCents": 0,
+            "perceivedOnsetOffsetMs": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "wakingSec": 1,
+    "noHandsSec": 3,
+    "idleEnergy": 0.05,
+    "settlingMinSec": 6,
+    "inputPresenceSec": 2,
+    "songMode": true,
+    "songTitleSec": 3
+  },
+  "display": {
+    "mode": "auto",
+    "meadowIndex": 0,
+    "recordIndex": 1,
+    "fullscreenMode": "borderless",
+    "overlayFraction": 0.28
+  },
+  "record": {
+    "windowSec": 8,
+    "scoreCapacity": 256,
+    "cardsShown": 6,
+    "minNotes": 3,
+    "cardMaxMarks": 64,
+    "cardFolder": "cards",
+    "dateCheckSec": 60,
+    "thumbnailWidth": 480,
+    "thumbnailHeight": 270,
+    "idleMotes": 24,
+    "idleMoteSpeed": 0.02,
+    "idleMoteAlpha": 0.4,
+    "idleMoteDimmed": 0.3,
+    "fontNames": [
+      "Apple SD Gothic Neo",
+      "Malgun Gothic",
+      "NanumGothic",
+      "Noto Sans CJK KR"
+    ],
+    "colors": {
+      "background": "#0d1233",
+      "backgroundBottom": "#1d1a44",
+      "ink": "#f6ecd8",
+      "muted": "#8d90b8",
+      "staff": "#4a4f86",
+      "accent": "#ffb15a",
+      "card": "#171a48"
+    },
+    "text": {
+      "title": "오늘의 들판",
+      "hint": "손을 들판 위로 천천히 움직여 보세요",
+      "layers": [
+        "반딧불",
+        "하늘",
+        "언덕"
+      ],
+      "durationFormat": "{0}분 {1:00}초",
+      "natureFormat": "자연 {0}",
+      "dateFormat": "{0}월 {1}일",
+      "noCards": "아직 오늘의 카드가 없어요",
+      "timeFormat": "{0} {1}:{2:00}",
+      "meridiem": [
+        "오전",
+        "오후"
+      ]
+    }
+  },
+  "trail": {
+    "notesPerSec": 6,
+    "maxNotes": 40,
+    "lifeSec": 1,
+    "size": 0.06,
+    "labelSec": 1.2,
+    "lowCountScale": 0.5
+  },
+  "tutorial": {
+    "idleDelaySec": 10,
+    "stepSec": 5,
+    "fadeInSec": 0.6,
+    "fadeOutSec": 0.8,
+    "dim": 0.45,
+    "texts": [
+      "손을 펴서 들어 보세요",
+      "손을 옮기면 악기가 바뀌어요",
+      "두 주먹을 쥐고 벌리면 끝"
+    ],
+    "endWord": "끝",
+    "openHandImage": "tutorial/hand-open.png",
+    "fistImage": "tutorial/hand-fist.png"
+  },
+  "meadow": {
+    "layout": {
+      "fieldWidth": 13.2,
+      "nearZ": 2.3,
+      "farZ": 8,
+      "horizonScreenY": 0.3
+    },
+    "camera": {
+      "height": 1.7,
+      "pitchDeg": -11.6,
+      "fovDeg": 50
+    },
+    "terrain": {
+      "seed": 7,
+      "maxHeight": 1.2,
+      "cellSize": 0.5,
+      "zMin": -2,
+      "zMax": 20,
+      "xMargin": 1.5,
+      "groundDark": "#0b1406",
+      "groundMid": "#15230c",
+      "groundLight": "#24351a",
+      "patchScale": 6,
+      "reliefHeight": 0.1,
+      "reliefWavelength": 2.6,
+      "reliefFromZ": 3.4,
+      "reliefToZ": 5.2
+    },
+    "sky": {
+      "sunAzimuthDeg": 7.5,
+      "stops": [
+        {
+          "id": "blueHour",
+          "backdrop": "img/meadow/backdrop_bluehour.jpg",
+          "lightColor": "#6f86e0",
+          "lightIntensity": 0.5,
+          "sunElevationDeg": -2,
+          "fogColor": "#2a3a70",
+          "ambientColor": "#2a3a78",
+          "ambientIntensity": 2.6,
+          "cloudLit": "#8294de",
+          "cloudShade": "#2a3468"
+        },
+        {
+          "id": "mid",
+          "backdrop": "img/meadow/backdrop_idle.jpg",
+          "lightColor": "#ffb15a",
+          "lightIntensity": 1.6,
+          "sunElevationDeg": 3,
+          "fogColor": "#9a6a80",
+          "ambientColor": "#5c4388",
+          "ambientIntensity": 3,
+          "cloudLit": "#ffb27c",
+          "cloudShade": "#6b4a86"
+        },
+        {
+          "id": "sunset",
+          "backdrop": "img/meadow/backdrop_sunset.jpg",
+          "lightColor": "#ff8a3a",
+          "lightIntensity": 2.4,
+          "sunElevationDeg": 1.5,
+          "fogColor": "#c0705a",
+          "ambientColor": "#86467c",
+          "ambientIntensity": 3,
+          "cloudLit": "#ffa862",
+          "cloudShade": "#85467a"
+        }
+      ],
+      "clouds": {
+        "driftMps": 2,
+        "fadeFromRow": 0.1,
+        "fadeToRow": 0.205,
+        "hueShare": 0.4,
+        "litBrightness": 1.35,
+        "shadeBrightness": 0.62,
+        "near": {
+          "altitude": 22,
+          "cellMetres": 34,
+          "coverage": 0.5,
+          "softness": 0.2,
+          "opacity": 0.85
+        },
+        "far": {
+          "altitude": 48,
+          "cellMetres": 64,
+          "coverage": 0.42,
+          "softness": 0.24,
+          "opacity": 0.6
+        },
+        "shadow": {
+          "cellMetres": 15,
+          "coverage": 0.4,
+          "softness": 0.18,
+          "strength": 0.28
+        }
+      }
+    },
+    "haze": {
+      "fromRow": 0.61,
+      "toRow": 0.52,
+      "plateFrom": 0.1,
+      "sharpFrom": 0,
+      "blurLod": 1.2,
+      "curve": 1
+    },
+    "wind": {
+      "waveWidth": 2.6,
+      "handRadius": 3.4,
+      "bendScale": 2.2,
+      "maxBendDeg": 120,
+      "handPush": 0.6,
+      "handLean": 0.35,
+      "handLookAheadSec": 0.05,
+      "handGustWidth": 0.9,
+      "handSpeedCap": 2.5,
+      "beatSweep": {
+        "amplitude": 0.07,
+        "energyGain": 0.32,
+        "downbeatGain": 1.4,
+        "speed": 7,
+        "lifeSec": 3.2
+      },
+      "noteRadial": {
+        "amplitude": 0.3,
+        "velocityGain": 0.45,
+        "speed": 4.5,
+        "lifeSec": 2.6
+      },
+      "longWave": {
+        "amplitude": 0.22,
+        "velocityGain": 0.5,
+        "speed": 5,
+        "lifeSec": 1.3,
+        "widthScale": 2.4
+      },
+      "drumRing": {
+        "amplitude": 0.5,
+        "velocityGain": 0.5,
+        "speed": 7,
+        "lifeSec": 0.9,
+        "widthScale": 1.5
+      }
+    },
+    "breeze": {
+      "directionDeg": 32,
+      "lean": 0.07,
+      "meanPeriodSec": 31,
+      "meanVariation": 0.18,
+      "stiffnessMin": 0.8,
+      "stiffnessMax": 1.2,
+      "gust": {
+        "spacing": 11,
+        "speed": 2.4,
+        "width": 2.6,
+        "amplitude": 0.16,
+        "weakest": 0.55,
+        "jitter": 0.22,
+        "frontWobble": 1.5,
+        "wobbleLength": 21,
+        "lagMetres": 1.1,
+        "springBack": 0.22,
+        "brightness": 0.18
+      },
+      "sway": {
+        "wavelength": 6.5,
+        "periodSec": 3.7,
+        "amplitude": 0.035
+      },
+      "flutter": {
+        "amplitude": 0.02,
+        "periodSec": 2.3
+      },
+      "plate": {
+        "rippleGain": 0.14,
+        "fullFromRow": 0.46,
+        "noneAtRow": 0.33
+      }
+    },
+    "grass": {
+      "rings": [
+        {
+          "zFrom": 1,
+          "zTo": 3.6,
+          "densityScale": 0.3,
+          "widthScale": 1.15,
+          "segments": 6,
+          "darkness": 1,
+          "heightScale": 1.1
+        },
+        {
+          "zFrom": 3.6,
+          "zTo": 6.6,
+          "densityScale": 0.5,
+          "widthScale": 1.1,
+          "segments": 6,
+          "darkness": 0.72,
+          "heightScale": 1
+        },
+        {
+          "zFrom": 6.6,
+          "zTo": 12.5,
+          "densityScale": 0.6,
+          "widthScale": 1.2,
+          "segments": 5,
+          "darkness": 1,
+          "heightScale": 1
+        }
+      ],
+      "heightMin": 0.28,
+      "heightMax": 0.62,
+      "width": 0.042,
+      "lean": 0.5,
+      "clumpScale": 0.4,
+      "clumpLean": 0.75,
+      "hummockScale": 5.5,
+      "hummockHeight": 0.45,
+      "hummockDensity": 0.35,
+      "hummockDark": 0.6,
+      "fadeFromRow": 0.57,
+      "fadeToRow": 0.47,
+      "fadeMinHeight": 0.06,
+      "rootColor": "#050c04",
+      "midColor": "#176014",
+      "tipColor": "#628a22",
+      "yellowColor": "#5a8a1c",
+      "driedColor": "#7a6a3a",
+      "driedShare": 0.015,
+      "backlightColor": "#fff0d8",
+      "backlight": 0.1,
+      "tipGlow": 5,
+      "sunColumn": 6,
+      "nearDarkness": 0.3,
+      "nearDarkStart": 2.3,
+      "nearDarkEnd": 3,
+      "farDim": 0.5,
+      "farDimFrom": 3.6,
+      "farDimTo": 6.2,
+      "sunBody": 1,
+      "ambientMix": 1.4,
+      "relief": 8,
+      "rim": 2.4,
+      "sparkle": 0.1,
+      "glowColor": "#7fd6ff",
+      "tipRim": 0.5
+    },
+    "flowers": {
+      "seed": 11,
+      "maxPerNote": 6,
+      "blend": 0.1,
+      "harpGlow": 0.8,
+      "clearRadius": 0.05,
+      "stemColor": "#3a7a20",
+      "budGlow": 0.22,
+      "openGlow": 0.12,
+      "ambientMix": 1.1,
+      "sunBody": 0.6,
+      "translucency": 1.2,
+      "bloom": {
+        "leadSec": 0.075,
+        "openSec": 0.35,
+        "holdSec": 3,
+        "closeSec": 4,
+        "restLevel": 0.15
+      },
+      "bellflower": {
+        "budColor": "#9272e0",
+        "openColor": "#6f86ff",
+        "centerColor": "#f2eeff",
+        "stemHeight": 0.46,
+        "headSize": 0.1
+      },
+      "dandelion": {
+        "budColor": "#e6efc4",
+        "openColor": "#fff4dc",
+        "centerColor": "#ffe8a0",
+        "stemHeight": 0.5,
+        "headSize": 0.1
+      },
+      "poppy": {
+        "budColor": "#e8a8cc",
+        "openColor": "#ff4a30",
+        "centerColor": "#2a0f1c",
+        "stemHeight": 0.48,
+        "headSize": 0.11
+      }
+    },
+    "particles": {
+      "seedColor": "#fff6e0",
+      "petalColor": "#ff5a3a",
+      "fireflyColor": "#ffbd4f",
+      "pollenColor": "#ffd88a",
+      "seedLifeSec": 5,
+      "petalLifeSec": 4.5,
+      "fireflyLifeSec": 9,
+      "seedSize": 0.032,
+      "petalSize": 0.05,
+      "fireflySize": 0.07,
+      "pollenSize": 0.016,
+      "windFollow": 2.6,
+      "windDrift": 0.45,
+      "riseSpeed": 0.55,
+      "sinkSpeed": 0.12,
+      "pollenCount": 140,
+      "pollenDrift": 0.12,
+      "fireflyHeightMin": 0.25,
+      "fireflyHeightMax": 1.1,
+      "fireflyGlow": 9,
+      "seedGlow": 0.9,
+      "maxSeeds": 160,
+      "maxPetals": 160,
+      "spawnSpread": 0.35,
+      "spawnHeightMin": 0.25,
+      "spawnHeightMax": 0.7,
+      "fireflyFadeFraction": 0.15,
+      "fireflyBlinkCount": 6,
+      "fireflyBlinkLow": 0.22,
+      "fireflyNoiseStrength": 0.2,
+      "fireflyNoiseFrequency": 0.35,
+      "fireflyFloor": 0.25,
+      "fireflyEdgeMargin": 0.3,
+      "particleMinPixels": 3.5,
+      "fireflyAnswerCount": 2,
+      "fireflyAnswerRadius": 3.5,
+      "fireflyAnswerAttackSec": 0.05,
+      "fireflyAnswerDecaySec": 0.8,
+      "fireflyAnswerGain": 1.5
+    },
+    "skyEffects": {
+      "ringCount": 28,
+      "seedCount": 10,
+      "starCount": 14,
+      "lifeSec": 3.6,
+      "distance": 7,
+      "ringRadius": 1.1,
+      "glow": 1,
+      "maxParticles": 400,
+      "lowCountScale": 0.5
+    },
+    "ribbon": {
+      "color": "#ffc86a",
+      "tailColor": "#7fa8ff",
+      "trailSec": 0.6,
+      "width": 0.1,
+      "height": 0.4,
+      "appearSec": 0.08,
+      "fadeSec": 0.5,
+      "glow": 1.1,
+      "minVertexDistance": 0.03,
+      "headAlpha": 0.7,
+      "midAlpha": 0.4,
+      "midWidth": 0.7,
+      "followMinHz": 0.6,
+      "followBeta": 6,
+      "followSpeedHz": 1.5
+    },
+    "demo": {
+      "startSec": 1,
+      "radialDepth": 6,
+      "radialVelocity": 0.8
+    },
+    "wake": {
+      "radius": 3.5,
+      "speed": 3,
+      "maxFlowers": 20,
+      "jitterSec": 0.15,
+      "gustAmplitude": 0.2,
+      "gustLifeSec": 2.4,
+      "gustGlow": 0.35
+    },
+    "quality": [
+      {
+        "name": "High",
+        "grassPerSqm": 5300,
+        "grassMaxSegments": 7,
+        "flowerCount": 480,
+        "fireflyMax": 300,
+        "renderScale": 1,
+        "upscaler": "Linear",
+        "msaa": 0,
+        "targetFps": 0,
+        "bloom": {
+          "enabled": true,
+          "filter": "Gaussian",
+          "downscale": "Half",
+          "maxIterations": 6
+        },
+        "skyDetail": 1
+      },
+      {
+        "name": "Low",
+        "grassPerSqm": 1400,
+        "grassMaxSegments": 4,
+        "flowerCount": 190,
+        "fireflyMax": 100,
+        "renderScale": 0.7,
+        "upscaler": "Linear",
+        "msaa": 0,
+        "targetFps": 30,
+        "bloom": {
+          "enabled": true,
+          "filter": "Dual",
+          "downscale": "Quarter",
+          "maxIterations": 4
+        },
+        "skyDetail": 0
+      }
+    ]
+  },
+  "songs": [
+    {
+      "id": "quiet-meadow",
+      "title": "잔잔한 들판",
+      "credit": "Claude가 앱 틀에 맞춰 작곡 (2026-11-01)",
+      "bpm": 96,
+      "beatsPerBar": 4,
+      "swing": 0.5,
+      "melodyOctave": {
+        "harp": 0,
+        "recorder": 0,
+        "bell": 0
+      },
+      "bars": [
+        {
+          "bass": 57,
+          "chord": [
+            69,
+            72,
+            76
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 76
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 76
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 76
+            },
+            {
+              "slot": 4,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 74
+            },
+            {
+              "slot": 8,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 57,
+          "chord": [
+            69,
+            72,
+            76
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 76
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 57,
+          "chord": [
+            69,
+            72,
+            76
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 76
+            }
+          ]
+        },
+        {
+          "bass": 62,
+          "chord": [
+            62,
+            65,
+            69
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 74
+            },
+            {
+              "slot": 4,
+              "midi": 76
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            }
+          ]
+        },
+        {
+          "bass": 64,
+          "chord": [
+            64,
+            67,
+            71
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 79
+            },
+            {
+              "slot": 4,
+              "midi": 76
+            },
+            {
+              "slot": 8,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 79
+            },
+            {
+              "slot": 12,
+              "midi": 74
+            }
+          ]
+        },
+        {
+          "bass": 62,
+          "chord": [
+            62,
+            65,
+            69
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 74
+            },
+            {
+              "slot": 4,
+              "midi": 76
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 64,
+          "chord": [
+            64,
+            67,
+            71
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 76
+            },
+            {
+              "slot": 12,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 74
+            }
+          ]
+        },
+        {
+          "bass": 57,
+          "chord": [
+            69,
+            72,
+            76
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 76
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 76
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 76
+            },
+            {
+              "slot": 4,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 74
+            },
+            {
+              "slot": 8,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 57,
+          "chord": [
+            69,
+            72,
+            76
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 76
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 79
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 79
+            },
+            {
+              "slot": 12,
+              "midi": 76
+            }
+          ]
+        },
+        {
+          "bass": 57,
+          "chord": [
+            69,
+            72,
+            76
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bright-morning",
+      "title": "밝은 아침",
+      "credit": "Claude가 앱 틀에 맞춰 작곡 (2026-11-01)",
+      "bpm": 96,
+      "beatsPerBar": 4,
+      "swing": 0.5,
+      "melodyOctave": {
+        "harp": 0,
+        "recorder": 0,
+        "bell": 0
+      },
+      "bars": [
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 10,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 2,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 57,
+          "chord": [
+            69,
+            72,
+            76
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 10,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 2,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 10,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 2,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 2,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 86
+            },
+            {
+              "slot": 8,
+              "midi": 84
+            },
+            {
+              "slot": 12,
+              "midi": 81
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 79
+            },
+            {
+              "slot": 12,
+              "midi": 81
+            }
+          ]
+        },
+        {
+          "bass": 57,
+          "chord": [
+            69,
+            72,
+            76
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 88
+            },
+            {
+              "slot": 8,
+              "midi": 86
+            },
+            {
+              "slot": 10,
+              "midi": 84
+            },
+            {
+              "slot": 12,
+              "midi": 81
+            }
+          ]
+        },
+        {
+          "bass": 64,
+          "chord": [
+            64,
+            67,
+            71
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 76
+            },
+            {
+              "slot": 12,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 84
+            },
+            {
+              "slot": 6,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 84
+            },
+            {
+              "slot": 12,
+              "midi": 86
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 88
+            },
+            {
+              "slot": 4,
+              "midi": 86
+            },
+            {
+              "slot": 8,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 62,
+          "chord": [
+            62,
+            65,
+            69
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 2,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 86
+            }
+          ]
+        },
+        {
+          "bass": 64,
+          "chord": [
+            64,
+            67,
+            71
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 88
+            },
+            {
+              "slot": 2,
+              "midi": 86
+            },
+            {
+              "slot": 4,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 2,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 86
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 10,
+              "midi": 84
+            },
+            {
+              "slot": 12,
+              "midi": 86
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 8,
+              "midi": 79
+            },
+            {
+              "slot": 12,
+              "midi": 81
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 10,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 2,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 57,
+          "chord": [
+            69,
+            72,
+            76
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 10,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 2,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 81
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 10,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 81
+            },
+            {
+              "slot": 2,
+              "midi": 84
+            },
+            {
+              "slot": 4,
+              "midi": 86
+            },
+            {
+              "slot": 8,
+              "midi": 84
+            },
+            {
+              "slot": 12,
+              "midi": 81
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 79
+            },
+            {
+              "slot": 2,
+              "midi": 81
+            },
+            {
+              "slot": 4,
+              "midi": 79
+            },
+            {
+              "slot": 8,
+              "midi": 86
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auld-lang-syne",
+      "title": "올드 랭 사인",
+      "credit": "스코틀랜드 전승 선율(공유 저작물), Claude가 앱 틀에 맞춰 편곡 (2026-11-01)",
+      "bpm": 96,
+      "beatsPerBar": 4,
+      "swing": 0.5,
+      "melodyOctave": {
+        "harp": -12,
+        "recorder": 0,
+        "bell": 0
+      },
+      "bars": [
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 84
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 88
+            },
+            {
+              "slot": 12,
+              "midi": 91
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 93
+            },
+            {
+              "slot": 12,
+              "midi": 93
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 91
+            },
+            {
+              "slot": 6,
+              "midi": 88
+            },
+            {
+              "slot": 8,
+              "midi": 88
+            },
+            {
+              "slot": 12,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 6,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 12,
+              "midi": 93
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 91
+            },
+            {
+              "slot": 6,
+              "midi": 88
+            },
+            {
+              "slot": 8,
+              "midi": 88
+            },
+            {
+              "slot": 12,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 93
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 91
+            },
+            {
+              "slot": 6,
+              "midi": 88
+            },
+            {
+              "slot": 8,
+              "midi": 88
+            },
+            {
+              "slot": 12,
+              "midi": 91
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 93
+            },
+            {
+              "slot": 12,
+              "midi": 93
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 91
+            },
+            {
+              "slot": 6,
+              "midi": 88
+            },
+            {
+              "slot": 8,
+              "midi": 88
+            },
+            {
+              "slot": 12,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 6,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 12,
+              "midi": 93
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 91
+            },
+            {
+              "slot": 6,
+              "midi": 88
+            },
+            {
+              "slot": 8,
+              "midi": 88
+            },
+            {
+              "slot": 12,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 93
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 91
+            },
+            {
+              "slot": 6,
+              "midi": 88
+            },
+            {
+              "slot": 8,
+              "midi": 88
+            },
+            {
+              "slot": 12,
+              "midi": 91
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 93
+            },
+            {
+              "slot": 12,
+              "midi": 93
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 91
+            },
+            {
+              "slot": 6,
+              "midi": 88
+            },
+            {
+              "slot": 8,
+              "midi": 88
+            },
+            {
+              "slot": 12,
+              "midi": 84
+            }
+          ]
+        },
+        {
+          "bass": 55,
+          "chord": [
+            67,
+            71,
+            74
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 86
+            },
+            {
+              "slot": 6,
+              "midi": 84
+            },
+            {
+              "slot": 8,
+              "midi": 86
+            },
+            {
+              "slot": 12,
+              "midi": 88
+            }
+          ]
+        },
+        {
+          "bass": 65,
+          "chord": [
+            65,
+            69,
+            72
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            },
+            {
+              "slot": 6,
+              "midi": 81
+            },
+            {
+              "slot": 8,
+              "midi": 81
+            },
+            {
+              "slot": 12,
+              "midi": 79
+            }
+          ]
+        },
+        {
+          "bass": 60,
+          "chord": [
+            60,
+            64,
+            67
+          ],
+          "melody": [
+            {
+              "slot": 0,
+              "midi": 84
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "file": "replay/demo-hands.json",
+  "runs": 2,
+  "label": "Replay: recorded hand motion (replay/demo-hands.json)",
+  "notesPerRun": [
+    14,
+    14
+  ],
+  "dropped": [
+    0,
+    0
+  ],
+  "late": [
+    0,
+    0
+  ],
+  "sequence": [
+    "harp:6@1.00",
+    "harp:7@0.99",
+    "recorder:6@1.00",
+    "recorder:7@1.00",
+    "marimba:5@1.00",
+    "marimba:6@1.00",
+    "recorder:5@0.87",
+    "harp:3@1.00",
+    "marimba:4@0.67",
+    "recorder:6@1.00",
+    "harp:7@0.90",
+    "marimba:7@1.00",
+    "recorder:5@0.70",
+    "harp:5@1.00"
+  ],
+  "comparison": [
+    {
+      "run": 2,
+      "notesA": 14,
+      "notesB": 14,
+      "sameSequence": true,
+      "sameRelativeSlots": true,
+      "sameBarPosition": true,
+      "sameRequestTimesRelativeToFirst": true
+    }
+  ],
+  "console": [
+    [],
+    []
+  ]
+}

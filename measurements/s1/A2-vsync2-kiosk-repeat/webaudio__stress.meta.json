@@ -1,0 +1,2545 @@
+{
+  "config": {
+    "bpm": 96,
+    "slotsPerBeat": 4,
+    "durationSec": 60,
+    "lookaheadSec": 0.1,
+    "startDelaySec": 0.6,
+    "block": {
+      "ms": 50,
+      "everyMs": 2000
+    },
+    "runDir": "s1/A2-vsync2-kiosk-repeat",
+    "frameDivisor": 2,
+    "label": "webaudio__stress",
+    "path": "webaudio"
+  },
+  "startedPerfMs": 320905.60000014305,
+  "endedPerfMs": 382939.2999999523,
+  "runtime": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "hardwareConcurrency": 14,
+    "devicePixelRatio": 1,
+    "innerWidth": 1100,
+    "innerHeight": 617,
+    "crossOriginIsolated": false,
+    "secureContext": true,
+    "location": "http://localhost:8765/s1.html?build=day0&vsync=2&bg=1"
+  },
+  "tapMuted": true,
+  "contexts": [
+    {
+      "id": 0,
+      "tag": "unity",
+      "sampleRate": 44100,
+      "state": "running",
+      "baseLatency": 0.005804988662131519,
+      "outputLatency": 0.20500000000000002,
+      "firstFrame": 14106880,
+      "gaps": 0,
+      "peak": 0,
+      "frames": 2721280,
+      "workletError": null,
+      "rawFile": null
+    },
+    {
+      "id": 1,
+      "tag": "webaudio",
+      "sampleRate": 44100,
+      "state": "running",
+      "baseLatency": 0.005804988662131519,
+      "outputLatency": 0.20500000000000002,
+      "firstFrame": 14105344,
+      "gaps": 0,
+      "peak": 0.5797837376594543,
+      "frames": 2721280,
+      "workletError": null,
+      "rawFile": "s1/A2-vsync2-kiosk-repeat/raw-audio/webaudio__stress.ctx1-webaudio.f32"
+    }
+  ],
+  "marks": [
+    {
+      "label": "beat-start:webaudio",
+      "perfMs": 320905.7000000477,
+      "ctxTimes": {
+        "0": 319.88390022675736,
+        "1": 319.84907029478455
+      }
+    },
+    {
+      "label": "beat-end:webaudio",
+      "perfMs": 382006.2000000477,
+      "ctxTimes": {
+        "0": 380.98140589569164,
+        "1": 380.94657596371883
+      }
+    }
+  ],
+  "pageEvents": [
+    {
+      "type": "start",
+      "perfMs": 160.40000009536743,
+      "visibility": "visible",
+      "hasFocus": true,
+      "blurred": false
+    },
+    {
+      "type": "blur",
+      "perfMs": 364065.5,
+      "visibility": "visible",
+      "hasFocus": false,
+      "blurred": true
+    }
+  ],
+  "blocks": [
+    {
+      "startMs": 322908.5,
+      "durationMs": 50
+    },
+    {
+      "startMs": 324907,
+      "durationMs": 50
+    },
+    {
+      "startMs": 326906.7000000477,
+      "durationMs": 50
+    },
+    {
+      "startMs": 328906.7000000477,
+      "durationMs": 50
+    },
+    {
+      "startMs": 330907.10000014305,
+      "durationMs": 50
+    },
+    {
+      "startMs": 332906,
+      "durationMs": 50
+    },
+    {
+      "startMs": 334907.2999999523,
+      "durationMs": 50
+    },
+    {
+      "startMs": 336907.5,
+      "durationMs": 50
+    },
+    {
+      "startMs": 338906.7999999523,
+      "durationMs": 50
+    },
+    {
+      "startMs": 340907.40000009537,
+      "durationMs": 50
+    },
+    {
+      "startMs": 342906.60000014305,
+      "durationMs": 50
+    },
+    {
+      "startMs": 344907.60000014305,
+      "durationMs": 50
+    },
+    {
+      "startMs": 346907,
+      "durationMs": 50
+    },
+    {
+      "startMs": 348906.7999999523,
+      "durationMs": 50
+    },
+    {
+      "startMs": 350907.2000000477,
+      "durationMs": 50
+    },
+    {
+      "startMs": 352907.2999999523,
+      "durationMs": 50
+    },
+    {
+      "startMs": 354906.40000009537,
+      "durationMs": 50
+    },
+    {
+      "startMs": 356907.2999999523,
+      "durationMs": 50
+    },
+    {
+      "startMs": 358907.2999999523,
+      "durationMs": 50
+    },
+    {
+      "startMs": 360907.2999999523,
+      "durationMs": 50
+    },
+    {
+      "startMs": 362907.2999999523,
+      "durationMs": 50
+    },
+    {
+      "startMs": 364907.2000000477,
+      "durationMs": 50
+    },
+    {
+      "startMs": 366907.10000014305,
+      "durationMs": 50
+    },
+    {
+      "startMs": 368907.2999999523,
+      "durationMs": 50
+    },
+    {
+      "startMs": 370906.90000009537,
+      "durationMs": 50
+    },
+    {
+      "startMs": 372907.40000009537,
+      "durationMs": 50
+    },
+    {
+      "startMs": 374906.10000014305,
+      "durationMs": 50
+    },
+    {
+      "startMs": 376907.5,
+      "durationMs": 50
+    },
+    {
+      "startMs": 378906.5,
+      "durationMs": 50
+    },
+    {
+      "startMs": 380906.2999999523,
+      "durationMs": 50
+    }
+  ],
+  "rafIntervalsMs": {
+    "count": 8706,
+    "mean": 7.086377211118768,
+    "p50": 6.900000000023283,
+    "p95": 8.200000000011642,
+    "p99": 8.600000000034925,
+    "max": 49.29999999998836,
+    "min": 5.199999999953434
+  },
+  "summary": {
+    "path": "webaudio",
+    "bpm": 96,
+    "slotsPerBeat": 4,
+    "frameDivisor": 2,
+    "totalSlots": 384,
+    "issued": 384,
+    "skippedLate": 0,
+    "originClock": 320.4490702947846,
+    "originPerfMs": 320905.7000000477,
+    "endPerfMs": 382006.2000000477,
+    "records": [
+      {
+        "slot": 0,
+        "targetCtx": 320.4490702947846,
+        "ctxAtCall": 320.3599092970521,
+        "perfMsAtCall": 321414.2999999523
+      },
+      {
+        "slot": 1,
+        "targetCtx": 320.6053202947846,
+        "ctxAtCall": 320.5108390022676,
+        "perfMsAtCall": 321567.10000014305
+      },
+      {
+        "slot": 2,
+        "targetCtx": 320.7615702947846,
+        "ctxAtCall": 320.661768707483,
+        "perfMsAtCall": 321720.10000014305
+      },
+      {
+        "slot": 3,
+        "targetCtx": 320.9178202947846,
+        "ctxAtCall": 320.8301133786848,
+        "perfMsAtCall": 321886.90000009537
+      },
+      {
+        "slot": 4,
+        "targetCtx": 321.0740702947846,
+        "ctxAtCall": 320.9810430839002,
+        "perfMsAtCall": 322039.40000009537
+      },
+      {
+        "slot": 5,
+        "targetCtx": 321.2303202947846,
+        "ctxAtCall": 321.13197278911565,
+        "perfMsAtCall": 322191.40000009537
+      },
+      {
+        "slot": 6,
+        "targetCtx": 321.3865702947846,
+        "ctxAtCall": 321.2887074829932,
+        "perfMsAtCall": 322345.2000000477
+      },
+      {
+        "slot": 7,
+        "targetCtx": 321.5428202947846,
+        "ctxAtCall": 321.4512471655329,
+        "perfMsAtCall": 322511.60000014305
+      },
+      {
+        "slot": 8,
+        "targetCtx": 321.6990702947846,
+        "ctxAtCall": 321.6079818594104,
+        "perfMsAtCall": 322664.2999999523
+      },
+      {
+        "slot": 9,
+        "targetCtx": 321.8553202947846,
+        "ctxAtCall": 321.75891156462586,
+        "perfMsAtCall": 322816.60000014305
+      },
+      {
+        "slot": 10,
+        "targetCtx": 322.0115702947846,
+        "ctxAtCall": 321.9156462585034,
+        "perfMsAtCall": 322976.90000009537
+      },
+      {
+        "slot": 11,
+        "targetCtx": 322.1678202947846,
+        "ctxAtCall": 322.07238095238097,
+        "perfMsAtCall": 323129.5
+      },
+      {
+        "slot": 12,
+        "targetCtx": 322.3240702947846,
+        "ctxAtCall": 322.24072562358276,
+        "perfMsAtCall": 323295
+      },
+      {
+        "slot": 13,
+        "targetCtx": 322.4803202947846,
+        "ctxAtCall": 322.3916553287982,
+        "perfMsAtCall": 323447.90000009537
+      },
+      {
+        "slot": 14,
+        "targetCtx": 322.6365702947846,
+        "ctxAtCall": 322.5425850340136,
+        "perfMsAtCall": 323601.10000014305
+      },
+      {
+        "slot": 15,
+        "targetCtx": 322.7928202947846,
+        "ctxAtCall": 322.6993197278912,
+        "perfMsAtCall": 323754.60000014305
+      },
+      {
+        "slot": 16,
+        "targetCtx": 322.9490702947846,
+        "ctxAtCall": 322.85024943310657,
+        "perfMsAtCall": 323907.2000000477
+      },
+      {
+        "slot": 17,
+        "targetCtx": 323.1053202947846,
+        "ctxAtCall": 323.01859410430836,
+        "perfMsAtCall": 324074.10000014305
+      },
+      {
+        "slot": 18,
+        "targetCtx": 323.2615702947846,
+        "ctxAtCall": 323.1695238095238,
+        "perfMsAtCall": 324227
+      },
+      {
+        "slot": 19,
+        "targetCtx": 323.4178202947846,
+        "ctxAtCall": 323.32045351473926,
+        "perfMsAtCall": 324379.5
+      },
+      {
+        "slot": 20,
+        "targetCtx": 323.5740702947846,
+        "ctxAtCall": 323.4771882086168,
+        "perfMsAtCall": 324532.60000014305
+      },
+      {
+        "slot": 21,
+        "targetCtx": 323.7303202947846,
+        "ctxAtCall": 323.63972789115644,
+        "perfMsAtCall": 324699.10000014305
+      },
+      {
+        "slot": 22,
+        "targetCtx": 323.8865702947846,
+        "ctxAtCall": 323.796462585034,
+        "perfMsAtCall": 324851.90000009537
+      },
+      {
+        "slot": 23,
+        "targetCtx": 324.0428202947846,
+        "ctxAtCall": 323.9473922902494,
+        "perfMsAtCall": 325004.60000014305
+      },
+      {
+        "slot": 24,
+        "targetCtx": 324.1990702947846,
+        "ctxAtCall": 324.11573696145126,
+        "perfMsAtCall": 325171.2999999523
+      },
+      {
+        "slot": 25,
+        "targetCtx": 324.3553202947846,
+        "ctxAtCall": 324.26666666666665,
+        "perfMsAtCall": 325324.2000000477
+      },
+      {
+        "slot": 26,
+        "targetCtx": 324.5115702947846,
+        "ctxAtCall": 324.4175963718821,
+        "perfMsAtCall": 325476.7999999523
+      },
+      {
+        "slot": 27,
+        "targetCtx": 324.6678202947846,
+        "ctxAtCall": 324.5743310657596,
+        "perfMsAtCall": 325628.7999999523
+      },
+      {
+        "slot": 28,
+        "targetCtx": 324.8240702947846,
+        "ctxAtCall": 324.72526077097507,
+        "perfMsAtCall": 325782.5
+      },
+      {
+        "slot": 29,
+        "targetCtx": 324.9803202947846,
+        "ctxAtCall": 324.89360544217686,
+        "perfMsAtCall": 325949.10000014305
+      },
+      {
+        "slot": 30,
+        "targetCtx": 325.1365702947846,
+        "ctxAtCall": 325.0445351473923,
+        "perfMsAtCall": 326101.7999999523
+      },
+      {
+        "slot": 31,
+        "targetCtx": 325.2928202947846,
+        "ctxAtCall": 325.1954648526077,
+        "perfMsAtCall": 326253.5
+      },
+      {
+        "slot": 32,
+        "targetCtx": 325.4490702947846,
+        "ctxAtCall": 325.3521995464853,
+        "perfMsAtCall": 326407.5
+      },
+      {
+        "slot": 33,
+        "targetCtx": 325.6053202947846,
+        "ctxAtCall": 325.51473922902494,
+        "perfMsAtCall": 326574.2000000477
+      },
+      {
+        "slot": 34,
+        "targetCtx": 325.7615702947846,
+        "ctxAtCall": 325.6714739229025,
+        "perfMsAtCall": 326726
+      },
+      {
+        "slot": 35,
+        "targetCtx": 325.9178202947846,
+        "ctxAtCall": 325.8224036281179,
+        "perfMsAtCall": 326878.5
+      },
+      {
+        "slot": 36,
+        "targetCtx": 326.0740702947846,
+        "ctxAtCall": 325.9907482993197,
+        "perfMsAtCall": 327046.40000009537
+      },
+      {
+        "slot": 37,
+        "targetCtx": 326.2303202947846,
+        "ctxAtCall": 326.14167800453515,
+        "perfMsAtCall": 327199.40000009537
+      },
+      {
+        "slot": 38,
+        "targetCtx": 326.3865702947846,
+        "ctxAtCall": 326.29260770975054,
+        "perfMsAtCall": 327352.10000014305
+      },
+      {
+        "slot": 39,
+        "targetCtx": 326.5428202947846,
+        "ctxAtCall": 326.4493424036281,
+        "perfMsAtCall": 327504.5
+      },
+      {
+        "slot": 40,
+        "targetCtx": 326.6990702947846,
+        "ctxAtCall": 326.6002721088435,
+        "perfMsAtCall": 327656.5
+      },
+      {
+        "slot": 41,
+        "targetCtx": 326.8553202947846,
+        "ctxAtCall": 326.76861678004536,
+        "perfMsAtCall": 327824.10000014305
+      },
+      {
+        "slot": 42,
+        "targetCtx": 327.0115702947846,
+        "ctxAtCall": 326.91954648526075,
+        "perfMsAtCall": 327976.90000009537
+      },
+      {
+        "slot": 43,
+        "targetCtx": 327.1678202947846,
+        "ctxAtCall": 327.0704761904762,
+        "perfMsAtCall": 328129.7000000477
+      },
+      {
+        "slot": 44,
+        "targetCtx": 327.3240702947846,
+        "ctxAtCall": 327.2272108843537,
+        "perfMsAtCall": 328281.60000014305
+      },
+      {
+        "slot": 45,
+        "targetCtx": 327.4803202947846,
+        "ctxAtCall": 327.38975056689344,
+        "perfMsAtCall": 328449.10000014305
+      },
+      {
+        "slot": 46,
+        "targetCtx": 327.6365702947846,
+        "ctxAtCall": 327.54068027210883,
+        "perfMsAtCall": 328601.2000000477
+      },
+      {
+        "slot": 47,
+        "targetCtx": 327.7928202947846,
+        "ctxAtCall": 327.6974149659864,
+        "perfMsAtCall": 328754
+      },
+      {
+        "slot": 48,
+        "targetCtx": 327.9490702947846,
+        "ctxAtCall": 327.900589569161,
+        "perfMsAtCall": 328956.7000000477
+      },
+      {
+        "slot": 49,
+        "targetCtx": 328.1053202947846,
+        "ctxAtCall": 328.01668934240365,
+        "perfMsAtCall": 329074.10000014305
+      },
+      {
+        "slot": 50,
+        "targetCtx": 328.2615702947846,
+        "ctxAtCall": 328.16761904761904,
+        "perfMsAtCall": 329227.10000014305
+      },
+      {
+        "slot": 51,
+        "targetCtx": 328.4178202947846,
+        "ctxAtCall": 328.3243537414966,
+        "perfMsAtCall": 329379.7000000477
+      },
+      {
+        "slot": 52,
+        "targetCtx": 328.5740702947846,
+        "ctxAtCall": 328.475283446712,
+        "perfMsAtCall": 329532.7000000477
+      },
+      {
+        "slot": 53,
+        "targetCtx": 328.7303202947846,
+        "ctxAtCall": 328.6436281179138,
+        "perfMsAtCall": 329699.10000014305
+      },
+      {
+        "slot": 54,
+        "targetCtx": 328.8865702947846,
+        "ctxAtCall": 328.79455782312925,
+        "perfMsAtCall": 329851.90000009537
+      },
+      {
+        "slot": 55,
+        "targetCtx": 329.0428202947846,
+        "ctxAtCall": 328.9454875283447,
+        "perfMsAtCall": 330004.90000009537
+      },
+      {
+        "slot": 56,
+        "targetCtx": 329.1990702947846,
+        "ctxAtCall": 329.1138321995465,
+        "perfMsAtCall": 330171.40000009537
+      },
+      {
+        "slot": 57,
+        "targetCtx": 329.3553202947846,
+        "ctxAtCall": 329.2647619047619,
+        "perfMsAtCall": 330322.90000009537
+      },
+      {
+        "slot": 58,
+        "targetCtx": 329.5115702947846,
+        "ctxAtCall": 329.42149659863946,
+        "perfMsAtCall": 330476.90000009537
+      },
+      {
+        "slot": 59,
+        "targetCtx": 329.6678202947846,
+        "ctxAtCall": 329.57242630385485,
+        "perfMsAtCall": 330629.7999999523
+      },
+      {
+        "slot": 60,
+        "targetCtx": 329.8240702947846,
+        "ctxAtCall": 329.7407709750567,
+        "perfMsAtCall": 330796.40000009537
+      },
+      {
+        "slot": 61,
+        "targetCtx": 329.9803202947846,
+        "ctxAtCall": 329.89750566893423,
+        "perfMsAtCall": 330957.10000014305
+      },
+      {
+        "slot": 62,
+        "targetCtx": 330.1365702947846,
+        "ctxAtCall": 330.04263038548754,
+        "perfMsAtCall": 331100.5
+      },
+      {
+        "slot": 63,
+        "targetCtx": 330.2928202947846,
+        "ctxAtCall": 330.19936507936507,
+        "perfMsAtCall": 331255
+      },
+      {
+        "slot": 64,
+        "targetCtx": 330.4490702947846,
+        "ctxAtCall": 330.3502947845805,
+        "perfMsAtCall": 331407.40000009537
+      },
+      {
+        "slot": 65,
+        "targetCtx": 330.6053202947846,
+        "ctxAtCall": 330.5128344671202,
+        "perfMsAtCall": 331572.7999999523
+      },
+      {
+        "slot": 66,
+        "targetCtx": 330.7615702947846,
+        "ctxAtCall": 330.66956916099775,
+        "perfMsAtCall": 331726.90000009537
+      },
+      {
+        "slot": 67,
+        "targetCtx": 330.9178202947846,
+        "ctxAtCall": 330.82049886621314,
+        "perfMsAtCall": 331879.7000000477
+      },
+      {
+        "slot": 68,
+        "targetCtx": 331.0740702947846,
+        "ctxAtCall": 330.9772335600907,
+        "perfMsAtCall": 332032.60000014305
+      },
+      {
+        "slot": 69,
+        "targetCtx": 331.2303202947846,
+        "ctxAtCall": 331.1397732426304,
+        "perfMsAtCall": 332197.7999999523
+      },
+      {
+        "slot": 70,
+        "targetCtx": 331.3865702947846,
+        "ctxAtCall": 331.29650793650796,
+        "perfMsAtCall": 332352.10000014305
+      },
+      {
+        "slot": 71,
+        "targetCtx": 331.5428202947846,
+        "ctxAtCall": 331.44743764172335,
+        "perfMsAtCall": 332503.2999999523
+      },
+      {
+        "slot": 72,
+        "targetCtx": 331.6990702947846,
+        "ctxAtCall": 331.61578231292515,
+        "perfMsAtCall": 332671.10000014305
+      },
+      {
+        "slot": 73,
+        "targetCtx": 331.8553202947846,
+        "ctxAtCall": 331.7667120181406,
+        "perfMsAtCall": 332824.10000014305
+      },
+      {
+        "slot": 74,
+        "targetCtx": 332.0115702947846,
+        "ctxAtCall": 331.917641723356,
+        "perfMsAtCall": 332975.5
+      },
+      {
+        "slot": 75,
+        "targetCtx": 332.1678202947846,
+        "ctxAtCall": 332.07437641723357,
+        "perfMsAtCall": 333129.7000000477
+      },
+      {
+        "slot": 76,
+        "targetCtx": 332.3240702947846,
+        "ctxAtCall": 332.22530612244896,
+        "perfMsAtCall": 333282.7999999523
+      },
+      {
+        "slot": 77,
+        "targetCtx": 332.4803202947846,
+        "ctxAtCall": 332.3878458049887,
+        "perfMsAtCall": 333448.10000014305
+      },
+      {
+        "slot": 78,
+        "targetCtx": 332.6365702947846,
+        "ctxAtCall": 332.5445804988662,
+        "perfMsAtCall": 333601.10000014305
+      },
+      {
+        "slot": 79,
+        "targetCtx": 332.7928202947846,
+        "ctxAtCall": 332.69551020408164,
+        "perfMsAtCall": 333753.5
+      },
+      {
+        "slot": 80,
+        "targetCtx": 332.9490702947846,
+        "ctxAtCall": 332.85224489795917,
+        "perfMsAtCall": 333907.5
+      },
+      {
+        "slot": 81,
+        "targetCtx": 333.1053202947846,
+        "ctxAtCall": 333.0147845804989,
+        "perfMsAtCall": 334073.5
+      },
+      {
+        "slot": 82,
+        "targetCtx": 333.2615702947846,
+        "ctxAtCall": 333.1715192743764,
+        "perfMsAtCall": 334227
+      },
+      {
+        "slot": 83,
+        "targetCtx": 333.4178202947846,
+        "ctxAtCall": 333.32244897959185,
+        "perfMsAtCall": 334378.40000009537
+      },
+      {
+        "slot": 84,
+        "targetCtx": 333.5740702947846,
+        "ctxAtCall": 333.49079365079365,
+        "perfMsAtCall": 334546.5
+      },
+      {
+        "slot": 85,
+        "targetCtx": 333.7303202947846,
+        "ctxAtCall": 333.6417233560091,
+        "perfMsAtCall": 334697.7999999523
+      },
+      {
+        "slot": 86,
+        "targetCtx": 333.8865702947846,
+        "ctxAtCall": 333.7926530612245,
+        "perfMsAtCall": 334852
+      },
+      {
+        "slot": 87,
+        "targetCtx": 334.0428202947846,
+        "ctxAtCall": 333.94938775510207,
+        "perfMsAtCall": 335003.40000009537
+      },
+      {
+        "slot": 88,
+        "targetCtx": 334.1990702947846,
+        "ctxAtCall": 334.10031746031746,
+        "perfMsAtCall": 335156.2000000477
+      },
+      {
+        "slot": 89,
+        "targetCtx": 334.3553202947846,
+        "ctxAtCall": 334.26866213151925,
+        "perfMsAtCall": 335324.60000014305
+      },
+      {
+        "slot": 90,
+        "targetCtx": 334.5115702947846,
+        "ctxAtCall": 334.4195918367347,
+        "perfMsAtCall": 335476.7999999523
+      },
+      {
+        "slot": 91,
+        "targetCtx": 334.6678202947846,
+        "ctxAtCall": 334.5705215419501,
+        "perfMsAtCall": 335628.5
+      },
+      {
+        "slot": 92,
+        "targetCtx": 334.8240702947846,
+        "ctxAtCall": 334.72725623582767,
+        "perfMsAtCall": 335781.5
+      },
+      {
+        "slot": 93,
+        "targetCtx": 334.9803202947846,
+        "ctxAtCall": 334.8897959183673,
+        "perfMsAtCall": 335947.90000009537
+      },
+      {
+        "slot": 94,
+        "targetCtx": 335.1365702947846,
+        "ctxAtCall": 335.0465306122449,
+        "perfMsAtCall": 336102
+      },
+      {
+        "slot": 95,
+        "targetCtx": 335.2928202947846,
+        "ctxAtCall": 335.1974603174603,
+        "perfMsAtCall": 336254.10000014305
+      },
+      {
+        "slot": 96,
+        "targetCtx": 335.4490702947846,
+        "ctxAtCall": 335.36580498866215,
+        "perfMsAtCall": 336421.7999999523
+      },
+      {
+        "slot": 97,
+        "targetCtx": 335.6053202947846,
+        "ctxAtCall": 335.51673469387754,
+        "perfMsAtCall": 336574.2999999523
+      },
+      {
+        "slot": 98,
+        "targetCtx": 335.7615702947846,
+        "ctxAtCall": 335.667664399093,
+        "perfMsAtCall": 336727.10000014305
+      },
+      {
+        "slot": 99,
+        "targetCtx": 335.9178202947846,
+        "ctxAtCall": 335.8243990929705,
+        "perfMsAtCall": 336879.7999999523
+      },
+      {
+        "slot": 100,
+        "targetCtx": 336.0740702947846,
+        "ctxAtCall": 335.97532879818596,
+        "perfMsAtCall": 337032.60000014305
+      },
+      {
+        "slot": 101,
+        "targetCtx": 336.2303202947846,
+        "ctxAtCall": 336.14367346938775,
+        "perfMsAtCall": 337199.2999999523
+      },
+      {
+        "slot": 102,
+        "targetCtx": 336.3865702947846,
+        "ctxAtCall": 336.2946031746032,
+        "perfMsAtCall": 337352
+      },
+      {
+        "slot": 103,
+        "targetCtx": 336.5428202947846,
+        "ctxAtCall": 336.4455328798186,
+        "perfMsAtCall": 337504.40000009537
+      },
+      {
+        "slot": 104,
+        "targetCtx": 336.6990702947846,
+        "ctxAtCall": 336.6138775510204,
+        "perfMsAtCall": 337671.7999999523
+      },
+      {
+        "slot": 105,
+        "targetCtx": 336.8553202947846,
+        "ctxAtCall": 336.7648072562358,
+        "perfMsAtCall": 337824.2999999523
+      },
+      {
+        "slot": 106,
+        "targetCtx": 337.0115702947846,
+        "ctxAtCall": 336.9157369614513,
+        "perfMsAtCall": 337976.40000009537
+      },
+      {
+        "slot": 107,
+        "targetCtx": 337.1678202947846,
+        "ctxAtCall": 337.0724716553288,
+        "perfMsAtCall": 338129.7999999523
+      },
+      {
+        "slot": 108,
+        "targetCtx": 337.3240702947846,
+        "ctxAtCall": 337.23501133786846,
+        "perfMsAtCall": 338295.10000014305
+      },
+      {
+        "slot": 109,
+        "targetCtx": 337.4803202947846,
+        "ctxAtCall": 337.39174603174604,
+        "perfMsAtCall": 338448.7999999523
+      },
+      {
+        "slot": 110,
+        "targetCtx": 337.6365702947846,
+        "ctxAtCall": 337.5426757369614,
+        "perfMsAtCall": 338600.90000009537
+      },
+      {
+        "slot": 111,
+        "targetCtx": 337.7928202947846,
+        "ctxAtCall": 337.699410430839,
+        "perfMsAtCall": 338754.7999999523
+      },
+      {
+        "slot": 112,
+        "targetCtx": 337.9490702947846,
+        "ctxAtCall": 337.8967800453515,
+        "perfMsAtCall": 338956.90000009537
+      },
+      {
+        "slot": 113,
+        "targetCtx": 338.1053202947846,
+        "ctxAtCall": 338.01868480725625,
+        "perfMsAtCall": 339074.10000014305
+      },
+      {
+        "slot": 114,
+        "targetCtx": 338.2615702947846,
+        "ctxAtCall": 338.16961451247164,
+        "perfMsAtCall": 339227.10000014305
+      },
+      {
+        "slot": 115,
+        "targetCtx": 338.4178202947846,
+        "ctxAtCall": 338.3205442176871,
+        "perfMsAtCall": 339379.7999999523
+      },
+      {
+        "slot": 116,
+        "targetCtx": 338.5740702947846,
+        "ctxAtCall": 338.4772789115646,
+        "perfMsAtCall": 339532.5
+      },
+      {
+        "slot": 117,
+        "targetCtx": 338.7303202947846,
+        "ctxAtCall": 338.6398185941043,
+        "perfMsAtCall": 339699.2999999523
+      },
+      {
+        "slot": 118,
+        "targetCtx": 338.8865702947846,
+        "ctxAtCall": 338.79655328798185,
+        "perfMsAtCall": 339852
+      },
+      {
+        "slot": 119,
+        "targetCtx": 339.0428202947846,
+        "ctxAtCall": 338.9474829931973,
+        "perfMsAtCall": 340004.2000000477
+      },
+      {
+        "slot": 120,
+        "targetCtx": 339.1990702947846,
+        "ctxAtCall": 339.1158276643991,
+        "perfMsAtCall": 340171.7000000477
+      },
+      {
+        "slot": 121,
+        "targetCtx": 339.3553202947846,
+        "ctxAtCall": 339.26675736961454,
+        "perfMsAtCall": 340323.90000009537
+      },
+      {
+        "slot": 122,
+        "targetCtx": 339.5115702947846,
+        "ctxAtCall": 339.4176870748299,
+        "perfMsAtCall": 340477.2999999523
+      },
+      {
+        "slot": 123,
+        "targetCtx": 339.6678202947846,
+        "ctxAtCall": 339.5744217687075,
+        "perfMsAtCall": 340629.90000009537
+      },
+      {
+        "slot": 124,
+        "targetCtx": 339.8240702947846,
+        "ctxAtCall": 339.7253514739229,
+        "perfMsAtCall": 340782.5
+      },
+      {
+        "slot": 125,
+        "targetCtx": 339.9803202947846,
+        "ctxAtCall": 339.8995011337868,
+        "perfMsAtCall": 340957.40000009537
+      },
+      {
+        "slot": 126,
+        "targetCtx": 340.1365702947846,
+        "ctxAtCall": 340.04462585034014,
+        "perfMsAtCall": 341102.10000014305
+      },
+      {
+        "slot": 127,
+        "targetCtx": 340.2928202947846,
+        "ctxAtCall": 340.19555555555553,
+        "perfMsAtCall": 341254.7999999523
+      },
+      {
+        "slot": 128,
+        "targetCtx": 340.4490702947846,
+        "ctxAtCall": 340.3522902494331,
+        "perfMsAtCall": 341408
+      },
+      {
+        "slot": 129,
+        "targetCtx": 340.6053202947846,
+        "ctxAtCall": 340.51482993197277,
+        "perfMsAtCall": 341574.2999999523
+      },
+      {
+        "slot": 130,
+        "targetCtx": 340.7615702947846,
+        "ctxAtCall": 340.6657596371882,
+        "perfMsAtCall": 341725.7000000477
+      },
+      {
+        "slot": 131,
+        "targetCtx": 340.9178202947846,
+        "ctxAtCall": 340.82249433106574,
+        "perfMsAtCall": 341879.40000009537
+      },
+      {
+        "slot": 132,
+        "targetCtx": 341.0740702947846,
+        "ctxAtCall": 340.9908390022676,
+        "perfMsAtCall": 342046.60000014305
+      },
+      {
+        "slot": 133,
+        "targetCtx": 341.2303202947846,
+        "ctxAtCall": 341.141768707483,
+        "perfMsAtCall": 342199.2999999523
+      },
+      {
+        "slot": 134,
+        "targetCtx": 341.3865702947846,
+        "ctxAtCall": 341.2926984126984,
+        "perfMsAtCall": 342351.7999999523
+      },
+      {
+        "slot": 135,
+        "targetCtx": 341.5428202947846,
+        "ctxAtCall": 341.44943310657595,
+        "perfMsAtCall": 342504.90000009537
+      },
+      {
+        "slot": 136,
+        "targetCtx": 341.6990702947846,
+        "ctxAtCall": 341.6003628117914,
+        "perfMsAtCall": 342657.7000000477
+      },
+      {
+        "slot": 137,
+        "targetCtx": 341.8553202947846,
+        "ctxAtCall": 341.7687074829932,
+        "perfMsAtCall": 342823.2000000477
+      },
+      {
+        "slot": 138,
+        "targetCtx": 342.0115702947846,
+        "ctxAtCall": 341.9138321995465,
+        "perfMsAtCall": 342970.10000014305
+      },
+      {
+        "slot": 139,
+        "targetCtx": 342.1678202947846,
+        "ctxAtCall": 342.07637188208616,
+        "perfMsAtCall": 343137.2000000477
+      },
+      {
+        "slot": 140,
+        "targetCtx": 342.3240702947846,
+        "ctxAtCall": 342.23310657596375,
+        "perfMsAtCall": 343289.60000014305
+      },
+      {
+        "slot": 141,
+        "targetCtx": 342.4803202947846,
+        "ctxAtCall": 342.38403628117914,
+        "perfMsAtCall": 343441.2999999523
+      },
+      {
+        "slot": 142,
+        "targetCtx": 342.6365702947846,
+        "ctxAtCall": 342.55238095238093,
+        "perfMsAtCall": 343608.2999999523
+      },
+      {
+        "slot": 143,
+        "targetCtx": 342.7928202947846,
+        "ctxAtCall": 342.7033106575964,
+        "perfMsAtCall": 343760.40000009537
+      },
+      {
+        "slot": 144,
+        "targetCtx": 342.9490702947846,
+        "ctxAtCall": 342.8600453514739,
+        "perfMsAtCall": 343913.7000000477
+      },
+      {
+        "slot": 145,
+        "targetCtx": 343.1053202947846,
+        "ctxAtCall": 343.01097505668935,
+        "perfMsAtCall": 344067.40000009537
+      },
+      {
+        "slot": 146,
+        "targetCtx": 343.2615702947846,
+        "ctxAtCall": 343.16190476190474,
+        "perfMsAtCall": 344220.2000000477
+      },
+      {
+        "slot": 147,
+        "targetCtx": 343.4178202947846,
+        "ctxAtCall": 343.3302494331066,
+        "perfMsAtCall": 344386.90000009537
+      },
+      {
+        "slot": 148,
+        "targetCtx": 343.5740702947846,
+        "ctxAtCall": 343.481179138322,
+        "perfMsAtCall": 344539.2999999523
+      },
+      {
+        "slot": 149,
+        "targetCtx": 343.7303202947846,
+        "ctxAtCall": 343.63791383219956,
+        "perfMsAtCall": 344692.60000014305
+      },
+      {
+        "slot": 150,
+        "targetCtx": 343.8865702947846,
+        "ctxAtCall": 343.78884353741495,
+        "perfMsAtCall": 344845.2000000477
+      },
+      {
+        "slot": 151,
+        "targetCtx": 344.0428202947846,
+        "ctxAtCall": 343.9571882086168,
+        "perfMsAtCall": 345011.7999999523
+      },
+      {
+        "slot": 152,
+        "targetCtx": 344.1990702947846,
+        "ctxAtCall": 344.1081179138322,
+        "perfMsAtCall": 345164.7000000477
+      },
+      {
+        "slot": 153,
+        "targetCtx": 344.3553202947846,
+        "ctxAtCall": 344.25904761904764,
+        "perfMsAtCall": 345317.7000000477
+      },
+      {
+        "slot": 154,
+        "targetCtx": 344.5115702947846,
+        "ctxAtCall": 344.41578231292516,
+        "perfMsAtCall": 345470.2000000477
+      },
+      {
+        "slot": 155,
+        "targetCtx": 344.6678202947846,
+        "ctxAtCall": 344.5783219954649,
+        "perfMsAtCall": 345636.7999999523
+      },
+      {
+        "slot": 156,
+        "targetCtx": 344.8240702947846,
+        "ctxAtCall": 344.72925170068027,
+        "perfMsAtCall": 345789.60000014305
+      },
+      {
+        "slot": 157,
+        "targetCtx": 344.9803202947846,
+        "ctxAtCall": 344.88598639455785,
+        "perfMsAtCall": 345942.40000009537
+      },
+      {
+        "slot": 158,
+        "targetCtx": 345.1365702947846,
+        "ctxAtCall": 345.03691609977324,
+        "perfMsAtCall": 346094.2000000477
+      },
+      {
+        "slot": 159,
+        "targetCtx": 345.2928202947846,
+        "ctxAtCall": 345.1936507936508,
+        "perfMsAtCall": 346248
+      },
+      {
+        "slot": 160,
+        "targetCtx": 345.4490702947846,
+        "ctxAtCall": 345.3561904761905,
+        "perfMsAtCall": 346414.7999999523
+      },
+      {
+        "slot": 161,
+        "targetCtx": 345.6053202947846,
+        "ctxAtCall": 345.512925170068,
+        "perfMsAtCall": 346567.60000014305
+      },
+      {
+        "slot": 162,
+        "targetCtx": 345.7615702947846,
+        "ctxAtCall": 345.6754648526077,
+        "perfMsAtCall": 346734.5
+      },
+      {
+        "slot": 163,
+        "targetCtx": 345.9178202947846,
+        "ctxAtCall": 345.8263945578231,
+        "perfMsAtCall": 346886.90000009537
+      },
+      {
+        "slot": 164,
+        "targetCtx": 346.0740702947846,
+        "ctxAtCall": 345.9831292517007,
+        "perfMsAtCall": 347039.7000000477
+      },
+      {
+        "slot": 165,
+        "targetCtx": 346.2303202947846,
+        "ctxAtCall": 346.1340589569161,
+        "perfMsAtCall": 347192.7000000477
+      },
+      {
+        "slot": 166,
+        "targetCtx": 346.3865702947846,
+        "ctxAtCall": 346.30240362811793,
+        "perfMsAtCall": 347359.60000014305
+      },
+      {
+        "slot": 167,
+        "targetCtx": 346.5428202947846,
+        "ctxAtCall": 346.4533333333333,
+        "perfMsAtCall": 347511.90000009537
+      },
+      {
+        "slot": 168,
+        "targetCtx": 346.6990702947846,
+        "ctxAtCall": 346.60426303854877,
+        "perfMsAtCall": 347665.2000000477
+      },
+      {
+        "slot": 169,
+        "targetCtx": 346.8553202947846,
+        "ctxAtCall": 346.7609977324263,
+        "perfMsAtCall": 347817.40000009537
+      },
+      {
+        "slot": 170,
+        "targetCtx": 347.0115702947846,
+        "ctxAtCall": 346.91192743764174,
+        "perfMsAtCall": 347970.2999999523
+      },
+      {
+        "slot": 171,
+        "targetCtx": 347.1678202947846,
+        "ctxAtCall": 347.08027210884353,
+        "perfMsAtCall": 348135.5
+      },
+      {
+        "slot": 172,
+        "targetCtx": 347.3240702947846,
+        "ctxAtCall": 347.231201814059,
+        "perfMsAtCall": 348289.90000009537
+      },
+      {
+        "slot": 173,
+        "targetCtx": 347.4803202947846,
+        "ctxAtCall": 347.38213151927437,
+        "perfMsAtCall": 348442.5
+      },
+      {
+        "slot": 174,
+        "targetCtx": 347.6365702947846,
+        "ctxAtCall": 347.53886621315195,
+        "perfMsAtCall": 348595.2000000477
+      },
+      {
+        "slot": 175,
+        "targetCtx": 347.7928202947846,
+        "ctxAtCall": 347.7014058956916,
+        "perfMsAtCall": 348761.2999999523
+      },
+      {
+        "slot": 176,
+        "targetCtx": 347.9490702947846,
+        "ctxAtCall": 347.8987755102041,
+        "perfMsAtCall": 348957.60000014305
+      },
+      {
+        "slot": 177,
+        "targetCtx": 348.1053202947846,
+        "ctxAtCall": 348.0090702947846,
+        "perfMsAtCall": 349067.90000009537
+      },
+      {
+        "slot": 178,
+        "targetCtx": 348.2615702947846,
+        "ctxAtCall": 348.1774149659864,
+        "perfMsAtCall": 349234.10000014305
+      },
+      {
+        "slot": 179,
+        "targetCtx": 348.4178202947846,
+        "ctxAtCall": 348.3283446712018,
+        "perfMsAtCall": 349386.90000009537
+      },
+      {
+        "slot": 180,
+        "targetCtx": 348.5740702947846,
+        "ctxAtCall": 348.4792743764172,
+        "perfMsAtCall": 349540.2000000477
+      },
+      {
+        "slot": 181,
+        "targetCtx": 348.7303202947846,
+        "ctxAtCall": 348.6360090702948,
+        "perfMsAtCall": 349692.7999999523
+      },
+      {
+        "slot": 182,
+        "targetCtx": 348.8865702947846,
+        "ctxAtCall": 348.7869387755102,
+        "perfMsAtCall": 349844.7000000477
+      },
+      {
+        "slot": 183,
+        "targetCtx": 349.0428202947846,
+        "ctxAtCall": 348.95528344671203,
+        "perfMsAtCall": 350012.10000014305
+      },
+      {
+        "slot": 184,
+        "targetCtx": 349.1990702947846,
+        "ctxAtCall": 349.1062131519274,
+        "perfMsAtCall": 350164.7000000477
+      },
+      {
+        "slot": 185,
+        "targetCtx": 349.3553202947846,
+        "ctxAtCall": 349.25714285714287,
+        "perfMsAtCall": 350317
+      },
+      {
+        "slot": 186,
+        "targetCtx": 349.5115702947846,
+        "ctxAtCall": 349.4138775510204,
+        "perfMsAtCall": 350470.40000009537
+      },
+      {
+        "slot": 187,
+        "targetCtx": 349.6678202947846,
+        "ctxAtCall": 349.58222222222224,
+        "perfMsAtCall": 350636.7999999523
+      },
+      {
+        "slot": 188,
+        "targetCtx": 349.8240702947846,
+        "ctxAtCall": 349.73315192743763,
+        "perfMsAtCall": 350789.7000000477
+      },
+      {
+        "slot": 189,
+        "targetCtx": 349.9803202947846,
+        "ctxAtCall": 349.9014965986395,
+        "perfMsAtCall": 350957.90000009537
+      },
+      {
+        "slot": 190,
+        "targetCtx": 350.1365702947846,
+        "ctxAtCall": 350.0524263038549,
+        "perfMsAtCall": 351109.10000014305
+      },
+      {
+        "slot": 191,
+        "targetCtx": 350.2928202947846,
+        "ctxAtCall": 350.2033560090703,
+        "perfMsAtCall": 351261.90000009537
+      },
+      {
+        "slot": 192,
+        "targetCtx": 350.4490702947846,
+        "ctxAtCall": 350.36009070294784,
+        "perfMsAtCall": 351414.10000014305
+      },
+      {
+        "slot": 193,
+        "targetCtx": 350.6053202947846,
+        "ctxAtCall": 350.5110204081633,
+        "perfMsAtCall": 351567.5
+      },
+      {
+        "slot": 194,
+        "targetCtx": 350.7615702947846,
+        "ctxAtCall": 350.6619501133787,
+        "perfMsAtCall": 351720.2999999523
+      },
+      {
+        "slot": 195,
+        "targetCtx": 350.9178202947846,
+        "ctxAtCall": 350.81868480725626,
+        "perfMsAtCall": 351873.10000014305
+      },
+      {
+        "slot": 196,
+        "targetCtx": 351.0740702947846,
+        "ctxAtCall": 350.9812244897959,
+        "perfMsAtCall": 352040
+      },
+      {
+        "slot": 197,
+        "targetCtx": 351.2303202947846,
+        "ctxAtCall": 351.1321541950113,
+        "perfMsAtCall": 352192.7999999523
+      },
+      {
+        "slot": 198,
+        "targetCtx": 351.3865702947846,
+        "ctxAtCall": 351.2888888888889,
+        "perfMsAtCall": 352345.60000014305
+      },
+      {
+        "slot": 199,
+        "targetCtx": 351.5428202947846,
+        "ctxAtCall": 351.45142857142855,
+        "perfMsAtCall": 352512.10000014305
+      },
+      {
+        "slot": 200,
+        "targetCtx": 351.6990702947846,
+        "ctxAtCall": 351.60816326530613,
+        "perfMsAtCall": 352664.60000014305
+      },
+      {
+        "slot": 201,
+        "targetCtx": 351.8553202947846,
+        "ctxAtCall": 351.7590929705215,
+        "perfMsAtCall": 352817.60000014305
+      },
+      {
+        "slot": 202,
+        "targetCtx": 352.0115702947846,
+        "ctxAtCall": 351.9274376417234,
+        "perfMsAtCall": 352984.2999999523
+      },
+      {
+        "slot": 203,
+        "targetCtx": 352.1678202947846,
+        "ctxAtCall": 352.07836734693876,
+        "perfMsAtCall": 353137
+      },
+      {
+        "slot": 204,
+        "targetCtx": 352.3240702947846,
+        "ctxAtCall": 352.2292970521542,
+        "perfMsAtCall": 353289.7999999523
+      },
+      {
+        "slot": 205,
+        "targetCtx": 352.4803202947846,
+        "ctxAtCall": 352.38603174603173,
+        "perfMsAtCall": 353442.5
+      },
+      {
+        "slot": 206,
+        "targetCtx": 352.6365702947846,
+        "ctxAtCall": 352.5369614512472,
+        "perfMsAtCall": 353595.5
+      },
+      {
+        "slot": 207,
+        "targetCtx": 352.7928202947846,
+        "ctxAtCall": 352.6936961451247,
+        "perfMsAtCall": 353748.10000014305
+      },
+      {
+        "slot": 208,
+        "targetCtx": 352.9490702947846,
+        "ctxAtCall": 352.8562358276644,
+        "perfMsAtCall": 353914.7999999523
+      },
+      {
+        "slot": 209,
+        "targetCtx": 353.1053202947846,
+        "ctxAtCall": 353.0071655328798,
+        "perfMsAtCall": 354067.7999999523
+      },
+      {
+        "slot": 210,
+        "targetCtx": 353.2615702947846,
+        "ctxAtCall": 353.1639002267574,
+        "perfMsAtCall": 354219.90000009537
+      },
+      {
+        "slot": 211,
+        "targetCtx": 353.4178202947846,
+        "ctxAtCall": 353.3322448979592,
+        "perfMsAtCall": 354387.10000014305
+      },
+      {
+        "slot": 212,
+        "targetCtx": 353.5740702947846,
+        "ctxAtCall": 353.4831746031746,
+        "perfMsAtCall": 354539.2000000477
+      },
+      {
+        "slot": 213,
+        "targetCtx": 353.7303202947846,
+        "ctxAtCall": 353.63410430839,
+        "perfMsAtCall": 354691.40000009537
+      },
+      {
+        "slot": 214,
+        "targetCtx": 353.8865702947846,
+        "ctxAtCall": 353.8024489795918,
+        "perfMsAtCall": 354859.2999999523
+      },
+      {
+        "slot": 215,
+        "targetCtx": 354.0428202947846,
+        "ctxAtCall": 353.95337868480726,
+        "perfMsAtCall": 355012
+      },
+      {
+        "slot": 216,
+        "targetCtx": 354.1990702947846,
+        "ctxAtCall": 354.10430839002265,
+        "perfMsAtCall": 355164.7999999523
+      },
+      {
+        "slot": 217,
+        "targetCtx": 354.3553202947846,
+        "ctxAtCall": 354.26104308390023,
+        "perfMsAtCall": 355317.60000014305
+      },
+      {
+        "slot": 218,
+        "targetCtx": 354.5115702947846,
+        "ctxAtCall": 354.4119727891156,
+        "perfMsAtCall": 355470.5
+      },
+      {
+        "slot": 219,
+        "targetCtx": 354.6678202947846,
+        "ctxAtCall": 354.5803174603175,
+        "perfMsAtCall": 355637
+      },
+      {
+        "slot": 220,
+        "targetCtx": 354.8240702947846,
+        "ctxAtCall": 354.73124716553286,
+        "perfMsAtCall": 355789.90000009537
+      },
+      {
+        "slot": 221,
+        "targetCtx": 354.9803202947846,
+        "ctxAtCall": 354.8821768707483,
+        "perfMsAtCall": 355942.60000014305
+      },
+      {
+        "slot": 222,
+        "targetCtx": 355.1365702947846,
+        "ctxAtCall": 355.03891156462583,
+        "perfMsAtCall": 356095.40000009537
+      },
+      {
+        "slot": 223,
+        "targetCtx": 355.2928202947846,
+        "ctxAtCall": 355.2043537414966,
+        "perfMsAtCall": 356261.2000000477
+      },
+      {
+        "slot": 224,
+        "targetCtx": 355.4490702947846,
+        "ctxAtCall": 355.3581859410431,
+        "perfMsAtCall": 356415
+      },
+      {
+        "slot": 225,
+        "targetCtx": 355.6053202947846,
+        "ctxAtCall": 355.5091156462585,
+        "perfMsAtCall": 356567.7999999523
+      },
+      {
+        "slot": 226,
+        "targetCtx": 355.7615702947846,
+        "ctxAtCall": 355.6774603174603,
+        "perfMsAtCall": 356734.60000014305
+      },
+      {
+        "slot": 227,
+        "targetCtx": 355.9178202947846,
+        "ctxAtCall": 355.82839002267576,
+        "perfMsAtCall": 356887
+      },
+      {
+        "slot": 228,
+        "targetCtx": 356.0740702947846,
+        "ctxAtCall": 355.97931972789115,
+        "perfMsAtCall": 357039.90000009537
+      },
+      {
+        "slot": 229,
+        "targetCtx": 356.2303202947846,
+        "ctxAtCall": 356.13605442176873,
+        "perfMsAtCall": 357192.60000014305
+      },
+      {
+        "slot": 230,
+        "targetCtx": 356.3865702947846,
+        "ctxAtCall": 356.2869841269841,
+        "perfMsAtCall": 357345.5
+      },
+      {
+        "slot": 231,
+        "targetCtx": 356.5428202947846,
+        "ctxAtCall": 356.4553287981859,
+        "perfMsAtCall": 357512.10000014305
+      },
+      {
+        "slot": 232,
+        "targetCtx": 356.6990702947846,
+        "ctxAtCall": 356.60625850340136,
+        "perfMsAtCall": 357663.7000000477
+      },
+      {
+        "slot": 233,
+        "targetCtx": 356.8553202947846,
+        "ctxAtCall": 356.7629931972789,
+        "perfMsAtCall": 357817.60000014305
+      },
+      {
+        "slot": 234,
+        "targetCtx": 357.0115702947846,
+        "ctxAtCall": 356.91392290249433,
+        "perfMsAtCall": 357970.40000009537
+      },
+      {
+        "slot": 235,
+        "targetCtx": 357.1678202947846,
+        "ctxAtCall": 357.076462585034,
+        "perfMsAtCall": 358137.2000000477
+      },
+      {
+        "slot": 236,
+        "targetCtx": 357.3240702947846,
+        "ctxAtCall": 357.2331972789116,
+        "perfMsAtCall": 358289.5
+      },
+      {
+        "slot": 237,
+        "targetCtx": 357.4803202947846,
+        "ctxAtCall": 357.38412698412696,
+        "perfMsAtCall": 358442.7000000477
+      },
+      {
+        "slot": 238,
+        "targetCtx": 357.6365702947846,
+        "ctxAtCall": 357.5524716553288,
+        "perfMsAtCall": 358609.2000000477
+      },
+      {
+        "slot": 239,
+        "targetCtx": 357.7928202947846,
+        "ctxAtCall": 357.7034013605442,
+        "perfMsAtCall": 358762.2999999523
+      },
+      {
+        "slot": 240,
+        "targetCtx": 357.9490702947846,
+        "ctxAtCall": 357.9007709750567,
+        "perfMsAtCall": 358958.2000000477
+      },
+      {
+        "slot": 241,
+        "targetCtx": 358.1053202947846,
+        "ctxAtCall": 358.0110657596372,
+        "perfMsAtCall": 359067.60000014305
+      },
+      {
+        "slot": 242,
+        "targetCtx": 358.2615702947846,
+        "ctxAtCall": 358.1619954648526,
+        "perfMsAtCall": 359221.10000014305
+      },
+      {
+        "slot": 243,
+        "targetCtx": 358.4178202947846,
+        "ctxAtCall": 358.3303401360544,
+        "perfMsAtCall": 359387.10000014305
+      },
+      {
+        "slot": 244,
+        "targetCtx": 358.5740702947846,
+        "ctxAtCall": 358.48126984126986,
+        "perfMsAtCall": 359538.7999999523
+      },
+      {
+        "slot": 245,
+        "targetCtx": 358.7303202947846,
+        "ctxAtCall": 358.63219954648525,
+        "perfMsAtCall": 359692.10000014305
+      },
+      {
+        "slot": 246,
+        "targetCtx": 358.8865702947846,
+        "ctxAtCall": 358.78893424036283,
+        "perfMsAtCall": 359845.5
+      },
+      {
+        "slot": 247,
+        "targetCtx": 359.0428202947846,
+        "ctxAtCall": 358.95727891156463,
+        "perfMsAtCall": 360012.10000014305
+      },
+      {
+        "slot": 248,
+        "targetCtx": 359.1990702947846,
+        "ctxAtCall": 359.10820861678,
+        "perfMsAtCall": 360165.2999999523
+      },
+      {
+        "slot": 249,
+        "targetCtx": 359.3553202947846,
+        "ctxAtCall": 359.25913832199547,
+        "perfMsAtCall": 360317.7999999523
+      },
+      {
+        "slot": 250,
+        "targetCtx": 359.5115702947846,
+        "ctxAtCall": 359.42748299319726,
+        "perfMsAtCall": 360484.5
+      },
+      {
+        "slot": 251,
+        "targetCtx": 359.6678202947846,
+        "ctxAtCall": 359.5784126984127,
+        "perfMsAtCall": 360637.40000009537
+      },
+      {
+        "slot": 252,
+        "targetCtx": 359.8240702947846,
+        "ctxAtCall": 359.7293424036281,
+        "perfMsAtCall": 360788.7999999523
+      },
+      {
+        "slot": 253,
+        "targetCtx": 359.9803202947846,
+        "ctxAtCall": 359.89768707482995,
+        "perfMsAtCall": 360958.10000014305
+      },
+      {
+        "slot": 254,
+        "targetCtx": 360.1365702947846,
+        "ctxAtCall": 360.03700680272107,
+        "perfMsAtCall": 361095.40000009537
+      },
+      {
+        "slot": 255,
+        "targetCtx": 360.2928202947846,
+        "ctxAtCall": 360.19374149659865,
+        "perfMsAtCall": 361248.2999999523
+      },
+      {
+        "slot": 256,
+        "targetCtx": 360.4490702947846,
+        "ctxAtCall": 360.3562811791383,
+        "perfMsAtCall": 361414.7999999523
+      },
+      {
+        "slot": 257,
+        "targetCtx": 360.6053202947846,
+        "ctxAtCall": 360.50721088435375,
+        "perfMsAtCall": 361567.5
+      },
+      {
+        "slot": 258,
+        "targetCtx": 360.7615702947846,
+        "ctxAtCall": 360.6639455782313,
+        "perfMsAtCall": 361720.40000009537
+      },
+      {
+        "slot": 259,
+        "targetCtx": 360.9178202947846,
+        "ctxAtCall": 360.826485260771,
+        "perfMsAtCall": 361887.10000014305
+      },
+      {
+        "slot": 260,
+        "targetCtx": 361.0740702947846,
+        "ctxAtCall": 360.9832199546485,
+        "perfMsAtCall": 362039.5
+      },
+      {
+        "slot": 261,
+        "targetCtx": 361.2303202947846,
+        "ctxAtCall": 361.13414965986397,
+        "perfMsAtCall": 362192.7000000477
+      },
+      {
+        "slot": 262,
+        "targetCtx": 361.3865702947846,
+        "ctxAtCall": 361.30249433106576,
+        "perfMsAtCall": 362359.5
+      },
+      {
+        "slot": 263,
+        "targetCtx": 361.5428202947846,
+        "ctxAtCall": 361.4534240362812,
+        "perfMsAtCall": 362512.10000014305
+      },
+      {
+        "slot": 264,
+        "targetCtx": 361.6990702947846,
+        "ctxAtCall": 361.61015873015873,
+        "perfMsAtCall": 362665
+      },
+      {
+        "slot": 265,
+        "targetCtx": 361.8553202947846,
+        "ctxAtCall": 361.7610884353742,
+        "perfMsAtCall": 362817.7000000477
+      },
+      {
+        "slot": 266,
+        "targetCtx": 362.0115702947846,
+        "ctxAtCall": 361.91201814058957,
+        "perfMsAtCall": 362970.40000009537
+      },
+      {
+        "slot": 267,
+        "targetCtx": 362.1678202947846,
+        "ctxAtCall": 362.08036281179136,
+        "perfMsAtCall": 363137.10000014305
+      },
+      {
+        "slot": 268,
+        "targetCtx": 362.3240702947846,
+        "ctxAtCall": 362.2312925170068,
+        "perfMsAtCall": 363289.5
+      },
+      {
+        "slot": 269,
+        "targetCtx": 362.4803202947846,
+        "ctxAtCall": 362.3822222222222,
+        "perfMsAtCall": 363441.2999999523
+      },
+      {
+        "slot": 270,
+        "targetCtx": 362.6365702947846,
+        "ctxAtCall": 362.5389569160998,
+        "perfMsAtCall": 363594.90000009537
+      },
+      {
+        "slot": 271,
+        "targetCtx": 362.7928202947846,
+        "ctxAtCall": 362.7073015873016,
+        "perfMsAtCall": 363761.60000014305
+      },
+      {
+        "slot": 272,
+        "targetCtx": 362.9490702947846,
+        "ctxAtCall": 362.858231292517,
+        "perfMsAtCall": 363914.2000000477
+      },
+      {
+        "slot": 273,
+        "targetCtx": 363.1053202947846,
+        "ctxAtCall": 363.0265759637188,
+        "perfMsAtCall": 364081.10000014305
+      },
+      {
+        "slot": 274,
+        "targetCtx": 363.2615702947846,
+        "ctxAtCall": 363.16589569161,
+        "perfMsAtCall": 364220
+      },
+      {
+        "slot": 275,
+        "targetCtx": 363.4178202947846,
+        "ctxAtCall": 363.32843537414965,
+        "perfMsAtCall": 364386.5
+      },
+      {
+        "slot": 276,
+        "targetCtx": 363.5740702947846,
+        "ctxAtCall": 363.4793650793651,
+        "perfMsAtCall": 364539.2999999523
+      },
+      {
+        "slot": 277,
+        "targetCtx": 363.7303202947846,
+        "ctxAtCall": 363.6360997732426,
+        "perfMsAtCall": 364692.10000014305
+      },
+      {
+        "slot": 278,
+        "targetCtx": 363.8865702947846,
+        "ctxAtCall": 363.78702947845807,
+        "perfMsAtCall": 364844.90000009537
+      },
+      {
+        "slot": 279,
+        "targetCtx": 364.0428202947846,
+        "ctxAtCall": 363.95537414965986,
+        "perfMsAtCall": 365011.40000009537
+      },
+      {
+        "slot": 280,
+        "targetCtx": 364.1990702947846,
+        "ctxAtCall": 364.1063038548753,
+        "perfMsAtCall": 365163.60000014305
+      },
+      {
+        "slot": 281,
+        "targetCtx": 364.3553202947846,
+        "ctxAtCall": 364.2572335600907,
+        "perfMsAtCall": 365317.2000000477
+      },
+      {
+        "slot": 282,
+        "targetCtx": 364.5115702947846,
+        "ctxAtCall": 364.4139682539683,
+        "perfMsAtCall": 365469.90000009537
+      },
+      {
+        "slot": 283,
+        "targetCtx": 364.6678202947846,
+        "ctxAtCall": 364.579410430839,
+        "perfMsAtCall": 365636.60000014305
+      },
+      {
+        "slot": 284,
+        "targetCtx": 364.8240702947846,
+        "ctxAtCall": 364.73324263038546,
+        "perfMsAtCall": 365789.5
+      },
+      {
+        "slot": 285,
+        "targetCtx": 364.9803202947846,
+        "ctxAtCall": 364.8841723356009,
+        "perfMsAtCall": 365942.10000014305
+      },
+      {
+        "slot": 286,
+        "targetCtx": 365.1365702947846,
+        "ctxAtCall": 365.0525170068027,
+        "perfMsAtCall": 366108.90000009537
+      },
+      {
+        "slot": 287,
+        "targetCtx": 365.2928202947846,
+        "ctxAtCall": 365.20344671201815,
+        "perfMsAtCall": 366261.60000014305
+      },
+      {
+        "slot": 288,
+        "targetCtx": 365.4490702947846,
+        "ctxAtCall": 365.35437641723354,
+        "perfMsAtCall": 366414.40000009537
+      },
+      {
+        "slot": 289,
+        "targetCtx": 365.6053202947846,
+        "ctxAtCall": 365.5111111111111,
+        "perfMsAtCall": 366567.40000009537
+      },
+      {
+        "slot": 290,
+        "targetCtx": 365.7615702947846,
+        "ctxAtCall": 365.6620408163265,
+        "perfMsAtCall": 366719.90000009537
+      },
+      {
+        "slot": 291,
+        "targetCtx": 365.9178202947846,
+        "ctxAtCall": 365.83038548752836,
+        "perfMsAtCall": 366886.60000014305
+      },
+      {
+        "slot": 292,
+        "targetCtx": 366.0740702947846,
+        "ctxAtCall": 365.98131519274375,
+        "perfMsAtCall": 367039.40000009537
+      },
+      {
+        "slot": 293,
+        "targetCtx": 366.2303202947846,
+        "ctxAtCall": 366.1322448979592,
+        "perfMsAtCall": 367192.2000000477
+      },
+      {
+        "slot": 294,
+        "targetCtx": 366.3865702947846,
+        "ctxAtCall": 366.2889795918367,
+        "perfMsAtCall": 367344.90000009537
+      },
+      {
+        "slot": 295,
+        "targetCtx": 366.5428202947846,
+        "ctxAtCall": 366.45151927437644,
+        "perfMsAtCall": 367510.7999999523
+      },
+      {
+        "slot": 296,
+        "targetCtx": 366.6990702947846,
+        "ctxAtCall": 366.60825396825396,
+        "perfMsAtCall": 367664.40000009537
+      },
+      {
+        "slot": 297,
+        "targetCtx": 366.8553202947846,
+        "ctxAtCall": 366.7591836734694,
+        "perfMsAtCall": 367817.2000000477
+      },
+      {
+        "slot": 298,
+        "targetCtx": 367.0115702947846,
+        "ctxAtCall": 366.9275283446712,
+        "perfMsAtCall": 367984
+      },
+      {
+        "slot": 299,
+        "targetCtx": 367.1678202947846,
+        "ctxAtCall": 367.07845804988665,
+        "perfMsAtCall": 368135.90000009537
+      },
+      {
+        "slot": 300,
+        "targetCtx": 367.3240702947846,
+        "ctxAtCall": 367.22938775510204,
+        "perfMsAtCall": 368289.10000014305
+      },
+      {
+        "slot": 301,
+        "targetCtx": 367.4803202947846,
+        "ctxAtCall": 367.3861224489796,
+        "perfMsAtCall": 368442.2000000477
+      },
+      {
+        "slot": 302,
+        "targetCtx": 367.6365702947846,
+        "ctxAtCall": 367.537052154195,
+        "perfMsAtCall": 368595.10000014305
+      },
+      {
+        "slot": 303,
+        "targetCtx": 367.7928202947846,
+        "ctxAtCall": 367.7053968253968,
+        "perfMsAtCall": 368761.7999999523
+      },
+      {
+        "slot": 304,
+        "targetCtx": 367.9490702947846,
+        "ctxAtCall": 367.90276643990927,
+        "perfMsAtCall": 368958.2000000477
+      },
+      {
+        "slot": 305,
+        "targetCtx": 368.1053202947846,
+        "ctxAtCall": 368.0130612244898,
+        "perfMsAtCall": 369067.10000014305
+      },
+      {
+        "slot": 306,
+        "targetCtx": 368.2615702947846,
+        "ctxAtCall": 368.1639909297052,
+        "perfMsAtCall": 369220.5
+      },
+      {
+        "slot": 307,
+        "targetCtx": 368.4178202947846,
+        "ctxAtCall": 368.3265306122449,
+        "perfMsAtCall": 369387.2000000477
+      },
+      {
+        "slot": 308,
+        "targetCtx": 368.5740702947846,
+        "ctxAtCall": 368.48326530612246,
+        "perfMsAtCall": 369539.60000014305
+      },
+      {
+        "slot": 309,
+        "targetCtx": 368.7303202947846,
+        "ctxAtCall": 368.63419501133785,
+        "perfMsAtCall": 369692.5
+      },
+      {
+        "slot": 310,
+        "targetCtx": 368.8865702947846,
+        "ctxAtCall": 368.8025396825397,
+        "perfMsAtCall": 369859.2000000477
+      },
+      {
+        "slot": 311,
+        "targetCtx": 369.0428202947846,
+        "ctxAtCall": 368.9534693877551,
+        "perfMsAtCall": 370011.7000000477
+      },
+      {
+        "slot": 312,
+        "targetCtx": 369.1990702947846,
+        "ctxAtCall": 369.10439909297054,
+        "perfMsAtCall": 370164.40000009537
+      },
+      {
+        "slot": 313,
+        "targetCtx": 369.3553202947846,
+        "ctxAtCall": 369.26113378684806,
+        "perfMsAtCall": 370317.2999999523
+      },
+      {
+        "slot": 314,
+        "targetCtx": 369.5115702947846,
+        "ctxAtCall": 369.4120634920635,
+        "perfMsAtCall": 370470.2999999523
+      },
+      {
+        "slot": 315,
+        "targetCtx": 369.6678202947846,
+        "ctxAtCall": 369.5804081632653,
+        "perfMsAtCall": 370636.7000000477
+      },
+      {
+        "slot": 316,
+        "targetCtx": 369.8240702947846,
+        "ctxAtCall": 369.73133786848075,
+        "perfMsAtCall": 370789.5
+      },
+      {
+        "slot": 317,
+        "targetCtx": 369.9803202947846,
+        "ctxAtCall": 369.89968253968254,
+        "perfMsAtCall": 370957.5
+      },
+      {
+        "slot": 318,
+        "targetCtx": 370.1365702947846,
+        "ctxAtCall": 370.0390022675737,
+        "perfMsAtCall": 371095
+      },
+      {
+        "slot": 319,
+        "targetCtx": 370.2928202947846,
+        "ctxAtCall": 370.2015419501134,
+        "perfMsAtCall": 371261.7999999523
+      },
+      {
+        "slot": 320,
+        "targetCtx": 370.4490702947846,
+        "ctxAtCall": 370.3582766439909,
+        "perfMsAtCall": 371414.5
+      },
+      {
+        "slot": 321,
+        "targetCtx": 370.6053202947846,
+        "ctxAtCall": 370.50920634920635,
+        "perfMsAtCall": 371567.2999999523
+      },
+      {
+        "slot": 322,
+        "targetCtx": 370.7615702947846,
+        "ctxAtCall": 370.67755102040815,
+        "perfMsAtCall": 371733.40000009537
+      },
+      {
+        "slot": 323,
+        "targetCtx": 370.9178202947846,
+        "ctxAtCall": 370.8284807256236,
+        "perfMsAtCall": 371886.7000000477
+      },
+      {
+        "slot": 324,
+        "targetCtx": 371.0740702947846,
+        "ctxAtCall": 370.979410430839,
+        "perfMsAtCall": 372039.60000014305
+      },
+      {
+        "slot": 325,
+        "targetCtx": 371.2303202947846,
+        "ctxAtCall": 371.13614512471656,
+        "perfMsAtCall": 372192.2999999523
+      },
+      {
+        "slot": 326,
+        "targetCtx": 371.3865702947846,
+        "ctxAtCall": 371.28707482993195,
+        "perfMsAtCall": 372345.2000000477
+      },
+      {
+        "slot": 327,
+        "targetCtx": 371.5428202947846,
+        "ctxAtCall": 371.4554195011338,
+        "perfMsAtCall": 372511.7000000477
+      },
+      {
+        "slot": 328,
+        "targetCtx": 371.6990702947846,
+        "ctxAtCall": 371.6063492063492,
+        "perfMsAtCall": 372664.5
+      },
+      {
+        "slot": 329,
+        "targetCtx": 371.8553202947846,
+        "ctxAtCall": 371.75727891156464,
+        "perfMsAtCall": 372817.2999999523
+      },
+      {
+        "slot": 330,
+        "targetCtx": 372.0115702947846,
+        "ctxAtCall": 371.91401360544216,
+        "perfMsAtCall": 372970
+      },
+      {
+        "slot": 331,
+        "targetCtx": 372.1678202947846,
+        "ctxAtCall": 372.082358276644,
+        "perfMsAtCall": 373136.7000000477
+      },
+      {
+        "slot": 332,
+        "targetCtx": 372.3240702947846,
+        "ctxAtCall": 372.2332879818594,
+        "perfMsAtCall": 373289.5
+      },
+      {
+        "slot": 333,
+        "targetCtx": 372.4803202947846,
+        "ctxAtCall": 372.38421768707485,
+        "perfMsAtCall": 373442.2999999523
+      },
+      {
+        "slot": 334,
+        "targetCtx": 372.6365702947846,
+        "ctxAtCall": 372.55256235827665,
+        "perfMsAtCall": 373609
+      },
+      {
+        "slot": 335,
+        "targetCtx": 372.7928202947846,
+        "ctxAtCall": 372.70349206349204,
+        "perfMsAtCall": 373761.7999999523
+      },
+      {
+        "slot": 336,
+        "targetCtx": 372.9490702947846,
+        "ctxAtCall": 372.8544217687075,
+        "perfMsAtCall": 373914.90000009537
+      },
+      {
+        "slot": 337,
+        "targetCtx": 373.1053202947846,
+        "ctxAtCall": 373.011156462585,
+        "perfMsAtCall": 374067.40000009537
+      },
+      {
+        "slot": 338,
+        "targetCtx": 373.2615702947846,
+        "ctxAtCall": 373.16208616780045,
+        "perfMsAtCall": 374220
+      },
+      {
+        "slot": 339,
+        "targetCtx": 373.4178202947846,
+        "ctxAtCall": 373.318820861678,
+        "perfMsAtCall": 374373
+      },
+      {
+        "slot": 340,
+        "targetCtx": 373.5740702947846,
+        "ctxAtCall": 373.4813605442177,
+        "perfMsAtCall": 374539.60000014305
+      },
+      {
+        "slot": 341,
+        "targetCtx": 373.7303202947846,
+        "ctxAtCall": 373.6322902494331,
+        "perfMsAtCall": 374692.2999999523
+      },
+      {
+        "slot": 342,
+        "targetCtx": 373.8865702947846,
+        "ctxAtCall": 373.78902494331066,
+        "perfMsAtCall": 374845.10000014305
+      },
+      {
+        "slot": 343,
+        "targetCtx": 374.0428202947846,
+        "ctxAtCall": 373.95736961451246,
+        "perfMsAtCall": 375011.7000000477
+      },
+      {
+        "slot": 344,
+        "targetCtx": 374.1990702947846,
+        "ctxAtCall": 374.1082993197279,
+        "perfMsAtCall": 375164.5
+      },
+      {
+        "slot": 345,
+        "targetCtx": 374.3553202947846,
+        "ctxAtCall": 374.2592290249433,
+        "perfMsAtCall": 375317.2000000477
+      },
+      {
+        "slot": 346,
+        "targetCtx": 374.5115702947846,
+        "ctxAtCall": 374.42757369614515,
+        "perfMsAtCall": 375484
+      },
+      {
+        "slot": 347,
+        "targetCtx": 374.6678202947846,
+        "ctxAtCall": 374.57850340136054,
+        "perfMsAtCall": 375636.90000009537
+      },
+      {
+        "slot": 348,
+        "targetCtx": 374.8240702947846,
+        "ctxAtCall": 374.729433106576,
+        "perfMsAtCall": 375789.60000014305
+      },
+      {
+        "slot": 349,
+        "targetCtx": 374.9803202947846,
+        "ctxAtCall": 374.8861678004535,
+        "perfMsAtCall": 375941.7000000477
+      },
+      {
+        "slot": 350,
+        "targetCtx": 375.1365702947846,
+        "ctxAtCall": 375.03709750566895,
+        "perfMsAtCall": 376095.10000014305
+      },
+      {
+        "slot": 351,
+        "targetCtx": 375.2928202947846,
+        "ctxAtCall": 375.20544217687075,
+        "perfMsAtCall": 376261.7000000477
+      },
+      {
+        "slot": 352,
+        "targetCtx": 375.4490702947846,
+        "ctxAtCall": 375.3563718820862,
+        "perfMsAtCall": 376414.5
+      },
+      {
+        "slot": 353,
+        "targetCtx": 375.6053202947846,
+        "ctxAtCall": 375.5131065759637,
+        "perfMsAtCall": 376567.2999999523
+      },
+      {
+        "slot": 354,
+        "targetCtx": 375.7615702947846,
+        "ctxAtCall": 375.66403628117916,
+        "perfMsAtCall": 376720.2000000477
+      },
+      {
+        "slot": 355,
+        "targetCtx": 375.9178202947846,
+        "ctxAtCall": 375.83238095238096,
+        "perfMsAtCall": 376886.2000000477
+      },
+      {
+        "slot": 356,
+        "targetCtx": 376.0740702947846,
+        "ctxAtCall": 375.98331065759635,
+        "perfMsAtCall": 377039.5
+      },
+      {
+        "slot": 357,
+        "targetCtx": 376.2303202947846,
+        "ctxAtCall": 376.1342403628118,
+        "perfMsAtCall": 377192.2999999523
+      },
+      {
+        "slot": 358,
+        "targetCtx": 376.3865702947846,
+        "ctxAtCall": 376.3025850340136,
+        "perfMsAtCall": 377359
+      },
+      {
+        "slot": 359,
+        "targetCtx": 376.5428202947846,
+        "ctxAtCall": 376.45351473922904,
+        "perfMsAtCall": 377511.7999999523
+      },
+      {
+        "slot": 360,
+        "targetCtx": 376.6990702947846,
+        "ctxAtCall": 376.61024943310656,
+        "perfMsAtCall": 377664.60000014305
+      },
+      {
+        "slot": 361,
+        "targetCtx": 376.8553202947846,
+        "ctxAtCall": 376.761179138322,
+        "perfMsAtCall": 377817.2999999523
+      },
+      {
+        "slot": 362,
+        "targetCtx": 377.0115702947846,
+        "ctxAtCall": 376.9121088435374,
+        "perfMsAtCall": 377970
+      },
+      {
+        "slot": 363,
+        "targetCtx": 377.1678202947846,
+        "ctxAtCall": 377.068843537415,
+        "perfMsAtCall": 378122.90000009537
+      },
+      {
+        "slot": 364,
+        "targetCtx": 377.3240702947846,
+        "ctxAtCall": 377.23138321995464,
+        "perfMsAtCall": 378290
+      },
+      {
+        "slot": 365,
+        "targetCtx": 377.4803202947846,
+        "ctxAtCall": 377.3823129251701,
+        "perfMsAtCall": 378442.40000009537
+      },
+      {
+        "slot": 366,
+        "targetCtx": 377.6365702947846,
+        "ctxAtCall": 377.5390476190476,
+        "perfMsAtCall": 378595.2000000477
+      },
+      {
+        "slot": 367,
+        "targetCtx": 377.7928202947846,
+        "ctxAtCall": 377.7015873015873,
+        "perfMsAtCall": 378761.40000009537
+      },
+      {
+        "slot": 368,
+        "targetCtx": 377.9490702947846,
+        "ctxAtCall": 377.8989569160998,
+        "perfMsAtCall": 378957.2999999523
+      },
+      {
+        "slot": 369,
+        "targetCtx": 378.1053202947846,
+        "ctxAtCall": 378.0092517006803,
+        "perfMsAtCall": 379067.2999999523
+      },
+      {
+        "slot": 370,
+        "targetCtx": 378.2615702947846,
+        "ctxAtCall": 378.1775963718821,
+        "perfMsAtCall": 379233.90000009537
+      },
+      {
+        "slot": 371,
+        "targetCtx": 378.4178202947846,
+        "ctxAtCall": 378.3285260770975,
+        "perfMsAtCall": 379386.90000009537
+      },
+      {
+        "slot": 372,
+        "targetCtx": 378.5740702947846,
+        "ctxAtCall": 378.4794557823129,
+        "perfMsAtCall": 379539.7000000477
+      },
+      {
+        "slot": 373,
+        "targetCtx": 378.7303202947846,
+        "ctxAtCall": 378.63619047619045,
+        "perfMsAtCall": 379692.40000009537
+      },
+      {
+        "slot": 374,
+        "targetCtx": 378.8865702947846,
+        "ctxAtCall": 378.7871201814059,
+        "perfMsAtCall": 379845.2000000477
+      },
+      {
+        "slot": 375,
+        "targetCtx": 379.0428202947846,
+        "ctxAtCall": 378.9554648526077,
+        "perfMsAtCall": 380011.7999999523
+      },
+      {
+        "slot": 376,
+        "targetCtx": 379.1990702947846,
+        "ctxAtCall": 379.10639455782314,
+        "perfMsAtCall": 380164.5
+      },
+      {
+        "slot": 377,
+        "targetCtx": 379.3553202947846,
+        "ctxAtCall": 379.2573242630385,
+        "perfMsAtCall": 380317.2999999523
+      },
+      {
+        "slot": 378,
+        "targetCtx": 379.5115702947846,
+        "ctxAtCall": 379.4140589569161,
+        "perfMsAtCall": 380470.2999999523
+      },
+      {
+        "slot": 379,
+        "targetCtx": 379.6678202947846,
+        "ctxAtCall": 379.5824036281179,
+        "perfMsAtCall": 380636.7999999523
+      },
+      {
+        "slot": 380,
+        "targetCtx": 379.8240702947846,
+        "ctxAtCall": 379.73333333333335,
+        "perfMsAtCall": 380789.60000014305
+      },
+      {
+        "slot": 381,
+        "targetCtx": 379.9803202947846,
+        "ctxAtCall": 379.90167800453514,
+        "perfMsAtCall": 380957.10000014305
+      },
+      {
+        "slot": 382,
+        "targetCtx": 380.1365702947846,
+        "ctxAtCall": 380.0526077097506,
+        "perfMsAtCall": 381109
+      },
+      {
+        "slot": 383,
+        "targetCtx": 380.2928202947846,
+        "ctxAtCall": 380.203537414966,
+        "perfMsAtCall": 381261.7999999523
+      }
+    ],
+    "label": "webaudio__stress"
+  },
+  "unityEvents": []
+}

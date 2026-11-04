@@ -1,0 +1,402 @@
+{
+    "assetCount": 2917,
+    "packedTotalBytes": 6988407,
+    "byType": [
+        {
+            "type": "Texture2D",
+            "count": 55,
+            "bytes": 5730152
+        },
+        {
+            "type": "Shader",
+            "count": 39,
+            "bytes": 855132
+        },
+        {
+            "type": "MonoBehaviour",
+            "count": 623,
+            "bytes": 110576
+        },
+        {
+            "type": "MonoScript",
+            "count": 831,
+            "bytes": 106060
+        },
+        {
+            "type": "Font",
+            "count": 1,
+            "bytes": 81330
+        },
+        {
+            "type": "RectTransform",
+            "count": 514,
+            "bytes": 61320
+        },
+        {
+            "type": "GameObject",
+            "count": 514,
+            "bytes": 30190
+        },
+        {
+            "type": "CanvasRenderer",
+            "count": 323,
+            "bytes": 4199
+        },
+        {
+            "type": "Sprite",
+            "count": 7,
+            "bytes": 3312
+        },
+        {
+            "type": "ComputeShader",
+            "count": 2,
+            "bytes": 3044
+        },
+        {
+            "type": "TextAsset",
+            "count": 2,
+            "bytes": 2092
+        },
+        {
+            "type": "Material",
+            "count": 2,
+            "bytes": 452
+        },
+        {
+            "type": "PreloadData",
+            "count": 2,
+            "bytes": 422
+        },
+        {
+            "type": "Canvas",
+            "count": 2,
+            "bytes": 126
+        }
+    ],
+    "topAssets": [
+        {
+            "path": "Built-in Texture2D: Splash Screen Unity Logo",
+            "type": "Texture2D",
+            "bytes": 2796376
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga",
+            "type": "Texture2D",
+            "bytes": 268920
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium01.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium05.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large02.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin01.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium03.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium06.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium04.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin02.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium02.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large01.png",
+            "type": "Texture2D",
+            "bytes": 262264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Light2D.shader",
+            "type": "Shader",
+            "bytes": 206308
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/UberPost.shader",
+            "type": "Shader",
+            "bytes": 192460
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf",
+            "type": "Font",
+            "bytes": 81330
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CoreBlit.shader",
+            "type": "Shader",
+            "bytes": 64480
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/FinalPost.shader",
+            "type": "Shader",
+            "bytes": 31996
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/BokehDepthOfField.shader",
+            "type": "Shader",
+            "bytes": 29276
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrass.shader",
+            "type": "Shader",
+            "bytes": 29096
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LensFlareDataDriven.shader",
+            "type": "Shader",
+            "bytes": 27264
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/TemporalAA.shader",
+            "type": "Shader",
+            "bytes": 23768
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/Bloom.shader",
+            "type": "Shader",
+            "bytes": 21620
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrassBillboard.shader",
+            "type": "Shader",
+            "bytes": 21256
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/CameraMotionBlur.shader",
+            "type": "Shader",
+            "bytes": 19412
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainDetailLit.shader",
+            "type": "Shader",
+            "bytes": 19224
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LensFlareScreenSpace.shader",
+            "type": "Shader",
+            "bytes": 18340
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/DebugFont.tga",
+            "type": "Texture2D",
+            "bytes": 16508
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/GaussianDepthOfField.shader",
+            "type": "Shader",
+            "bytes": 16272
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/SubpixelMorphologicalAntialiasing.shader",
+            "type": "Shader",
+            "bytes": 14076
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Debug/HDRDebugView.shader",
+            "type": "Shader",
+            "bytes": 11740
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LutBuilderHdr.shader",
+            "type": "Shader",
+            "bytes": 10280
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CoreBlitColorAndDepth.shader",
+            "type": "Shader",
+            "bytes": 9396
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Projected.shader",
+            "type": "Shader",
+            "bytes": 7580
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LutBuilderLdr.shader",
+            "type": "Shader",
+            "bytes": 7140
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Unshadow-Sprite.shader",
+            "type": "Shader",
+            "bytes": 7040
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/EdgeAdaptiveSpatialUpsampling.shader",
+            "type": "Shader",
+            "bytes": 6976
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/ScalingSetup.shader",
+            "type": "Shader",
+            "bytes": 6568
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Unshadow-Geometry.shader",
+            "type": "Shader",
+            "bytes": 6540
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Shaders/CoreCopy.shader",
+            "type": "Shader",
+            "bytes": 5908
+        },
+        {
+            "path": "Resources/unity_builtin_extra",
+            "type": "Texture2D",
+            "bytes": 5580
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Debug/DebugReplacement.shader",
+            "type": "Shader",
+            "bytes": 4692
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CopyDepth.shader",
+            "type": "Shader",
+            "bytes": 4524
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/PaniniProjection.shader",
+            "type": "Shader",
+            "bytes": 4368
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Shadow-Sprite.shader",
+            "type": "Shader",
+            "bytes": 4268
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab",
+            "type": "MonoBehaviour",
+            "bytes": 4244
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64/L/LDR_LLL1_0.png",
+            "type": "Texture2D",
+            "bytes": 4220
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader",
+            "type": "Shader",
+            "bytes": 4116
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/Sampling.shader",
+            "type": "Shader",
+            "bytes": 3900
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/StopNaN.shader",
+            "type": "Shader",
+            "bytes": 3884
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Shadow-Geometry.shader",
+            "type": "Shader",
+            "bytes": 3864
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader",
+            "type": "Shader",
+            "bytes": 3336
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute",
+            "type": "ComputeShader",
+            "bytes": 3024
+        },
+        {
+            "path": "Assets/UniversalRenderPipelineGlobalSettings.asset",
+            "type": "MonoBehaviour",
+            "bytes": 2644
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Vrs/Shaders/VrsVisualization.shader",
+            "type": "Shader",
+            "bytes": 2452
+        },
+        {
+            "path": "Assets/Resources/PerformanceTestRunInfo.json",
+            "type": "TextAsset",
+            "bytes": 2032
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Textures/SMAA/SearchTex.tga",
+            "type": "Texture2D",
+            "bytes": 1148
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset",
+            "type": "MonoBehaviour",
+            "bytes": 784
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png",
+            "type": "Texture2D",
+            "bytes": 612
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png",
+            "type": "Texture2D",
+            "bytes": 612
+        },
+        {
+            "path": "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png",
+            "type": "Texture2D",
+            "bytes": 608
+        }
+    ],
+    "includedEngineModules": [
+        "Animation Module",
+        "Audio Module",
+        "Core Module",
+        "GraphicsStateCollectionSerializer Module",
+        "HierarchyCore Module",
+        "IMGUI Module",
+        "InputForUI Module",
+        "InputLegacy Module",
+        "JSONSerialize Module",
+        "Physics Module",
+        "PhysicsBackendPhysX Module",
+        "Properties Module",
+        "RenderAs2D Module",
+        "RuntimeInitializeOnLoadManagerInitializer Module",
+        "SharedInternals Module",
+        "Terrain Module",
+        "TextCoreFontEngine Module",
+        "TextCoreTextEngine Module",
+        "TextRendering Module",
+        "UI Module",
+        "UIElements Module",
+        "WebGL Module"
+    ]
+}

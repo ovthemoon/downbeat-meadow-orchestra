@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Downbeat Day 0 - audio clock vs wall clock</title>
+  <!-- ?tap=1 loads the S-1 output tap first (to see whether the tap itself changes the clock); ?block=50&every=2000 adds main-thread blocks -->
+  <script>
+    if (new URLSearchParams(location.search).get('tap') === '1') document.write('<script src="/js/tap.js"><\/script>');
+  </script>
+</head>
+<body>
+  <pre id="out">running...</pre>
+  <script type="module">
+    import { startBlocker } from './js/stress.js';
+    import { sleep } from './js/day0-common.js';
+    const p = new URLSearchParams(location.search);
+    const seconds = Number(p.get('sec') ?? 60);
+    const block = Number(p.get('block') ?? 0);
+    const every = Number(p.get('every') ?? 2000);
+    const hint = p.get('hint') ?? 'interactive';
+    const silentOscillator = p.get('osc') !== '0';
+
+    window.clockLagResult = (async () => {
+      const ctx = new AudioContext({ latencyHint: hint });
+      await ctx.resume();
+      if (silentOscillator) {
+        const osc = new OscillatorNode(ctx, { frequency: 440 });
+        const gain = new GainNode(ctx, { gain: 0 });
+        osc.connect(gain).connect(ctx.destination);
+        osc.start();
+      }
+      while (ctx.currentTime < 2) await sleep(100); // wait until the clock is really running
+      const blocker = block > 0 ? startBlocker({ ms: block, everyMs: every }) : null;
+      const samples = [];
+      const wall0 = performance.now();
+      const ctx0 = ctx.currentTime;
+      while (performance.now() - wall0 < seconds * 1000) {
+        await sleep(1000);
+        const ts = ctx.getOutputTimestamp();
+        samples.push({ wallMs: performance.now() - wall0, ctxSec: ctx.currentTime - ctx0, outContextTime: ts.contextTime, outPerfMs: ts.performanceTime });
+      }
+      const blocks = blocker ? blocker.stop() : [];
+      const last = samples[samples.length - 1];
+      const result = {
+        query: location.search, userAgent: navigator.userAgent, sampleRate: ctx.sampleRate, baseLatency: ctx.baseLatency, outputLatency: ctx.outputLatency,
+        wallSec: last.wallMs / 1000, ctxSec: last.ctxSec, ctxMinusWallMs: last.ctxSec * 1000 - last.wallMs, blocks: blocks.length, samples,
+      };
+      document.getElementById('out').textContent = JSON.stringify({ ...result, samples: undefined }, null, 1);
+      return result;
+    })();
+  </script>
+</body>
+</html>
