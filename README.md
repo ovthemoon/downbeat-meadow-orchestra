@@ -1,9 +1,8 @@
 # 들판 오케스트라 (Downbeat)
 
-웹캠 앞에서 손을 움직이면, 해 질 녘 3D 들판이 박자에 맞춰 연주되는 Unity 시제품입니다.
-**개인 시제품이며, 실제 전시에 설치한 작품이 아닙니다.**
+웹캠 앞에서 손을 움직이면, 해 질 녘 3D 들판이 박자에 맞춰 연주되는 Unity 개인 시제품입니다.
 
-*A personal Unity prototype: move your hands in front of a webcam and a 3D meadow at dusk plays music on the beat. Not a real exhibition installation.*
+*A personal Unity prototype: move your hands in front of a webcam and a 3D meadow at dusk plays music on the beat.*
 
 - 시연 영상: https://youtu.be/jWMInxaSkUs (2분 21초, Windows 노트북 웹캠으로 실제 연주. 앱 화면에 웹캠 화면을 작게 겹치고 앞뒤만 잘랐습니다. 찍고 붙인 법: [`docs/windows-test-2026-11-02-1040.md`](docs/windows-test-2026-11-02-1040.md) 4절)
 - 기간: 2026.10.28~ (기획 10.28, 개발 10.29부터)
